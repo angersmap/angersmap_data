@@ -1,0 +1,2938 @@
+{
+  "version": "20211207081345",
+  "mnemoligne": "07",
+  "nomligne": "HOPITAL <> MONTREUIL JUIGNE",
+  "color": "8E99CD",
+  "dests": [
+    {
+      "name": "FENEU par MONTREUIL JUIGN",
+      "color": "B2C0FF",
+      "codeparcours": "LORRAINE > FENEU 9.1"
+    },
+    {
+      "name": "MONTREUIL JUIGNE",
+      "color": "B2C0FF",
+      "codeparcours": "LORRAINE > BENE 7.1"
+    },
+    {
+      "name": "MONTREUIL par ZI C CADEAU",
+      "color": "B2C0FF",
+      "codeparcours": "LORRAINE>ZI CC>BENE 7.1"
+    },
+    {
+      "name": "MONTREUIL JUIGNE par ETAS",
+      "color": "B2C0FF",
+      "codeparcours": "LORRAINE>ETAS>BENE 7.1"
+    },
+    {
+      "name": "LORRAINE",
+      "color": "8E99CD",
+      "codeparcours": "BENE > LORRAINE 9.1"
+    },
+    {
+      "name": "LORRAINE PAR ZI Croix Cad",
+      "color": "8E99CD",
+      "codeparcours": "BENE>ZI CC>LORRAINE 9.1"
+    }
+  ],
+  "stops": [
+    {
+      "nomarret": "BENE",
+      "stopsDest": [
+        {
+          "dest": "LORRAINE PAR ZI Croix Cad",
+          "mnemoarret": "BENE",
+          "coordonnees": [
+            47.541162,
+            -0.60962801
+          ]
+        },
+        {
+          "dest": "LORRAINE",
+          "mnemoarret": "BENE",
+          "coordonnees": [
+            47.541162,
+            -0.60962801
+          ]
+        },
+        {
+          "dest": "FENEU par MONTREUIL JUIGN",
+          "mnemoarret": "BENE-E",
+          "coordonnees": [
+            47.541121,
+            -0.60946624
+          ]
+        },
+        {
+          "dest": "MONTREUIL JUIGNE",
+          "mnemoarret": "BENE-E",
+          "coordonnees": [
+            47.541121,
+            -0.60946624
+          ]
+        },
+        {
+          "dest": "MONTREUIL par ZI C CADEAU",
+          "mnemoarret": "BENE-E",
+          "coordonnees": [
+            47.541121,
+            -0.60946624
+          ]
+        },
+        {
+          "dest": "MONTREUIL JUIGNE par ETAS",
+          "mnemoarret": "BENE-E",
+          "coordonnees": [
+            47.541121,
+            -0.60946624
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "LORRAINE",
+      "stopsDest": [
+        {
+          "dest": "MONTREUIL par ZI C CADEAU",
+          "mnemoarret": "LORRAIN2",
+          "coordonnees": [
+            47.47005,
+            -0.54789583
+          ]
+        },
+        {
+          "dest": "MONTREUIL JUIGNE",
+          "mnemoarret": "LORRAIN2",
+          "coordonnees": [
+            47.47005,
+            -0.54789583
+          ]
+        },
+        {
+          "dest": "FENEU par MONTREUIL JUIGN",
+          "mnemoarret": "LORRAIN2",
+          "coordonnees": [
+            47.47005,
+            -0.54789583
+          ]
+        },
+        {
+          "dest": "MONTREUIL JUIGNE par ETAS",
+          "mnemoarret": "LORRAIN2",
+          "coordonnees": [
+            47.47005,
+            -0.54789583
+          ]
+        },
+        {
+          "dest": "LORRAINE",
+          "mnemoarret": "LORR3BIS",
+          "coordonnees": [
+            47.47005,
+            -0.54789583
+          ]
+        },
+        {
+          "dest": "LORRAINE PAR ZI Croix Cad",
+          "mnemoarret": "LORR3BIS",
+          "coordonnees": [
+            47.47005,
+            -0.54789583
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "JUIGNE",
+      "stopsDest": [
+        {
+          "dest": "LORRAINE",
+          "mnemoarret": "JUIGDEP",
+          "coordonnees": [
+            47.539936,
+            -0.61538215
+          ]
+        },
+        {
+          "dest": "LORRAINE PAR ZI Croix Cad",
+          "mnemoarret": "JUIGDEP",
+          "coordonnees": [
+            47.539936,
+            -0.61538215
+          ]
+        },
+        {
+          "dest": "FENEU par MONTREUIL JUIGN",
+          "mnemoarret": "JUIGN-E",
+          "coordonnees": [
+            47.539133,
+            -0.61613515
+          ]
+        },
+        {
+          "dest": "MONTREUIL JUIGNE",
+          "mnemoarret": "JUIGN-E",
+          "coordonnees": [
+            47.539133,
+            -0.61613515
+          ]
+        },
+        {
+          "dest": "MONTREUIL par ZI C CADEAU",
+          "mnemoarret": "JUIGN-E",
+          "coordonnees": [
+            47.539133,
+            -0.61613515
+          ]
+        },
+        {
+          "dest": "MONTREUIL JUIGNE par ETAS",
+          "mnemoarret": "JUIGN-E",
+          "coordonnees": [
+            47.539133,
+            -0.61613515
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "MENDES FRANCE",
+      "stopsDest": [
+        {
+          "dest": "MONTREUIL JUIGNE par ETAS",
+          "mnemoarret": "MENDES-E",
+          "coordonnees": [
+            47.472943,
+            -0.54559658
+          ]
+        },
+        {
+          "dest": "MONTREUIL JUIGNE",
+          "mnemoarret": "MENDES-E",
+          "coordonnees": [
+            47.472943,
+            -0.54559658
+          ]
+        },
+        {
+          "dest": "MONTREUIL par ZI C CADEAU",
+          "mnemoarret": "MENDES-E",
+          "coordonnees": [
+            47.472943,
+            -0.54559658
+          ]
+        },
+        {
+          "dest": "FENEU par MONTREUIL JUIGN",
+          "mnemoarret": "MENDES-E",
+          "coordonnees": [
+            47.472943,
+            -0.54559658
+          ]
+        },
+        {
+          "dest": "LORRAINE",
+          "mnemoarret": "MENDESFR",
+          "coordonnees": [
+            47.472549,
+            -0.54623901
+          ]
+        },
+        {
+          "dest": "LORRAINE PAR ZI Croix Cad",
+          "mnemoarret": "MENDESFR",
+          "coordonnees": [
+            47.472549,
+            -0.54623901
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "CAMPING DE JUIGNE",
+      "stopsDest": [
+        {
+          "dest": "LORRAINE",
+          "mnemoarret": "CAMPJUIG",
+          "coordonnees": [
+            47.537566,
+            -0.61688553
+          ]
+        },
+        {
+          "dest": "LORRAINE PAR ZI Croix Cad",
+          "mnemoarret": "CAMPJUIG",
+          "coordonnees": [
+            47.537566,
+            -0.61688553
+          ]
+        },
+        {
+          "dest": "FENEU par MONTREUIL JUIGN",
+          "mnemoarret": "CAMPJU-E",
+          "coordonnees": [
+            47.537135,
+            -0.6168483
+          ]
+        },
+        {
+          "dest": "MONTREUIL JUIGNE",
+          "mnemoarret": "CAMPJU-E",
+          "coordonnees": [
+            47.537135,
+            -0.6168483
+          ]
+        },
+        {
+          "dest": "MONTREUIL par ZI C CADEAU",
+          "mnemoarret": "CAMPJU-E",
+          "coordonnees": [
+            47.537135,
+            -0.6168483
+          ]
+        },
+        {
+          "dest": "MONTREUIL JUIGNE par ETAS",
+          "mnemoarret": "CAMPJU-E",
+          "coordonnees": [
+            47.537135,
+            -0.6168483
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "AUGUSTE RENOIR",
+      "stopsDest": [
+        {
+          "dest": "LORRAINE PAR ZI Croix Cad",
+          "mnemoarret": "RENOIR",
+          "coordonnees": [
+            47.536083,
+            -0.61858422
+          ]
+        },
+        {
+          "dest": "LORRAINE",
+          "mnemoarret": "RENOIR",
+          "coordonnees": [
+            47.536083,
+            -0.61858422
+          ]
+        },
+        {
+          "dest": "FENEU par MONTREUIL JUIGN",
+          "mnemoarret": "RENOIR-E",
+          "coordonnees": [
+            47.535997,
+            -0.61843322
+          ]
+        },
+        {
+          "dest": "MONTREUIL JUIGNE",
+          "mnemoarret": "RENOIR-E",
+          "coordonnees": [
+            47.535997,
+            -0.61843322
+          ]
+        },
+        {
+          "dest": "MONTREUIL par ZI C CADEAU",
+          "mnemoarret": "RENOIR-E",
+          "coordonnees": [
+            47.535997,
+            -0.61843322
+          ]
+        },
+        {
+          "dest": "MONTREUIL JUIGNE par ETAS",
+          "mnemoarret": "RENOIR-E",
+          "coordonnees": [
+            47.535997,
+            -0.61843322
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "ST SERGE UNIVERSITE",
+      "stopsDest": [
+        {
+          "dest": "MONTREUIL JUIGNE par ETAS",
+          "mnemoarret": "FMITTE-E",
+          "coordonnees": [
+            47.476584,
+            -0.55117053
+          ]
+        },
+        {
+          "dest": "MONTREUIL JUIGNE",
+          "mnemoarret": "FMITTE-E",
+          "coordonnees": [
+            47.476584,
+            -0.55117053
+          ]
+        },
+        {
+          "dest": "FENEU par MONTREUIL JUIGN",
+          "mnemoarret": "FMITTE-E",
+          "coordonnees": [
+            47.476584,
+            -0.55117053
+          ]
+        },
+        {
+          "dest": "MONTREUIL par ZI C CADEAU",
+          "mnemoarret": "FMITTE-E",
+          "coordonnees": [
+            47.476584,
+            -0.55117053
+          ]
+        },
+        {
+          "dest": "LORRAINE",
+          "mnemoarret": "FMITTERA",
+          "coordonnees": [
+            47.476645,
+            -0.55197041
+          ]
+        },
+        {
+          "dest": "LORRAINE PAR ZI Croix Cad",
+          "mnemoarret": "FMITTERA",
+          "coordonnees": [
+            47.476645,
+            -0.55197041
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "RENE CLAIR",
+      "stopsDest": [
+        {
+          "dest": "LORRAINE PAR ZI Croix Cad",
+          "mnemoarret": "RECLAIR",
+          "coordonnees": [
+            47.536702,
+            -0.62184847
+          ]
+        },
+        {
+          "dest": "LORRAINE",
+          "mnemoarret": "RECLAIR",
+          "coordonnees": [
+            47.536702,
+            -0.62184847
+          ]
+        },
+        {
+          "dest": "MONTREUIL JUIGNE",
+          "mnemoarret": "RECLAI-E",
+          "coordonnees": [
+            47.536586,
+            -0.62178888
+          ]
+        },
+        {
+          "dest": "FENEU par MONTREUIL JUIGN",
+          "mnemoarret": "RECLAI-E",
+          "coordonnees": [
+            47.536586,
+            -0.62178888
+          ]
+        },
+        {
+          "dest": "MONTREUIL par ZI C CADEAU",
+          "mnemoarret": "RECLAI-E",
+          "coordonnees": [
+            47.536586,
+            -0.62178888
+          ]
+        },
+        {
+          "dest": "MONTREUIL JUIGNE par ETAS",
+          "mnemoarret": "RECLAI-E",
+          "coordonnees": [
+            47.536586,
+            -0.62178888
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "DOMAINE DU VAL",
+      "stopsDest": [
+        {
+          "dest": "LORRAINE",
+          "mnemoarret": "DOMVAL",
+          "coordonnees": [
+            47.537043,
+            -0.62504419
+          ]
+        },
+        {
+          "dest": "LORRAINE PAR ZI Croix Cad",
+          "mnemoarret": "DOMVAL",
+          "coordonnees": [
+            47.537043,
+            -0.62504419
+          ]
+        },
+        {
+          "dest": "MONTREUIL JUIGNE",
+          "mnemoarret": "DOMVAL-E",
+          "coordonnees": [
+            47.536901,
+            -0.62496982
+          ]
+        },
+        {
+          "dest": "FENEU par MONTREUIL JUIGN",
+          "mnemoarret": "DOMVAL-E",
+          "coordonnees": [
+            47.536901,
+            -0.62496982
+          ]
+        },
+        {
+          "dest": "MONTREUIL par ZI C CADEAU",
+          "mnemoarret": "DOMVAL-E",
+          "coordonnees": [
+            47.536901,
+            -0.62496982
+          ]
+        },
+        {
+          "dest": "MONTREUIL JUIGNE par ETAS",
+          "mnemoarret": "DOMVAL-E",
+          "coordonnees": [
+            47.536901,
+            -0.62496982
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "LA ROCHEFOUCAULD",
+      "stopsDest": [
+        {
+          "dest": "MONTREUIL JUIGNE",
+          "mnemoarret": "ROCHEF-E",
+          "coordonnees": [
+            47.479425,
+            -0.55672829
+          ]
+        },
+        {
+          "dest": "MONTREUIL par ZI C CADEAU",
+          "mnemoarret": "ROCHEF-E",
+          "coordonnees": [
+            47.479425,
+            -0.55672829
+          ]
+        },
+        {
+          "dest": "MONTREUIL JUIGNE par ETAS",
+          "mnemoarret": "ROCHEF-E",
+          "coordonnees": [
+            47.479425,
+            -0.55672829
+          ]
+        },
+        {
+          "dest": "FENEU par MONTREUIL JUIGN",
+          "mnemoarret": "ROCHEF-E",
+          "coordonnees": [
+            47.479425,
+            -0.55672829
+          ]
+        },
+        {
+          "dest": "LORRAINE",
+          "mnemoarret": "ROCHEFOU",
+          "coordonnees": [
+            47.478851,
+            -0.55698922
+          ]
+        },
+        {
+          "dest": "LORRAINE PAR ZI Croix Cad",
+          "mnemoarret": "ROCHEFOU",
+          "coordonnees": [
+            47.478851,
+            -0.55698922
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "GERMAINE TILLION",
+      "stopsDest": [
+        {
+          "dest": "LORRAINE PAR ZI Croix Cad",
+          "mnemoarret": "SPOT",
+          "coordonnees": [
+            47.537072,
+            -0.62745159
+          ]
+        },
+        {
+          "dest": "LORRAINE",
+          "mnemoarret": "SPOT",
+          "coordonnees": [
+            47.537072,
+            -0.62745159
+          ]
+        },
+        {
+          "dest": "MONTREUIL JUIGNE",
+          "mnemoarret": "SPOT-E",
+          "coordonnees": [
+            47.536744,
+            -0.62792515
+          ]
+        },
+        {
+          "dest": "FENEU par MONTREUIL JUIGN",
+          "mnemoarret": "SPOT-E",
+          "coordonnees": [
+            47.536744,
+            -0.62792515
+          ]
+        },
+        {
+          "dest": "MONTREUIL par ZI C CADEAU",
+          "mnemoarret": "SPOT-E",
+          "coordonnees": [
+            47.536744,
+            -0.62792515
+          ]
+        },
+        {
+          "dest": "MONTREUIL JUIGNE par ETAS",
+          "mnemoarret": "SPOT-E",
+          "coordonnees": [
+            47.536744,
+            -0.62792515
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "HOTEL DIEU",
+      "stopsDest": [
+        {
+          "dest": "MONTREUIL JUIGNE par ETAS",
+          "mnemoarret": "HOTDIE-E",
+          "coordonnees": [
+            47.47937,
+            -0.56108015
+          ]
+        },
+        {
+          "dest": "MONTREUIL JUIGNE",
+          "mnemoarret": "HOTDIE-E",
+          "coordonnees": [
+            47.47937,
+            -0.56108015
+          ]
+        },
+        {
+          "dest": "MONTREUIL par ZI C CADEAU",
+          "mnemoarret": "HOTDIE-E",
+          "coordonnees": [
+            47.47937,
+            -0.56108015
+          ]
+        },
+        {
+          "dest": "FENEU par MONTREUIL JUIGN",
+          "mnemoarret": "HOTDIE-E",
+          "coordonnees": [
+            47.47937,
+            -0.56108015
+          ]
+        },
+        {
+          "dest": "LORRAINE",
+          "mnemoarret": "HOTDIEU",
+          "coordonnees": [
+            47.479198,
+            -0.5593315
+          ]
+        },
+        {
+          "dest": "LORRAINE PAR ZI Croix Cad",
+          "mnemoarret": "HOTDIEU",
+          "coordonnees": [
+            47.479198,
+            -0.5593315
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "BICHON",
+      "stopsDest": [
+        {
+          "dest": "MONTREUIL par ZI C CADEAU",
+          "mnemoarret": "BICHON-E",
+          "coordonnees": [
+            47.479234,
+            -0.56363521
+          ]
+        },
+        {
+          "dest": "MONTREUIL JUIGNE",
+          "mnemoarret": "BICHON-E",
+          "coordonnees": [
+            47.479234,
+            -0.56363521
+          ]
+        },
+        {
+          "dest": "MONTREUIL JUIGNE par ETAS",
+          "mnemoarret": "BICHON-E",
+          "coordonnees": [
+            47.479234,
+            -0.56363521
+          ]
+        },
+        {
+          "dest": "FENEU par MONTREUIL JUIGN",
+          "mnemoarret": "BICHON-E",
+          "coordonnees": [
+            47.479234,
+            -0.56363521
+          ]
+        },
+        {
+          "dest": "LORRAINE",
+          "mnemoarret": "BICHON",
+          "coordonnees": [
+            47.478725,
+            -0.56419166
+          ]
+        },
+        {
+          "dest": "LORRAINE PAR ZI Croix Cad",
+          "mnemoarret": "BICHON",
+          "coordonnees": [
+            47.478725,
+            -0.56419166
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "CLOUET",
+      "stopsDest": [
+        {
+          "dest": "MONTREUIL par ZI C CADEAU",
+          "mnemoarret": "CLOUET-E",
+          "coordonnees": [
+            47.480642,
+            -0.56636734
+          ]
+        },
+        {
+          "dest": "MONTREUIL JUIGNE",
+          "mnemoarret": "CLOUET-E",
+          "coordonnees": [
+            47.480642,
+            -0.56636734
+          ]
+        },
+        {
+          "dest": "MONTREUIL JUIGNE par ETAS",
+          "mnemoarret": "CLOUET-E",
+          "coordonnees": [
+            47.480642,
+            -0.56636734
+          ]
+        },
+        {
+          "dest": "FENEU par MONTREUIL JUIGN",
+          "mnemoarret": "CLOUET-E",
+          "coordonnees": [
+            47.480642,
+            -0.56636734
+          ]
+        },
+        {
+          "dest": "LORRAINE",
+          "mnemoarret": "CLOUET",
+          "coordonnees": [
+            47.480231,
+            -0.56626524
+          ]
+        },
+        {
+          "dest": "LORRAINE PAR ZI Croix Cad",
+          "mnemoarret": "CLOUET",
+          "coordonnees": [
+            47.480231,
+            -0.56626524
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "GOURONNIERES",
+      "stopsDest": [
+        {
+          "dest": "FENEU par MONTREUIL JUIGN",
+          "mnemoarret": "GOURON-E",
+          "coordonnees": [
+            47.483123,
+            -0.56937064
+          ]
+        },
+        {
+          "dest": "MONTREUIL par ZI C CADEAU",
+          "mnemoarret": "GOURON-E",
+          "coordonnees": [
+            47.483123,
+            -0.56937064
+          ]
+        },
+        {
+          "dest": "MONTREUIL JUIGNE par ETAS",
+          "mnemoarret": "GOURON-E",
+          "coordonnees": [
+            47.483123,
+            -0.56937064
+          ]
+        },
+        {
+          "dest": "MONTREUIL JUIGNE",
+          "mnemoarret": "GOURON-E",
+          "coordonnees": [
+            47.483123,
+            -0.56937064
+          ]
+        },
+        {
+          "dest": "LORRAINE",
+          "mnemoarret": "GOURONNI",
+          "coordonnees": [
+            47.482977,
+            -0.56944235
+          ]
+        },
+        {
+          "dest": "LORRAINE PAR ZI Croix Cad",
+          "mnemoarret": "GOURONNI",
+          "coordonnees": [
+            47.482977,
+            -0.56944235
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "HAUT COUDRAY",
+      "stopsDest": [
+        {
+          "dest": "LORRAINE",
+          "mnemoarret": "HAUCOUD",
+          "coordonnees": [
+            47.530417,
+            -0.62403736
+          ]
+        },
+        {
+          "dest": "LORRAINE PAR ZI Croix Cad",
+          "mnemoarret": "HAUCOUD",
+          "coordonnees": [
+            47.530417,
+            -0.62403736
+          ]
+        },
+        {
+          "dest": "FENEU par MONTREUIL JUIGN",
+          "mnemoarret": "HAUCOU-E",
+          "coordonnees": [
+            47.530523,
+            -0.62412299
+          ]
+        },
+        {
+          "dest": "MONTREUIL JUIGNE",
+          "mnemoarret": "HAUCOU-E",
+          "coordonnees": [
+            47.530523,
+            -0.62412299
+          ]
+        },
+        {
+          "dest": "MONTREUIL par ZI C CADEAU",
+          "mnemoarret": "HAUCOU-E",
+          "coordonnees": [
+            47.530523,
+            -0.62412299
+          ]
+        },
+        {
+          "dest": "MONTREUIL JUIGNE par ETAS",
+          "mnemoarret": "HAUCOU-E",
+          "coordonnees": [
+            47.530523,
+            -0.62412299
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "GASNIER",
+      "stopsDest": [
+        {
+          "dest": "MONTREUIL par ZI C CADEAU",
+          "mnemoarret": "GASNIE-E",
+          "coordonnees": [
+            47.485225,
+            -0.57167634
+          ]
+        },
+        {
+          "dest": "MONTREUIL JUIGNE",
+          "mnemoarret": "GASNIE-E",
+          "coordonnees": [
+            47.485225,
+            -0.57167634
+          ]
+        },
+        {
+          "dest": "FENEU par MONTREUIL JUIGN",
+          "mnemoarret": "GASNIE-E",
+          "coordonnees": [
+            47.485225,
+            -0.57167634
+          ]
+        },
+        {
+          "dest": "MONTREUIL JUIGNE par ETAS",
+          "mnemoarret": "GASNIE-E",
+          "coordonnees": [
+            47.485225,
+            -0.57167634
+          ]
+        },
+        {
+          "dest": "LORRAINE",
+          "mnemoarret": "GASNIER",
+          "coordonnees": [
+            47.48522,
+            -0.57187524
+          ]
+        },
+        {
+          "dest": "LORRAINE PAR ZI Croix Cad",
+          "mnemoarret": "GASNIER",
+          "coordonnees": [
+            47.48522,
+            -0.57187524
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "CHARLES PEGUY",
+      "stopsDest": [
+        {
+          "dest": "LORRAINE PAR ZI Croix Cad",
+          "mnemoarret": "CHPEGUY",
+          "coordonnees": [
+            47.529909,
+            -0.62030121
+          ]
+        },
+        {
+          "dest": "LORRAINE",
+          "mnemoarret": "CHPEGUY",
+          "coordonnees": [
+            47.529909,
+            -0.62030121
+          ]
+        },
+        {
+          "dest": "FENEU par MONTREUIL JUIGN",
+          "mnemoarret": "CHPEGU-E",
+          "coordonnees": [
+            47.530008,
+            -0.6203067
+          ]
+        },
+        {
+          "dest": "MONTREUIL JUIGNE",
+          "mnemoarret": "CHPEGU-E",
+          "coordonnees": [
+            47.530008,
+            -0.6203067
+          ]
+        },
+        {
+          "dest": "MONTREUIL par ZI C CADEAU",
+          "mnemoarret": "CHPEGU-E",
+          "coordonnees": [
+            47.530008,
+            -0.6203067
+          ]
+        },
+        {
+          "dest": "MONTREUIL JUIGNE par ETAS",
+          "mnemoarret": "CHPEGU-E",
+          "coordonnees": [
+            47.530008,
+            -0.6203067
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "LIZE",
+      "stopsDest": [
+        {
+          "dest": "MONTREUIL JUIGNE par ETAS",
+          "mnemoarret": "LIZE -E",
+          "coordonnees": [
+            47.486876,
+            -0.57298814
+          ]
+        },
+        {
+          "dest": "FENEU par MONTREUIL JUIGN",
+          "mnemoarret": "LIZE -E",
+          "coordonnees": [
+            47.486876,
+            -0.57298814
+          ]
+        },
+        {
+          "dest": "MONTREUIL par ZI C CADEAU",
+          "mnemoarret": "LIZE -E",
+          "coordonnees": [
+            47.486876,
+            -0.57298814
+          ]
+        },
+        {
+          "dest": "MONTREUIL JUIGNE",
+          "mnemoarret": "LIZE -E",
+          "coordonnees": [
+            47.486876,
+            -0.57298814
+          ]
+        },
+        {
+          "dest": "LORRAINE",
+          "mnemoarret": "LIZE",
+          "coordonnees": [
+            47.486853,
+            -0.57315955
+          ]
+        },
+        {
+          "dest": "LORRAINE PAR ZI Croix Cad",
+          "mnemoarret": "LIZE",
+          "coordonnees": [
+            47.486853,
+            -0.57315955
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "18 JUIN MONTREUIL",
+      "stopsDest": [
+        {
+          "dest": "LORRAINE PAR ZI Croix Cad",
+          "mnemoarret": "DIX8JUI",
+          "coordonnees": [
+            47.529523,
+            -0.61814009
+          ]
+        },
+        {
+          "dest": "LORRAINE",
+          "mnemoarret": "DIX8JUI",
+          "coordonnees": [
+            47.529523,
+            -0.61814009
+          ]
+        },
+        {
+          "dest": "MONTREUIL JUIGNE",
+          "mnemoarret": "DIX8JU-E",
+          "coordonnees": [
+            47.529598,
+            -0.61803792
+          ]
+        },
+        {
+          "dest": "FENEU par MONTREUIL JUIGN",
+          "mnemoarret": "DIX8JU-E",
+          "coordonnees": [
+            47.529598,
+            -0.61803792
+          ]
+        },
+        {
+          "dest": "MONTREUIL par ZI C CADEAU",
+          "mnemoarret": "DIX8JU-E",
+          "coordonnees": [
+            47.529598,
+            -0.61803792
+          ]
+        },
+        {
+          "dest": "MONTREUIL JUIGNE par ETAS",
+          "mnemoarret": "DIX8JU-E",
+          "coordonnees": [
+            47.529598,
+            -0.61803792
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "ECHMAN",
+      "stopsDest": [
+        {
+          "dest": "FENEU par MONTREUIL JUIGN",
+          "mnemoarret": "ECHMA-E",
+          "coordonnees": [
+            47.490229,
+            -0.57564146
+          ]
+        },
+        {
+          "dest": "MONTREUIL par ZI C CADEAU",
+          "mnemoarret": "ECHMA-E",
+          "coordonnees": [
+            47.490229,
+            -0.57564146
+          ]
+        },
+        {
+          "dest": "MONTREUIL JUIGNE par ETAS",
+          "mnemoarret": "ECHMA-E",
+          "coordonnees": [
+            47.490229,
+            -0.57564146
+          ]
+        },
+        {
+          "dest": "MONTREUIL JUIGNE",
+          "mnemoarret": "ECHMA-E",
+          "coordonnees": [
+            47.490229,
+            -0.57564146
+          ]
+        },
+        {
+          "dest": "LORRAINE",
+          "mnemoarret": "ECHMAN",
+          "coordonnees": [
+            47.490171,
+            -0.57582418
+          ]
+        },
+        {
+          "dest": "LORRAINE PAR ZI Croix Cad",
+          "mnemoarret": "ECHMAN",
+          "coordonnees": [
+            47.490171,
+            -0.57582418
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "DE BEAUVOIR",
+      "stopsDest": [
+        {
+          "dest": "LORRAINE",
+          "mnemoarret": "DEBEAUVO",
+          "coordonnees": [
+            47.528937,
+            -0.61463894
+          ]
+        },
+        {
+          "dest": "LORRAINE PAR ZI Croix Cad",
+          "mnemoarret": "DEBEAUVO",
+          "coordonnees": [
+            47.528937,
+            -0.61463894
+          ]
+        },
+        {
+          "dest": "MONTREUIL JUIGNE",
+          "mnemoarret": "DEBEAU-E",
+          "coordonnees": [
+            47.529044,
+            -0.61468474
+          ]
+        },
+        {
+          "dest": "FENEU par MONTREUIL JUIGN",
+          "mnemoarret": "DEBEAU-E",
+          "coordonnees": [
+            47.529044,
+            -0.61468474
+          ]
+        },
+        {
+          "dest": "MONTREUIL par ZI C CADEAU",
+          "mnemoarret": "DEBEAU-E",
+          "coordonnees": [
+            47.529044,
+            -0.61468474
+          ]
+        },
+        {
+          "dest": "MONTREUIL JUIGNE par ETAS",
+          "mnemoarret": "DEBEAU-E",
+          "coordonnees": [
+            47.529044,
+            -0.61468474
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "KENNEDY",
+      "stopsDest": [
+        {
+          "dest": "FENEU par MONTREUIL JUIGN",
+          "mnemoarret": "KENNED-E",
+          "coordonnees": [
+            47.492162,
+            -0.57716819
+          ]
+        },
+        {
+          "dest": "MONTREUIL par ZI C CADEAU",
+          "mnemoarret": "KENNED-E",
+          "coordonnees": [
+            47.492162,
+            -0.57716819
+          ]
+        },
+        {
+          "dest": "MONTREUIL JUIGNE",
+          "mnemoarret": "KENNED-E",
+          "coordonnees": [
+            47.492162,
+            -0.57716819
+          ]
+        },
+        {
+          "dest": "MONTREUIL JUIGNE par ETAS",
+          "mnemoarret": "KENNED-E",
+          "coordonnees": [
+            47.492162,
+            -0.57716819
+          ]
+        },
+        {
+          "dest": "LORRAINE",
+          "mnemoarret": "KENNEDY",
+          "coordonnees": [
+            47.492139,
+            -0.57736613
+          ]
+        },
+        {
+          "dest": "LORRAINE PAR ZI Croix Cad",
+          "mnemoarret": "KENNEDY",
+          "coordonnees": [
+            47.492139,
+            -0.57736613
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "REPUBLIQUE MONTREUIL",
+      "stopsDest": [
+        {
+          "dest": "LORRAINE",
+          "mnemoarret": "MONTREP",
+          "coordonnees": [
+            47.528836,
+            -0.61120458
+          ]
+        },
+        {
+          "dest": "LORRAINE PAR ZI Croix Cad",
+          "mnemoarret": "MONTREP",
+          "coordonnees": [
+            47.528836,
+            -0.61120458
+          ]
+        },
+        {
+          "dest": "FENEU par MONTREUIL JUIGN",
+          "mnemoarret": "REPMON-E",
+          "coordonnees": [
+            47.52895,
+            -0.61097168
+          ]
+        },
+        {
+          "dest": "MONTREUIL JUIGNE",
+          "mnemoarret": "REPMON-E",
+          "coordonnees": [
+            47.52895,
+            -0.61097168
+          ]
+        },
+        {
+          "dest": "MONTREUIL par ZI C CADEAU",
+          "mnemoarret": "REPMON-E",
+          "coordonnees": [
+            47.52895,
+            -0.61097168
+          ]
+        },
+        {
+          "dest": "MONTREUIL JUIGNE par ETAS",
+          "mnemoarret": "REPMON-E",
+          "coordonnees": [
+            47.52895,
+            -0.61097168
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "COLLEGE JEAN ZAY",
+      "stopsDest": [
+        {
+          "dest": "LORRAINE",
+          "mnemoarret": "JEANZAY",
+          "coordonnees": [
+            47.529665,
+            -0.60760913
+          ]
+        },
+        {
+          "dest": "LORRAINE PAR ZI Croix Cad",
+          "mnemoarret": "JEANZAY",
+          "coordonnees": [
+            47.529665,
+            -0.60760913
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "BEL AIR",
+      "stopsDest": [
+        {
+          "dest": "LORRAINE",
+          "mnemoarret": "BELAIR",
+          "coordonnees": [
+            47.529834,
+            -0.6069673
+          ]
+        },
+        {
+          "dest": "LORRAINE PAR ZI Croix Cad",
+          "mnemoarret": "BELAIR",
+          "coordonnees": [
+            47.529834,
+            -0.6069673
+          ]
+        },
+        {
+          "dest": "FENEU par MONTREUIL JUIGN",
+          "mnemoarret": "BELAIR-E",
+          "coordonnees": [
+            47.52925,
+            -0.60621734
+          ]
+        },
+        {
+          "dest": "MONTREUIL JUIGNE",
+          "mnemoarret": "BELAIR-E",
+          "coordonnees": [
+            47.52925,
+            -0.60621734
+          ]
+        },
+        {
+          "dest": "MONTREUIL par ZI C CADEAU",
+          "mnemoarret": "BELAIR-E",
+          "coordonnees": [
+            47.52925,
+            -0.60621734
+          ]
+        },
+        {
+          "dest": "MONTREUIL JUIGNE par ETAS",
+          "mnemoarret": "BELAIR-E",
+          "coordonnees": [
+            47.52925,
+            -0.60621734
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "GIRARD",
+      "stopsDest": [
+        {
+          "dest": "MONTREUIL JUIGNE par ETAS",
+          "mnemoarret": "GIRARD-E",
+          "coordonnees": [
+            47.49063,
+            -0.58187839
+          ]
+        },
+        {
+          "dest": "MONTREUIL JUIGNE",
+          "mnemoarret": "GIRARD-E",
+          "coordonnees": [
+            47.49063,
+            -0.58187839
+          ]
+        },
+        {
+          "dest": "MONTREUIL par ZI C CADEAU",
+          "mnemoarret": "GIRARD-E",
+          "coordonnees": [
+            47.49063,
+            -0.58187839
+          ]
+        },
+        {
+          "dest": "FENEU par MONTREUIL JUIGN",
+          "mnemoarret": "GIRARD-E",
+          "coordonnees": [
+            47.49063,
+            -0.58187839
+          ]
+        },
+        {
+          "dest": "LORRAINE",
+          "mnemoarret": "GIRARD",
+          "coordonnees": [
+            47.490581,
+            -0.58168977
+          ]
+        },
+        {
+          "dest": "LORRAINE PAR ZI Croix Cad",
+          "mnemoarret": "GIRARD",
+          "coordonnees": [
+            47.490581,
+            -0.58168977
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "MARECHAL LYAUTEY",
+      "stopsDest": [
+        {
+          "dest": "MONTREUIL JUIGNE par ETAS",
+          "mnemoarret": "MLYAUT-E",
+          "coordonnees": [
+            47.491835,
+            -0.58373724
+          ]
+        },
+        {
+          "dest": "MONTREUIL par ZI C CADEAU",
+          "mnemoarret": "MLYAUT-E",
+          "coordonnees": [
+            47.491835,
+            -0.58373724
+          ]
+        },
+        {
+          "dest": "FENEU par MONTREUIL JUIGN",
+          "mnemoarret": "MLYAUT-E",
+          "coordonnees": [
+            47.491835,
+            -0.58373724
+          ]
+        },
+        {
+          "dest": "MONTREUIL JUIGNE",
+          "mnemoarret": "MLYAUT-E",
+          "coordonnees": [
+            47.491835,
+            -0.58373724
+          ]
+        },
+        {
+          "dest": "LORRAINE",
+          "mnemoarret": "MLYAUTEY",
+          "coordonnees": [
+            47.491699,
+            -0.58378289
+          ]
+        },
+        {
+          "dest": "LORRAINE PAR ZI Croix Cad",
+          "mnemoarret": "MLYAUTEY",
+          "coordonnees": [
+            47.491699,
+            -0.58378289
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "ESPERANTO",
+      "stopsDest": [
+        {
+          "dest": "LORRAINE PAR ZI Croix Cad",
+          "mnemoarret": "ESPMONTR",
+          "coordonnees": [
+            47.529414,
+            -0.60366149
+          ]
+        },
+        {
+          "dest": "LORRAINE",
+          "mnemoarret": "ESPMONTR",
+          "coordonnees": [
+            47.529414,
+            -0.60366149
+          ]
+        },
+        {
+          "dest": "MONTREUIL JUIGNE",
+          "mnemoarret": "ESPMON-E",
+          "coordonnees": [
+            47.529502,
+            -0.60374608
+          ]
+        },
+        {
+          "dest": "FENEU par MONTREUIL JUIGN",
+          "mnemoarret": "ESPMON-E",
+          "coordonnees": [
+            47.529502,
+            -0.60374608
+          ]
+        },
+        {
+          "dest": "MONTREUIL par ZI C CADEAU",
+          "mnemoarret": "ESPMON-E",
+          "coordonnees": [
+            47.529502,
+            -0.60374608
+          ]
+        },
+        {
+          "dest": "MONTREUIL JUIGNE par ETAS",
+          "mnemoarret": "ESPMON-E",
+          "coordonnees": [
+            47.529502,
+            -0.60374608
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "BRASSENS",
+      "stopsDest": [
+        {
+          "dest": "MONTREUIL JUIGNE",
+          "mnemoarret": "BRASSE-E",
+          "coordonnees": [
+            47.494888,
+            -0.58723826
+          ]
+        },
+        {
+          "dest": "MONTREUIL JUIGNE par ETAS",
+          "mnemoarret": "BRASSE-E",
+          "coordonnees": [
+            47.494888,
+            -0.58723826
+          ]
+        },
+        {
+          "dest": "MONTREUIL par ZI C CADEAU",
+          "mnemoarret": "BRASSE-E",
+          "coordonnees": [
+            47.494888,
+            -0.58723826
+          ]
+        },
+        {
+          "dest": "FENEU par MONTREUIL JUIGN",
+          "mnemoarret": "BRASSE-E",
+          "coordonnees": [
+            47.494888,
+            -0.58723826
+          ]
+        },
+        {
+          "dest": "LORRAINE",
+          "mnemoarret": "BRASSENS",
+          "coordonnees": [
+            47.494143,
+            -0.58644034
+          ]
+        },
+        {
+          "dest": "LORRAINE PAR ZI Croix Cad",
+          "mnemoarret": "BRASSENS",
+          "coordonnees": [
+            47.494143,
+            -0.58644034
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "PLATEAU FLEURI",
+      "stopsDest": [
+        {
+          "dest": "LORRAINE PAR ZI Croix Cad",
+          "mnemoarret": "PLATFLEU",
+          "coordonnees": [
+            47.529682,
+            -0.59806801
+          ]
+        },
+        {
+          "dest": "LORRAINE",
+          "mnemoarret": "PLATFLEU",
+          "coordonnees": [
+            47.529682,
+            -0.59806801
+          ]
+        },
+        {
+          "dest": "FENEU par MONTREUIL JUIGN",
+          "mnemoarret": "PLATEF-E",
+          "coordonnees": [
+            47.529925,
+            -0.59772257
+          ]
+        },
+        {
+          "dest": "MONTREUIL JUIGNE",
+          "mnemoarret": "PLATEF-E",
+          "coordonnees": [
+            47.529925,
+            -0.59772257
+          ]
+        },
+        {
+          "dest": "MONTREUIL par ZI C CADEAU",
+          "mnemoarret": "PLATEF-E",
+          "coordonnees": [
+            47.529925,
+            -0.59772257
+          ]
+        },
+        {
+          "dest": "MONTREUIL JUIGNE par ETAS",
+          "mnemoarret": "PLATEF-E",
+          "coordonnees": [
+            47.529925,
+            -0.59772257
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "BEURRIERE",
+      "stopsDest": [
+        {
+          "dest": "MONTREUIL par ZI C CADEAU",
+          "mnemoarret": "BEURRI-E",
+          "coordonnees": [
+            47.497358,
+            -0.58923335
+          ]
+        },
+        {
+          "dest": "MONTREUIL JUIGNE par ETAS",
+          "mnemoarret": "BEURRI-E",
+          "coordonnees": [
+            47.497358,
+            -0.58923335
+          ]
+        },
+        {
+          "dest": "MONTREUIL JUIGNE",
+          "mnemoarret": "BEURRI-E",
+          "coordonnees": [
+            47.497358,
+            -0.58923335
+          ]
+        },
+        {
+          "dest": "FENEU par MONTREUIL JUIGN",
+          "mnemoarret": "BEURRI-E",
+          "coordonnees": [
+            47.497358,
+            -0.58923335
+          ]
+        },
+        {
+          "dest": "LORRAINE",
+          "mnemoarret": "BEURRIER",
+          "coordonnees": [
+            47.497566,
+            -0.58955027
+          ]
+        },
+        {
+          "dest": "LORRAINE PAR ZI Croix Cad",
+          "mnemoarret": "BEURRIER",
+          "coordonnees": [
+            47.497566,
+            -0.58955027
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "JEAN HUEZ",
+      "stopsDest": [
+        {
+          "dest": "LORRAINE",
+          "mnemoarret": "JEHUEZ",
+          "coordonnees": [
+            47.530819,
+            -0.59439624
+          ]
+        },
+        {
+          "dest": "LORRAINE PAR ZI Croix Cad",
+          "mnemoarret": "JEHUEZ",
+          "coordonnees": [
+            47.530819,
+            -0.59439624
+          ]
+        },
+        {
+          "dest": "FENEU par MONTREUIL JUIGN",
+          "mnemoarret": "JEHUEZ-E",
+          "coordonnees": [
+            47.530885,
+            -0.59426699
+          ]
+        },
+        {
+          "dest": "MONTREUIL JUIGNE",
+          "mnemoarret": "JEHUEZ-E",
+          "coordonnees": [
+            47.530885,
+            -0.59426699
+          ]
+        },
+        {
+          "dest": "MONTREUIL par ZI C CADEAU",
+          "mnemoarret": "JEHUEZ-E",
+          "coordonnees": [
+            47.530885,
+            -0.59426699
+          ]
+        },
+        {
+          "dest": "MONTREUIL JUIGNE par ETAS",
+          "mnemoarret": "JEHUEZ-E",
+          "coordonnees": [
+            47.530885,
+            -0.59426699
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "POINCARE",
+      "stopsDest": [
+        {
+          "dest": "MONTREUIL JUIGNE par ETAS",
+          "mnemoarret": "POINCA-E",
+          "coordonnees": [
+            47.500254,
+            -0.58965822
+          ]
+        },
+        {
+          "dest": "MONTREUIL par ZI C CADEAU",
+          "mnemoarret": "POINCA-E",
+          "coordonnees": [
+            47.500254,
+            -0.58965822
+          ]
+        },
+        {
+          "dest": "MONTREUIL JUIGNE",
+          "mnemoarret": "POINCA-E",
+          "coordonnees": [
+            47.500254,
+            -0.58965822
+          ]
+        },
+        {
+          "dest": "FENEU par MONTREUIL JUIGN",
+          "mnemoarret": "POINCA-E",
+          "coordonnees": [
+            47.500254,
+            -0.58965822
+          ]
+        },
+        {
+          "dest": "LORRAINE",
+          "mnemoarret": "POINCARE",
+          "coordonnees": [
+            47.499835,
+            -0.58951562
+          ]
+        },
+        {
+          "dest": "LORRAINE PAR ZI Croix Cad",
+          "mnemoarret": "POINCARE",
+          "coordonnees": [
+            47.499835,
+            -0.58951562
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "MASTELLE",
+      "stopsDest": [
+        {
+          "dest": "LORRAINE PAR ZI Croix Cad",
+          "mnemoarret": "MASTELLE",
+          "coordonnees": [
+            47.529418,
+            -0.59248508
+          ]
+        },
+        {
+          "dest": "LORRAINE",
+          "mnemoarret": "MASTELLE",
+          "coordonnees": [
+            47.529418,
+            -0.59248508
+          ]
+        },
+        {
+          "dest": "FENEU par MONTREUIL JUIGN",
+          "mnemoarret": "MASTEL-E",
+          "coordonnees": [
+            47.529376,
+            -0.59199108
+          ]
+        },
+        {
+          "dest": "MONTREUIL JUIGNE",
+          "mnemoarret": "MASTEL-E",
+          "coordonnees": [
+            47.529376,
+            -0.59199108
+          ]
+        },
+        {
+          "dest": "MONTREUIL par ZI C CADEAU",
+          "mnemoarret": "MASTEL-E",
+          "coordonnees": [
+            47.529376,
+            -0.59199108
+          ]
+        },
+        {
+          "dest": "MONTREUIL JUIGNE par ETAS",
+          "mnemoarret": "MASTEL-E",
+          "coordonnees": [
+            47.529376,
+            -0.59199108
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "MAUFINEE",
+      "stopsDest": [
+        {
+          "dest": "FENEU par MONTREUIL JUIGN",
+          "mnemoarret": "MAUFIN-E",
+          "coordonnees": [
+            47.502598,
+            -0.58881741
+          ]
+        },
+        {
+          "dest": "MONTREUIL JUIGNE",
+          "mnemoarret": "MAUFIN-E",
+          "coordonnees": [
+            47.502598,
+            -0.58881741
+          ]
+        },
+        {
+          "dest": "MONTREUIL JUIGNE par ETAS",
+          "mnemoarret": "MAUFIN-E",
+          "coordonnees": [
+            47.502598,
+            -0.58881741
+          ]
+        },
+        {
+          "dest": "MONTREUIL par ZI C CADEAU",
+          "mnemoarret": "MAUFIN-E",
+          "coordonnees": [
+            47.502598,
+            -0.58881741
+          ]
+        },
+        {
+          "dest": "LORRAINE",
+          "mnemoarret": "MAUFINE",
+          "coordonnees": [
+            47.502193,
+            -0.58918034
+          ]
+        },
+        {
+          "dest": "LORRAINE PAR ZI Croix Cad",
+          "mnemoarret": "MAUFINE",
+          "coordonnees": [
+            47.502193,
+            -0.58918034
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "AVENUE DE L'EUROPE",
+      "stopsDest": [
+        {
+          "dest": "LORRAINE PAR ZI Croix Cad",
+          "mnemoarret": "AVENEURO",
+          "coordonnees": [
+            47.527949,
+            -0.59577966
+          ]
+        },
+        {
+          "dest": "LORRAINE",
+          "mnemoarret": "AVENEURO",
+          "coordonnees": [
+            47.527949,
+            -0.59577966
+          ]
+        },
+        {
+          "dest": "FENEU par MONTREUIL JUIGN",
+          "mnemoarret": "AVENEU-E",
+          "coordonnees": [
+            47.528207,
+            -0.59479722
+          ]
+        },
+        {
+          "dest": "MONTREUIL JUIGNE",
+          "mnemoarret": "AVENEU-E",
+          "coordonnees": [
+            47.528207,
+            -0.59479722
+          ]
+        },
+        {
+          "dest": "MONTREUIL par ZI C CADEAU",
+          "mnemoarret": "AVENEU-E",
+          "coordonnees": [
+            47.528207,
+            -0.59479722
+          ]
+        },
+        {
+          "dest": "MONTREUIL JUIGNE par ETAS",
+          "mnemoarret": "AVENEU-E",
+          "coordonnees": [
+            47.528207,
+            -0.59479722
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "DANEMARK",
+      "stopsDest": [
+        {
+          "dest": "LORRAINE PAR ZI Croix Cad",
+          "mnemoarret": "DANEMA",
+          "coordonnees": [
+            47.527859,
+            -0.59755546
+          ]
+        },
+        {
+          "dest": "LORRAINE",
+          "mnemoarret": "DANEMA",
+          "coordonnees": [
+            47.527859,
+            -0.59755546
+          ]
+        },
+        {
+          "dest": "MONTREUIL JUIGNE",
+          "mnemoarret": "DANEMA-E",
+          "coordonnees": [
+            47.527717,
+            -0.59781344
+          ]
+        },
+        {
+          "dest": "FENEU par MONTREUIL JUIGN",
+          "mnemoarret": "DANEMA-E",
+          "coordonnees": [
+            47.527717,
+            -0.59781344
+          ]
+        },
+        {
+          "dest": "MONTREUIL par ZI C CADEAU",
+          "mnemoarret": "DANEMA-E",
+          "coordonnees": [
+            47.527717,
+            -0.59781344
+          ]
+        },
+        {
+          "dest": "MONTREUIL JUIGNE par ETAS",
+          "mnemoarret": "DANEMA-E",
+          "coordonnees": [
+            47.527717,
+            -0.59781344
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "MAIRIE D'AVRILLE",
+      "stopsDest": [
+        {
+          "dest": "MONTREUIL JUIGNE par ETAS",
+          "mnemoarret": "MAIRAV-E",
+          "coordonnees": [
+            47.504951,
+            -0.59080644
+          ]
+        },
+        {
+          "dest": "MONTREUIL par ZI C CADEAU",
+          "mnemoarret": "MAIRAV-E",
+          "coordonnees": [
+            47.504951,
+            -0.59080644
+          ]
+        },
+        {
+          "dest": "MONTREUIL JUIGNE",
+          "mnemoarret": "MAIRAV-E",
+          "coordonnees": [
+            47.504951,
+            -0.59080644
+          ]
+        },
+        {
+          "dest": "FENEU par MONTREUIL JUIGN",
+          "mnemoarret": "MAIRAV-E",
+          "coordonnees": [
+            47.504951,
+            -0.59080644
+          ]
+        },
+        {
+          "dest": "LORRAINE",
+          "mnemoarret": "MAIRAVR",
+          "coordonnees": [
+            47.504477,
+            -0.58995682
+          ]
+        },
+        {
+          "dest": "LORRAINE PAR ZI Croix Cad",
+          "mnemoarret": "MAIRAVR",
+          "coordonnees": [
+            47.504477,
+            -0.58995682
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "ALLEMAGNE",
+      "stopsDest": [
+        {
+          "dest": "LORRAINE",
+          "mnemoarret": "ALLEMAGN",
+          "coordonnees": [
+            47.526668,
+            -0.60192831
+          ]
+        },
+        {
+          "dest": "LORRAINE PAR ZI Croix Cad",
+          "mnemoarret": "ALLEMAGN",
+          "coordonnees": [
+            47.526668,
+            -0.60192831
+          ]
+        },
+        {
+          "dest": "MONTREUIL JUIGNE",
+          "mnemoarret": "ALLEMA-E",
+          "coordonnees": [
+            47.527915,
+            -0.59995065
+          ]
+        },
+        {
+          "dest": "FENEU par MONTREUIL JUIGN",
+          "mnemoarret": "ALLEMA-E",
+          "coordonnees": [
+            47.527915,
+            -0.59995065
+          ]
+        },
+        {
+          "dest": "MONTREUIL par ZI C CADEAU",
+          "mnemoarret": "ALLEMA-E",
+          "coordonnees": [
+            47.527915,
+            -0.59995065
+          ]
+        },
+        {
+          "dest": "MONTREUIL JUIGNE par ETAS",
+          "mnemoarret": "ALLEMA-E",
+          "coordonnees": [
+            47.527915,
+            -0.59995065
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "CIMETIERE D'AVRILLE",
+      "stopsDest": [
+        {
+          "dest": "MONTREUIL JUIGNE",
+          "mnemoarret": "CIAVRI-E",
+          "coordonnees": [
+            47.506563,
+            -0.59043015
+          ]
+        },
+        {
+          "dest": "FENEU par MONTREUIL JUIGN",
+          "mnemoarret": "CIAVRI-E",
+          "coordonnees": [
+            47.506563,
+            -0.59043015
+          ]
+        },
+        {
+          "dest": "MONTREUIL JUIGNE par ETAS",
+          "mnemoarret": "CIAVRI-E",
+          "coordonnees": [
+            47.506563,
+            -0.59043015
+          ]
+        },
+        {
+          "dest": "MONTREUIL par ZI C CADEAU",
+          "mnemoarret": "CIAVRI-E",
+          "coordonnees": [
+            47.506563,
+            -0.59043015
+          ]
+        },
+        {
+          "dest": "LORRAINE",
+          "mnemoarret": "CIAVRILL",
+          "coordonnees": [
+            47.506393,
+            -0.59107176
+          ]
+        },
+        {
+          "dest": "LORRAINE PAR ZI Croix Cad",
+          "mnemoarret": "CIAVRILL",
+          "coordonnees": [
+            47.506393,
+            -0.59107176
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "ITALIE",
+      "stopsDest": [
+        {
+          "dest": "LORRAINE PAR ZI Croix Cad",
+          "mnemoarret": "ITALIE",
+          "coordonnees": [
+            47.524532,
+            -0.60236848
+          ]
+        },
+        {
+          "dest": "LORRAINE",
+          "mnemoarret": "ITALIE",
+          "coordonnees": [
+            47.524532,
+            -0.60236848
+          ]
+        },
+        {
+          "dest": "MONTREUIL JUIGNE",
+          "mnemoarret": "ITALIE-E",
+          "coordonnees": [
+            47.524767,
+            -0.60199607
+          ]
+        },
+        {
+          "dest": "FENEU par MONTREUIL JUIGN",
+          "mnemoarret": "ITALIE-E",
+          "coordonnees": [
+            47.524767,
+            -0.60199607
+          ]
+        },
+        {
+          "dest": "MONTREUIL par ZI C CADEAU",
+          "mnemoarret": "ITALIE-E",
+          "coordonnees": [
+            47.524767,
+            -0.60199607
+          ]
+        },
+        {
+          "dest": "MONTREUIL JUIGNE par ETAS",
+          "mnemoarret": "ITALIE-E",
+          "coordonnees": [
+            47.524767,
+            -0.60199607
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "PETITE GARDE",
+      "stopsDest": [
+        {
+          "dest": "MONTREUIL par ZI C CADEAU",
+          "mnemoarret": "PEGARD-E",
+          "coordonnees": [
+            47.508408,
+            -0.58794118
+          ]
+        },
+        {
+          "dest": "MONTREUIL JUIGNE par ETAS",
+          "mnemoarret": "PEGARD-E",
+          "coordonnees": [
+            47.508408,
+            -0.58794118
+          ]
+        },
+        {
+          "dest": "FENEU par MONTREUIL JUIGN",
+          "mnemoarret": "PEGARD-E",
+          "coordonnees": [
+            47.508408,
+            -0.58794118
+          ]
+        },
+        {
+          "dest": "MONTREUIL JUIGNE",
+          "mnemoarret": "PEGARD-E",
+          "coordonnees": [
+            47.508408,
+            -0.58794118
+          ]
+        },
+        {
+          "dest": "LORRAINE",
+          "mnemoarret": "PEGARDE",
+          "coordonnees": [
+            47.508358,
+            -0.5881377
+          ]
+        },
+        {
+          "dest": "LORRAINE PAR ZI Croix Cad",
+          "mnemoarret": "PEGARDE",
+          "coordonnees": [
+            47.508358,
+            -0.5881377
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "IRLANDE",
+      "stopsDest": [
+        {
+          "dest": "LORRAINE",
+          "mnemoarret": "IRLANDE",
+          "coordonnees": [
+            47.52299,
+            -0.60498077
+          ]
+        },
+        {
+          "dest": "LORRAINE PAR ZI Croix Cad",
+          "mnemoarret": "IRLANDE",
+          "coordonnees": [
+            47.52299,
+            -0.60498077
+          ]
+        },
+        {
+          "dest": "MONTREUIL JUIGNE",
+          "mnemoarret": "IRLAND-E",
+          "coordonnees": [
+            47.523062,
+            -0.60428046
+          ]
+        },
+        {
+          "dest": "FENEU par MONTREUIL JUIGN",
+          "mnemoarret": "IRLAND-E",
+          "coordonnees": [
+            47.523062,
+            -0.60428046
+          ]
+        },
+        {
+          "dest": "MONTREUIL par ZI C CADEAU",
+          "mnemoarret": "IRLAND-E",
+          "coordonnees": [
+            47.523062,
+            -0.60428046
+          ]
+        },
+        {
+          "dest": "MONTREUIL JUIGNE par ETAS",
+          "mnemoarret": "IRLAND-E",
+          "coordonnees": [
+            47.523062,
+            -0.60428046
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "RIPOLLET",
+      "stopsDest": [
+        {
+          "dest": "FENEU par MONTREUIL JUIGN",
+          "mnemoarret": "RIPOLE-E",
+          "coordonnees": [
+            47.511169,
+            -0.58838519
+          ]
+        },
+        {
+          "dest": "MONTREUIL JUIGNE",
+          "mnemoarret": "RIPOLE-E",
+          "coordonnees": [
+            47.511169,
+            -0.58838519
+          ]
+        },
+        {
+          "dest": "MONTREUIL par ZI C CADEAU",
+          "mnemoarret": "RIPOLE-E",
+          "coordonnees": [
+            47.511169,
+            -0.58838519
+          ]
+        },
+        {
+          "dest": "MONTREUIL JUIGNE par ETAS",
+          "mnemoarret": "RIPOLE-E",
+          "coordonnees": [
+            47.511169,
+            -0.58838519
+          ]
+        },
+        {
+          "dest": "LORRAINE",
+          "mnemoarret": "RIPOLLE",
+          "coordonnees": [
+            47.510906,
+            -0.58880915
+          ]
+        },
+        {
+          "dest": "LORRAINE PAR ZI Croix Cad",
+          "mnemoarret": "RIPOLLE",
+          "coordonnees": [
+            47.510906,
+            -0.58880915
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "AUTRICHE",
+      "stopsDest": [
+        {
+          "dest": "LORRAINE PAR ZI Croix Cad",
+          "mnemoarret": "AUTRICH",
+          "coordonnees": [
+            47.522972,
+            -0.60996279
+          ]
+        },
+        {
+          "dest": "LORRAINE",
+          "mnemoarret": "AUTRICH",
+          "coordonnees": [
+            47.522972,
+            -0.60996279
+          ]
+        },
+        {
+          "dest": "MONTREUIL JUIGNE",
+          "mnemoarret": "AUTRIC-E",
+          "coordonnees": [
+            47.522914,
+            -0.60940149
+          ]
+        },
+        {
+          "dest": "FENEU par MONTREUIL JUIGN",
+          "mnemoarret": "AUTRIC-E",
+          "coordonnees": [
+            47.522914,
+            -0.60940149
+          ]
+        },
+        {
+          "dest": "MONTREUIL par ZI C CADEAU",
+          "mnemoarret": "AUTRIC-E",
+          "coordonnees": [
+            47.522914,
+            -0.60940149
+          ]
+        },
+        {
+          "dest": "MONTREUIL JUIGNE par ETAS",
+          "mnemoarret": "AUTRIC-E",
+          "coordonnees": [
+            47.522914,
+            -0.60940149
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "AVRILLE SALETTE",
+      "stopsDest": [
+        {
+          "dest": "FENEU par MONTREUIL JUIGN",
+          "mnemoarret": "SALETT-E",
+          "coordonnees": [
+            47.51263,
+            -0.58681814
+          ]
+        },
+        {
+          "dest": "MONTREUIL JUIGNE",
+          "mnemoarret": "SALETT-E",
+          "coordonnees": [
+            47.51263,
+            -0.58681814
+          ]
+        },
+        {
+          "dest": "MONTREUIL par ZI C CADEAU",
+          "mnemoarret": "SALETT-E",
+          "coordonnees": [
+            47.51263,
+            -0.58681814
+          ]
+        },
+        {
+          "dest": "MONTREUIL JUIGNE par ETAS",
+          "mnemoarret": "SALETT-E",
+          "coordonnees": [
+            47.51263,
+            -0.58681814
+          ]
+        },
+        {
+          "dest": "LORRAINE",
+          "mnemoarret": "SALET AR",
+          "coordonnees": [
+            47.512495,
+            -0.58716943
+          ]
+        },
+        {
+          "dest": "LORRAINE PAR ZI Croix Cad",
+          "mnemoarret": "SALET AR",
+          "coordonnees": [
+            47.512495,
+            -0.58716943
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "PLOTTIERE",
+      "stopsDest": [
+        {
+          "dest": "LORRAINE",
+          "mnemoarret": "PLOTTIER",
+          "coordonnees": [
+            47.522345,
+            -0.6108981
+          ]
+        },
+        {
+          "dest": "LORRAINE PAR ZI Croix Cad",
+          "mnemoarret": "PLOTTIER",
+          "coordonnees": [
+            47.522345,
+            -0.6108981
+          ]
+        },
+        {
+          "dest": "MONTREUIL JUIGNE",
+          "mnemoarret": "PLOTTI-E",
+          "coordonnees": [
+            47.522403,
+            -0.61072859
+          ]
+        },
+        {
+          "dest": "FENEU par MONTREUIL JUIGN",
+          "mnemoarret": "PLOTTI-E",
+          "coordonnees": [
+            47.522403,
+            -0.61072859
+          ]
+        },
+        {
+          "dest": "MONTREUIL par ZI C CADEAU",
+          "mnemoarret": "PLOTTI-E",
+          "coordonnees": [
+            47.522403,
+            -0.61072859
+          ]
+        },
+        {
+          "dest": "MONTREUIL JUIGNE par ETAS",
+          "mnemoarret": "PLOTTI-E",
+          "coordonnees": [
+            47.522403,
+            -0.61072859
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "LE PRE",
+      "stopsDest": [
+        {
+          "dest": "MONTREUIL par ZI C CADEAU",
+          "mnemoarret": "LE PRE-E",
+          "coordonnees": [
+            47.515257,
+            -0.58510239
+          ]
+        },
+        {
+          "dest": "MONTREUIL JUIGNE par ETAS",
+          "mnemoarret": "LE PRE-E",
+          "coordonnees": [
+            47.515257,
+            -0.58510239
+          ]
+        },
+        {
+          "dest": "FENEU par MONTREUIL JUIGN",
+          "mnemoarret": "LE PRE-E",
+          "coordonnees": [
+            47.515257,
+            -0.58510239
+          ]
+        },
+        {
+          "dest": "MONTREUIL JUIGNE",
+          "mnemoarret": "LE PRE-E",
+          "coordonnees": [
+            47.515257,
+            -0.58510239
+          ]
+        },
+        {
+          "dest": "LORRAINE",
+          "mnemoarret": "LE PRE",
+          "coordonnees": [
+            47.515117,
+            -0.58494854
+          ]
+        },
+        {
+          "dest": "LORRAINE PAR ZI Croix Cad",
+          "mnemoarret": "LE PRE",
+          "coordonnees": [
+            47.515117,
+            -0.58494854
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "CROIX CADEAU",
+      "stopsDest": [
+        {
+          "dest": "LORRAINE",
+          "mnemoarret": "CCADEA",
+          "coordonnees": [
+            47.519942,
+            -0.60946283
+          ]
+        },
+        {
+          "dest": "LORRAINE PAR ZI Croix Cad",
+          "mnemoarret": "CCADEA",
+          "coordonnees": [
+            47.519942,
+            -0.60946283
+          ]
+        },
+        {
+          "dest": "FENEU par MONTREUIL JUIGN",
+          "mnemoarret": "CCADEA-E",
+          "coordonnees": [
+            47.520228,
+            -0.6095451
+          ]
+        },
+        {
+          "dest": "MONTREUIL JUIGNE par ETAS",
+          "mnemoarret": "CCADEA-E",
+          "coordonnees": [
+            47.520228,
+            -0.6095451
+          ]
+        },
+        {
+          "dest": "MONTREUIL JUIGNE",
+          "mnemoarret": "CCADEA-E",
+          "coordonnees": [
+            47.520228,
+            -0.6095451
+          ]
+        },
+        {
+          "dest": "MONTREUIL par ZI C CADEAU",
+          "mnemoarret": "CCADEA-E",
+          "coordonnees": [
+            47.520228,
+            -0.6095451
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "AUCHAN",
+      "stopsDest": [
+        {
+          "dest": "LORRAINE",
+          "mnemoarret": "INTERAVR",
+          "coordonnees": [
+            47.518693,
+            -0.60758666
+          ]
+        },
+        {
+          "dest": "LORRAINE PAR ZI Croix Cad",
+          "mnemoarret": "INTERAVR",
+          "coordonnees": [
+            47.518693,
+            -0.60758666
+          ]
+        },
+        {
+          "dest": "MONTREUIL JUIGNE par ETAS",
+          "mnemoarret": "INTAVR-E",
+          "coordonnees": [
+            47.518236,
+            -0.60645853
+          ]
+        },
+        {
+          "dest": "MONTREUIL par ZI C CADEAU",
+          "mnemoarret": "INTAVR-E",
+          "coordonnees": [
+            47.518236,
+            -0.60645853
+          ]
+        },
+        {
+          "dest": "MONTREUIL JUIGNE",
+          "mnemoarret": "INTAVR-E",
+          "coordonnees": [
+            47.518236,
+            -0.60645853
+          ]
+        },
+        {
+          "dest": "FENEU par MONTREUIL JUIGN",
+          "mnemoarret": "INTAVR-E",
+          "coordonnees": [
+            47.518236,
+            -0.60645853
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "BONPLAND",
+      "stopsDest": [
+        {
+          "dest": "MONTREUIL JUIGNE",
+          "mnemoarret": "BONPLA-E",
+          "coordonnees": [
+            47.514544,
+            -0.59088247
+          ]
+        },
+        {
+          "dest": "MONTREUIL par ZI C CADEAU",
+          "mnemoarret": "BONPLA-E",
+          "coordonnees": [
+            47.514544,
+            -0.59088247
+          ]
+        },
+        {
+          "dest": "FENEU par MONTREUIL JUIGN",
+          "mnemoarret": "BONPLA-E",
+          "coordonnees": [
+            47.514544,
+            -0.59088247
+          ]
+        },
+        {
+          "dest": "MONTREUIL JUIGNE par ETAS",
+          "mnemoarret": "BONPLA-E",
+          "coordonnees": [
+            47.514544,
+            -0.59088247
+          ]
+        },
+        {
+          "dest": "LORRAINE",
+          "mnemoarret": "BONPLAND",
+          "coordonnees": [
+            47.514586,
+            -0.58958275
+          ]
+        },
+        {
+          "dest": "LORRAINE PAR ZI Croix Cad",
+          "mnemoarret": "BONPLAND",
+          "coordonnees": [
+            47.514586,
+            -0.58958275
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "POIVRE",
+      "stopsDest": [
+        {
+          "dest": "MONTREUIL par ZI C CADEAU",
+          "mnemoarret": "POIVRE-E",
+          "coordonnees": [
+            47.51356,
+            -0.59312677
+          ]
+        },
+        {
+          "dest": "MONTREUIL JUIGNE par ETAS",
+          "mnemoarret": "POIVRE-E",
+          "coordonnees": [
+            47.51356,
+            -0.59312677
+          ]
+        },
+        {
+          "dest": "MONTREUIL JUIGNE",
+          "mnemoarret": "POIVRE-E",
+          "coordonnees": [
+            47.51356,
+            -0.59312677
+          ]
+        },
+        {
+          "dest": "FENEU par MONTREUIL JUIGN",
+          "mnemoarret": "POIVRE-E",
+          "coordonnees": [
+            47.51356,
+            -0.59312677
+          ]
+        },
+        {
+          "dest": "LORRAINE",
+          "mnemoarret": "POIVRE",
+          "coordonnees": [
+            47.513526,
+            -0.59304519
+          ]
+        },
+        {
+          "dest": "LORRAINE PAR ZI Croix Cad",
+          "mnemoarret": "POIVRE",
+          "coordonnees": [
+            47.513526,
+            -0.59304519
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "LANGEVIN",
+      "stopsDest": [
+        {
+          "dest": "LORRAINE PAR ZI Croix Cad",
+          "mnemoarret": "LANGEVI",
+          "coordonnees": [
+            47.51847,
+            -0.61211847
+          ]
+        },
+        {
+          "dest": "MONTREUIL par ZI C CADEAU",
+          "mnemoarret": "LANGE-E",
+          "coordonnees": [
+            47.51847,
+            -0.61211847
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "AVRILLE - ARDENNE",
+      "stopsDest": [
+        {
+          "dest": "FENEU par MONTREUIL JUIGN",
+          "mnemoarret": "CHEMARDE",
+          "coordonnees": [
+            47.512469,
+            -0.59640135
+          ]
+        },
+        {
+          "dest": "MONTREUIL JUIGNE",
+          "mnemoarret": "CHEMARDE",
+          "coordonnees": [
+            47.512469,
+            -0.59640135
+          ]
+        },
+        {
+          "dest": "MONTREUIL par ZI C CADEAU",
+          "mnemoarret": "CHEMARDE",
+          "coordonnees": [
+            47.512469,
+            -0.59640135
+          ]
+        },
+        {
+          "dest": "MONTREUIL JUIGNE par ETAS",
+          "mnemoarret": "CHEMARDE",
+          "coordonnees": [
+            47.512469,
+            -0.59640135
+          ]
+        },
+        {
+          "dest": "LORRAINE",
+          "mnemoarret": "CHEMAR-E",
+          "coordonnees": [
+            47.512199,
+            -0.59605432
+          ]
+        },
+        {
+          "dest": "LORRAINE PAR ZI Croix Cad",
+          "mnemoarret": "CHEMAR-E",
+          "coordonnees": [
+            47.512199,
+            -0.59605432
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "COPERNIC",
+      "stopsDest": [
+        {
+          "dest": "LORRAINE PAR ZI Croix Cad",
+          "mnemoarret": "ZICOPER",
+          "coordonnees": [
+            47.51683,
+            -0.61043318
+          ]
+        },
+        {
+          "dest": "MONTREUIL par ZI C CADEAU",
+          "mnemoarret": "ZICOPE-E",
+          "coordonnees": [
+            47.51683,
+            -0.61043318
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "ETAS",
+      "stopsDest": [
+        {
+          "dest": "MONTREUIL JUIGNE par ETAS",
+          "mnemoarret": "ETAS-E",
+          "coordonnees": [
+            47.524535,
+            -0.6199892
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "EGLISE DE FENEU",
+      "stopsDest": [
+        {
+          "dest": "FENEU par MONTREUIL JUIGN",
+          "mnemoarret": "FENEUBUS",
+          "coordonnees": [
+            47.569621,
+            -0.59440779
+          ]
+        }
+      ]
+    }
+  ]
+}

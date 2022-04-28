@@ -1,0 +1,197 @@
+{
+  "version": "1",
+  "marches": [
+    {
+      "nom": "Marché La Fayette",
+      "jours": "Mercredi et samedi de 8h à 13h30",
+      "infos": "",
+      "adresse": "Place La Fayette, Angers",
+      "coordinates": [
+        47.462467,
+        -0.554218
+      ]
+    },
+    {
+      "nom": "Marché Roseraie",
+      "jours": "Samedi de 8h à 13h30",
+      "infos": "",
+      "adresse": "Place Jean XXIII, Angers",
+      "coordinates": [
+        47.448668,
+        -0.565339
+      ]
+    },
+    {
+      "nom": "Marché Justice Madeleine Saint-Léonard",
+      "jours": "Mardi de 8h à 13h30",
+      "infos": "",
+      "adresse": "Rue de Villesicard, Les Ponts-de-Cé",
+      "coordinates": [
+        47.449857,
+        -0.531045
+      ]
+    },
+    {
+      "nom": "Marché Justice Madeleine Saint-Léonard",
+      "jours": "Jeudi de 8h à 13h30",
+      "infos": "",
+      "adresse": "Square Jeanne d'Arc, Angers",
+      "coordinates": [
+        47.467100,
+        -0.536457
+      ]
+    },
+    {
+      "nom": "Marché Deux-Croix Banchais Grand-Pigeon",
+      "jours": "Vendredi de 8h à 13h30",
+      "infos": "",
+      "adresse": "Place Camille Claudel, Angers",
+      "coordinates": [
+        47.475171,
+        -0.528344
+      ]
+    },
+    {
+      "nom": "Marché Monplaisir (Mercredi)",
+      "jours": "Mercredi de 8h à 13h30",
+      "infos": "",
+      "adresse": "Boulevard Allonneau, Angers",
+      "coordinates": [
+        47.483350,
+        -0.526780
+      ]
+    },
+    {
+      "nom": "Marché Monplaisir (Dimanche)",
+      "jours": "Dimanche de 8h à 13h30",
+      "infos": "",
+      "adresse": "Boulevard du Doyenné, Angers",
+      "coordinates": [
+        47.490604,
+        -0.532469
+      ]
+    },
+    {
+      "nom": "Marché place Ney",
+      "jours": "Mardi de 8h à 13h30",
+      "infos": "",
+      "adresse": "Place Ney, Angers",
+      "coordinates": [
+        47.478675,
+        -0.543679
+      ]
+    },
+    {
+      "nom": "Grand marché",
+      "jours": "Samedi de 8h à 13h30",
+      "infos": "",
+      "adresse": "Place Leclerc, Angers",
+      "coordinates": [
+        47.471370,
+        -0.544948
+      ]
+    },
+    {
+      "nom": "Marché des producteurs locaux",
+      "jours": "Vendredi de 16 heures à 19 heures",
+      "infos": "",
+      "adresse": "Rue Saint-Julien, Angers",
+      "coordinates": [
+        47.469663,
+        -0.550849
+      ]
+    },
+    {
+      "nom": "Marché bio",
+      "jours": "Samedi de 8h à 13h30",
+      "infos": "",
+      "adresse": "Place Molière, Angers",
+      "coordinates": [
+        47.473897,
+        -0.555143
+      ]
+    },
+    {
+      "nom": "Marché Doutre Saint-Jacques Nazareth",
+      "jours": "Samedi de 8h à 13h30",
+      "infos": "",
+      "adresse": "Place Bordillon, Angers",
+      "coordinates": [
+        47.474573,
+        -0.562447
+      ]
+    },
+    {
+      "nom": "Marché Doutre Saint-Jacques Nazareth",
+      "jours": "Jeudi de 8h à 13h30",
+      "infos": "",
+      "adresse": "Place Bichon, Angers",
+      "coordinates": [
+        47.478378,
+        -0.565264
+      ]
+    },
+    {
+      "nom": "Marché de Belle Beille",
+      "jours": "Vendredi de 8h à 13h30",
+      "infos": "",
+      "adresse": "Place Marcel Vigne, Angers",
+      "coordinates": [
+        47.475143,
+        -0.585769
+      ]
+    },
+
+
+    {
+      "nom": "Marché Saint-Barthélemy-d'Anjou",
+      "jours": "Mardi de 8h à 13h30",
+      "infos": "",
+      "adresse": "Place Salvador Allende, Saint-Barthélemy-d'Anjou",
+      "coordinates": [
+        47.467211,
+        -0.494238
+      ]
+    },
+    {
+      "nom": "Marché du Jardin de Cocagne",
+      "jours": "Vendredi de 11h à 18h",
+      "infos": "Vente directe de légumes Bio, jus de pommes/poires, du Jardin de Cocagne. Partenariat avec 9 producteurs locaux Bio vous proposant, viande, oeufs, pain, farine, confitures, tisanes,...",
+      "adresse": "Bouvarderie, Saint-Barthélemy-d'Anjou",
+      "coordinates": [
+        47.466562,
+        -0.469232
+      ]
+    },
+    {
+      "nom": "Marché de Trelazé",
+      "jours": "Dimanche de 11h à 18h",
+      "infos": "",
+      "adresse": "Place Gabriel Péri, Trelazé",
+      "coordinates": [
+        47.443079,
+        -0.490052
+      ]
+    },
+	{
+      "nom": "Marché de Bouchemaine",
+      "jours": "Dimanche de 8h à 14h",
+      "infos": "",
+      "adresse": "Quai de la Noë, Bouchemaine",
+      "coordinates": [
+		47.42161599444079, 
+		-0.609586347402961
+      ]
+    },
+	{
+      "nom": "Marché de Bouchemaine",
+      "jours": "Jeudi de 8h à 13h",
+      "infos": "",
+      "adresse": "Centre commercial du Petit Vivier, Bouchemaine",
+      "coordinates": [
+		47.445897, 
+		-0.606637
+      ]
+    }
+  ]
+}

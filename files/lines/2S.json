@@ -1,0 +1,532 @@
+{
+  "version": "1",
+  "mnemoligne": "2S",
+  "nomligne": "SOIR TRELAZE <>  LORRAINE",
+  "color": "006AB2",
+  "dests": [
+    {
+      "name": "ST BARTH PAR LORRAINE",
+      "color": "0099FF"
+    },
+    {
+      "name": "TRELAZE BUISSON",
+      "color": "006AB2"
+    }
+  ],
+  "stops": [
+    {
+      "nomarret": "BUISSON",
+      "stopsDest": [
+        {
+          "dest": "ST BARTH PAR LORRAINE",
+          "mnemoarret": "BUISSON",
+          "coordonnees": [
+            47.441888,
+            -0.48462514
+          ]
+        },
+        {
+          "dest": "TRELAZE BUISSON",
+          "mnemoarret": "BUISSO-E",
+          "coordonnees": [
+            47.441993,
+            -0.48400715
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "PYRAMIDE",
+      "stopsDest": [
+        {
+          "dest": "ST BARTH PAR LORRAINE",
+          "mnemoarret": "PYRAM02",
+          "coordonnees": [
+            47.440856,
+            -0.48856384
+          ]
+        },
+        {
+          "dest": "TRELAZE BUISSON",
+          "mnemoarret": "PYRAM2-E",
+          "coordonnees": [
+            47.440849,
+            -0.48848387
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "MADELEINE",
+      "stopsDest": [
+        {
+          "dest": "ST BARTH PAR LORRAINE",
+          "mnemoarret": "MADELEIN",
+          "coordonnees": [
+            47.459255,
+            -0.5357117
+          ]
+        },
+        {
+          "dest": "TRELAZE BUISSON",
+          "mnemoarret": "MADELE-E",
+          "coordonnees": [
+            47.459052,
+            -0.53552825
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "FOCH HARAS",
+      "stopsDest": [
+        {
+          "dest": "ST BARTH PAR LORRAINE",
+          "mnemoarret": "HARAS",
+          "coordonnees": [
+            47.467059,
+            -0.55199472
+          ]
+        },
+        {
+          "dest": "TRELAZE BUISSON",
+          "mnemoarret": "HARAS-E",
+          "coordonnees": [
+            47.467234,
+            -0.55220331
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "MALAQUAIS",
+      "stopsDest": [
+        {
+          "dest": "ST BARTH PAR LORRAINE",
+          "mnemoarret": "MALAQUAI",
+          "coordonnees": [
+            47.444257,
+            -0.49045571
+          ]
+        },
+        {
+          "dest": "TRELAZE BUISSON",
+          "mnemoarret": "MALAQU-E",
+          "coordonnees": [
+            47.44405,
+            -0.4900865
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "JUSTICES",
+      "stopsDest": [
+        {
+          "dest": "ST BARTH PAR LORRAINE",
+          "mnemoarret": "JUSTICES",
+          "coordonnees": [
+            47.453586,
+            -0.52656799
+          ]
+        },
+        {
+          "dest": "TRELAZE BUISSON",
+          "mnemoarret": "JUSTIC-E",
+          "coordonnees": [
+            47.45336,
+            -0.52625062
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "ANDRE LEROY",
+      "stopsDest": [
+        {
+          "dest": "ST BARTH PAR LORRAINE",
+          "mnemoarret": "ANLEROY",
+          "coordonnees": [
+            47.464587,
+            -0.54826361
+          ]
+        },
+        {
+          "dest": "TRELAZE BUISSON",
+          "mnemoarret": "ANLERO-E",
+          "coordonnees": [
+            47.464722,
+            -0.54898767
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "PATINOIRE",
+      "stopsDest": [
+        {
+          "dest": "ST BARTH PAR LORRAINE",
+          "mnemoarret": "PATNOIRE",
+          "coordonnees": [
+            47.466263,
+            -0.5524958
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "LEO LAGRANGE",
+      "stopsDest": [
+        {
+          "dest": "TRELAZE BUISSON",
+          "mnemoarret": "LEOLA2-E",
+          "coordonnees": [
+            47.447822,
+            -0.51026931
+          ]
+        },
+        {
+          "dest": "ST BARTH PAR LORRAINE",
+          "mnemoarret": "LEOLAGRA",
+          "coordonnees": [
+            47.447809,
+            -0.51005633
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "BELLEVUE",
+      "stopsDest": [
+        {
+          "dest": "TRELAZE BUISSON",
+          "mnemoarret": "BELVTR-E",
+          "coordonnees": [
+            47.447887,
+            -0.5080038
+          ]
+        },
+        {
+          "dest": "ST BARTH PAR LORRAINE",
+          "mnemoarret": "BELLVUTR",
+          "coordonnees": [
+            47.448185,
+            -0.50686532
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "MICHELET",
+      "stopsDest": [
+        {
+          "dest": "TRELAZE BUISSON",
+          "mnemoarret": "MICHEL-E",
+          "coordonnees": [
+            47.462887,
+            -0.54421628
+          ]
+        },
+        {
+          "dest": "ST BARTH PAR LORRAINE",
+          "mnemoarret": "MICHELET",
+          "coordonnees": [
+            47.463466,
+            -0.54554834
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "ECLATERIES",
+      "stopsDest": [
+        {
+          "dest": "TRELAZE BUISSON",
+          "mnemoarret": "ECLATE-E",
+          "coordonnees": [
+            47.451149,
+            -0.5199216
+          ]
+        },
+        {
+          "dest": "ST BARTH PAR LORRAINE",
+          "mnemoarret": "ECLATERI",
+          "coordonnees": [
+            47.451153,
+            -0.51976257
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "LEFEVRE",
+      "stopsDest": [
+        {
+          "dest": "TRELAZE BUISSON",
+          "mnemoarret": "LEFEVR-E",
+          "coordonnees": [
+            47.443092,
+            -0.48914675
+          ]
+        },
+        {
+          "dest": "ST BARTH PAR LORRAINE",
+          "mnemoarret": "LEFEVRE",
+          "coordonnees": [
+            47.443317,
+            -0.48877393
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "CHOUTEAU",
+      "stopsDest": [
+        {
+          "dest": "ST BARTH PAR LORRAINE",
+          "mnemoarret": "CHOUTEAU",
+          "coordonnees": [
+            47.446222,
+            -0.4969553
+          ]
+        },
+        {
+          "dest": "TRELAZE BUISSON",
+          "mnemoarret": "CHOUTE-E",
+          "coordonnees": [
+            47.446163,
+            -0.49681944
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "REPUBLIQUE TRELAZE",
+      "stopsDest": [
+        {
+          "dest": "ST BARTH PAR LORRAINE",
+          "mnemoarret": "REPTRELA",
+          "coordonnees": [
+            47.450029,
+            -0.50433642
+          ]
+        },
+        {
+          "dest": "TRELAZE BUISSON",
+          "mnemoarret": "REPTRE-E",
+          "coordonnees": [
+            47.450302,
+            -0.50423153
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "BOURGONNIER",
+      "stopsDest": [
+        {
+          "dest": "ST BARTH PAR LORRAINE",
+          "mnemoarret": "BOUGONNI",
+          "coordonnees": [
+            47.462168,
+            -0.54237231
+          ]
+        },
+        {
+          "dest": "TRELAZE BUISSON",
+          "mnemoarret": "BOUGO.-E",
+          "coordonnees": [
+            47.461666,
+            -0.54120375
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "VAL DE LOIRE",
+      "stopsDest": [
+        {
+          "dest": "ST BARTH PAR LORRAINE",
+          "mnemoarret": "VDLOIRE",
+          "coordonnees": [
+            47.449035,
+            -0.51363815
+          ]
+        },
+        {
+          "dest": "TRELAZE BUISSON",
+          "mnemoarret": "VDLOIR-E",
+          "coordonnees": [
+            47.448906,
+            -0.51341891
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "DELACROIX",
+      "stopsDest": [
+        {
+          "dest": "ST BARTH PAR LORRAINE",
+          "mnemoarret": "DELACROI",
+          "coordonnees": [
+            47.454884,
+            -0.52868142
+          ]
+        },
+        {
+          "dest": "TRELAZE BUISSON",
+          "mnemoarret": "DELACR-E",
+          "coordonnees": [
+            47.454917,
+            -0.52877613
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "PLACE LORRAINE",
+      "stopsDest": [
+        {
+          "dest": "ST BARTH PAR LORRAINE",
+          "mnemoarret": "LORRTERM",
+          "coordonnees": [
+            47.470195,
+            -0.54749218
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "MENARD",
+      "stopsDest": [
+        {
+          "dest": "ST BARTH PAR LORRAINE",
+          "mnemoarret": "MENARD",
+          "coordonnees": [
+            47.445819,
+            -0.49393525
+          ]
+        },
+        {
+          "dest": "TRELAZE BUISSON",
+          "mnemoarret": "MENA-E",
+          "coordonnees": [
+            47.445762,
+            -0.49370664
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "VOLNEY",
+      "stopsDest": [
+        {
+          "dest": "ST BARTH PAR LORRAINE",
+          "mnemoarret": "VOLNEY",
+          "coordonnees": [
+            47.460404,
+            -0.53802988
+          ]
+        },
+        {
+          "dest": "TRELAZE BUISSON",
+          "mnemoarret": "VOLNEY-E",
+          "coordonnees": [
+            47.460605,
+            -0.53859821
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "FRESNAIES",
+      "stopsDest": [
+        {
+          "dest": "ST BARTH PAR LORRAINE",
+          "mnemoarret": "FRESNAIE",
+          "coordonnees": [
+            47.448097,
+            -0.50054467
+          ]
+        },
+        {
+          "dest": "TRELAZE BUISSON",
+          "mnemoarret": "FRESNA-E",
+          "coordonnees": [
+            47.448241,
+            -0.50089735
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "FOCH MAISON BLEUE",
+      "stopsDest": [
+        {
+          "dest": "TRELAZE BUISSON",
+          "mnemoarret": "FO-LOR-R",
+          "coordonnees": [
+            47.469665,
+            -0.54891037
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "FOCH ST AUBIN",
+      "stopsDest": [
+        {
+          "dest": "TRELAZE BUISSON",
+          "mnemoarret": "STAUBI-E",
+          "coordonnees": [
+            47.468119,
+            -0.55099029
+          ]
+        },
+        {
+          "dest": "ST BARTH PAR LORRAINE",
+          "mnemoarret": "STAUBIN",
+          "coordonnees": [
+            47.468594,
+            -0.55000718
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "SAUMUROISE",
+      "stopsDest": [
+        {
+          "dest": "TRELAZE BUISSON",
+          "mnemoarret": "MILLOT-E",
+          "coordonnees": [
+            47.456821,
+            -0.53187779
+          ]
+        },
+        {
+          "dest": "ST BARTH PAR LORRAINE",
+          "mnemoarret": "MILLOT.",
+          "coordonnees": [
+            47.457291,
+            -0.53252685
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "LORRAINE MAISONBLEUE",
+      "stopsDest": [
+        {
+          "dest": "ST BARTH PAR LORRAINE",
+          "mnemoarret": "LOR-FO-A",
+          "coordonnees": [
+            47.469637,
+            -0.54859027
+          ]
+        }
+      ]
+    }
+  ]
+}

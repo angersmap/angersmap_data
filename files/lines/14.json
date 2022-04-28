@@ -1,0 +1,270 @@
+{
+  "version": "20220302084304",
+  "mnemoligne": "14",
+  "nomligne": "BELLE BEILLE EXPRESS <> GARES",
+  "color": "EC1D25",
+  "dests": [
+    {
+      "name": "BELLE BEILLE",
+      "color": "EC1D25",
+      "codeparcours": [
+        "GARES PAPIN > IUT 9.1"
+      ]
+    },
+    {
+      "name": "LES GARES",
+      "color": "EA4B53",
+      "codeparcours": [
+        "IUT > LES GARES 9.1"
+      ]
+    }
+  ],
+  "stops": [
+    {
+      "nomarret": "TERMINUS IUT",
+      "stopsDest": [
+        {
+          "dest": "LES GARES",
+          "mnemoarret": "IUT term",
+          "coordonnees": [
+            47.480605,
+            -0.60390057
+          ]
+        },
+        {
+          "dest": "BELLE BEILLE",
+          "mnemoarret": "IUT term",
+          "coordonnees": [
+            47.480605,
+            -0.60390057
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "GARES PAPIN",
+      "stopsDest": [
+        {
+          "dest": "BELLE BEILLE",
+          "mnemoarret": "GAREPA-E",
+          "coordonnees": [
+            47.465173,
+            -0.55757348
+          ]
+        },
+        {
+          "dest": "LES GARES",
+          "mnemoarret": "GAREPAPI",
+          "coordonnees": [
+            47.464908,
+            -0.55775815
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "IUT",
+      "stopsDest": [
+        {
+          "dest": "LES GARES",
+          "mnemoarret": "I U T",
+          "coordonnees": [
+            47.480246,
+            -0.60242025
+          ]
+        },
+        {
+          "dest": "BELLE BEILLE",
+          "mnemoarret": "I U T -E",
+          "coordonnees": [
+            47.480511,
+            -0.60297925
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "BREMONT CHATEAU",
+      "stopsDest": [
+        {
+          "dest": "BELLE BEILLE",
+          "mnemoarret": "BREMON-E",
+          "coordonnees": [
+            47.465967,
+            -0.55930237
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "RESTAU UNIVERSITAIRE",
+      "stopsDest": [
+        {
+          "dest": "LES GARES",
+          "mnemoarret": "RESTUNIV",
+          "coordonnees": [
+            47.47916,
+            -0.60018283
+          ]
+        },
+        {
+          "dest": "BELLE BEILLE",
+          "mnemoarret": "RESTUN-E",
+          "coordonnees": [
+            47.479602,
+            -0.6004728
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "ACADEMIE",
+      "stopsDest": [
+        {
+          "dest": "BELLE BEILLE",
+          "mnemoarret": "ACAD-PLA",
+          "coordonnees": [
+            47.468431,
+            -0.5586797
+          ]
+        },
+        {
+          "dest": "LES GARES",
+          "mnemoarret": "ACADEMIE",
+          "coordonnees": [
+            47.467429,
+            -0.55915619
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "ESSCA",
+      "stopsDest": [
+        {
+          "dest": "LES GARES",
+          "mnemoarret": "ESSCA",
+          "coordonnees": [
+            47.476295,
+            -0.59921498
+          ]
+        },
+        {
+          "dest": "BELLE BEILLE",
+          "mnemoarret": "ESCALAV",
+          "coordonnees": [
+            47.476453,
+            -0.59936974
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "CHATEAU",
+      "stopsDest": [
+        {
+          "dest": "BELLE BEILLE",
+          "mnemoarret": "CHDARR-E",
+          "coordonnees": [
+            47.46927,
+            -0.56002623
+          ]
+        },
+        {
+          "dest": "LES GARES",
+          "mnemoarret": "CHDARR",
+          "coordonnees": [
+            47.468767,
+            -0.55929529
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "GAUBERT supprimé",
+      "stopsDest": [
+        {
+          "dest": "LES GARES",
+          "mnemoarret": "GAUBERT",
+          "coordonnees": [
+            47.474589,
+            -0.59977144
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "CNFPT",
+      "stopsDest": [
+        {
+          "dest": "LES GARES",
+          "mnemoarret": "CNFPT-E",
+          "coordonnees": [
+            47.472278,
+            -0.60001575
+          ]
+        },
+        {
+          "dest": "BELLE BEILLE",
+          "mnemoarret": "CNFPT",
+          "coordonnees": [
+            47.472383,
+            -0.59978258
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "LA BARRE provisoire",
+      "stopsDest": [
+        {
+          "dest": "BELLE BEILLE",
+          "mnemoarret": "GAUBER-E",
+          "coordonnees": [
+            47.474447,
+            -0.59965745
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "ROI DE POLOGNE",
+      "stopsDest": [
+        {
+          "dest": "LES GARES",
+          "mnemoarret": "ROIPOLO",
+          "coordonnees": [
+            47.469501,
+            -0.56126
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "GARES BREMONT",
+      "stopsDest": [
+        {
+          "dest": "LES GARES",
+          "mnemoarret": "GBREM-E",
+          "coordonnees": [
+            47.465702,
+            -0.55948703
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "LES GARES",
+      "stopsDest": [
+        {
+          "dest": "LES GARES",
+          "mnemoarret": "LESGARES",
+          "coordonnees": [
+            47.465164,
+            -0.55579433
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,375 @@
+{
+  "version": "20211207090247",
+  "mnemoligne": "13",
+  "nomligne": "EXPRESS MONTREUIL <> GARES",
+  "color": "000000",
+  "dests": [
+    {
+      "name": "MONTEUIL DOMAINE DU VAL",
+      "color": "000000",
+      "codeparcours": [
+        "GARES PAPIN>DOMAINE VAL 9.0"
+      ]
+    },
+    {
+      "name": "LES GARES",
+      "color": "727272",
+      "codeparcours": [
+        "EXPRESS MONTREUIL <> GARES"
+      ]
+    }
+  ],
+  "stops": [
+    {
+      "nomarret": "GARES PAPIN",
+      "stopsDest": [
+        {
+          "dest": "MONTEUIL DOMAINE DU VAL",
+          "mnemoarret": "GAREPA-E",
+          "coordonnees": [
+            47.465173,
+            -0.55757348
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "BREMONT CHATEAU",
+      "stopsDest": [
+        {
+          "dest": "MONTEUIL DOMAINE DU VAL",
+          "mnemoarret": "BREMON-E",
+          "coordonnees": [
+            47.465967,
+            -0.55930237
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "ACADEMIE",
+      "stopsDest": [
+        {
+          "dest": "MONTEUIL DOMAINE DU VAL",
+          "mnemoarret": "ACAD-PLA",
+          "coordonnees": [
+            47.468431,
+            -0.5586797
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "CHATEAU",
+      "stopsDest": [
+        {
+          "dest": "MONTEUIL DOMAINE DU VAL",
+          "mnemoarret": "CHDARR-E",
+          "coordonnees": [
+            47.46927,
+            -0.56002623
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "FRONT DE MAINE",
+      "stopsDest": [
+        {
+          "dest": "MONTEUIL DOMAINE DU VAL",
+          "mnemoarret": "FRONDM-E",
+          "coordonnees": [
+            47.472258,
+            -0.56616257
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "DUMESNIL",
+      "stopsDest": [
+        {
+          "dest": "MONTEUIL DOMAINE DU VAL",
+          "mnemoarret": "DUMESN-E",
+          "coordonnees": [
+            47.473814,
+            -0.5669377
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "MONPROFIT",
+      "stopsDest": [
+        {
+          "dest": "MONTEUIL DOMAINE DU VAL",
+          "mnemoarret": "MONPR -E",
+          "coordonnees": [
+            47.474539,
+            -0.56708346
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "DESCAZEAUX",
+      "stopsDest": [
+        {
+          "dest": "MONTEUIL DOMAINE DU VAL",
+          "mnemoarret": "DESCAZ-E",
+          "coordonnees": [
+            47.476787,
+            -0.56611735
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "BICHON",
+      "stopsDest": [
+        {
+          "dest": "MONTEUIL DOMAINE DU VAL",
+          "mnemoarret": "BICHO.-E",
+          "coordonnees": [
+            47.479289,
+            -0.5646738
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "SAINTE THERESE",
+      "stopsDest": [
+        {
+          "dest": "MONTEUIL DOMAINE DU VAL",
+          "mnemoarret": "STTHER-E",
+          "coordonnees": [
+            47.480597,
+            -0.56422722
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "BARRA",
+      "stopsDest": [
+        {
+          "dest": "MONTEUIL DOMAINE DU VAL",
+          "mnemoarret": "BARRA -E",
+          "coordonnees": [
+            47.483813,
+            -0.5637253
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "BLERIOT",
+      "stopsDest": [
+        {
+          "dest": "MONTEUIL DOMAINE DU VAL",
+          "mnemoarret": "BLERIO-E",
+          "coordonnees": [
+            47.486143,
+            -0.56344055
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "LECUIT",
+      "stopsDest": [
+        {
+          "dest": "MONTEUIL DOMAINE DU VAL",
+          "mnemoarret": "LECUIT-E",
+          "coordonnees": [
+            47.489454,
+            -0.56275777
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "AURIOL",
+      "stopsDest": [
+        {
+          "dest": "MONTEUIL DOMAINE DU VAL",
+          "mnemoarret": "VERNEA-E",
+          "coordonnees": [
+            47.49129,
+            -0.56492942
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "VERNEAU AQUAVITA",
+      "stopsDest": [
+        {
+          "dest": "MONTEUIL DOMAINE DU VAL",
+          "mnemoarret": "AQUAVITA",
+          "coordonnees": [
+            47.493396,
+            -0.56528328
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "CHEMIN NOIR",
+      "stopsDest": [
+        {
+          "dest": "MONTEUIL DOMAINE DU VAL",
+          "mnemoarret": "CHENOI-E",
+          "coordonnees": [
+            47.529563,
+            -0.59101792
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "JEAN HUEZ",
+      "stopsDest": [
+        {
+          "dest": "MONTEUIL DOMAINE DU VAL",
+          "mnemoarret": "JEHUEZ-E",
+          "coordonnees": [
+            47.530885,
+            -0.59426699
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "PLATEAU FLEURI",
+      "stopsDest": [
+        {
+          "dest": "MONTEUIL DOMAINE DU VAL",
+          "mnemoarret": "PLATEF-E",
+          "coordonnees": [
+            47.529925,
+            -0.59772257
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "ESPERANTO",
+      "stopsDest": [
+        {
+          "dest": "MONTEUIL DOMAINE DU VAL",
+          "mnemoarret": "ESPMON-E",
+          "coordonnees": [
+            47.529502,
+            -0.60374608
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "BEL AIR",
+      "stopsDest": [
+        {
+          "dest": "MONTEUIL DOMAINE DU VAL",
+          "mnemoarret": "BELAIR-E",
+          "coordonnees": [
+            47.52925,
+            -0.60621734
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "REPUBLIQUE MONTREUIL",
+      "stopsDest": [
+        {
+          "dest": "MONTEUIL DOMAINE DU VAL",
+          "mnemoarret": "REPMON-E",
+          "coordonnees": [
+            47.52895,
+            -0.61097168
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "ANATOLE FRANCE",
+      "stopsDest": [
+        {
+          "dest": "MONTEUIL DOMAINE DU VAL",
+          "mnemoarret": "ANAFRA-E",
+          "coordonnees": [
+            47.531319,
+            -0.61373442
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "PISCINE C. MUFFAT",
+      "stopsDest": [
+        {
+          "dest": "MONTEUIL DOMAINE DU VAL",
+          "mnemoarret": "PISCJU-E",
+          "coordonnees": [
+            47.534191,
+            -0.61652534
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "CAMPING DE JUIGNE",
+      "stopsDest": [
+        {
+          "dest": "MONTEUIL DOMAINE DU VAL",
+          "mnemoarret": "CAMPJU-E",
+          "coordonnees": [
+            47.537135,
+            -0.6168483
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "LAENNEC",
+      "stopsDest": [
+        {
+          "dest": "MONTEUIL DOMAINE DU VAL",
+          "mnemoarret": "LAEN-E",
+          "coordonnees": [
+            47.539421,
+            -0.61863676
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "BECKER",
+      "stopsDest": [
+        {
+          "dest": "MONTEUIL DOMAINE DU VAL",
+          "mnemoarret": "BECK-E",
+          "coordonnees": [
+            47.538826,
+            -0.62217933
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "DOMAINE DU VAL",
+      "stopsDest": [
+        {
+          "dest": "MONTEUIL DOMAINE DU VAL",
+          "mnemoarret": "DOMVATER",
+          "coordonnees": [
+            47.536643,
+            -0.62483585
+          ]
+        }
+      ]
+    }
+  ]
+}

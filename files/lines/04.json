@@ -1,0 +1,1902 @@
+{
+  "version": "20211206092651",
+  "mnemoligne": "04",
+  "nomligne": "BEAUCOUZE <> ST BARTHELEMY",
+  "color": "93117E",
+  "dests": [
+    {
+      "name": "SAINT BARTHELEMY",
+      "color": "93117E",
+      "codeparcours": "L'ATOLL > ST BARTH 7.1"
+    },
+    {
+      "name": "SAINT BARTHELEMY",
+      "color": "93117E",
+      "codeparcours": "BEAUCOUZE > ST BARTH 7.1"
+    },
+    {
+      "name": "BEAUCOUZE L'ATOLL",
+      "color": "E51BC7",
+      "codeparcours": "ST BARTH > L'ATOLL 7.1"
+    },
+    {
+      "name": "BEAUCOUZE HAUTE ROCHE",
+      "color": "E51BC7",
+      "codeparcours": "ST BARTH > BEAUCOUZE 7.1"
+    },
+    {
+      "name": "BELLE-BEILLE",
+      "color": "E51BC7",
+      "codeparcours": "STADE ST BARTH > MOREL 10.1"
+    },
+    {
+      "name": "LORRAINE",
+      "color": "93117E",
+      "codeparcours": "L'ATOLL > LORRAINE 7.1"
+    }
+  ],
+  "stops": [
+    {
+      "nomarret": "STADE ST BARTHELEMY",
+      "stopsDest": [
+        {
+          "dest": "BELLE-BEILLE",
+          "mnemoarret": "STADE",
+          "coordonnees": [
+            47.461336,
+            -0.49210537
+          ]
+        },
+        {
+          "dest": "BEAUCOUZE L'ATOLL",
+          "mnemoarret": "STADE",
+          "coordonnees": [
+            47.461336,
+            -0.49210537
+          ]
+        },
+        {
+          "dest": "SAINT BARTHELEMY",
+          "mnemoarret": "STADE-E",
+          "coordonnees": [
+            47.461242,
+            -0.4919013
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "BEAUCOUZE L'ATOLL",
+      "stopsDest": [
+        {
+          "dest": "LORRAINE",
+          "mnemoarret": "ATOLLBEA",
+          "coordonnees": [
+            47.484234,
+            -0.62643547
+          ]
+        },
+        {
+          "dest": "SAINT BARTHELEMY",
+          "mnemoarret": "ATOLLBEA",
+          "coordonnees": [
+            47.484234,
+            -0.62643547
+          ]
+        },
+        {
+          "dest": "BEAUCOUZE L'ATOLL",
+          "mnemoarret": "ATOLL AR",
+          "coordonnees": [
+            47.484234,
+            -0.62643547
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "SAINT BARTHELEMY",
+      "stopsDest": [
+        {
+          "dest": "BEAUCOUZE L'ATOLL",
+          "mnemoarret": "SBARTHEL",
+          "coordonnees": [
+            47.472613,
+            -0.4858678
+          ]
+        },
+        {
+          "dest": "SAINT BARTHELEMY",
+          "mnemoarret": "SBART AR",
+          "coordonnees": [
+            47.472613,
+            -0.4858678
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "BEAUCOUZE HAUTE ROCH",
+      "stopsDest": [
+        {
+          "dest": "SAINT BARTHELEMY",
+          "mnemoarret": "BEAUCOUZ",
+          "coordonnees": [
+            47.470305,
+            -0.62518262
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "CHANTERIE",
+      "stopsDest": [
+        {
+          "dest": "SAINT BARTHELEMY",
+          "mnemoarret": "CHANTERI",
+          "coordonnees": [
+            47.470944,
+            -0.62801921
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "AUBEPINE",
+      "stopsDest": [
+        {
+          "dest": "BELLE-BEILLE",
+          "mnemoarret": "AUBEPINE",
+          "coordonnees": [
+            47.4617,
+            -0.4959869
+          ]
+        },
+        {
+          "dest": "BEAUCOUZE L'ATOLL",
+          "mnemoarret": "AUBEPINE",
+          "coordonnees": [
+            47.4617,
+            -0.4959869
+          ]
+        },
+        {
+          "dest": "SAINT BARTHELEMY",
+          "mnemoarret": "AUBEPI-E",
+          "coordonnees": [
+            47.461559,
+            -0.49589973
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "BOULLE",
+      "stopsDest": [
+        {
+          "dest": "SAINT BARTHELEMY",
+          "mnemoarret": "BOULLE",
+          "coordonnees": [
+            47.486717,
+            -0.62859211
+          ]
+        },
+        {
+          "dest": "LORRAINE",
+          "mnemoarret": "BOULLE",
+          "coordonnees": [
+            47.486717,
+            -0.62859211
+          ]
+        },
+        {
+          "dest": "BEAUCOUZE L'ATOLL",
+          "mnemoarret": "BOULLE-E",
+          "coordonnees": [
+            47.486508,
+            -0.62868668
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "VENAISERIE",
+      "stopsDest": [
+        {
+          "dest": "BEAUCOUZE L'ATOLL",
+          "mnemoarret": "VENAISER",
+          "coordonnees": [
+            47.471027,
+            -0.48963334
+          ]
+        },
+        {
+          "dest": "SAINT BARTHELEMY",
+          "mnemoarret": "VENAIS-E",
+          "coordonnees": [
+            47.470829,
+            -0.48966262
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "PINSONS",
+      "stopsDest": [
+        {
+          "dest": "SAINT BARTHELEMY",
+          "mnemoarret": "PINSONS",
+          "coordonnees": [
+            47.472492,
+            -0.63013657
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "GEMMETRIE-ESAIP",
+      "stopsDest": [
+        {
+          "dest": "BELLE-BEILLE",
+          "mnemoarret": "GEMMETR",
+          "coordonnees": [
+            47.46318,
+            -0.49914483
+          ]
+        },
+        {
+          "dest": "BEAUCOUZE L'ATOLL",
+          "mnemoarret": "GEMMETR",
+          "coordonnees": [
+            47.46318,
+            -0.49914483
+          ]
+        },
+        {
+          "dest": "SAINT BARTHELEMY",
+          "mnemoarret": "GEMMET-E",
+          "coordonnees": [
+            47.463221,
+            -0.49931954
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "GRAND PIN",
+      "stopsDest": [
+        {
+          "dest": "SAINT BARTHELEMY",
+          "mnemoarret": "GRANDPIN",
+          "coordonnees": [
+            47.473291,
+            -0.63196007
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "CEZANNE",
+      "stopsDest": [
+        {
+          "dest": "BEAUCOUZE L'ATOLL",
+          "mnemoarret": "CEZANNE",
+          "coordonnees": [
+            47.469793,
+            -0.49189082
+          ]
+        },
+        {
+          "dest": "SAINT BARTHELEMY",
+          "mnemoarret": "CEZAN-E",
+          "coordonnees": [
+            47.469639,
+            -0.49193573
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "LE CORBUSIER",
+      "stopsDest": [
+        {
+          "dest": "LORRAINE",
+          "mnemoarret": "LECORBUS",
+          "coordonnees": [
+            47.484403,
+            -0.63179616
+          ]
+        },
+        {
+          "dest": "SAINT BARTHELEMY",
+          "mnemoarret": "LECORBUS",
+          "coordonnees": [
+            47.484403,
+            -0.63179616
+          ]
+        },
+        {
+          "dest": "BEAUCOUZE L'ATOLL",
+          "mnemoarret": "LECORB-E",
+          "coordonnees": [
+            47.485452,
+            -0.63088531
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "PRIEURE",
+      "stopsDest": [
+        {
+          "dest": "SAINT BARTHELEMY",
+          "mnemoarret": "PRIEURE",
+          "coordonnees": [
+            47.471889,
+            -0.63364754
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "VERDUN",
+      "stopsDest": [
+        {
+          "dest": "BEAUCOUZE L'ATOLL",
+          "mnemoarret": "VERDUN",
+          "coordonnees": [
+            47.468185,
+            -0.49323899
+          ]
+        },
+        {
+          "dest": "SAINT BARTHELEMY",
+          "mnemoarret": "VERDUN-E",
+          "coordonnees": [
+            47.468475,
+            -0.49278981
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "JULES FERRY",
+      "stopsDest": [
+        {
+          "dest": "BELLE-BEILLE",
+          "mnemoarret": "JUFERRY",
+          "coordonnees": [
+            47.466377,
+            -0.49871772
+          ]
+        },
+        {
+          "dest": "BEAUCOUZE L'ATOLL",
+          "mnemoarret": "JUFERRY",
+          "coordonnees": [
+            47.466377,
+            -0.49871772
+          ]
+        },
+        {
+          "dest": "SAINT BARTHELEMY",
+          "mnemoarret": "JUFERR-E",
+          "coordonnees": [
+            47.466354,
+            -0.49890235
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "PASTEUR",
+      "stopsDest": [
+        {
+          "dest": "BEAUCOUZE L'ATOLL",
+          "mnemoarret": "PASTEUR",
+          "coordonnees": [
+            47.466983,
+            -0.49306894
+          ]
+        },
+        {
+          "dest": "SAINT BARTHELEMY",
+          "mnemoarret": "PASTEU-E",
+          "coordonnees": [
+            47.467112,
+            -0.49296958
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "VAURAGERE",
+      "stopsDest": [
+        {
+          "dest": "SAINT BARTHELEMY",
+          "mnemoarret": "VAURAGER",
+          "coordonnees": [
+            47.472843,
+            -0.63541332
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "ECHATS",
+      "stopsDest": [
+        {
+          "dest": "SAINT BARTHELEMY",
+          "mnemoarret": "ECHATS",
+          "coordonnees": [
+            47.480705,
+            -0.63208129
+          ]
+        },
+        {
+          "dest": "LORRAINE",
+          "mnemoarret": "ECHATS",
+          "coordonnees": [
+            47.480705,
+            -0.63208129
+          ]
+        },
+        {
+          "dest": "BEAUCOUZE L'ATOLL",
+          "mnemoarret": "ECHATS-E",
+          "coordonnees": [
+            47.481006,
+            -0.63191221
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "CROIX CHEMINEE",
+      "stopsDest": [
+        {
+          "dest": "BELLE-BEILLE",
+          "mnemoarret": "CCHEMINE",
+          "coordonnees": [
+            47.467761,
+            -0.5032248
+          ]
+        },
+        {
+          "dest": "BEAUCOUZE L'ATOLL",
+          "mnemoarret": "CCHEMINE",
+          "coordonnees": [
+            47.467761,
+            -0.5032248
+          ]
+        },
+        {
+          "dest": "SAINT BARTHELEMY",
+          "mnemoarret": "CCHEMI-E",
+          "coordonnees": [
+            47.467517,
+            -0.50287997
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "ROUAIRIE",
+      "stopsDest": [
+        {
+          "dest": "SAINT BARTHELEMY",
+          "mnemoarret": "ROUAIRIE",
+          "coordonnees": [
+            47.475687,
+            -0.63891776
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "CITRONNELLE",
+      "stopsDest": [
+        {
+          "dest": "LORRAINE",
+          "mnemoarret": "CITRONNL",
+          "coordonnees": [
+            47.479423,
+            -0.63400141
+          ]
+        },
+        {
+          "dest": "SAINT BARTHELEMY",
+          "mnemoarret": "CITRONNL",
+          "coordonnees": [
+            47.479423,
+            -0.63400141
+          ]
+        },
+        {
+          "dest": "BEAUCOUZE L'ATOLL",
+          "mnemoarret": "CITRON-E",
+          "coordonnees": [
+            47.479312,
+            -0.63374298
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "JAUDETTE",
+      "stopsDest": [
+        {
+          "dest": "BEAUCOUZE L'ATOLL",
+          "mnemoarret": "JAUDETTE",
+          "coordonnees": [
+            47.463641,
+            -0.49023687
+          ]
+        },
+        {
+          "dest": "SAINT BARTHELEMY",
+          "mnemoarret": "JAUDET-E",
+          "coordonnees": [
+            47.46379,
+            -0.49039079
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "PAPERIE",
+      "stopsDest": [
+        {
+          "dest": "BELLE-BEILLE",
+          "mnemoarret": "PAPERIE",
+          "coordonnees": [
+            47.468711,
+            -0.50703202
+          ]
+        },
+        {
+          "dest": "BEAUCOUZE L'ATOLL",
+          "mnemoarret": "PAPERIE",
+          "coordonnees": [
+            47.468711,
+            -0.50703202
+          ]
+        },
+        {
+          "dest": "SAINT BARTHELEMY",
+          "mnemoarret": "PAPERI-E",
+          "coordonnees": [
+            47.468463,
+            -0.50652761
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "ROUTE DE MEIGNANNE",
+      "stopsDest": [
+        {
+          "dest": "SAINT BARTHELEMY",
+          "mnemoarret": "RTEMEIGN",
+          "coordonnees": [
+            47.477707,
+            -0.63948204
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "MONOD",
+      "stopsDest": [
+        {
+          "dest": "LORRAINE",
+          "mnemoarret": "MONOD",
+          "coordonnees": [
+            47.478725,
+            -0.63664449
+          ]
+        },
+        {
+          "dest": "SAINT BARTHELEMY",
+          "mnemoarret": "MONOD",
+          "coordonnees": [
+            47.478725,
+            -0.63664449
+          ]
+        },
+        {
+          "dest": "BEAUCOUZE L'ATOLL",
+          "mnemoarret": "MONOD-E",
+          "coordonnees": [
+            47.478984,
+            -0.63638012
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "WALCOURT",
+      "stopsDest": [
+        {
+          "dest": "BEAUCOUZE L'ATOLL",
+          "mnemoarret": "WALCOURT",
+          "coordonnees": [
+            47.463313,
+            -0.48597226
+          ]
+        },
+        {
+          "dest": "SAINT BARTHELEMY",
+          "mnemoarret": "WALCOU-E",
+          "coordonnees": [
+            47.463397,
+            -0.48622888
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "LA REUX",
+      "stopsDest": [
+        {
+          "dest": "BELLE-BEILLE",
+          "mnemoarret": "LAREUX",
+          "coordonnees": [
+            47.469542,
+            -0.51058077
+          ]
+        },
+        {
+          "dest": "BEAUCOUZE L'ATOLL",
+          "mnemoarret": "LAREUX",
+          "coordonnees": [
+            47.469542,
+            -0.51058077
+          ]
+        },
+        {
+          "dest": "SAINT BARTHELEMY",
+          "mnemoarret": "LAREU-E",
+          "coordonnees": [
+            47.469411,
+            -0.51041448
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "HERMITAGE",
+      "stopsDest": [
+        {
+          "dest": "SAINT BARTHELEMY",
+          "mnemoarret": "HERMITAG",
+          "coordonnees": [
+            47.477762,
+            -0.63594014
+          ]
+        },
+        {
+          "dest": "LORRAINE",
+          "mnemoarret": "HERMITAG",
+          "coordonnees": [
+            47.477762,
+            -0.63594014
+          ]
+        },
+        {
+          "dest": "BEAUCOUZE L'ATOLL",
+          "mnemoarret": "HERMIT-E",
+          "coordonnees": [
+            47.47776,
+            -0.63530275
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "CHENE VERT",
+      "stopsDest": [
+        {
+          "dest": "BELLE-BEILLE",
+          "mnemoarret": "CHVERT",
+          "coordonnees": [
+            47.470237,
+            -0.51489228
+          ]
+        },
+        {
+          "dest": "BEAUCOUZE L'ATOLL",
+          "mnemoarret": "CHVERT",
+          "coordonnees": [
+            47.470237,
+            -0.51489228
+          ]
+        },
+        {
+          "dest": "SAINT BARTHELEMY",
+          "mnemoarret": "CHVERT-E",
+          "coordonnees": [
+            47.47042,
+            -0.51662772
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "MORLIERE",
+      "stopsDest": [
+        {
+          "dest": "BEAUCOUZE L'ATOLL",
+          "mnemoarret": "MORLIERE",
+          "coordonnees": [
+            47.461534,
+            -0.48250691
+          ]
+        },
+        {
+          "dest": "SAINT BARTHELEMY",
+          "mnemoarret": "MORLIE-E",
+          "coordonnees": [
+            47.461547,
+            -0.48234833
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "PROMENIERS",
+      "stopsDest": [
+        {
+          "dest": "LORRAINE",
+          "mnemoarret": "PROMENIE",
+          "coordonnees": [
+            47.477302,
+            -0.63138707
+          ]
+        },
+        {
+          "dest": "SAINT BARTHELEMY",
+          "mnemoarret": "PROMENIE",
+          "coordonnees": [
+            47.477302,
+            -0.63138707
+          ]
+        },
+        {
+          "dest": "BEAUCOUZE L'ATOLL",
+          "mnemoarret": "PROME-E",
+          "coordonnees": [
+            47.477384,
+            -0.63135181
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "GRANGE AUX BELLES",
+      "stopsDest": [
+        {
+          "dest": "SAINT BARTHELEMY",
+          "mnemoarret": "GRANBELL",
+          "coordonnees": [
+            47.476672,
+            -0.62859037
+          ]
+        },
+        {
+          "dest": "LORRAINE",
+          "mnemoarret": "GRANBELL",
+          "coordonnees": [
+            47.476672,
+            -0.62859037
+          ]
+        },
+        {
+          "dest": "BEAUCOUZE L'ATOLL",
+          "mnemoarret": "GRANBE-E",
+          "coordonnees": [
+            47.476706,
+            -0.62832672
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "CENTRE EQUESTRE",
+      "stopsDest": [
+        {
+          "dest": "BEAUCOUZE L'ATOLL",
+          "mnemoarret": "CEEQUEST",
+          "coordonnees": [
+            47.459582,
+            -0.48469956
+          ]
+        },
+        {
+          "dest": "SAINT BARTHELEMY",
+          "mnemoarret": "CEEQUE-E",
+          "coordonnees": [
+            47.459567,
+            -0.48457932
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "ARCEAU",
+      "stopsDest": [
+        {
+          "dest": "BELLE-BEILLE",
+          "mnemoarret": "ARCEAU",
+          "coordonnees": [
+            47.47108,
+            -0.51978263
+          ]
+        },
+        {
+          "dest": "BEAUCOUZE L'ATOLL",
+          "mnemoarret": "ARCEAU",
+          "coordonnees": [
+            47.47108,
+            -0.51978263
+          ]
+        },
+        {
+          "dest": "SAINT BARTHELEMY",
+          "mnemoarret": "ARCEAU-E",
+          "coordonnees": [
+            47.47097,
+            -0.51985639
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "RODIN",
+      "stopsDest": [
+        {
+          "dest": "SAINT BARTHELEMY",
+          "mnemoarret": "RODIN",
+          "coordonnees": [
+            47.475963,
+            -0.62569644
+          ]
+        },
+        {
+          "dest": "LORRAINE",
+          "mnemoarret": "RODIN",
+          "coordonnees": [
+            47.475963,
+            -0.62569644
+          ]
+        },
+        {
+          "dest": "BEAUCOUZE L'ATOLL",
+          "mnemoarret": "RODIN -E",
+          "coordonnees": [
+            47.47607,
+            -0.62574221
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "PELLERINIERE",
+      "stopsDest": [
+        {
+          "dest": "BEAUCOUZE L'ATOLL",
+          "mnemoarret": "PELLERI",
+          "coordonnees": [
+            47.460693,
+            -0.48823562
+          ]
+        },
+        {
+          "dest": "SAINT BARTHELEMY",
+          "mnemoarret": "PELLER-E",
+          "coordonnees": [
+            47.4602,
+            -0.48738666
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "AFPA",
+      "stopsDest": [
+        {
+          "dest": "BELLE-BEILLE",
+          "mnemoarret": "CFPA",
+          "coordonnees": [
+            47.471541,
+            -0.52335172
+          ]
+        },
+        {
+          "dest": "BEAUCOUZE L'ATOLL",
+          "mnemoarret": "CFPA",
+          "coordonnees": [
+            47.471541,
+            -0.52335172
+          ]
+        },
+        {
+          "dest": "SAINT BARTHELEMY",
+          "mnemoarret": "CFPA-E",
+          "coordonnees": [
+            47.471464,
+            -0.52282986
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "BOURG DE PAILLE",
+      "stopsDest": [
+        {
+          "dest": "LORRAINE",
+          "mnemoarret": "BRGPAILL",
+          "coordonnees": [
+            47.474353,
+            -0.62494307
+          ]
+        },
+        {
+          "dest": "SAINT BARTHELEMY",
+          "mnemoarret": "BRGPAILL",
+          "coordonnees": [
+            47.474353,
+            -0.62494307
+          ]
+        },
+        {
+          "dest": "BEAUCOUZE L'ATOLL",
+          "mnemoarret": "BRGPAI-E",
+          "coordonnees": [
+            47.474873,
+            -0.62466665
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "CIMETIERE DE L'EST",
+      "stopsDest": [
+        {
+          "dest": "BELLE-BEILLE",
+          "mnemoarret": "CIMETIER",
+          "coordonnees": [
+            47.47137,
+            -0.52773646
+          ]
+        },
+        {
+          "dest": "BEAUCOUZE L'ATOLL",
+          "mnemoarret": "CIMETIER",
+          "coordonnees": [
+            47.47137,
+            -0.52773646
+          ]
+        },
+        {
+          "dest": "SAINT BARTHELEMY",
+          "mnemoarret": "CIMETI-E",
+          "coordonnees": [
+            47.471225,
+            -0.52774198
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "LAREVELLIERE",
+      "stopsDest": [
+        {
+          "dest": "BELLE-BEILLE",
+          "mnemoarret": "LAMART",
+          "coordonnees": [
+            47.471214,
+            -0.53183
+          ]
+        },
+        {
+          "dest": "BEAUCOUZE L'ATOLL",
+          "mnemoarret": "LAMART",
+          "coordonnees": [
+            47.471214,
+            -0.53183
+          ]
+        },
+        {
+          "dest": "SAINT BARTHELEMY",
+          "mnemoarret": "LAMART-E",
+          "coordonnees": [
+            47.471304,
+            -0.53364022
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "LE LANDREAU",
+      "stopsDest": [
+        {
+          "dest": "SAINT BARTHELEMY",
+          "mnemoarret": "LANDREAU",
+          "coordonnees": [
+            47.474021,
+            -0.61783525
+          ]
+        },
+        {
+          "dest": "LORRAINE",
+          "mnemoarret": "LANDREAU",
+          "coordonnees": [
+            47.474021,
+            -0.61783525
+          ]
+        },
+        {
+          "dest": "BEAUCOUZE L'ATOLL",
+          "mnemoarret": "LANDRE-E",
+          "coordonnees": [
+            47.474165,
+            -0.61784322
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "GRAND PERIGNE",
+      "stopsDest": [
+        {
+          "dest": "SAINT BARTHELEMY",
+          "mnemoarret": "GDPERIGN",
+          "coordonnees": [
+            47.473796,
+            -0.61466308
+          ]
+        },
+        {
+          "dest": "LORRAINE",
+          "mnemoarret": "GDPERIGN",
+          "coordonnees": [
+            47.473796,
+            -0.61466308
+          ]
+        },
+        {
+          "dest": "BEAUCOUZE L'ATOLL",
+          "mnemoarret": "GDPERI-E",
+          "coordonnees": [
+            47.473895,
+            -0.61465531
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "MAISON DES ARTS",
+      "stopsDest": [
+        {
+          "dest": "BELLE-BEILLE",
+          "mnemoarret": "BELFONTA",
+          "coordonnees": [
+            47.47185,
+            -0.53775833
+          ]
+        },
+        {
+          "dest": "BEAUCOUZE L'ATOLL",
+          "mnemoarret": "BELFONTA",
+          "coordonnees": [
+            47.47185,
+            -0.53775833
+          ]
+        },
+        {
+          "dest": "SAINT BARTHELEMY",
+          "mnemoarret": "BELFON-E",
+          "coordonnees": [
+            47.471705,
+            -0.53744516
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "INRA",
+      "stopsDest": [
+        {
+          "dest": "SAINT BARTHELEMY",
+          "mnemoarret": "INRA",
+          "coordonnees": [
+            47.474697,
+            -0.61111516
+          ]
+        },
+        {
+          "dest": "LORRAINE",
+          "mnemoarret": "INRA",
+          "coordonnees": [
+            47.474697,
+            -0.61111516
+          ]
+        },
+        {
+          "dest": "BEAUCOUZE L'ATOLL",
+          "mnemoarret": "INRA  -E",
+          "coordonnees": [
+            47.474737,
+            -0.61130325
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "CONSTANT LEMOINE",
+      "stopsDest": [
+        {
+          "dest": "BELLE-BEILLE",
+          "mnemoarret": "CLEMOINE",
+          "coordonnees": [
+            47.471995,
+            -0.54209377
+          ]
+        },
+        {
+          "dest": "BEAUCOUZE L'ATOLL",
+          "mnemoarret": "CLEMOINE",
+          "coordonnees": [
+            47.471995,
+            -0.54209377
+          ]
+        },
+        {
+          "dest": "SAINT BARTHELEMY",
+          "mnemoarret": "CLEMOI-E",
+          "coordonnees": [
+            47.471961,
+            -0.54162733
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "MOREL",
+      "stopsDest": [
+        {
+          "dest": "SAINT BARTHELEMY",
+          "mnemoarret": "MOREL",
+          "coordonnees": [
+            47.474898,
+            -0.60848438
+          ]
+        },
+        {
+          "dest": "LORRAINE",
+          "mnemoarret": "MOREL",
+          "coordonnees": [
+            47.474898,
+            -0.60848438
+          ]
+        },
+        {
+          "dest": "BELLE-BEILLE",
+          "mnemoarret": "MOREL-E",
+          "coordonnees": [
+            47.474978,
+            -0.60852863
+          ]
+        },
+        {
+          "dest": "BEAUCOUZE L'ATOLL",
+          "mnemoarret": "MOREL-E",
+          "coordonnees": [
+            47.474978,
+            -0.60852863
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "DARWIN",
+      "stopsDest": [
+        {
+          "dest": "SAINT BARTHELEMY",
+          "mnemoarret": "DARWIN",
+          "coordonnees": [
+            47.473837,
+            -0.60421721
+          ]
+        },
+        {
+          "dest": "LORRAINE",
+          "mnemoarret": "DARWIN",
+          "coordonnees": [
+            47.473837,
+            -0.60421721
+          ]
+        },
+        {
+          "dest": "BELLE-BEILLE",
+          "mnemoarret": "DARWIN-E",
+          "coordonnees": [
+            47.474252,
+            -0.60522258
+          ]
+        },
+        {
+          "dest": "BEAUCOUZE L'ATOLL",
+          "mnemoarret": "DARWIN-E",
+          "coordonnees": [
+            47.474252,
+            -0.60522258
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "MAIL",
+      "stopsDest": [
+        {
+          "dest": "BELLE-BEILLE",
+          "mnemoarret": "MAIL-NAE",
+          "coordonnees": [
+            47.471271,
+            -0.54658137
+          ]
+        },
+        {
+          "dest": "BEAUCOUZE L'ATOLL",
+          "mnemoarret": "MAIL-NAE",
+          "coordonnees": [
+            47.471271,
+            -0.54658137
+          ]
+        },
+        {
+          "dest": "SAINT BARTHELEMY",
+          "mnemoarret": "MAIL-HDV",
+          "coordonnees": [
+            47.47108,
+            -0.54630553
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "FOCH MAISON BLEUE",
+      "stopsDest": [
+        {
+          "dest": "BELLE-BEILLE",
+          "mnemoarret": "FO-LOR-R",
+          "coordonnees": [
+            47.469672,
+            -0.5489904
+          ]
+        },
+        {
+          "dest": "BEAUCOUZE L'ATOLL",
+          "mnemoarret": "FO-LOR-R",
+          "coordonnees": [
+            47.469672,
+            -0.5489904
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "FOCH SAINT AUBIN",
+      "stopsDest": [
+        {
+          "dest": "BELLE-BEILLE",
+          "mnemoarret": "STAUBI-E",
+          "coordonnees": [
+            47.468136,
+            -0.55104429
+          ]
+        },
+        {
+          "dest": "BEAUCOUZE L'ATOLL",
+          "mnemoarret": "STAUBI-E",
+          "coordonnees": [
+            47.468136,
+            -0.55104429
+          ]
+        },
+        {
+          "dest": "SAINT BARTHELEMY",
+          "mnemoarret": "STAUBIN",
+          "coordonnees": [
+            47.468557,
+            -0.55003174
+          ]
+        },
+        {
+          "dest": "LORRAINE",
+          "mnemoarret": "STAUBIN",
+          "coordonnees": [
+            47.468557,
+            -0.55003174
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "LA BARRE",
+      "stopsDest": [
+        {
+          "dest": "SAINT BARTHELEMY",
+          "mnemoarret": "LABARRE",
+          "coordonnees": [
+            47.473182,
+            -0.59739717
+          ]
+        },
+        {
+          "dest": "LORRAINE",
+          "mnemoarret": "LABARRE",
+          "coordonnees": [
+            47.473182,
+            -0.59739717
+          ]
+        },
+        {
+          "dest": "BELLE-BEILLE",
+          "mnemoarret": "P-LBAR-E",
+          "coordonnees": [
+            47.472475,
+            -0.59755739
+          ]
+        },
+        {
+          "dest": "BEAUCOUZE L'ATOLL",
+          "mnemoarret": "P-LBAR-E",
+          "coordonnees": [
+            47.472475,
+            -0.59755739
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "FOCH HARAS",
+      "stopsDest": [
+        {
+          "dest": "BELLE-BEILLE",
+          "mnemoarret": "HARAS-E",
+          "coordonnees": [
+            47.467251,
+            -0.5522308
+          ]
+        },
+        {
+          "dest": "BEAUCOUZE L'ATOLL",
+          "mnemoarret": "HARAS-E",
+          "coordonnees": [
+            47.467251,
+            -0.5522308
+          ]
+        },
+        {
+          "dest": "SAINT BARTHELEMY",
+          "mnemoarret": "HARAS",
+          "coordonnees": [
+            47.467123,
+            -0.55193186
+          ]
+        },
+        {
+          "dest": "LORRAINE",
+          "mnemoarret": "HARAS",
+          "coordonnees": [
+            47.467123,
+            -0.55193186
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "LICORNE",
+      "stopsDest": [
+        {
+          "dest": "SAINT BARTHELEMY",
+          "mnemoarret": "LICORNE",
+          "coordonnees": [
+            47.473281,
+            -0.59345979
+          ]
+        },
+        {
+          "dest": "LORRAINE",
+          "mnemoarret": "LICORNE",
+          "coordonnees": [
+            47.473281,
+            -0.59345979
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "PATTON",
+      "stopsDest": [
+        {
+          "dest": "SAINT BARTHELEMY",
+          "mnemoarret": "PATTON",
+          "coordonnees": [
+            47.473345,
+            -0.59163128
+          ]
+        },
+        {
+          "dest": "LORRAINE",
+          "mnemoarret": "PATTON",
+          "coordonnees": [
+            47.473345,
+            -0.59163128
+          ]
+        },
+        {
+          "dest": "BELLE-BEILLE",
+          "mnemoarret": "P-PATT-E",
+          "coordonnees": [
+            47.472192,
+            -0.59346623
+          ]
+        },
+        {
+          "dest": "BEAUCOUZE L'ATOLL",
+          "mnemoarret": "P-PATT-E",
+          "coordonnees": [
+            47.472192,
+            -0.59346623
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "GARES PAPIN",
+      "stopsDest": [
+        {
+          "dest": "BELLE-BEILLE",
+          "mnemoarret": "GAREPA-E",
+          "coordonnees": [
+            47.465173,
+            -0.55757348
+          ]
+        },
+        {
+          "dest": "SAINT BARTHELEMY",
+          "mnemoarret": "GAREPAPI",
+          "coordonnees": [
+            47.464908,
+            -0.55775815
+          ]
+        },
+        {
+          "dest": "LORRAINE",
+          "mnemoarret": "GAREPAPI",
+          "coordonnees": [
+            47.464908,
+            -0.55775815
+          ]
+        },
+        {
+          "dest": "BEAUCOUZE L'ATOLL",
+          "mnemoarret": "GAREPA-E",
+          "coordonnees": [
+            47.465173,
+            -0.55757348
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "BREMONT CHATEAU",
+      "stopsDest": [
+        {
+          "dest": "BELLE-BEILLE",
+          "mnemoarret": "BREMON-E",
+          "coordonnees": [
+            47.465967,
+            -0.55930237
+          ]
+        },
+        {
+          "dest": "BEAUCOUZE L'ATOLL",
+          "mnemoarret": "BREMON-E",
+          "coordonnees": [
+            47.465967,
+            -0.55930237
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "ELYSEE",
+      "stopsDest": [
+        {
+          "dest": "SAINT BARTHELEMY",
+          "mnemoarret": "ELYSEE",
+          "coordonnees": [
+            47.473567,
+            -0.58463391
+          ]
+        },
+        {
+          "dest": "LORRAINE",
+          "mnemoarret": "ELYSEE",
+          "coordonnees": [
+            47.473567,
+            -0.58463391
+          ]
+        },
+        {
+          "dest": "BELLE-BEILLE",
+          "mnemoarret": "P-ELYS-E",
+          "coordonnees": [
+            47.472259,
+            -0.5851197
+          ]
+        },
+        {
+          "dest": "BEAUCOUZE L'ATOLL",
+          "mnemoarret": "P-ELYS-E",
+          "coordonnees": [
+            47.472259,
+            -0.5851197
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "ACADEMIE",
+      "stopsDest": [
+        {
+          "dest": "BELLE-BEILLE",
+          "mnemoarret": "ACAD-PLA",
+          "coordonnees": [
+            47.468431,
+            -0.5586797
+          ]
+        },
+        {
+          "dest": "LORRAINE",
+          "mnemoarret": "ACADEMIE",
+          "coordonnees": [
+            47.467429,
+            -0.55915619
+          ]
+        },
+        {
+          "dest": "SAINT BARTHELEMY",
+          "mnemoarret": "ACADEMIE",
+          "coordonnees": [
+            47.467429,
+            -0.55915619
+          ]
+        },
+        {
+          "dest": "BEAUCOUZE L'ATOLL",
+          "mnemoarret": "ACAD-PLA",
+          "coordonnees": [
+            47.468431,
+            -0.5586797
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "MONTESQUIEU",
+      "stopsDest": [
+        {
+          "dest": "SAINT BARTHELEMY",
+          "mnemoarret": "MONTESQU",
+          "coordonnees": [
+            47.473692,
+            -0.58037928
+          ]
+        },
+        {
+          "dest": "LORRAINE",
+          "mnemoarret": "MONTESQU",
+          "coordonnees": [
+            47.473692,
+            -0.58037928
+          ]
+        },
+        {
+          "dest": "BELLE-BEILLE",
+          "mnemoarret": "P-MTSQ-E",
+          "coordonnees": [
+            47.473457,
+            -0.57971589
+          ]
+        },
+        {
+          "dest": "BEAUCOUZE L'ATOLL",
+          "mnemoarret": "P-MTSQ-E",
+          "coordonnees": [
+            47.473457,
+            -0.57971589
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "CHATEAU",
+      "stopsDest": [
+        {
+          "dest": "BELLE-BEILLE",
+          "mnemoarret": "CHDARR-E",
+          "coordonnees": [
+            47.46927,
+            -0.56002623
+          ]
+        },
+        {
+          "dest": "SAINT BARTHELEMY",
+          "mnemoarret": "CHDARR",
+          "coordonnees": [
+            47.468767,
+            -0.55929529
+          ]
+        },
+        {
+          "dest": "LORRAINE",
+          "mnemoarret": "CHDARR",
+          "coordonnees": [
+            47.468767,
+            -0.55929529
+          ]
+        },
+        {
+          "dest": "BEAUCOUZE L'ATOLL",
+          "mnemoarret": "CHDARR-E",
+          "coordonnees": [
+            47.46927,
+            -0.56002623
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "BALZAC",
+      "stopsDest": [
+        {
+          "dest": "LORRAINE",
+          "mnemoarret": "FARCY",
+          "coordonnees": [
+            47.472437,
+            -0.57624827
+          ]
+        },
+        {
+          "dest": "SAINT BARTHELEMY",
+          "mnemoarret": "FARCY",
+          "coordonnees": [
+            47.472437,
+            -0.57624827
+          ]
+        },
+        {
+          "dest": "BELLE-BEILLE",
+          "mnemoarret": "FARCY-E",
+          "coordonnees": [
+            47.472679,
+            -0.57630132
+          ]
+        },
+        {
+          "dest": "BEAUCOUZE L'ATOLL",
+          "mnemoarret": "FARCY-E",
+          "coordonnees": [
+            47.472679,
+            -0.57630132
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "ARAGON",
+      "stopsDest": [
+        {
+          "dest": "BELLE-BEILLE",
+          "mnemoarret": "ARAGO-E",
+          "coordonnees": [
+            47.471728,
+            -0.56756738
+          ]
+        },
+        {
+          "dest": "LORRAINE",
+          "mnemoarret": "ARAGON",
+          "coordonnees": [
+            47.471624,
+            -0.56703073
+          ]
+        },
+        {
+          "dest": "SAINT BARTHELEMY",
+          "mnemoarret": "ARAGON",
+          "coordonnees": [
+            47.471624,
+            -0.56703073
+          ]
+        },
+        {
+          "dest": "BEAUCOUZE L'ATOLL",
+          "mnemoarret": "ARAGO-E",
+          "coordonnees": [
+            47.471728,
+            -0.56756738
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "BON PASTEUR",
+      "stopsDest": [
+        {
+          "dest": "BELLE-BEILLE",
+          "mnemoarret": "BPASTE-E",
+          "coordonnees": [
+            47.470486,
+            -0.5697298
+          ]
+        },
+        {
+          "dest": "LORRAINE",
+          "mnemoarret": "BPASTEUR",
+          "coordonnees": [
+            47.470239,
+            -0.56951722
+          ]
+        },
+        {
+          "dest": "SAINT BARTHELEMY",
+          "mnemoarret": "BPASTEUR",
+          "coordonnees": [
+            47.470239,
+            -0.56951722
+          ]
+        },
+        {
+          "dest": "BEAUCOUZE L'ATOLL",
+          "mnemoarret": "BPASTE-E",
+          "coordonnees": [
+            47.470486,
+            -0.5697298
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "ROI DE POLOGNE",
+      "stopsDest": [
+        {
+          "dest": "LORRAINE",
+          "mnemoarret": "ROIPOLO",
+          "coordonnees": [
+            47.469501,
+            -0.56126
+          ]
+        },
+        {
+          "dest": "SAINT BARTHELEMY",
+          "mnemoarret": "ROIPOLO",
+          "coordonnees": [
+            47.469501,
+            -0.56126
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "GARES BREMONT",
+      "stopsDest": [
+        {
+          "dest": "SAINT BARTHELEMY",
+          "mnemoarret": "GBREM-E",
+          "coordonnees": [
+            47.465702,
+            -0.55948703
+          ]
+        },
+        {
+          "dest": "LORRAINE",
+          "mnemoarret": "GBREM-E",
+          "coordonnees": [
+            47.465702,
+            -0.55948703
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "LES GARES",
+      "stopsDest": [
+        {
+          "dest": "SAINT BARTHELEMY",
+          "mnemoarret": "LESGARES",
+          "coordonnees": [
+            47.465164,
+            -0.55579433
+          ]
+        },
+        {
+          "dest": "LORRAINE",
+          "mnemoarret": "LESGARES",
+          "coordonnees": [
+            47.465164,
+            -0.55579433
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "BARBREAU",
+      "stopsDest": [
+        {
+          "dest": "BELLE-BEILLE",
+          "mnemoarret": "P_BARD-E",
+          "coordonnees": [
+            47.472098,
+            -0.59111135
+          ]
+        },
+        {
+          "dest": "BEAUCOUZE L'ATOLL",
+          "mnemoarret": "P_BARD-E",
+          "coordonnees": [
+            47.472098,
+            -0.59111135
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "CNFPT",
+      "stopsDest": [
+        {
+          "dest": "BELLE-BEILLE",
+          "mnemoarret": "CNFPT",
+          "coordonnees": [
+            47.472383,
+            -0.59978258
+          ]
+        },
+        {
+          "dest": "BEAUCOUZE L'ATOLL",
+          "mnemoarret": "CNFPT",
+          "coordonnees": [
+            47.472383,
+            -0.59978258
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "LORRAINE",
+      "stopsDest": [
+        {
+          "dest": "SAINT BARTHELEMY",
+          "mnemoarret": "LORRAIN1",
+          "coordonnees": [
+            47.470207,
+            -0.54775829
+          ]
+        },
+        {
+          "dest": "LORRAINE",
+          "mnemoarret": "LORRAIN1",
+          "coordonnees": [
+            47.470207,
+            -0.54775829
+          ]
+        }
+      ]
+    }
+  ]
+}

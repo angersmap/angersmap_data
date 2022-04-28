@@ -1,0 +1,1561 @@
+{
+  "version": "20211204104936",
+  "mnemoligne": "02",
+  "nomligne": "ST SYLVAIN BANCHAIS <>TRELAZE",
+  "color": "006AB2",
+  "dests": [
+    {
+      "name": "SAINT SYLVAIN",
+      "color": "0099FF",
+      "codeparcours": "TRELAZE > ST SYLVAIN 9.0"
+    },
+    {
+      "name": "BANCHAIS",
+      "color": "0099FF",
+      "codeparcours": "TRELAZE > BANCHAIS 9.0"
+    },
+    {
+      "name": "TRELAZE QUANTINIERE",
+      "color": "006AB2",
+      "codeparcours": "BANCHAIS > TRELAZE 9.0"
+    }
+  ],
+  "stops": [
+    {
+      "nomarret": "BANCHAIS",
+      "stopsDest": [
+        {
+          "dest": "TRELAZE QUANTINIERE",
+          "mnemoarret": "STMANS",
+          "coordonnees": [
+            47.485805,
+            -0.51247285
+          ]
+        },
+        {
+          "dest": "BANCHAIS",
+          "mnemoarret": "BANCST-E",
+          "coordonnees": [
+            47.485805,
+            -0.51247285
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "TRELAZE",
+      "stopsDest": [
+        {
+          "dest": "BANCHAIS",
+          "mnemoarret": "TRELAZE",
+          "coordonnees": [
+            47.458751,
+            -0.47444991
+          ]
+        },
+        {
+          "dest": "SAINT SYLVAIN",
+          "mnemoarret": "TRELAZE",
+          "coordonnees": [
+            47.458751,
+            -0.47444991
+          ]
+        },
+        {
+          "dest": "TRELAZE QUANTINIERE",
+          "mnemoarret": "TRELA AR",
+          "coordonnees": [
+            47.459849,
+            -0.47555631
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "MALRAUX",
+      "stopsDest": [
+        {
+          "dest": "BANCHAIS",
+          "mnemoarret": "MAURIAC",
+          "coordonnees": [
+            47.457459,
+            -0.47354565
+          ]
+        },
+        {
+          "dest": "SAINT SYLVAIN",
+          "mnemoarret": "MAURIAC",
+          "coordonnees": [
+            47.457459,
+            -0.47354565
+          ]
+        },
+        {
+          "dest": "TRELAZE QUANTINIERE",
+          "mnemoarret": "MAURIA-E",
+          "coordonnees": [
+            47.457625,
+            -0.47335538
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "7 SONNETTES",
+      "stopsDest": [
+        {
+          "dest": "TRELAZE QUANTINIERE",
+          "mnemoarret": "SEPSONET",
+          "coordonnees": [
+            47.486072,
+            -0.5147843
+          ]
+        },
+        {
+          "dest": "BANCHAIS",
+          "mnemoarret": "SEPSON-E",
+          "coordonnees": [
+            47.485739,
+            -0.51515153
+          ]
+        },
+        {
+          "dest": "SAINT SYLVAIN",
+          "mnemoarret": "SEPSON-E",
+          "coordonnees": [
+            47.485739,
+            -0.51515153
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "QUANTINIERE",
+      "stopsDest": [
+        {
+          "dest": "SAINT SYLVAIN",
+          "mnemoarret": "QUANTIN",
+          "coordonnees": [
+            47.45511,
+            -0.47168333
+          ]
+        },
+        {
+          "dest": "BANCHAIS",
+          "mnemoarret": "QUANTIN",
+          "coordonnees": [
+            47.45511,
+            -0.47168333
+          ]
+        },
+        {
+          "dest": "TRELAZE QUANTINIERE",
+          "mnemoarret": "QUANTI-E",
+          "coordonnees": [
+            47.45531,
+            -0.47157447
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "SOLEIL LEVANT",
+      "stopsDest": [
+        {
+          "dest": "TRELAZE QUANTINIERE",
+          "mnemoarret": "SOLELEVA",
+          "coordonnees": [
+            47.484626,
+            -0.51758818
+          ]
+        },
+        {
+          "dest": "SAINT SYLVAIN",
+          "mnemoarret": "SOLELE-E",
+          "coordonnees": [
+            47.48489,
+            -0.51675251
+          ]
+        },
+        {
+          "dest": "BANCHAIS",
+          "mnemoarret": "SOLELE-E",
+          "coordonnees": [
+            47.48489,
+            -0.51675251
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "HALTE FERROVIAIRE",
+      "stopsDest": [
+        {
+          "dest": "BANCHAIS",
+          "mnemoarret": "PEPINIER",
+          "coordonnees": [
+            47.45245,
+            -0.47003036
+          ]
+        },
+        {
+          "dest": "SAINT SYLVAIN",
+          "mnemoarret": "PEPINIER",
+          "coordonnees": [
+            47.45245,
+            -0.47003036
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "CHATENAY",
+      "stopsDest": [
+        {
+          "dest": "TRELAZE QUANTINIERE",
+          "mnemoarret": "CHATENAY",
+          "coordonnees": [
+            47.482728,
+            -0.52117762
+          ]
+        },
+        {
+          "dest": "BANCHAIS",
+          "mnemoarret": "CHATEN-E",
+          "coordonnees": [
+            47.482566,
+            -0.52118219
+          ]
+        },
+        {
+          "dest": "SAINT SYLVAIN",
+          "mnemoarret": "CHATEN-E",
+          "coordonnees": [
+            47.482566,
+            -0.52118219
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "MIMOSAS",
+      "stopsDest": [
+        {
+          "dest": "TRELAZE QUANTINIERE",
+          "mnemoarret": "SCHWEITZ",
+          "coordonnees": [
+            47.481575,
+            -0.52343921
+          ]
+        },
+        {
+          "dest": "BANCHAIS",
+          "mnemoarret": "SCHWTZ-E",
+          "coordonnees": [
+            47.481554,
+            -0.52318583
+          ]
+        },
+        {
+          "dest": "SAINT SYLVAIN",
+          "mnemoarret": "SCHWTZ-E",
+          "coordonnees": [
+            47.481554,
+            -0.52318583
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "8 MAI TRELAZE",
+      "stopsDest": [
+        {
+          "dest": "SAINT SYLVAIN",
+          "mnemoarret": "HMTREL",
+          "coordonnees": [
+            47.449778,
+            -0.4655241
+          ]
+        },
+        {
+          "dest": "BANCHAIS",
+          "mnemoarret": "HMTREL",
+          "coordonnees": [
+            47.449778,
+            -0.4655241
+          ]
+        },
+        {
+          "dest": "TRELAZE QUANTINIERE",
+          "mnemoarret": "HMTRE-E",
+          "coordonnees": [
+            47.449394,
+            -0.46501297
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "BRISEPOTIERE",
+      "stopsDest": [
+        {
+          "dest": "TRELAZE QUANTINIERE",
+          "mnemoarret": "BRISEPOT",
+          "coordonnees": [
+            47.479526,
+            -0.52729894
+          ]
+        },
+        {
+          "dest": "SAINT SYLVAIN",
+          "mnemoarret": "BRISEP-E",
+          "coordonnees": [
+            47.479347,
+            -0.52724949
+          ]
+        },
+        {
+          "dest": "BANCHAIS",
+          "mnemoarret": "BRISEP-E",
+          "coordonnees": [
+            47.479347,
+            -0.52724949
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "DESJARDINS",
+      "stopsDest": [
+        {
+          "dest": "TRELAZE QUANTINIERE",
+          "mnemoarret": "DESJARDI",
+          "coordonnees": [
+            47.477949,
+            -0.53029424
+          ]
+        },
+        {
+          "dest": "BANCHAIS",
+          "mnemoarret": "DESJAR-E",
+          "coordonnees": [
+            47.477863,
+            -0.5301303
+          ]
+        },
+        {
+          "dest": "SAINT SYLVAIN",
+          "mnemoarret": "DESJAR-E",
+          "coordonnees": [
+            47.477863,
+            -0.5301303
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "CIMETIERE DE TRELAZE",
+      "stopsDest": [
+        {
+          "dest": "BANCHAIS",
+          "mnemoarret": "CIMTRELA",
+          "coordonnees": [
+            47.446392,
+            -0.4626128
+          ]
+        },
+        {
+          "dest": "SAINT SYLVAIN",
+          "mnemoarret": "CIMTRELA",
+          "coordonnees": [
+            47.446392,
+            -0.4626128
+          ]
+        },
+        {
+          "dest": "TRELAZE QUANTINIERE",
+          "mnemoarret": "CIMETR-E",
+          "coordonnees": [
+            47.446273,
+            -0.46230141
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "MACE",
+      "stopsDest": [
+        {
+          "dest": "TRELAZE QUANTINIERE",
+          "mnemoarret": "MACE",
+          "coordonnees": [
+            47.476646,
+            -0.5327333
+          ]
+        },
+        {
+          "dest": "SAINT SYLVAIN",
+          "mnemoarret": "MACE  -E",
+          "coordonnees": [
+            47.477004,
+            -0.53173032
+          ]
+        },
+        {
+          "dest": "BANCHAIS",
+          "mnemoarret": "MACE  -E",
+          "coordonnees": [
+            47.477004,
+            -0.53173032
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "EGLISE DE TRELAZE",
+      "stopsDest": [
+        {
+          "dest": "SAINT SYLVAIN",
+          "mnemoarret": "EGLTRELA",
+          "coordonnees": [
+            47.44557,
+            -0.46494461
+          ]
+        },
+        {
+          "dest": "BANCHAIS",
+          "mnemoarret": "EGLTRELA",
+          "coordonnees": [
+            47.44557,
+            -0.46494461
+          ]
+        },
+        {
+          "dest": "TRELAZE QUANTINIERE",
+          "mnemoarret": "EGLTRE-E",
+          "coordonnees": [
+            47.445434,
+            -0.46461903
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "LUTIN",
+      "stopsDest": [
+        {
+          "dest": "TRELAZE QUANTINIERE",
+          "mnemoarret": "LUTIN",
+          "coordonnees": [
+            47.475749,
+            -0.53442411
+          ]
+        },
+        {
+          "dest": "SAINT SYLVAIN",
+          "mnemoarret": "LUTIN -E",
+          "coordonnees": [
+            47.475729,
+            -0.53417075
+          ]
+        },
+        {
+          "dest": "BANCHAIS",
+          "mnemoarret": "LUTIN -E",
+          "coordonnees": [
+            47.475729,
+            -0.53417075
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "MAIRIE DE TRELAZE",
+      "stopsDest": [
+        {
+          "dest": "BANCHAIS",
+          "mnemoarret": "MAIRTREL",
+          "coordonnees": [
+            47.445666,
+            -0.46916887
+          ]
+        },
+        {
+          "dest": "SAINT SYLVAIN",
+          "mnemoarret": "MAIRTREL",
+          "coordonnees": [
+            47.445666,
+            -0.46916887
+          ]
+        },
+        {
+          "dest": "TRELAZE QUANTINIERE",
+          "mnemoarret": "MAIRTR-E",
+          "coordonnees": [
+            47.44549,
+            -0.46827063
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "MUSSET",
+      "stopsDest": [
+        {
+          "dest": "TRELAZE QUANTINIERE",
+          "mnemoarret": "MUSSET",
+          "coordonnees": [
+            47.473727,
+            -0.53974474
+          ]
+        },
+        {
+          "dest": "SAINT SYLVAIN",
+          "mnemoarret": "MUSSET-E",
+          "coordonnees": [
+            47.473636,
+            -0.53871759
+          ]
+        },
+        {
+          "dest": "BANCHAIS",
+          "mnemoarret": "MUSSET-E",
+          "coordonnees": [
+            47.473636,
+            -0.53871759
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "MONTHIBERT",
+      "stopsDest": [
+        {
+          "dest": "SAINT SYLVAIN",
+          "mnemoarret": "MONTHIBE",
+          "coordonnees": [
+            47.444733,
+            -0.47388286
+          ]
+        },
+        {
+          "dest": "BANCHAIS",
+          "mnemoarret": "MONTHIBE",
+          "coordonnees": [
+            47.444733,
+            -0.47388286
+          ]
+        },
+        {
+          "dest": "TRELAZE QUANTINIERE",
+          "mnemoarret": "MONTHI-E",
+          "coordonnees": [
+            47.444621,
+            -0.47330643
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "SAVARY",
+      "stopsDest": [
+        {
+          "dest": "TRELAZE QUANTINIERE",
+          "mnemoarret": "SAVARY",
+          "coordonnees": [
+            47.473536,
+            -0.54273464
+          ]
+        },
+        {
+          "dest": "BANCHAIS",
+          "mnemoarret": "SAVARY-E",
+          "coordonnees": [
+            47.473454,
+            -0.54133628
+          ]
+        },
+        {
+          "dest": "SAINT SYLVAIN",
+          "mnemoarret": "SAVARY-E",
+          "coordonnees": [
+            47.473454,
+            -0.54133628
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "ARENA LOIRE",
+      "stopsDest": [
+        {
+          "dest": "BANCHAIS",
+          "mnemoarret": "GRCARREA",
+          "coordonnees": [
+            47.443464,
+            -0.47868511
+          ]
+        },
+        {
+          "dest": "SAINT SYLVAIN",
+          "mnemoarret": "GRCARREA",
+          "coordonnees": [
+            47.443464,
+            -0.47868511
+          ]
+        },
+        {
+          "dest": "TRELAZE QUANTINIERE",
+          "mnemoarret": "GRCARR-E",
+          "coordonnees": [
+            47.443447,
+            -0.47828617
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "MENDES FRANCE",
+      "stopsDest": [
+        {
+          "dest": "TRELAZE QUANTINIERE",
+          "mnemoarret": "MENDESFR",
+          "coordonnees": [
+            47.472549,
+            -0.54623901
+          ]
+        },
+        {
+          "dest": "SAINT SYLVAIN",
+          "mnemoarret": "MENDES-E",
+          "coordonnees": [
+            47.472943,
+            -0.54559658
+          ]
+        },
+        {
+          "dest": "BANCHAIS",
+          "mnemoarret": "MENDES-E",
+          "coordonnees": [
+            47.472943,
+            -0.54559658
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "FOCH MAISON BLEUE",
+      "stopsDest": [
+        {
+          "dest": "TRELAZE QUANTINIERE",
+          "mnemoarret": "FO-LOR-R",
+          "coordonnees": [
+            47.469672,
+            -0.5489904
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "BUISSON",
+      "stopsDest": [
+        {
+          "dest": "BANCHAIS",
+          "mnemoarret": "BUISSON",
+          "coordonnees": [
+            47.442041,
+            -0.48463324
+          ]
+        },
+        {
+          "dest": "SAINT SYLVAIN",
+          "mnemoarret": "BUISSON",
+          "coordonnees": [
+            47.442041,
+            -0.48463324
+          ]
+        },
+        {
+          "dest": "TRELAZE QUANTINIERE",
+          "mnemoarret": "BUISSO-E",
+          "coordonnees": [
+            47.441904,
+            -0.48396264
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "FOCH SAINT AUBIN",
+      "stopsDest": [
+        {
+          "dest": "TRELAZE QUANTINIERE",
+          "mnemoarret": "STAUBI-E",
+          "coordonnees": [
+            47.468136,
+            -0.55104429
+          ]
+        },
+        {
+          "dest": "BANCHAIS",
+          "mnemoarret": "STAUBIN",
+          "coordonnees": [
+            47.468557,
+            -0.55003174
+          ]
+        },
+        {
+          "dest": "SAINT SYLVAIN",
+          "mnemoarret": "STAUBIN",
+          "coordonnees": [
+            47.468557,
+            -0.55003174
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "FOCH HARAS",
+      "stopsDest": [
+        {
+          "dest": "TRELAZE QUANTINIERE",
+          "mnemoarret": "HARAS-E",
+          "coordonnees": [
+            47.467251,
+            -0.5522308
+          ]
+        },
+        {
+          "dest": "BANCHAIS",
+          "mnemoarret": "HARAS",
+          "coordonnees": [
+            47.467123,
+            -0.55193186
+          ]
+        },
+        {
+          "dest": "SAINT SYLVAIN",
+          "mnemoarret": "HARAS",
+          "coordonnees": [
+            47.467123,
+            -0.55193186
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "PYRAMIDE",
+      "stopsDest": [
+        {
+          "dest": "SAINT SYLVAIN",
+          "mnemoarret": "PYRAM02",
+          "coordonnees": [
+            47.440872,
+            -0.4886443
+          ]
+        },
+        {
+          "dest": "BANCHAIS",
+          "mnemoarret": "PYRAM02",
+          "coordonnees": [
+            47.440872,
+            -0.4886443
+          ]
+        },
+        {
+          "dest": "TRELAZE QUANTINIERE",
+          "mnemoarret": "PYRAM2-E",
+          "coordonnees": [
+            47.440803,
+            -0.48852123
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "LEFEVRE",
+      "stopsDest": [
+        {
+          "dest": "BANCHAIS",
+          "mnemoarret": "LEFEVRE",
+          "coordonnees": [
+            47.443283,
+            -0.48870577
+          ]
+        },
+        {
+          "dest": "SAINT SYLVAIN",
+          "mnemoarret": "LEFEVRE",
+          "coordonnees": [
+            47.443283,
+            -0.48870577
+          ]
+        },
+        {
+          "dest": "TRELAZE QUANTINIERE",
+          "mnemoarret": "LEFEVR-E",
+          "coordonnees": [
+            47.443182,
+            -0.48916477
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "ANDRE LEROY",
+      "stopsDest": [
+        {
+          "dest": "TRELAZE QUANTINIERE",
+          "mnemoarret": "ANLERO-E",
+          "coordonnees": [
+            47.464622,
+            -0.54902208
+          ]
+        },
+        {
+          "dest": "SAINT SYLVAIN",
+          "mnemoarret": "ANLEROY",
+          "coordonnees": [
+            47.464659,
+            -0.54825425
+          ]
+        },
+        {
+          "dest": "BANCHAIS",
+          "mnemoarret": "ANLEROY",
+          "coordonnees": [
+            47.464659,
+            -0.54825425
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "MALAQUAIS",
+      "stopsDest": [
+        {
+          "dest": "SAINT SYLVAIN",
+          "mnemoarret": "MALAQUAI",
+          "coordonnees": [
+            47.444358,
+            -0.4903682
+          ]
+        },
+        {
+          "dest": "BANCHAIS",
+          "mnemoarret": "MALAQUAI",
+          "coordonnees": [
+            47.444358,
+            -0.4903682
+          ]
+        },
+        {
+          "dest": "TRELAZE QUANTINIERE",
+          "mnemoarret": "MALAQU-E",
+          "coordonnees": [
+            47.44401,
+            -0.4902436
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "MICHELET",
+      "stopsDest": [
+        {
+          "dest": "TRELAZE QUANTINIERE",
+          "mnemoarret": "MICHEL-E",
+          "coordonnees": [
+            47.462859,
+            -0.54424133
+          ]
+        },
+        {
+          "dest": "SAINT SYLVAIN",
+          "mnemoarret": "MICHELET",
+          "coordonnees": [
+            47.46353,
+            -0.54552523
+          ]
+        },
+        {
+          "dest": "BANCHAIS",
+          "mnemoarret": "MICHELET",
+          "coordonnees": [
+            47.46353,
+            -0.54552523
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "MENARD",
+      "stopsDest": [
+        {
+          "dest": "BANCHAIS",
+          "mnemoarret": "MENARD",
+          "coordonnees": [
+            47.445839,
+            -0.49386995
+          ]
+        },
+        {
+          "dest": "SAINT SYLVAIN",
+          "mnemoarret": "MENARD",
+          "coordonnees": [
+            47.445839,
+            -0.49386995
+          ]
+        },
+        {
+          "dest": "TRELAZE QUANTINIERE",
+          "mnemoarret": "MENA-E",
+          "coordonnees": [
+            47.445717,
+            -0.49370425
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "CHOUTEAU",
+      "stopsDest": [
+        {
+          "dest": "SAINT SYLVAIN",
+          "mnemoarret": "CHOUTEAU",
+          "coordonnees": [
+            47.446243,
+            -0.49685025
+          ]
+        },
+        {
+          "dest": "BANCHAIS",
+          "mnemoarret": "CHOUTEAU",
+          "coordonnees": [
+            47.446243,
+            -0.49685025
+          ]
+        },
+        {
+          "dest": "TRELAZE QUANTINIERE",
+          "mnemoarret": "CHOUTE-E",
+          "coordonnees": [
+            47.446121,
+            -0.4966978
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "BOURGONNIER",
+      "stopsDest": [
+        {
+          "dest": "TRELAZE QUANTINIERE",
+          "mnemoarret": "BOUGO.-E",
+          "coordonnees": [
+            47.461603,
+            -0.54120035
+          ]
+        },
+        {
+          "dest": "SAINT SYLVAIN",
+          "mnemoarret": "BOUGONNI",
+          "coordonnees": [
+            47.462171,
+            -0.54222651
+          ]
+        },
+        {
+          "dest": "BANCHAIS",
+          "mnemoarret": "BOUGONNI",
+          "coordonnees": [
+            47.462171,
+            -0.54222651
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "VOLNEY",
+      "stopsDest": [
+        {
+          "dest": "TRELAZE QUANTINIERE",
+          "mnemoarret": "VOLNEY-E",
+          "coordonnees": [
+            47.460559,
+            -0.5386488
+          ]
+        },
+        {
+          "dest": "BANCHAIS",
+          "mnemoarret": "VOLNEY",
+          "coordonnees": [
+            47.46044,
+            -0.53801857
+          ]
+        },
+        {
+          "dest": "SAINT SYLVAIN",
+          "mnemoarret": "VOLNEY",
+          "coordonnees": [
+            47.46044,
+            -0.53801857
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "FRESNAIES",
+      "stopsDest": [
+        {
+          "dest": "SAINT SYLVAIN",
+          "mnemoarret": "FRESNAIE",
+          "coordonnees": [
+            47.448053,
+            -0.50048927
+          ]
+        },
+        {
+          "dest": "BANCHAIS",
+          "mnemoarret": "FRESNAIE",
+          "coordonnees": [
+            47.448053,
+            -0.50048927
+          ]
+        },
+        {
+          "dest": "TRELAZE QUANTINIERE",
+          "mnemoarret": "FRESNA-E",
+          "coordonnees": [
+            47.448223,
+            -0.50089639
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "MADELEINE",
+      "stopsDest": [
+        {
+          "dest": "TRELAZE QUANTINIERE",
+          "mnemoarret": "MADELE-E",
+          "coordonnees": [
+            47.459041,
+            -0.53560728
+          ]
+        },
+        {
+          "dest": "BANCHAIS",
+          "mnemoarret": "MADELEIN",
+          "coordonnees": [
+            47.459274,
+            -0.5356729
+          ]
+        },
+        {
+          "dest": "SAINT SYLVAIN",
+          "mnemoarret": "MADELEIN",
+          "coordonnees": [
+            47.459274,
+            -0.5356729
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "REPUBLIQUE TRELAZE",
+      "stopsDest": [
+        {
+          "dest": "SAINT SYLVAIN",
+          "mnemoarret": "REPTRELA",
+          "coordonnees": [
+            47.450145,
+            -0.50435591
+          ]
+        },
+        {
+          "dest": "BANCHAIS",
+          "mnemoarret": "REPTRELA",
+          "coordonnees": [
+            47.450145,
+            -0.50435591
+          ]
+        },
+        {
+          "dest": "TRELAZE QUANTINIERE",
+          "mnemoarret": "REPTRE-E",
+          "coordonnees": [
+            47.450161,
+            -0.50409135
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "SAUMUROISE",
+      "stopsDest": [
+        {
+          "dest": "TRELAZE QUANTINIERE",
+          "mnemoarret": "MILLOT-E",
+          "coordonnees": [
+            47.456802,
+            -0.53190333
+          ]
+        },
+        {
+          "dest": "BANCHAIS",
+          "mnemoarret": "MILLOT.",
+          "coordonnees": [
+            47.457309,
+            -0.53250131
+          ]
+        },
+        {
+          "dest": "SAINT SYLVAIN",
+          "mnemoarret": "MILLOT.",
+          "coordonnees": [
+            47.457309,
+            -0.53250131
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "BELLEVUE",
+      "stopsDest": [
+        {
+          "dest": "BANCHAIS",
+          "mnemoarret": "BELLVUTR",
+          "coordonnees": [
+            47.448184,
+            -0.50689183
+          ]
+        },
+        {
+          "dest": "SAINT SYLVAIN",
+          "mnemoarret": "BELLVUTR",
+          "coordonnees": [
+            47.448184,
+            -0.50689183
+          ]
+        },
+        {
+          "dest": "TRELAZE QUANTINIERE",
+          "mnemoarret": "BELVTR-E",
+          "coordonnees": [
+            47.447852,
+            -0.50796213
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "DELACROIX",
+      "stopsDest": [
+        {
+          "dest": "TRELAZE QUANTINIERE",
+          "mnemoarret": "DELACR-E",
+          "coordonnees": [
+            47.454898,
+            -0.52882817
+          ]
+        },
+        {
+          "dest": "BANCHAIS",
+          "mnemoarret": "DELACROI",
+          "coordonnees": [
+            47.454903,
+            -0.52862938
+          ]
+        },
+        {
+          "dest": "SAINT SYLVAIN",
+          "mnemoarret": "DELACROI",
+          "coordonnees": [
+            47.454903,
+            -0.52862938
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "LEO LAGRANGE",
+      "stopsDest": [
+        {
+          "dest": "BANCHAIS",
+          "mnemoarret": "LEOLAGRA",
+          "coordonnees": [
+            47.44783,
+            -0.50993803
+          ]
+        },
+        {
+          "dest": "SAINT SYLVAIN",
+          "mnemoarret": "LEOLAGRA",
+          "coordonnees": [
+            47.44783,
+            -0.50993803
+          ]
+        },
+        {
+          "dest": "TRELAZE QUANTINIERE",
+          "mnemoarret": "LEOLA2-E",
+          "coordonnees": [
+            47.447811,
+            -0.51034834
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "JUSTICES",
+      "stopsDest": [
+        {
+          "dest": "TRELAZE QUANTINIERE",
+          "mnemoarret": "JUSTIC-E",
+          "coordonnees": [
+            47.453323,
+            -0.52627519
+          ]
+        },
+        {
+          "dest": "BANCHAIS",
+          "mnemoarret": "JUSTICES",
+          "coordonnees": [
+            47.453631,
+            -0.52655715
+          ]
+        },
+        {
+          "dest": "SAINT SYLVAIN",
+          "mnemoarret": "JUSTICES",
+          "coordonnees": [
+            47.453631,
+            -0.52655715
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "VAL DE LOIRE",
+      "stopsDest": [
+        {
+          "dest": "BANCHAIS",
+          "mnemoarret": "VDLOIRE",
+          "coordonnees": [
+            47.449073,
+            -0.51357381
+          ]
+        },
+        {
+          "dest": "SAINT SYLVAIN",
+          "mnemoarret": "VDLOIRE",
+          "coordonnees": [
+            47.449073,
+            -0.51357381
+          ]
+        },
+        {
+          "dest": "TRELAZE QUANTINIERE",
+          "mnemoarret": "VDLOIR-E",
+          "coordonnees": [
+            47.448825,
+            -0.51340133
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "ECLATERIES",
+      "stopsDest": [
+        {
+          "dest": "TRELAZE QUANTINIERE",
+          "mnemoarret": "ECLATE-E",
+          "coordonnees": [
+            47.451075,
+            -0.51999726
+          ]
+        },
+        {
+          "dest": "BANCHAIS",
+          "mnemoarret": "ECLATERI",
+          "coordonnees": [
+            47.451198,
+            -0.51973848
+          ]
+        },
+        {
+          "dest": "SAINT SYLVAIN",
+          "mnemoarret": "ECLATERI",
+          "coordonnees": [
+            47.451198,
+            -0.51973848
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "PAUL BERT",
+      "stopsDest": [
+        {
+          "dest": "BANCHAIS",
+          "mnemoarret": "PATNOIRE",
+          "coordonnees": [
+            47.466318,
+            -0.55247221
+          ]
+        },
+        {
+          "dest": "SAINT SYLVAIN",
+          "mnemoarret": "PATNOIRE",
+          "coordonnees": [
+            47.466318,
+            -0.55247221
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "LORRAINE",
+      "stopsDest": [
+        {
+          "dest": "BANCHAIS",
+          "mnemoarret": "LOR-FO-A",
+          "coordonnees": [
+            47.469619,
+            -0.54857604
+          ]
+        },
+        {
+          "dest": "SAINT SYLVAIN",
+          "mnemoarret": "LOR-FO-A",
+          "coordonnees": [
+            47.469619,
+            -0.54857604
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "GARE DE TRELAZE",
+      "stopsDest": [
+        {
+          "dest": "TRELAZE QUANTINIERE",
+          "mnemoarret": "PEPINI-E",
+          "coordonnees": [
+            47.452154,
+            -0.46960343
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "MIRBEAU",
+      "stopsDest": [
+        {
+          "dest": "SAINT SYLVAIN",
+          "mnemoarret": "MIRBE-E",
+          "coordonnees": [
+            47.488422,
+            -0.50999695
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "ROUTE DE PARIS",
+      "stopsDest": [
+        {
+          "dest": "SAINT SYLVAIN",
+          "mnemoarret": "RTEPAR-E",
+          "coordonnees": [
+            47.489737,
+            -0.50738487
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "PROVINS",
+      "stopsDest": [
+        {
+          "dest": "SAINT SYLVAIN",
+          "mnemoarret": "PROVIN-E",
+          "coordonnees": [
+            47.49256,
+            -0.50203777
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "PARC EXPO - C.O.C.",
+      "stopsDest": [
+        {
+          "dest": "SAINT SYLVAIN",
+          "mnemoarret": "PARCEX-E",
+          "coordonnees": [
+            47.496974,
+            -0.49341476
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "CARREAUX",
+      "stopsDest": [
+        {
+          "dest": "SAINT SYLVAIN",
+          "mnemoarret": "CARREA-E",
+          "coordonnees": [
+            47.512054,
+            -0.47142026
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "MILLARDIERE",
+      "stopsDest": [
+        {
+          "dest": "SAINT SYLVAIN",
+          "mnemoarret": "MILLAR-E",
+          "coordonnees": [
+            47.513914,
+            -0.47375033
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "BAS MORTIER",
+      "stopsDest": [
+        {
+          "dest": "SAINT SYLVAIN",
+          "mnemoarret": "BASMOR-E",
+          "coordonnees": [
+            47.515318,
+            -0.47448876
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "CHAMPS BLANCS",
+      "stopsDest": [
+        {
+          "dest": "SAINT SYLVAIN",
+          "mnemoarret": "CHABLA-E",
+          "coordonnees": [
+            47.517353,
+            -0.47522067
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "UNION",
+      "stopsDest": [
+        {
+          "dest": "SAINT SYLVAIN",
+          "mnemoarret": "UNION-E",
+          "coordonnees": [
+            47.519613,
+            -0.47518067
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "MAIRIE SAINT SYLVAIN",
+      "stopsDest": [
+        {
+          "dest": "SAINT SYLVAIN",
+          "mnemoarret": "GARD-D-E",
+          "coordonnees": [
+            47.519792,
+            -0.47113774
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "MARECHAL LECLERC",
+      "stopsDest": [
+        {
+          "dest": "SAINT SYLVAIN",
+          "mnemoarret": "LECLSYLV",
+          "coordonnees": [
+            47.518508,
+            -0.46652615
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "FRANCAISERIE",
+      "stopsDest": [
+        {
+          "dest": "SAINT SYLVAIN",
+          "mnemoarret": "FRANCAIS",
+          "coordonnees": [
+            47.520938,
+            -0.46577726
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "VICTOR HUGO",
+      "stopsDest": [
+        {
+          "dest": "SAINT SYLVAIN",
+          "mnemoarret": "VICT-D-E",
+          "coordonnees": [
+            47.523536,
+            -0.46740227
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "ANDRE BRUEL",
+      "stopsDest": [
+        {
+          "dest": "SAINT SYLVAIN",
+          "mnemoarret": "ANBRUE-E",
+          "coordonnees": [
+            47.526672,
+            -0.46801931
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "PAUL GAUGUIN",
+      "stopsDest": [
+        {
+          "dest": "SAINT SYLVAIN",
+          "mnemoarret": "GAUGUI-E",
+          "coordonnees": [
+            47.526693,
+            -0.46414031
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "SAINT SYLVAIN",
+      "stopsDest": [
+        {
+          "dest": "SAINT SYLVAIN",
+          "mnemoarret": "STSYCH-A",
+          "coordonnees": [
+            47.525153,
+            -0.4608303
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1958 @@
+{
+  "version": "20211207081929",
+  "mnemoligne": "08",
+  "nomligne": "PONTS DE CE <>  AQUAVITA HOPITAL",
+  "color": "BD7419",
+  "dests": [
+    {
+      "name": "MAIRIE DES PONTS DE CE",
+      "color": "EF9221",
+      "codeparcours": "CHU > PONTS DE CE 11.1"
+    },
+    {
+      "name": "MAIRIE DES PONTS DE CE",
+      "color": "EF9221",
+      "codeparcours": "AQUAVITA > PONTS DE CE 11.1"
+    },
+    {
+      "name": "MOULIN MARCILLE",
+      "color": "EF9221",
+      "codeparcours": "CHU > MOULIN MARCILLE 11.1"
+    },
+    {
+      "name": "MOULIN MARCILLE",
+      "color": "EF9221",
+      "codeparcours": "AQUAVITA > MOUL MARCILLE 11.1"
+    },
+    {
+      "name": "AQUAVITA VERNEAU",
+      "color": "BD7419",
+      "codeparcours": "PONTS DE CE > AQUAVITA 11.1"
+    },
+    {
+      "name": "AQUAVITA VERNEAU",
+      "color": "BD7419",
+      "codeparcours": "MOULIN MARCILLE>AQUAVITA 11.1"
+    },
+    {
+      "name": "CHU HOPITAL",
+      "color": "BD7419",
+      "codeparcours": "PONTS DE CE > CHU 11.1"
+    },
+    {
+      "name": "CHU HOPITAL",
+      "color": "BD7419",
+      "codeparcours": "MOULIN MARCILLE > CHU 11.1"
+    }
+  ],
+  "stops": [
+    {
+      "nomarret": "CHU - HOPITAL",
+      "stopsDest": [
+        {
+          "dest": "MAIRIE DES PONTS DE CE",
+          "mnemoarret": "HOPA8-C",
+          "coordonnees": [
+            47.480651,
+            -0.55484316
+          ]
+        },
+        {
+          "dest": "MOULIN MARCILLE",
+          "mnemoarret": "HOPA8-C",
+          "coordonnees": [
+            47.480651,
+            -0.55484316
+          ]
+        },
+        {
+          "dest": "CHU HOPITAL",
+          "mnemoarret": "MATE25-E",
+          "coordonnees": [
+            47.480651,
+            -0.55484316
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "VERNEAU AQUAVITA",
+      "stopsDest": [
+        {
+          "dest": "MOULIN MARCILLE",
+          "mnemoarret": "VERNEREN",
+          "coordonnees": [
+            47.493096,
+            -0.56866667
+          ]
+        },
+        {
+          "dest": "MAIRIE DES PONTS DE CE",
+          "mnemoarret": "VERNEREN",
+          "coordonnees": [
+            47.493096,
+            -0.56866667
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "MOULIN MARCILLE",
+      "stopsDest": [
+        {
+          "dest": "CHU HOPITAL",
+          "mnemoarret": "MOULINMA",
+          "coordonnees": [
+            47.433767,
+            -0.50056449
+          ]
+        },
+        {
+          "dest": "AQUAVITA VERNEAU",
+          "mnemoarret": "MOULINMA",
+          "coordonnees": [
+            47.433767,
+            -0.50056449
+          ]
+        },
+        {
+          "dest": "MOULIN MARCILLE",
+          "mnemoarret": "MOUMA-E",
+          "coordonnees": [
+            47.433758,
+            -0.50057726
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "MAIRIE PONTS DE CE",
+      "stopsDest": [
+        {
+          "dest": "AQUAVITA VERNEAU",
+          "mnemoarret": "MAPTSCE",
+          "coordonnees": [
+            47.42528,
+            -0.5235886
+          ]
+        },
+        {
+          "dest": "CHU HOPITAL",
+          "mnemoarret": "MAPTSCE",
+          "coordonnees": [
+            47.42528,
+            -0.5235886
+          ]
+        },
+        {
+          "dest": "CHU HOPITAL",
+          "mnemoarret": "PONTSCEM",
+          "coordonnees": [
+            47.425239,
+            -0.52523106
+          ]
+        },
+        {
+          "dest": "AQUAVITA VERNEAU",
+          "mnemoarret": "PONTSCEM",
+          "coordonnees": [
+            47.425239,
+            -0.52523106
+          ]
+        },
+        {
+          "dest": "MAIRIE DES PONTS DE CE",
+          "mnemoarret": "PONTSC-E",
+          "coordonnees": [
+            47.425494,
+            -0.52582835
+          ]
+        },
+        {
+          "dest": "MAIRIE DES PONTS DE CE",
+          "mnemoarret": "MAPTCEAR",
+          "coordonnees": [
+            47.42528,
+            -0.5235886
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "VERNEAU",
+      "stopsDest": [
+        {
+          "dest": "MAIRIE DES PONTS DE CE",
+          "mnemoarret": "WVERN",
+          "coordonnees": [
+            47.492386,
+            -0.56752569
+          ]
+        },
+        {
+          "dest": "MOULIN MARCILLE",
+          "mnemoarret": "WVERN",
+          "coordonnees": [
+            47.492386,
+            -0.56752569
+          ]
+        },
+        {
+          "dest": "AQUAVITA VERNEAU",
+          "mnemoarret": "VERTRA-E",
+          "coordonnees": [
+            47.492593,
+            -0.56716514
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "AURIOL",
+      "stopsDest": [
+        {
+          "dest": "MOULIN MARCILLE",
+          "mnemoarret": "VERN-ARA",
+          "coordonnees": [
+            47.491115,
+            -0.56507926
+          ]
+        },
+        {
+          "dest": "MAIRIE DES PONTS DE CE",
+          "mnemoarret": "VERN-ARA",
+          "coordonnees": [
+            47.491115,
+            -0.56507926
+          ]
+        },
+        {
+          "dest": "AQUAVITA VERNEAU",
+          "mnemoarret": "VERNEA-E",
+          "coordonnees": [
+            47.49129,
+            -0.56492942
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "BELLE POULE",
+      "stopsDest": [
+        {
+          "dest": "CHU HOPITAL",
+          "mnemoarret": "BELPOULE",
+          "coordonnees": [
+            47.427883,
+            -0.52715038
+          ]
+        },
+        {
+          "dest": "AQUAVITA VERNEAU",
+          "mnemoarret": "BELPOULE",
+          "coordonnees": [
+            47.427883,
+            -0.52715038
+          ]
+        },
+        {
+          "dest": "MAIRIE DES PONTS DE CE",
+          "mnemoarret": "BELPOU-E",
+          "coordonnees": [
+            47.428417,
+            -0.52774943
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "HAUTE DE RECULEE",
+      "stopsDest": [
+        {
+          "dest": "MAIRIE DES PONTS DE CE",
+          "mnemoarret": "HRECULEE",
+          "coordonnees": [
+            47.485008,
+            -0.55266311
+          ]
+        },
+        {
+          "dest": "MOULIN MARCILLE",
+          "mnemoarret": "HRECULEE",
+          "coordonnees": [
+            47.485008,
+            -0.55266311
+          ]
+        },
+        {
+          "dest": "CHU HOPITAL",
+          "mnemoarret": "HRECUL-E",
+          "coordonnees": [
+            47.485011,
+            -0.55291555
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "LECUIT",
+      "stopsDest": [
+        {
+          "dest": "MAIRIE DES PONTS DE CE",
+          "mnemoarret": "LECUIT",
+          "coordonnees": [
+            47.48925,
+            -0.56301223
+          ]
+        },
+        {
+          "dest": "MOULIN MARCILLE",
+          "mnemoarret": "LECUIT",
+          "coordonnees": [
+            47.48925,
+            -0.56301223
+          ]
+        },
+        {
+          "dest": "AQUAVITA VERNEAU",
+          "mnemoarret": "LECUIT-E",
+          "coordonnees": [
+            47.489454,
+            -0.56275777
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "BAUDRAIRIE",
+      "stopsDest": [
+        {
+          "dest": "AQUAVITA VERNEAU",
+          "mnemoarret": "BAUDRAI",
+          "coordonnees": [
+            47.438026,
+            -0.50710599
+          ]
+        },
+        {
+          "dest": "CHU HOPITAL",
+          "mnemoarret": "BAUDRAI",
+          "coordonnees": [
+            47.438026,
+            -0.50710599
+          ]
+        },
+        {
+          "dest": "MOULIN MARCILLE",
+          "mnemoarret": "BAUDRA-E",
+          "coordonnees": [
+            47.437755,
+            -0.5075028
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "AUTHION",
+      "stopsDest": [
+        {
+          "dest": "AQUAVITA VERNEAU",
+          "mnemoarret": "AUTHION",
+          "coordonnees": [
+            47.431506,
+            -0.528393
+          ]
+        },
+        {
+          "dest": "CHU HOPITAL",
+          "mnemoarret": "AUTHION",
+          "coordonnees": [
+            47.431506,
+            -0.528393
+          ]
+        },
+        {
+          "dest": "MAIRIE DES PONTS DE CE",
+          "mnemoarret": "AUTHIO-E",
+          "coordonnees": [
+            47.431567,
+            -0.52884727
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "FAC. DE MEDECINE",
+      "stopsDest": [
+        {
+          "dest": "MAIRIE DES PONTS DE CE",
+          "mnemoarret": "FMEDECIN",
+          "coordonnees": [
+            47.487177,
+            -0.55228953
+          ]
+        },
+        {
+          "dest": "MOULIN MARCILLE",
+          "mnemoarret": "FMEDECIN",
+          "coordonnees": [
+            47.487177,
+            -0.55228953
+          ]
+        },
+        {
+          "dest": "CHU HOPITAL",
+          "mnemoarret": "FMEDEC-E",
+          "coordonnees": [
+            47.487387,
+            -0.55256645
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "BLERIOT",
+      "stopsDest": [
+        {
+          "dest": "MOULIN MARCILLE",
+          "mnemoarret": "BLERIOT",
+          "coordonnees": [
+            47.485975,
+            -0.56365717
+          ]
+        },
+        {
+          "dest": "MAIRIE DES PONTS DE CE",
+          "mnemoarret": "BLERIOT",
+          "coordonnees": [
+            47.485975,
+            -0.56365717
+          ]
+        },
+        {
+          "dest": "CHU HOPITAL",
+          "mnemoarret": "BLERIO-E",
+          "coordonnees": [
+            47.486143,
+            -0.56344055
+          ]
+        },
+        {
+          "dest": "AQUAVITA VERNEAU",
+          "mnemoarret": "BLERIO-E",
+          "coordonnees": [
+            47.486143,
+            -0.56344055
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "CAPUCINS",
+      "stopsDest": [
+        {
+          "dest": "MAIRIE DES PONTS DE CE",
+          "mnemoarret": "CAPU8-C",
+          "coordonnees": [
+            47.487438,
+            -0.55485319
+          ]
+        },
+        {
+          "dest": "MOULIN MARCILLE",
+          "mnemoarret": "CAPU8-C",
+          "coordonnees": [
+            47.487438,
+            -0.55485319
+          ]
+        },
+        {
+          "dest": "CHU HOPITAL",
+          "mnemoarret": "CAPU8-E",
+          "coordonnees": [
+            47.48742,
+            -0.55449368
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "PATUREAUX",
+      "stopsDest": [
+        {
+          "dest": "CHU HOPITAL",
+          "mnemoarret": "PATUREAU",
+          "coordonnees": [
+            47.43381,
+            -0.5280393
+          ]
+        },
+        {
+          "dest": "AQUAVITA VERNEAU",
+          "mnemoarret": "PATUREAU",
+          "coordonnees": [
+            47.43381,
+            -0.5280393
+          ]
+        },
+        {
+          "dest": "MAIRIE DES PONTS DE CE",
+          "mnemoarret": "PATUR-E",
+          "coordonnees": [
+            47.434012,
+            -0.5279042
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "GUILLEBOTTE",
+      "stopsDest": [
+        {
+          "dest": "CHU HOPITAL",
+          "mnemoarret": "GUILLEB.",
+          "coordonnees": [
+            47.437414,
+            -0.51369317
+          ]
+        },
+        {
+          "dest": "AQUAVITA VERNEAU",
+          "mnemoarret": "GUILLEB.",
+          "coordonnees": [
+            47.437414,
+            -0.51369317
+          ]
+        },
+        {
+          "dest": "MOULIN MARCILLE",
+          "mnemoarret": "GUILLE-E",
+          "coordonnees": [
+            47.437306,
+            -0.5133292
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "VALENTIN HAUY",
+      "stopsDest": [
+        {
+          "dest": "MOULIN MARCILLE",
+          "mnemoarret": "VALHAUY",
+          "coordonnees": [
+            47.485742,
+            -0.55606242
+          ]
+        },
+        {
+          "dest": "MAIRIE DES PONTS DE CE",
+          "mnemoarret": "VALHAUY",
+          "coordonnees": [
+            47.485742,
+            -0.55606242
+          ]
+        },
+        {
+          "dest": "CHU HOPITAL",
+          "mnemoarret": "VALHUY-E",
+          "coordonnees": [
+            47.486013,
+            -0.55565224
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "BARRA",
+      "stopsDest": [
+        {
+          "dest": "MAIRIE DES PONTS DE CE",
+          "mnemoarret": "BARRA",
+          "coordonnees": [
+            47.483718,
+            -0.56393256
+          ]
+        },
+        {
+          "dest": "MOULIN MARCILLE",
+          "mnemoarret": "BARRA",
+          "coordonnees": [
+            47.483718,
+            -0.56393256
+          ]
+        },
+        {
+          "dest": "AQUAVITA VERNEAU",
+          "mnemoarret": "BARRA -E",
+          "coordonnees": [
+            47.483813,
+            -0.5637253
+          ]
+        },
+        {
+          "dest": "CHU HOPITAL",
+          "mnemoarret": "BARRA -E",
+          "coordonnees": [
+            47.483813,
+            -0.5637253
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "GALLIENI",
+      "stopsDest": [
+        {
+          "dest": "CHU HOPITAL",
+          "mnemoarret": "GALLIE",
+          "coordonnees": [
+            47.434616,
+            -0.52456724
+          ]
+        },
+        {
+          "dest": "AQUAVITA VERNEAU",
+          "mnemoarret": "GALLIE",
+          "coordonnees": [
+            47.434616,
+            -0.52456724
+          ]
+        },
+        {
+          "dest": "MAIRIE DES PONTS DE CE",
+          "mnemoarret": "GALLI-E",
+          "coordonnees": [
+            47.434824,
+            -0.52452534
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "RIVET",
+      "stopsDest": [
+        {
+          "dest": "AQUAVITA VERNEAU",
+          "mnemoarret": "RIVET",
+          "coordonnees": [
+            47.436817,
+            -0.51635428
+          ]
+        },
+        {
+          "dest": "CHU HOPITAL",
+          "mnemoarret": "RIVET",
+          "coordonnees": [
+            47.436817,
+            -0.51635428
+          ]
+        },
+        {
+          "dest": "MOULIN MARCILLE",
+          "mnemoarret": "RIVET-E",
+          "coordonnees": [
+            47.436675,
+            -0.51590889
+          ]
+        },
+        {
+          "dest": "MAIRIE DES PONTS DE CE",
+          "mnemoarret": "RIVET-E",
+          "coordonnees": [
+            47.436675,
+            -0.51590889
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "VILLON",
+      "stopsDest": [
+        {
+          "dest": "CHU HOPITAL",
+          "mnemoarret": "FRANVILL",
+          "coordonnees": [
+            47.433715,
+            -0.52316577
+          ]
+        },
+        {
+          "dest": "AQUAVITA VERNEAU",
+          "mnemoarret": "FRANVILL",
+          "coordonnees": [
+            47.433715,
+            -0.52316577
+          ]
+        },
+        {
+          "dest": "MAIRIE DES PONTS DE CE",
+          "mnemoarret": "FRANVI-E",
+          "coordonnees": [
+            47.433641,
+            -0.52285673
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "SAINTE THERESE",
+      "stopsDest": [
+        {
+          "dest": "MAIRIE DES PONTS DE CE",
+          "mnemoarret": "STTERESE",
+          "coordonnees": [
+            47.480846,
+            -0.56433375
+          ]
+        },
+        {
+          "dest": "MOULIN MARCILLE",
+          "mnemoarret": "STTERESE",
+          "coordonnees": [
+            47.480846,
+            -0.56433375
+          ]
+        },
+        {
+          "dest": "CHU HOPITAL",
+          "mnemoarret": "STTHER-E",
+          "coordonnees": [
+            47.480597,
+            -0.56422722
+          ]
+        },
+        {
+          "dest": "AQUAVITA VERNEAU",
+          "mnemoarret": "STTHER-E",
+          "coordonnees": [
+            47.480597,
+            -0.56422722
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "JOSEPH WRESINSKI",
+      "stopsDest": [
+        {
+          "dest": "MOULIN MARCILLE",
+          "mnemoarret": "STEMARI",
+          "coordonnees": [
+            47.484574,
+            -0.55923883
+          ]
+        },
+        {
+          "dest": "MAIRIE DES PONTS DE CE",
+          "mnemoarret": "STEMARI",
+          "coordonnees": [
+            47.484574,
+            -0.55923883
+          ]
+        },
+        {
+          "dest": "CHU HOPITAL",
+          "mnemoarret": "STEMAR-E",
+          "coordonnees": [
+            47.484113,
+            -0.55930672
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "BICHON",
+      "stopsDest": [
+        {
+          "dest": "MAIRIE DES PONTS DE CE",
+          "mnemoarret": "BICHON.",
+          "coordonnees": [
+            47.47933,
+            -0.56484862
+          ]
+        },
+        {
+          "dest": "MOULIN MARCILLE",
+          "mnemoarret": "BICHON.",
+          "coordonnees": [
+            47.47933,
+            -0.56484862
+          ]
+        },
+        {
+          "dest": "AQUAVITA VERNEAU",
+          "mnemoarret": "BICHO.-E",
+          "coordonnees": [
+            47.479289,
+            -0.5646738
+          ]
+        },
+        {
+          "dest": "CHU HOPITAL",
+          "mnemoarret": "BICHO.-E",
+          "coordonnees": [
+            47.479289,
+            -0.5646738
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "GIRARDEAU",
+      "stopsDest": [
+        {
+          "dest": "CHU HOPITAL",
+          "mnemoarret": "GIRARDE",
+          "coordonnees": [
+            47.436632,
+            -0.52093443
+          ]
+        },
+        {
+          "dest": "AQUAVITA VERNEAU",
+          "mnemoarret": "GIRARDE",
+          "coordonnees": [
+            47.436632,
+            -0.52093443
+          ]
+        },
+        {
+          "dest": "MAIRIE DES PONTS DE CE",
+          "mnemoarret": "GIRAD-E",
+          "coordonnees": [
+            47.436438,
+            -0.52040665
+          ]
+        },
+        {
+          "dest": "MOULIN MARCILLE",
+          "mnemoarret": "GIRAD-E",
+          "coordonnees": [
+            47.436438,
+            -0.52040665
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "GEORGE SAND",
+      "stopsDest": [
+        {
+          "dest": "AQUAVITA VERNEAU",
+          "mnemoarret": "GGESSAND",
+          "coordonnees": [
+            47.433136,
+            -0.51961945
+          ]
+        },
+        {
+          "dest": "CHU HOPITAL",
+          "mnemoarret": "GGESSAND",
+          "coordonnees": [
+            47.433136,
+            -0.51961945
+          ]
+        },
+        {
+          "dest": "MAIRIE DES PONTS DE CE",
+          "mnemoarret": "GGSAND-E",
+          "coordonnees": [
+            47.433336,
+            -0.51953732
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "FREMOND",
+      "stopsDest": [
+        {
+          "dest": "MAIRIE DES PONTS DE CE",
+          "mnemoarret": "FREMONT",
+          "coordonnees": [
+            47.485683,
+            -0.56133075
+          ]
+        },
+        {
+          "dest": "MOULIN MARCILLE",
+          "mnemoarret": "FREMONT",
+          "coordonnees": [
+            47.485683,
+            -0.56133075
+          ]
+        },
+        {
+          "dest": "CHU HOPITAL",
+          "mnemoarret": "FREMON-E",
+          "coordonnees": [
+            47.485758,
+            -0.56190585
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "DESCAZEAUX",
+      "stopsDest": [
+        {
+          "dest": "MOULIN MARCILLE",
+          "mnemoarret": "DESCAZEA",
+          "coordonnees": [
+            47.47743,
+            -0.56595326
+          ]
+        },
+        {
+          "dest": "MAIRIE DES PONTS DE CE",
+          "mnemoarret": "DESCAZEA",
+          "coordonnees": [
+            47.47743,
+            -0.56595326
+          ]
+        },
+        {
+          "dest": "CHU HOPITAL",
+          "mnemoarret": "DESCAZ-E",
+          "coordonnees": [
+            47.476787,
+            -0.56611735
+          ]
+        },
+        {
+          "dest": "AQUAVITA VERNEAU",
+          "mnemoarret": "DESCAZ-E",
+          "coordonnees": [
+            47.476787,
+            -0.56611735
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "LA CHESNAIE",
+      "stopsDest": [
+        {
+          "dest": "AQUAVITA VERNEAU",
+          "mnemoarret": "CHESNAIE",
+          "coordonnees": [
+            47.437233,
+            -0.52430973
+          ]
+        },
+        {
+          "dest": "CHU HOPITAL",
+          "mnemoarret": "CHESNAIE",
+          "coordonnees": [
+            47.437233,
+            -0.52430973
+          ]
+        },
+        {
+          "dest": "MAIRIE DES PONTS DE CE",
+          "mnemoarret": "CHESNA-E",
+          "coordonnees": [
+            47.437015,
+            -0.5240062
+          ]
+        },
+        {
+          "dest": "MOULIN MARCILLE",
+          "mnemoarret": "CHESNA-E",
+          "coordonnees": [
+            47.437015,
+            -0.5240062
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "MARIE CURIE",
+      "stopsDest": [
+        {
+          "dest": "CHU HOPITAL",
+          "mnemoarret": "MACURIE",
+          "coordonnees": [
+            47.433311,
+            -0.51655128
+          ]
+        },
+        {
+          "dest": "AQUAVITA VERNEAU",
+          "mnemoarret": "MACURIE",
+          "coordonnees": [
+            47.433311,
+            -0.51655128
+          ]
+        },
+        {
+          "dest": "MAIRIE DES PONTS DE CE",
+          "mnemoarret": "MACURI-E",
+          "coordonnees": [
+            47.433308,
+            -0.51705517
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "CENTRE COMMERCIAL",
+      "stopsDest": [
+        {
+          "dest": "AQUAVITA VERNEAU",
+          "mnemoarret": "CCOMMERC",
+          "coordonnees": [
+            47.437843,
+            -0.52694269
+          ]
+        },
+        {
+          "dest": "CHU HOPITAL",
+          "mnemoarret": "CCOMMERC",
+          "coordonnees": [
+            47.437843,
+            -0.52694269
+          ]
+        },
+        {
+          "dest": "MOULIN MARCILLE",
+          "mnemoarret": "CCOMME-E",
+          "coordonnees": [
+            47.437748,
+            -0.52677839
+          ]
+        },
+        {
+          "dest": "MAIRIE DES PONTS DE CE",
+          "mnemoarret": "CCOMME-E",
+          "coordonnees": [
+            47.437748,
+            -0.52677839
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "MONPROFIT",
+      "stopsDest": [
+        {
+          "dest": "MAIRIE DES PONTS DE CE",
+          "mnemoarret": "MONPROFI",
+          "coordonnees": [
+            47.474655,
+            -0.56751457
+          ]
+        },
+        {
+          "dest": "MOULIN MARCILLE",
+          "mnemoarret": "MONPROFI",
+          "coordonnees": [
+            47.474655,
+            -0.56751457
+          ]
+        },
+        {
+          "dest": "AQUAVITA VERNEAU",
+          "mnemoarret": "MONPR -E",
+          "coordonnees": [
+            47.474539,
+            -0.56708346
+          ]
+        },
+        {
+          "dest": "CHU HOPITAL",
+          "mnemoarret": "MONPR -E",
+          "coordonnees": [
+            47.474539,
+            -0.56708346
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "ROSTAND",
+      "stopsDest": [
+        {
+          "dest": "CHU HOPITAL",
+          "mnemoarret": "JEROSTAN",
+          "coordonnees": [
+            47.434262,
+            -0.51376337
+          ]
+        },
+        {
+          "dest": "AQUAVITA VERNEAU",
+          "mnemoarret": "JEROSTAN",
+          "coordonnees": [
+            47.434262,
+            -0.51376337
+          ]
+        },
+        {
+          "dest": "MAIRIE DES PONTS DE CE",
+          "mnemoarret": "JEROST-E",
+          "coordonnees": [
+            47.434362,
+            -0.51407385
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "RONCIERES",
+      "stopsDest": [
+        {
+          "dest": "AQUAVITA VERNEAU",
+          "mnemoarret": "RONCIERE",
+          "coordonnees": [
+            47.435943,
+            -0.51348184
+          ]
+        },
+        {
+          "dest": "CHU HOPITAL",
+          "mnemoarret": "RONCIERE",
+          "coordonnees": [
+            47.435943,
+            -0.51348184
+          ]
+        },
+        {
+          "dest": "MAIRIE DES PONTS DE CE",
+          "mnemoarret": "RONCIE-E",
+          "coordonnees": [
+            47.436054,
+            -0.51372656
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "FRONT DE MAINE",
+      "stopsDest": [
+        {
+          "dest": "MAIRIE DES PONTS DE CE",
+          "mnemoarret": "FRONDEMA",
+          "coordonnees": [
+            47.472518,
+            -0.56658824
+          ]
+        },
+        {
+          "dest": "MOULIN MARCILLE",
+          "mnemoarret": "FRONDEMA",
+          "coordonnees": [
+            47.472518,
+            -0.56658824
+          ]
+        },
+        {
+          "dest": "AQUAVITA VERNEAU",
+          "mnemoarret": "FRONDM-E",
+          "coordonnees": [
+            47.472258,
+            -0.56616257
+          ]
+        },
+        {
+          "dest": "CHU HOPITAL",
+          "mnemoarret": "FRONDM-E",
+          "coordonnees": [
+            47.472258,
+            -0.56616257
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "DIONNEAU",
+      "stopsDest": [
+        {
+          "dest": "CHU HOPITAL",
+          "mnemoarret": "DIONNEAU",
+          "coordonnees": [
+            47.438784,
+            -0.5300048
+          ]
+        },
+        {
+          "dest": "AQUAVITA VERNEAU",
+          "mnemoarret": "DIONNEAU",
+          "coordonnees": [
+            47.438784,
+            -0.5300048
+          ]
+        },
+        {
+          "dest": "MAIRIE DES PONTS DE CE",
+          "mnemoarret": "DIONNE-E",
+          "coordonnees": [
+            47.438787,
+            -0.53024377
+          ]
+        },
+        {
+          "dest": "MOULIN MARCILLE",
+          "mnemoarret": "DIONNE-E",
+          "coordonnees": [
+            47.438787,
+            -0.53024377
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "ATHLETIS",
+      "stopsDest": [
+        {
+          "dest": "AQUAVITA VERNEAU",
+          "mnemoarret": "ATHLETIS",
+          "coordonnees": [
+            47.441616,
+            -0.52795477
+          ]
+        },
+        {
+          "dest": "CHU HOPITAL",
+          "mnemoarret": "ATHLETIS",
+          "coordonnees": [
+            47.441616,
+            -0.52795477
+          ]
+        },
+        {
+          "dest": "MAIRIE DES PONTS DE CE",
+          "mnemoarret": "ATHLET-E",
+          "coordonnees": [
+            47.441471,
+            -0.52835826
+          ]
+        },
+        {
+          "dest": "MOULIN MARCILLE",
+          "mnemoarret": "ATHLET-E",
+          "coordonnees": [
+            47.441471,
+            -0.52835826
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "ROI DE POLOGNE",
+      "stopsDest": [
+        {
+          "dest": "MAIRIE DES PONTS DE CE",
+          "mnemoarret": "ROIPOLO",
+          "coordonnees": [
+            47.469501,
+            -0.56126
+          ]
+        },
+        {
+          "dest": "MOULIN MARCILLE",
+          "mnemoarret": "ROIPOLO",
+          "coordonnees": [
+            47.469501,
+            -0.56126
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "DANIEL GELIN",
+      "stopsDest": [
+        {
+          "dest": "CHU HOPITAL",
+          "mnemoarret": "DANGELIN",
+          "coordonnees": [
+            47.445106,
+            -0.52697477
+          ]
+        },
+        {
+          "dest": "AQUAVITA VERNEAU",
+          "mnemoarret": "DANGELIN",
+          "coordonnees": [
+            47.445106,
+            -0.52697477
+          ]
+        },
+        {
+          "dest": "MAIRIE DES PONTS DE CE",
+          "mnemoarret": "DGELIN-E",
+          "coordonnees": [
+            47.445156,
+            -0.52712342
+          ]
+        },
+        {
+          "dest": "MOULIN MARCILLE",
+          "mnemoarret": "DGELIN-E",
+          "coordonnees": [
+            47.445156,
+            -0.52712342
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "ACADEMIE",
+      "stopsDest": [
+        {
+          "dest": "MAIRIE DES PONTS DE CE",
+          "mnemoarret": "ACADEMIE",
+          "coordonnees": [
+            47.467429,
+            -0.55915619
+          ]
+        },
+        {
+          "dest": "MOULIN MARCILLE",
+          "mnemoarret": "ACADEMIE",
+          "coordonnees": [
+            47.467429,
+            -0.55915619
+          ]
+        },
+        {
+          "dest": "CHU HOPITAL",
+          "mnemoarret": "ACAD-PLA",
+          "coordonnees": [
+            47.468431,
+            -0.5586797
+          ]
+        },
+        {
+          "dest": "AQUAVITA VERNEAU",
+          "mnemoarret": "ACAD-PLA",
+          "coordonnees": [
+            47.468431,
+            -0.5586797
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "LINO VENTURA",
+      "stopsDest": [
+        {
+          "dest": "AQUAVITA VERNEAU",
+          "mnemoarret": "LINOVENT",
+          "coordonnees": [
+            47.447563,
+            -0.52915024
+          ]
+        },
+        {
+          "dest": "CHU HOPITAL",
+          "mnemoarret": "LINOVENT",
+          "coordonnees": [
+            47.447563,
+            -0.52915024
+          ]
+        },
+        {
+          "dest": "MAIRIE DES PONTS DE CE",
+          "mnemoarret": "LINOVE-E",
+          "coordonnees": [
+            47.447157,
+            -0.52919474
+          ]
+        },
+        {
+          "dest": "MOULIN MARCILLE",
+          "mnemoarret": "LINOVE-E",
+          "coordonnees": [
+            47.447157,
+            -0.52919474
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "MARIANNE",
+      "stopsDest": [
+        {
+          "dest": "AQUAVITA VERNEAU",
+          "mnemoarret": "MARIANNE",
+          "coordonnees": [
+            47.450171,
+            -0.53108187
+          ]
+        },
+        {
+          "dest": "CHU HOPITAL",
+          "mnemoarret": "MARIANNE",
+          "coordonnees": [
+            47.450171,
+            -0.53108187
+          ]
+        },
+        {
+          "dest": "MOULIN MARCILLE",
+          "mnemoarret": "MARIAN-E",
+          "coordonnees": [
+            47.450053,
+            -0.53111534
+          ]
+        },
+        {
+          "dest": "MAIRIE DES PONTS DE CE",
+          "mnemoarret": "MARIAN-E",
+          "coordonnees": [
+            47.450053,
+            -0.53111534
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "VIVIERS",
+      "stopsDest": [
+        {
+          "dest": "CHU HOPITAL",
+          "mnemoarret": "VIVIERS",
+          "coordonnees": [
+            47.451689,
+            -0.53519763
+          ]
+        },
+        {
+          "dest": "AQUAVITA VERNEAU",
+          "mnemoarret": "VIVIERS",
+          "coordonnees": [
+            47.451689,
+            -0.53519763
+          ]
+        },
+        {
+          "dest": "MAIRIE DES PONTS DE CE",
+          "mnemoarret": "VIVIER-E",
+          "coordonnees": [
+            47.451536,
+            -0.53517614
+          ]
+        },
+        {
+          "dest": "MOULIN MARCILLE",
+          "mnemoarret": "VIVIER-E",
+          "coordonnees": [
+            47.451536,
+            -0.53517614
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "CHATEAU",
+      "stopsDest": [
+        {
+          "dest": "MAIRIE DES PONTS DE CE",
+          "mnemoarret": "CHDARR",
+          "coordonnees": [
+            47.468767,
+            -0.55929529
+          ]
+        },
+        {
+          "dest": "MOULIN MARCILLE",
+          "mnemoarret": "CHDARR",
+          "coordonnees": [
+            47.468767,
+            -0.55929529
+          ]
+        },
+        {
+          "dest": "CHU HOPITAL",
+          "mnemoarret": "CHDARR-E",
+          "coordonnees": [
+            47.46927,
+            -0.56002623
+          ]
+        },
+        {
+          "dest": "AQUAVITA VERNEAU",
+          "mnemoarret": "CHDARR-E",
+          "coordonnees": [
+            47.46927,
+            -0.56002623
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "VAUBAN",
+      "stopsDest": [
+        {
+          "dest": "MAIRIE DES PONTS DE CE",
+          "mnemoarret": "VAUBA2-E",
+          "coordonnees": [
+            47.459999,
+            -0.56078289
+          ]
+        },
+        {
+          "dest": "MOULIN MARCILLE",
+          "mnemoarret": "VAUBA2-E",
+          "coordonnees": [
+            47.459999,
+            -0.56078289
+          ]
+        },
+        {
+          "dest": "AQUAVITA VERNEAU",
+          "mnemoarret": "VAUBAN",
+          "coordonnees": [
+            47.460204,
+            -0.56086041
+          ]
+        },
+        {
+          "dest": "CHU HOPITAL",
+          "mnemoarret": "VAUBAN",
+          "coordonnees": [
+            47.460204,
+            -0.56086041
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "GARES BREMONT",
+      "stopsDest": [
+        {
+          "dest": "MAIRIE DES PONTS DE CE",
+          "mnemoarret": "GBREM-E",
+          "coordonnees": [
+            47.465702,
+            -0.55948703
+          ]
+        },
+        {
+          "dest": "MOULIN MARCILLE",
+          "mnemoarret": "GBREM-E",
+          "coordonnees": [
+            47.465702,
+            -0.55948703
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "CHANZY",
+      "stopsDest": [
+        {
+          "dest": "MAIRIE DES PONTS DE CE",
+          "mnemoarret": "CHANZY-E",
+          "coordonnees": [
+            47.46004,
+            -0.55766622
+          ]
+        },
+        {
+          "dest": "MOULIN MARCILLE",
+          "mnemoarret": "CHANZY-E",
+          "coordonnees": [
+            47.46004,
+            -0.55766622
+          ]
+        },
+        {
+          "dest": "CHU HOPITAL",
+          "mnemoarret": "CHANZY",
+          "coordonnees": [
+            47.460153,
+            -0.55747327
+          ]
+        },
+        {
+          "dest": "AQUAVITA VERNEAU",
+          "mnemoarret": "CHANZY",
+          "coordonnees": [
+            47.460153,
+            -0.55747327
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "MUTUALITE",
+      "stopsDest": [
+        {
+          "dest": "CHU HOPITAL",
+          "mnemoarret": "MUTUALIT",
+          "coordonnees": [
+            47.455798,
+            -0.54082041
+          ]
+        },
+        {
+          "dest": "MOULIN MARCILLE",
+          "mnemoarret": "MUTUAL-E",
+          "coordonnees": [
+            47.455258,
+            -0.54081778
+          ]
+        },
+        {
+          "dest": "AQUAVITA VERNEAU",
+          "mnemoarret": "MUTUALIT",
+          "coordonnees": [
+            47.455798,
+            -0.54082041
+          ]
+        },
+        {
+          "dest": "MAIRIE DES PONTS DE CE",
+          "mnemoarret": "MUTUAL-E",
+          "coordonnees": [
+            47.455258,
+            -0.54081778
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "PLACE LA FAYETTE",
+      "stopsDest": [
+        {
+          "dest": "MAIRIE DES PONTS DE CE",
+          "mnemoarret": "LAFA8-E",
+          "coordonnees": [
+            47.4603,
+            -0.55485333
+          ]
+        },
+        {
+          "dest": "MOULIN MARCILLE",
+          "mnemoarret": "LAFA8-E",
+          "coordonnees": [
+            47.4603,
+            -0.55485333
+          ]
+        },
+        {
+          "dest": "AQUAVITA VERNEAU",
+          "mnemoarret": "LAFA8-C",
+          "coordonnees": [
+            47.460456,
+            -0.55434423
+          ]
+        },
+        {
+          "dest": "CHU HOPITAL",
+          "mnemoarret": "LAFA8-C",
+          "coordonnees": [
+            47.460456,
+            -0.55434423
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "PONT NOIR",
+      "stopsDest": [
+        {
+          "dest": "MAIRIE DES PONTS DE CE",
+          "mnemoarret": "PONTNO-E",
+          "coordonnees": [
+            47.464012,
+            -0.56263379
+          ]
+        },
+        {
+          "dest": "MOULIN MARCILLE",
+          "mnemoarret": "PONTNO-E",
+          "coordonnees": [
+            47.464012,
+            -0.56263379
+          ]
+        },
+        {
+          "dest": "CHU HOPITAL",
+          "mnemoarret": "PONTNOIR",
+          "coordonnees": [
+            47.463843,
+            -0.56289008
+          ]
+        },
+        {
+          "dest": "AQUAVITA VERNEAU",
+          "mnemoarret": "PONTNOIR",
+          "coordonnees": [
+            47.463843,
+            -0.56289008
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "POIREL",
+      "stopsDest": [
+        {
+          "dest": "MOULIN MARCILLE",
+          "mnemoarret": "POIREL-E",
+          "coordonnees": [
+            47.461513,
+            -0.56211291
+          ]
+        },
+        {
+          "dest": "MAIRIE DES PONTS DE CE",
+          "mnemoarret": "POIREL-E",
+          "coordonnees": [
+            47.461513,
+            -0.56211291
+          ]
+        },
+        {
+          "dest": "CHU HOPITAL",
+          "mnemoarret": "POIREL",
+          "coordonnees": [
+            47.461702,
+            -0.56212318
+          ]
+        },
+        {
+          "dest": "AQUAVITA VERNEAU",
+          "mnemoarret": "POIREL",
+          "coordonnees": [
+            47.461702,
+            -0.56212318
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "CESAR GEOFFRAY",
+      "stopsDest": [
+        {
+          "dest": "AQUAVITA VERNEAU",
+          "mnemoarret": "CESARGEO",
+          "coordonnees": [
+            47.458641,
+            -0.54593759
+          ]
+        },
+        {
+          "dest": "MOULIN MARCILLE",
+          "mnemoarret": "CESARG-E",
+          "coordonnees": [
+            47.458391,
+            -0.54549936
+          ]
+        },
+        {
+          "dest": "MAIRIE DES PONTS DE CE",
+          "mnemoarret": "CESARG-E",
+          "coordonnees": [
+            47.458391,
+            -0.54549936
+          ]
+        },
+        {
+          "dest": "CHU HOPITAL",
+          "mnemoarret": "CESARGEO",
+          "coordonnees": [
+            47.458641,
+            -0.54593759
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "MIRABEAU",
+      "stopsDest": [
+        {
+          "dest": "MOULIN MARCILLE",
+          "mnemoarret": "MIRABE-E",
+          "coordonnees": [
+            47.459469,
+            -0.54883585
+          ]
+        },
+        {
+          "dest": "CHU HOPITAL",
+          "mnemoarret": "MIRABEAU",
+          "coordonnees": [
+            47.460071,
+            -0.55031513
+          ]
+        },
+        {
+          "dest": "MAIRIE DES PONTS DE CE",
+          "mnemoarret": "MIRABE-E",
+          "coordonnees": [
+            47.459469,
+            -0.54883585
+          ]
+        },
+        {
+          "dest": "AQUAVITA VERNEAU",
+          "mnemoarret": "MIRABEAU",
+          "coordonnees": [
+            47.460071,
+            -0.55031513
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "BLANDEAU",
+      "stopsDest": [
+        {
+          "dest": "MOULIN MARCILLE",
+          "mnemoarret": "BLANDE-E",
+          "coordonnees": [
+            47.457385,
+            -0.54321538
+          ]
+        },
+        {
+          "dest": "AQUAVITA VERNEAU",
+          "mnemoarret": "BLANDEAU",
+          "coordonnees": [
+            47.457527,
+            -0.54332918
+          ]
+        },
+        {
+          "dest": "CHU HOPITAL",
+          "mnemoarret": "BLANDEAU",
+          "coordonnees": [
+            47.457527,
+            -0.54332918
+          ]
+        },
+        {
+          "dest": "MAIRIE DES PONTS DE CE",
+          "mnemoarret": "BLANDE-E",
+          "coordonnees": [
+            47.457385,
+            -0.54321538
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "VILLESICARD",
+      "stopsDest": [
+        {
+          "dest": "CHU HOPITAL",
+          "mnemoarret": "VILLESIC",
+          "coordonnees": [
+            47.452475,
+            -0.53834521
+          ]
+        },
+        {
+          "dest": "AQUAVITA VERNEAU",
+          "mnemoarret": "VILLESIC",
+          "coordonnees": [
+            47.452475,
+            -0.53834521
+          ]
+        },
+        {
+          "dest": "MOULIN MARCILLE",
+          "mnemoarret": "VILLES-E",
+          "coordonnees": [
+            47.452411,
+            -0.53839482
+          ]
+        },
+        {
+          "dest": "MAIRIE DES PONTS DE CE",
+          "mnemoarret": "VILLES-E",
+          "coordonnees": [
+            47.452411,
+            -0.53839482
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "GARES SEMARD",
+      "stopsDest": [
+        {
+          "dest": "CHU HOPITAL",
+          "mnemoarret": "SEMARD",
+          "coordonnees": [
+            47.464614,
+            -0.56014465
+          ]
+        },
+        {
+          "dest": "AQUAVITA VERNEAU",
+          "mnemoarret": "SEMARD",
+          "coordonnees": [
+            47.464614,
+            -0.56014465
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "BREMONT CHATEAU",
+      "stopsDest": [
+        {
+          "dest": "CHU HOPITAL",
+          "mnemoarret": "BREMON-E",
+          "coordonnees": [
+            47.465967,
+            -0.55930237
+          ]
+        },
+        {
+          "dest": "AQUAVITA VERNEAU",
+          "mnemoarret": "BREMON-E",
+          "coordonnees": [
+            47.465967,
+            -0.55930237
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "BALLOUR",
+      "stopsDest": [
+        {
+          "dest": "CHU HOPITAL",
+          "mnemoarret": "BALLOUR",
+          "coordonnees": [
+            47.483242,
+            -0.56245933
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "BIGOT",
+      "stopsDest": [
+        {
+          "dest": "CHU HOPITAL",
+          "mnemoarret": "BIGOT-E",
+          "coordonnees": [
+            47.482321,
+            -0.56078929
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "AQUA VITA",
+      "stopsDest": [
+        {
+          "dest": "AQUAVITA VERNEAU",
+          "mnemoarret": "VERNRE-E",
+          "coordonnees": [
+            47.493096,
+            -0.56866667
+          ]
+        }
+      ]
+    }
+  ]
+}

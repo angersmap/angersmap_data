@@ -1,0 +1,445 @@
+{
+  "version": "1",
+  "mnemoligne": "4S",
+  "nomligne": "SOIR LORRAINE <> ST BARTH VERDUN",
+  "color": "9D2B83",
+  "dests": [
+    {
+      "name": "ST BARTHELEMY",
+      "color": "9D2B83"
+    },
+    {
+      "name": "TRELAZE BUISSON PAR FOCH",
+      "color": "F745D0"
+    }
+  ],
+  "stops": [
+    {
+      "nomarret": "ARCEAU",
+      "stopsDest": [
+        {
+          "dest": "ST BARTHELEMY",
+          "mnemoarret": "ARCEAU-E",
+          "coordonnees": [
+            47.470998,
+            -0.5198048
+          ]
+        },
+        {
+          "dest": "TRELAZE BUISSON PAR FOCH",
+          "mnemoarret": "ARCEAU",
+          "coordonnees": [
+            47.471045,
+            -0.51975419
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "STADE ST BARTHELEMY",
+      "stopsDest": [
+        {
+          "dest": "ST BARTHELEMY",
+          "mnemoarret": "STADE-E",
+          "coordonnees": [
+            47.461242,
+            -0.4919013
+          ]
+        },
+        {
+          "dest": "TRELAZE BUISSON PAR FOCH",
+          "mnemoarret": "STADE",
+          "coordonnees": [
+            47.461318,
+            -0.49210441
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "A F P A",
+      "stopsDest": [
+        {
+          "dest": "ST BARTHELEMY",
+          "mnemoarret": "CFPA-E",
+          "coordonnees": [
+            47.471493,
+            -0.52273851
+          ]
+        },
+        {
+          "dest": "TRELAZE BUISSON PAR FOCH",
+          "mnemoarret": "CFPA",
+          "coordonnees": [
+            47.471514,
+            -0.52335027
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "JULES FERRY",
+      "stopsDest": [
+        {
+          "dest": "ST BARTHELEMY",
+          "mnemoarret": "JUFERR-E",
+          "coordonnees": [
+            47.466346,
+            -0.4988621
+          ]
+        },
+        {
+          "dest": "TRELAZE BUISSON PAR FOCH",
+          "mnemoarret": "JUFERRY",
+          "coordonnees": [
+            47.466368,
+            -0.4987305
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "AUBEPINE",
+      "stopsDest": [
+        {
+          "dest": "ST BARTHELEMY",
+          "mnemoarret": "AUBEPI-E",
+          "coordonnees": [
+            47.461559,
+            -0.49589973
+          ]
+        },
+        {
+          "dest": "TRELAZE BUISSON PAR FOCH",
+          "mnemoarret": "AUBEPINE",
+          "coordonnees": [
+            47.461691,
+            -0.49599968
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "PAPERIE",
+      "stopsDest": [
+        {
+          "dest": "TRELAZE BUISSON PAR FOCH",
+          "mnemoarret": "PAPERIE",
+          "coordonnees": [
+            47.468726,
+            -0.50715229
+          ]
+        },
+        {
+          "dest": "ST BARTHELEMY",
+          "mnemoarret": "PAPERI-E",
+          "coordonnees": [
+            47.468481,
+            -0.50651531
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "MAISON DES ARTS",
+      "stopsDest": [
+        {
+          "dest": "ST BARTHELEMY",
+          "mnemoarret": "BELFON-E",
+          "coordonnees": [
+            47.471724,
+            -0.53740636
+          ]
+        },
+        {
+          "dest": "TRELAZE BUISSON PAR FOCH",
+          "mnemoarret": "BELFONTA",
+          "coordonnees": [
+            47.471805,
+            -0.5377559
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "LAREVELLIERE",
+      "stopsDest": [
+        {
+          "dest": "ST BARTHELEMY",
+          "mnemoarret": "LAMART-E",
+          "coordonnees": [
+            47.471332,
+            -0.53360191
+          ]
+        },
+        {
+          "dest": "TRELAZE BUISSON PAR FOCH",
+          "mnemoarret": "LAMART",
+          "coordonnees": [
+            47.471206,
+            -0.53181626
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "CHENE VERT",
+      "stopsDest": [
+        {
+          "dest": "ST BARTHELEMY",
+          "mnemoarret": "CHVERT-E",
+          "coordonnees": [
+            47.470439,
+            -0.51656239
+          ]
+        },
+        {
+          "dest": "TRELAZE BUISSON PAR FOCH",
+          "mnemoarret": "CHVERT",
+          "coordonnees": [
+            47.470244,
+            -0.5149723
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "LA REUX",
+      "stopsDest": [
+        {
+          "dest": "ST BARTHELEMY",
+          "mnemoarret": "LAREU-E",
+          "coordonnees": [
+            47.469439,
+            -0.51040266
+          ]
+        },
+        {
+          "dest": "TRELAZE BUISSON PAR FOCH",
+          "mnemoarret": "LAREUX",
+          "coordonnees": [
+            47.469501,
+            -0.51043254
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "GEMMETRIE",
+      "stopsDest": [
+        {
+          "dest": "ST BARTHELEMY",
+          "mnemoarret": "GEMMET-E",
+          "coordonnees": [
+            47.463283,
+            -0.4993494
+          ]
+        },
+        {
+          "dest": "TRELAZE BUISSON PAR FOCH",
+          "mnemoarret": "GEMMETR",
+          "coordonnees": [
+            47.463198,
+            -0.49917229
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "CEZANNE",
+      "stopsDest": [
+        {
+          "dest": "ST BARTHELEMY",
+          "mnemoarret": "CEZANNE",
+          "coordonnees": [
+            47.469802,
+            -0.4918913
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "JAUDETTE",
+      "stopsDest": [
+        {
+          "dest": "TRELAZE BUISSON PAR FOCH",
+          "mnemoarret": "JAUDETT",
+          "coordonnees": [
+            47.463287,
+            -0.49110733
+          ]
+        },
+        {
+          "dest": "ST BARTHELEMY",
+          "mnemoarret": "JAUDE-E",
+          "coordonnees": [
+            47.46329,
+            -0.49097478
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "CIMETIERE DE L'EST",
+      "stopsDest": [
+        {
+          "dest": "TRELAZE BUISSON PAR FOCH",
+          "mnemoarret": "CIMETIER",
+          "coordonnees": [
+            47.471324,
+            -0.5277473
+          ]
+        },
+        {
+          "dest": "ST BARTHELEMY",
+          "mnemoarret": "CIMETI-E",
+          "coordonnees": [
+            47.471288,
+            -0.52774536
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "FOCH MAISON BLEUE",
+      "stopsDest": [
+        {
+          "dest": "TRELAZE BUISSON PAR FOCH",
+          "mnemoarret": "FO-LOR-R",
+          "coordonnees": [
+            47.469665,
+            -0.54891037
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "JOFFRE",
+      "stopsDest": [
+        {
+          "dest": "TRELAZE BUISSON PAR FOCH",
+          "mnemoarret": "JOFFRE",
+          "coordonnees": [
+            47.471927,
+            -0.54516992
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "MAIL",
+      "stopsDest": [
+        {
+          "dest": "ST BARTHELEMY",
+          "mnemoarret": "MAIL-HDV",
+          "coordonnees": [
+            47.471108,
+            -0.54626721
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "PLACE LORRAINE",
+      "stopsDest": [
+        {
+          "dest": "ST BARTHELEMY",
+          "mnemoarret": "LORRAIN1",
+          "coordonnees": [
+            47.470268,
+            -0.54784123
+          ]
+        },
+        {
+          "dest": "ST BARTHELEMY",
+          "mnemoarret": "LORRTERM",
+          "coordonnees": [
+            47.470195,
+            -0.54749218
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "PASTEUR",
+      "stopsDest": [
+        {
+          "dest": "TRELAZE BUISSON PAR FOCH",
+          "mnemoarret": "PASTEUR",
+          "coordonnees": [
+            47.466983,
+            -0.49305569
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "C. LEMOINE",
+      "stopsDest": [
+        {
+          "dest": "ST BARTHELEMY",
+          "mnemoarret": "CLEMOI-E",
+          "coordonnees": [
+            47.471976,
+            -0.54174762
+          ]
+        },
+        {
+          "dest": "TRELAZE BUISSON PAR FOCH",
+          "mnemoarret": "CLEMOINE",
+          "coordonnees": [
+            47.471969,
+            -0.54202602
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "VERDUN",
+      "stopsDest": [
+        {
+          "dest": "ST BARTHELEMY",
+          "mnemoarret": "VERDUN",
+          "coordonnees": [
+            47.468176,
+            -0.49322526
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "LORRAINE MAISONBLEUE",
+      "stopsDest": [
+        {
+          "dest": "ST BARTHELEMY",
+          "mnemoarret": "LOR-FO-A",
+          "coordonnees": [
+            47.469637,
+            -0.54859027
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "CROIX DE CHEMINEE",
+      "stopsDest": [
+        {
+          "dest": "ST BARTHELEMY",
+          "mnemoarret": "CCHEMI-E",
+          "coordonnees": [
+            47.467543,
+            -0.50290792
+          ]
+        },
+        {
+          "dest": "TRELAZE BUISSON PAR FOCH",
+          "mnemoarret": "CCHEMINE",
+          "coordonnees": [
+            47.467716,
+            -0.5032224
+          ]
+        }
+      ]
+    }
+  ]
+}

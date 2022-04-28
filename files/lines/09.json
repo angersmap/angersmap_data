@@ -1,0 +1,1262 @@
+{
+  "version": "20211207083722",
+  "mnemoligne": "09",
+  "nomligne": "ESPACE ANJOU <> EVENTARD",
+  "color": "E2007A",
+  "dests": [
+    {
+      "name": "LORRAINE",
+      "color": "E2007A",
+      "codeparcours": [
+        "ESPACE ANJOU > LORRAINE 9.0",
+        "EVENTARD > FOCH 9.1"
+      ]
+    },
+    {
+      "name": "EVENTARD par ZI ECOUFLANT",
+      "color": "E2007A",
+      "codeparcours": [
+        "ESP ANJOU > ZI ECOUFLANT 7.1"
+      ]
+    },
+    {
+      "name": "EVENTARD par MONPLAISIR",
+      "color": "E2007A",
+      "codeparcours": [
+        "ESPACE ANJOU > EVENTARD 7.1"
+      ]
+    },
+    {
+      "name": "ESPACE ANJOU",
+      "color": "A5005B",
+      "codeparcours": [
+        "EVENTARD > ESPACE ANJOU 7.1",
+        "ZI ECOUFLANT > ESP ANJOU 7.1"
+      ]
+    }
+  ],
+  "stops": [
+    {
+      "nomarret": "ESPACE ANJOU",
+      "stopsDest": [
+        {
+          "dest": "EVENTARD par MONPLAISIR",
+          "mnemoarret": "ESPACEAN",
+          "coordonnees": [
+            47.468153,
+            -0.52606349
+          ]
+        },
+        {
+          "dest": "LORRAINE",
+          "mnemoarret": "ESPACEAN",
+          "coordonnees": [
+            47.468153,
+            -0.52606349
+          ]
+        },
+        {
+          "dest": "EVENTARD par ZI ECOUFLANT",
+          "mnemoarret": "ESPACEAN",
+          "coordonnees": [
+            47.468153,
+            -0.52606349
+          ]
+        },
+        {
+          "dest": "ESPACE ANJOU",
+          "mnemoarret": "ESPAC AR",
+          "coordonnees": [
+            47.468153,
+            -0.52606349
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "EVENTARD",
+      "stopsDest": [
+        {
+          "dest": "LORRAINE",
+          "mnemoarret": "EVENTA T",
+          "coordonnees": [
+            47.496868,
+            -0.51500398
+          ]
+        },
+        {
+          "dest": "ESPACE ANJOU",
+          "mnemoarret": "EVENTA T",
+          "coordonnees": [
+            47.496868,
+            -0.51500398
+          ]
+        },
+        {
+          "dest": "EVENTARD par MONPLAISIR",
+          "mnemoarret": "EVENT AR",
+          "coordonnees": [
+            47.496868,
+            -0.51500398
+          ]
+        },
+        {
+          "dest": "EVENTARD par ZI ECOUFLANT",
+          "mnemoarret": "EVENT AR",
+          "coordonnees": [
+            47.496868,
+            -0.51500398
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "FICTIF SOR ESP ANJOU",
+      "stopsDest": [
+        {
+          "dest": "LORRAINE",
+          "mnemoarret": "ESPA-SOR",
+          "coordonnees": [
+            47.468513,
+            -0.52714478
+          ]
+        },
+        {
+          "dest": "EVENTARD par ZI ECOUFLANT",
+          "mnemoarret": "ESPA-SOR",
+          "coordonnees": [
+            47.468513,
+            -0.52714478
+          ]
+        },
+        {
+          "dest": "EVENTARD par MONPLAISIR",
+          "mnemoarret": "ESPA-SOR",
+          "coordonnees": [
+            47.468513,
+            -0.52714478
+          ]
+        },
+        {
+          "dest": "ESPACE ANJOU",
+          "mnemoarret": "ESPA-ENT",
+          "coordonnees": [
+            47.468467,
+            -0.52718214
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "COTTAGE",
+      "stopsDest": [
+        {
+          "dest": "ESPACE ANJOU",
+          "mnemoarret": "COTTAGE",
+          "coordonnees": [
+            47.494798,
+            -0.51534465
+          ]
+        },
+        {
+          "dest": "LORRAINE",
+          "mnemoarret": "COTTAGE",
+          "coordonnees": [
+            47.494798,
+            -0.51534465
+          ]
+        },
+        {
+          "dest": "EVENTARD par MONPLAISIR",
+          "mnemoarret": "COTTAG-E",
+          "coordonnees": [
+            47.494587,
+            -0.51514741
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "DU BELLAY",
+      "stopsDest": [
+        {
+          "dest": "LORRAINE",
+          "mnemoarret": "DUBELLAY",
+          "coordonnees": [
+            47.492461,
+            -0.51338682
+          ]
+        },
+        {
+          "dest": "ESPACE ANJOU",
+          "mnemoarret": "DUBELLAY",
+          "coordonnees": [
+            47.492461,
+            -0.51338682
+          ]
+        },
+        {
+          "dest": "EVENTARD par MONPLAISIR",
+          "mnemoarret": "DUBELL-E",
+          "coordonnees": [
+            47.492168,
+            -0.51323832
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "AROBASE",
+      "stopsDest": [
+        {
+          "dest": "EVENTARD par MONPLAISIR",
+          "mnemoarret": "AROBASE",
+          "coordonnees": [
+            47.464588,
+            -0.53153951
+          ]
+        },
+        {
+          "dest": "LORRAINE",
+          "mnemoarret": "AROBASE",
+          "coordonnees": [
+            47.464588,
+            -0.53153951
+          ]
+        },
+        {
+          "dest": "EVENTARD par ZI ECOUFLANT",
+          "mnemoarret": "AROBASE",
+          "coordonnees": [
+            47.464588,
+            -0.53153951
+          ]
+        },
+        {
+          "dest": "ESPACE ANJOU",
+          "mnemoarret": "AROBA-E",
+          "coordonnees": [
+            47.463981,
+            -0.53170591
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "HIPPODROME",
+      "stopsDest": [
+        {
+          "dest": "ESPACE ANJOU",
+          "mnemoarret": "HIPPODRO",
+          "coordonnees": [
+            47.50123,
+            -0.50742781
+          ]
+        },
+        {
+          "dest": "EVENTARD par ZI ECOUFLANT",
+          "mnemoarret": "HIPPOD-E",
+          "coordonnees": [
+            47.500887,
+            -0.50782125
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "BOIS L'ABBE",
+      "stopsDest": [
+        {
+          "dest": "ESPACE ANJOU",
+          "mnemoarret": "BOISABBE",
+          "coordonnees": [
+            47.490307,
+            -0.51422764
+          ]
+        },
+        {
+          "dest": "LORRAINE",
+          "mnemoarret": "BOISABBE",
+          "coordonnees": [
+            47.490307,
+            -0.51422764
+          ]
+        },
+        {
+          "dest": "EVENTARD par MONPLAISIR",
+          "mnemoarret": "BOISAB-E",
+          "coordonnees": [
+            47.490366,
+            -0.51401834
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "COUBERTIN",
+      "stopsDest": [
+        {
+          "dest": "LORRAINE",
+          "mnemoarret": "PCOUBERT",
+          "coordonnees": [
+            47.462413,
+            -0.53248422
+          ]
+        },
+        {
+          "dest": "EVENTARD par ZI ECOUFLANT",
+          "mnemoarret": "PCOUBERT",
+          "coordonnees": [
+            47.462413,
+            -0.53248422
+          ]
+        },
+        {
+          "dest": "EVENTARD par MONPLAISIR",
+          "mnemoarret": "PCOUBERT",
+          "coordonnees": [
+            47.462413,
+            -0.53248422
+          ]
+        },
+        {
+          "dest": "ESPACE ANJOU",
+          "mnemoarret": "PCOUBE-E",
+          "coordonnees": [
+            47.462453,
+            -0.53231385
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "DEBUSSY",
+      "stopsDest": [
+        {
+          "dest": "ESPACE ANJOU",
+          "mnemoarret": "DEBUSSY",
+          "coordonnees": [
+            47.488308,
+            -0.51611241
+          ]
+        },
+        {
+          "dest": "LORRAINE",
+          "mnemoarret": "DEBUSSY",
+          "coordonnees": [
+            47.488308,
+            -0.51611241
+          ]
+        },
+        {
+          "dest": "EVENTARD par MONPLAISIR",
+          "mnemoarret": "DEBUSS-E",
+          "coordonnees": [
+            47.488423,
+            -0.51582643
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "BOUZINAC",
+      "stopsDest": [
+        {
+          "dest": "ESPACE ANJOU",
+          "mnemoarret": "IMTEC",
+          "coordonnees": [
+            47.503307,
+            -0.50973041
+          ]
+        },
+        {
+          "dest": "EVENTARD par ZI ECOUFLANT",
+          "mnemoarret": "IMTEC-E",
+          "coordonnees": [
+            47.503225,
+            -0.50975261
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "JEAN BOUIN",
+      "stopsDest": [
+        {
+          "dest": "LORRAINE",
+          "mnemoarret": "JEBOUIN",
+          "coordonnees": [
+            47.458881,
+            -0.53299739
+          ]
+        },
+        {
+          "dest": "EVENTARD par ZI ECOUFLANT",
+          "mnemoarret": "JEBOUIN",
+          "coordonnees": [
+            47.458881,
+            -0.53299739
+          ]
+        },
+        {
+          "dest": "EVENTARD par MONPLAISIR",
+          "mnemoarret": "JEBOUIN",
+          "coordonnees": [
+            47.458881,
+            -0.53299739
+          ]
+        },
+        {
+          "dest": "ESPACE ANJOU",
+          "mnemoarret": "JEBOUI-E",
+          "coordonnees": [
+            47.459002,
+            -0.53283138
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "HOTELLERIE",
+      "stopsDest": [
+        {
+          "dest": "LORRAINE",
+          "mnemoarret": "HOTELLER",
+          "coordonnees": [
+            47.489374,
+            -0.51959557
+          ]
+        },
+        {
+          "dest": "ESPACE ANJOU",
+          "mnemoarret": "HOTELLER",
+          "coordonnees": [
+            47.489374,
+            -0.51959557
+          ]
+        },
+        {
+          "dest": "EVENTARD par MONPLAISIR",
+          "mnemoarret": "HOTELL-E",
+          "coordonnees": [
+            47.488841,
+            -0.51895613
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "RAPIDEX",
+      "stopsDest": [
+        {
+          "dest": "ESPACE ANJOU",
+          "mnemoarret": "RAPIDEX",
+          "coordonnees": [
+            47.50275,
+            -0.51408384
+          ]
+        },
+        {
+          "dest": "EVENTARD par ZI ECOUFLANT",
+          "mnemoarret": "RAPIDE-E",
+          "coordonnees": [
+            47.502689,
+            -0.51397435
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "INDUSTRIE",
+      "stopsDest": [
+        {
+          "dest": "LORRAINE",
+          "mnemoarret": "INDUSTRI",
+          "coordonnees": [
+            47.490272,
+            -0.52295035
+          ]
+        },
+        {
+          "dest": "ESPACE ANJOU",
+          "mnemoarret": "INDUSTRI",
+          "coordonnees": [
+            47.490272,
+            -0.52295035
+          ]
+        },
+        {
+          "dest": "EVENTARD par ZI ECOUFLANT",
+          "mnemoarret": "INDUST-E",
+          "coordonnees": [
+            47.490013,
+            -0.5228833
+          ]
+        },
+        {
+          "dest": "EVENTARD par MONPLAISIR",
+          "mnemoarret": "INDUST-E",
+          "coordonnees": [
+            47.490013,
+            -0.5228833
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "MADELEINE",
+      "stopsDest": [
+        {
+          "dest": "EVENTARD par MONPLAISIR",
+          "mnemoarret": "MADELEIN",
+          "coordonnees": [
+            47.459274,
+            -0.5356729
+          ]
+        },
+        {
+          "dest": "LORRAINE",
+          "mnemoarret": "MADELEIN",
+          "coordonnees": [
+            47.459274,
+            -0.5356729
+          ]
+        },
+        {
+          "dest": "EVENTARD par ZI ECOUFLANT",
+          "mnemoarret": "MADELEIN",
+          "coordonnees": [
+            47.459274,
+            -0.5356729
+          ]
+        },
+        {
+          "dest": "ESPACE ANJOU",
+          "mnemoarret": "MADELE-E",
+          "coordonnees": [
+            47.459041,
+            -0.53560728
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "VALEO",
+      "stopsDest": [
+        {
+          "dest": "ESPACE ANJOU",
+          "mnemoarret": "VALEO",
+          "coordonnees": [
+            47.502059,
+            -0.51690257
+          ]
+        },
+        {
+          "dest": "EVENTARD par ZI ECOUFLANT",
+          "mnemoarret": "VALEO -E",
+          "coordonnees": [
+            47.501921,
+            -0.51704125
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "VOLNEY",
+      "stopsDest": [
+        {
+          "dest": "EVENTARD par MONPLAISIR",
+          "mnemoarret": "VOLNEY",
+          "coordonnees": [
+            47.46044,
+            -0.53801857
+          ]
+        },
+        {
+          "dest": "EVENTARD par ZI ECOUFLANT",
+          "mnemoarret": "VOLNEY",
+          "coordonnees": [
+            47.46044,
+            -0.53801857
+          ]
+        },
+        {
+          "dest": "LORRAINE",
+          "mnemoarret": "VOLNEY",
+          "coordonnees": [
+            47.46044,
+            -0.53801857
+          ]
+        },
+        {
+          "dest": "ESPACE ANJOU",
+          "mnemoarret": "VOLNEY-E",
+          "coordonnees": [
+            47.460559,
+            -0.5386488
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "MONPLAISIR",
+      "stopsDest": [
+        {
+          "dest": "LORRAINE",
+          "mnemoarret": "MONPL22",
+          "coordonnees": [
+            47.491046,
+            -0.52770618
+          ]
+        },
+        {
+          "dest": "ESPACE ANJOU",
+          "mnemoarret": "MONPL22",
+          "coordonnees": [
+            47.491046,
+            -0.52770618
+          ]
+        },
+        {
+          "dest": "EVENTARD par ZI ECOUFLANT",
+          "mnemoarret": "MONPEV-E",
+          "coordonnees": [
+            47.490668,
+            -0.52734057
+          ]
+        },
+        {
+          "dest": "EVENTARD par MONPLAISIR",
+          "mnemoarret": "MONPEV-E",
+          "coordonnees": [
+            47.490668,
+            -0.52734057
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "POMANJOU",
+      "stopsDest": [
+        {
+          "dest": "ESPACE ANJOU",
+          "mnemoarret": "POMANJO",
+          "coordonnees": [
+            47.500225,
+            -0.5208552
+          ]
+        },
+        {
+          "dest": "EVENTARD par ZI ECOUFLANT",
+          "mnemoarret": "POMANJ-E",
+          "coordonnees": [
+            47.500201,
+            -0.52070784
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "BOURGONNIER",
+      "stopsDest": [
+        {
+          "dest": "EVENTARD par ZI ECOUFLANT",
+          "mnemoarret": "BOUGONNI",
+          "coordonnees": [
+            47.462171,
+            -0.54222651
+          ]
+        },
+        {
+          "dest": "EVENTARD par MONPLAISIR",
+          "mnemoarret": "BOUGONNI",
+          "coordonnees": [
+            47.462171,
+            -0.54222651
+          ]
+        },
+        {
+          "dest": "LORRAINE",
+          "mnemoarret": "BOUGONNI",
+          "coordonnees": [
+            47.462171,
+            -0.54222651
+          ]
+        },
+        {
+          "dest": "ESPACE ANJOU",
+          "mnemoarret": "BOUGO.-E",
+          "coordonnees": [
+            47.461603,
+            -0.54120035
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "LEMERCIER",
+      "stopsDest": [
+        {
+          "dest": "ESPACE ANJOU",
+          "mnemoarret": "LEMERCIE",
+          "coordonnees": [
+            47.498669,
+            -0.52264435
+          ]
+        },
+        {
+          "dest": "EVENTARD par ZI ECOUFLANT",
+          "mnemoarret": "LEMERC-E",
+          "coordonnees": [
+            47.498611,
+            -0.52242875
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "DOYENNE",
+      "stopsDest": [
+        {
+          "dest": "LORRAINE",
+          "mnemoarret": "DOYENNE",
+          "coordonnees": [
+            47.49061,
+            -0.53259616
+          ]
+        },
+        {
+          "dest": "ESPACE ANJOU",
+          "mnemoarret": "DOYENNE",
+          "coordonnees": [
+            47.49061,
+            -0.53259616
+          ]
+        },
+        {
+          "dest": "EVENTARD par MONPLAISIR",
+          "mnemoarret": "DOYENN-E",
+          "coordonnees": [
+            47.490584,
+            -0.53220963
+          ]
+        },
+        {
+          "dest": "EVENTARD par ZI ECOUFLANT",
+          "mnemoarret": "DOYENN-E",
+          "coordonnees": [
+            47.490584,
+            -0.53220963
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "MICHELET",
+      "stopsDest": [
+        {
+          "dest": "EVENTARD par ZI ECOUFLANT",
+          "mnemoarret": "MICHELET",
+          "coordonnees": [
+            47.46353,
+            -0.54552523
+          ]
+        },
+        {
+          "dest": "EVENTARD par MONPLAISIR",
+          "mnemoarret": "MICHELET",
+          "coordonnees": [
+            47.46353,
+            -0.54552523
+          ]
+        },
+        {
+          "dest": "LORRAINE",
+          "mnemoarret": "MICHELET",
+          "coordonnees": [
+            47.46353,
+            -0.54552523
+          ]
+        },
+        {
+          "dest": "ESPACE ANJOU",
+          "mnemoarret": "MICHEL-E",
+          "coordonnees": [
+            47.462859,
+            -0.54424133
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "LA CITE CHABADA",
+      "stopsDest": [
+        {
+          "dest": "LORRAINE",
+          "mnemoarret": "CITESOLI",
+          "coordonnees": [
+            47.488441,
+            -0.53623722
+          ]
+        },
+        {
+          "dest": "ESPACE ANJOU",
+          "mnemoarret": "CITESOLI",
+          "coordonnees": [
+            47.488441,
+            -0.53623722
+          ]
+        },
+        {
+          "dest": "EVENTARD par ZI ECOUFLANT",
+          "mnemoarret": "CITESO-E",
+          "coordonnees": [
+            47.488509,
+            -0.53565663
+          ]
+        },
+        {
+          "dest": "EVENTARD par MONPLAISIR",
+          "mnemoarret": "CITESO-E",
+          "coordonnees": [
+            47.488509,
+            -0.53565663
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "ANDRE LEROY",
+      "stopsDest": [
+        {
+          "dest": "EVENTARD par ZI ECOUFLANT",
+          "mnemoarret": "ANLEROY",
+          "coordonnees": [
+            47.464659,
+            -0.54825425
+          ]
+        },
+        {
+          "dest": "LORRAINE",
+          "mnemoarret": "ANLEROY",
+          "coordonnees": [
+            47.464659,
+            -0.54825425
+          ]
+        },
+        {
+          "dest": "EVENTARD par MONPLAISIR",
+          "mnemoarret": "ANLEROY",
+          "coordonnees": [
+            47.464659,
+            -0.54825425
+          ]
+        },
+        {
+          "dest": "ESPACE ANJOU",
+          "mnemoarret": "ANLERO-E",
+          "coordonnees": [
+            47.464622,
+            -0.54902208
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "SCANIA",
+      "stopsDest": [
+        {
+          "dest": "ESPACE ANJOU",
+          "mnemoarret": "SCANIA",
+          "coordonnees": [
+            47.493113,
+            -0.52235925
+          ]
+        },
+        {
+          "dest": "EVENTARD par ZI ECOUFLANT",
+          "mnemoarret": "SCANIA-E",
+          "coordonnees": [
+            47.493603,
+            -0.52222617
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "PAUL BERT",
+      "stopsDest": [
+        {
+          "dest": "EVENTARD par MONPLAISIR",
+          "mnemoarret": "PATNOIRE",
+          "coordonnees": [
+            47.466318,
+            -0.55247221
+          ]
+        },
+        {
+          "dest": "EVENTARD par ZI ECOUFLANT",
+          "mnemoarret": "PATNOIRE",
+          "coordonnees": [
+            47.466318,
+            -0.55247221
+          ]
+        },
+        {
+          "dest": "LORRAINE",
+          "mnemoarret": "PATNOIRE",
+          "coordonnees": [
+            47.466318,
+            -0.55247221
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "FOCH HARAS",
+      "stopsDest": [
+        {
+          "dest": "EVENTARD par MONPLAISIR",
+          "mnemoarret": "HARAS",
+          "coordonnees": [
+            47.467123,
+            -0.55193186
+          ]
+        },
+        {
+          "dest": "LORRAINE",
+          "mnemoarret": "HARAS",
+          "coordonnees": [
+            47.467123,
+            -0.55193186
+          ]
+        },
+        {
+          "dest": "EVENTARD par ZI ECOUFLANT",
+          "mnemoarret": "HARAS",
+          "coordonnees": [
+            47.467123,
+            -0.55193186
+          ]
+        },
+        {
+          "dest": "ESPACE ANJOU",
+          "mnemoarret": "HARAS-E",
+          "coordonnees": [
+            47.467251,
+            -0.5522308
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "CARREFOUR ST SERGE",
+      "stopsDest": [
+        {
+          "dest": "LORRAINE",
+          "mnemoarret": "CARCITR",
+          "coordonnees": [
+            47.487167,
+            -0.54368426
+          ]
+        },
+        {
+          "dest": "ESPACE ANJOU",
+          "mnemoarret": "CARCITR",
+          "coordonnees": [
+            47.487167,
+            -0.54368426
+          ]
+        },
+        {
+          "dest": "EVENTARD par MONPLAISIR",
+          "mnemoarret": "CARCIT-E",
+          "coordonnees": [
+            47.487621,
+            -0.54313787
+          ]
+        },
+        {
+          "dest": "EVENTARD par ZI ECOUFLANT",
+          "mnemoarret": "CARCIT-E",
+          "coordonnees": [
+            47.487621,
+            -0.54313787
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "FOCH SAINT AUBIN",
+      "stopsDest": [
+        {
+          "dest": "EVENTARD par ZI ECOUFLANT",
+          "mnemoarret": "STAUBIN",
+          "coordonnees": [
+            47.468557,
+            -0.55003174
+          ]
+        },
+        {
+          "dest": "LORRAINE",
+          "mnemoarret": "STAUBIN",
+          "coordonnees": [
+            47.468557,
+            -0.55003174
+          ]
+        },
+        {
+          "dest": "EVENTARD par MONPLAISIR",
+          "mnemoarret": "STAUBIN",
+          "coordonnees": [
+            47.468557,
+            -0.55003174
+          ]
+        },
+        {
+          "dest": "ESPACE ANJOU",
+          "mnemoarret": "STAUBI-E",
+          "coordonnees": [
+            47.468136,
+            -0.55104429
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "LORRAINE",
+      "stopsDest": [
+        {
+          "dest": "LORRAINE",
+          "mnemoarret": "LORRTERM",
+          "coordonnees": [
+            47.470184,
+            -0.54759774
+          ]
+        },
+        {
+          "dest": "EVENTARD par ZI ECOUFLANT",
+          "mnemoarret": "LORRTERM",
+          "coordonnees": [
+            47.470184,
+            -0.54759774
+          ]
+        },
+        {
+          "dest": "EVENTARD par MONPLAISIR",
+          "mnemoarret": "LORRTERM",
+          "coordonnees": [
+            47.470184,
+            -0.54759774
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "FELIX FAURE",
+      "stopsDest": [
+        {
+          "dest": "LORRAINE",
+          "mnemoarret": "FFAURE",
+          "coordonnees": [
+            47.485663,
+            -0.54730762
+          ]
+        },
+        {
+          "dest": "ESPACE ANJOU",
+          "mnemoarret": "FFAURE",
+          "coordonnees": [
+            47.485663,
+            -0.54730762
+          ]
+        },
+        {
+          "dest": "EVENTARD par ZI ECOUFLANT",
+          "mnemoarret": "FFAURE-E",
+          "coordonnees": [
+            47.485484,
+            -0.54693937
+          ]
+        },
+        {
+          "dest": "EVENTARD par MONPLAISIR",
+          "mnemoarret": "FFAURE-E",
+          "coordonnees": [
+            47.485484,
+            -0.54693937
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "MENDES FRANCE",
+      "stopsDest": [
+        {
+          "dest": "EVENTARD par ZI ECOUFLANT",
+          "mnemoarret": "MENDES-E",
+          "coordonnees": [
+            47.472943,
+            -0.54559658
+          ]
+        },
+        {
+          "dest": "EVENTARD par MONPLAISIR",
+          "mnemoarret": "MENDES-E",
+          "coordonnees": [
+            47.472943,
+            -0.54559658
+          ]
+        },
+        {
+          "dest": "LORRAINE",
+          "mnemoarret": "MENDESFR",
+          "coordonnees": [
+            47.472549,
+            -0.54623901
+          ]
+        },
+        {
+          "dest": "ESPACE ANJOU",
+          "mnemoarret": "MENDESFR",
+          "coordonnees": [
+            47.472549,
+            -0.54623901
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "FACULTE",
+      "stopsDest": [
+        {
+          "dest": "LORRAINE",
+          "mnemoarret": "FACUL-SS",
+          "coordonnees": [
+            47.479316,
+            -0.55098676
+          ]
+        },
+        {
+          "dest": "EVENTARD par MONPLAISIR",
+          "mnemoarret": "FACULT-E",
+          "coordonnees": [
+            47.479286,
+            -0.55077266
+          ]
+        },
+        {
+          "dest": "EVENTARD par ZI ECOUFLANT",
+          "mnemoarret": "FACULT-E",
+          "coordonnees": [
+            47.479286,
+            -0.55077266
+          ]
+        },
+        {
+          "dest": "ESPACE ANJOU",
+          "mnemoarret": "FACUL-SS",
+          "coordonnees": [
+            47.479316,
+            -0.55098676
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "TALET",
+      "stopsDest": [
+        {
+          "dest": "EVENTARD par ZI ECOUFLANT",
+          "mnemoarret": "TALET -E",
+          "coordonnees": [
+            47.476184,
+            -0.54771034
+          ]
+        },
+        {
+          "dest": "EVENTARD par MONPLAISIR",
+          "mnemoarret": "TALET -E",
+          "coordonnees": [
+            47.476184,
+            -0.54771034
+          ]
+        },
+        {
+          "dest": "LORRAINE",
+          "mnemoarret": "TALET",
+          "coordonnees": [
+            47.476401,
+            -0.54768225
+          ]
+        },
+        {
+          "dest": "ESPACE ANJOU",
+          "mnemoarret": "TALET",
+          "coordonnees": [
+            47.476401,
+            -0.54768225
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "BERGES DE MAINE",
+      "stopsDest": [
+        {
+          "dest": "LORRAINE",
+          "mnemoarret": "BMAI-9C",
+          "coordonnees": [
+            47.478747,
+            -0.54962822
+          ]
+        },
+        {
+          "dest": "ESPACE ANJOU",
+          "mnemoarret": "BMAI-9C",
+          "coordonnees": [
+            47.478747,
+            -0.54962822
+          ]
+        },
+        {
+          "dest": "EVENTARD par MONPLAISIR",
+          "mnemoarret": "BMAI-9E",
+          "coordonnees": [
+            47.478504,
+            -0.54891137
+          ]
+        },
+        {
+          "dest": "EVENTARD par ZI ECOUFLANT",
+          "mnemoarret": "BMAI-9E",
+          "coordonnees": [
+            47.478504,
+            -0.54891137
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "FOCH MAISON BLEUE",
+      "stopsDest": [
+        {
+          "dest": "LORRAINE",
+          "mnemoarret": "FO-LOR-R",
+          "coordonnees": [
+            47.469672,
+            -0.5489904
+          ]
+        },
+        {
+          "dest": "ESPACE ANJOU",
+          "mnemoarret": "FO-LOR-R",
+          "coordonnees": [
+            47.469672,
+            -0.5489904
+          ]
+        }
+      ]
+    }
+  ]
+}

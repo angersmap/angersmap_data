@@ -1,0 +1,703 @@
+{
+  "version": "2",
+  "update": "20190718",
+  "mnemoligne": "ABUS",
+  "nomligne": "A - Remplacement Tram par Bus",
+  "color": "E2001A",
+  "dests": [
+    {
+      "name": "A AVRILLE ARDENNE",
+      "color": "E2001A"
+    },
+    {
+      "name": "PLACE LORRAINE",
+      "color": "910010"
+    }
+  ],
+
+
+  "stops": [
+    {
+      "nomarret": "AVRILLE ARDENNE",
+      "stopsDest": [
+        {
+          "dest": "A AVRILLE ARDENNE",
+          "mnemoarret": "CHEMARDE",
+          "coordonnees": [
+            47.512244,
+            -0.5960568
+          ]
+        },
+        {
+          "dest": "PLACE LORRAINE",
+          "mnemoarret": "CHEMAR-E",
+          "coordonnees": [
+            47.512244,
+            -0.5960568
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "ARDENNE",
+      "stopsDest": [
+        {
+          "dest": "A AVRILLE ARDENNE",
+          "mnemoarret": "AARD-7E",
+          "coordonnees": [
+            47.511989,
+            -0.5965343
+          ]
+        },
+        {
+          "dest": "PLACE LORRAINE",
+          "mnemoarret": "AARD-7C",
+          "coordonnees": [
+            47.511088,
+            -0.59548827
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "POIVRE",
+      "stopsDest": [
+        {
+          "dest": "A AVRILLE ARDENNE",
+          "mnemoarret": "POIVRE-E",
+          "coordonnees": [
+            47.513533,
+            -0.59312528
+          ]
+        },
+        {
+          "dest": "PLACE LORRAINE",
+          "mnemoarret": "POIVRE",
+          "coordonnees": [
+            47.513572,
+            -0.59303439
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "BONPLAND",
+      "stopsDest": [
+        {
+          "dest": "A AVRILLE ARDENNE",
+          "mnemoarret": "BONPLA-E",
+          "coordonnees": [
+            47.514497,
+            -0.5909596
+          ]
+        },
+        {
+          "dest": "PLACE LORRAINE",
+          "mnemoarret": "BONPLAND",
+          "coordonnees": [
+            47.514572,
+            -0.58975473
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "LE PRE",
+      "stopsDest": [
+        {
+          "dest": "A AVRILLE ARDENNE",
+          "mnemoarret": "LE PRE-E",
+          "coordonnees": [
+            47.515255,
+            -0.58519526
+          ]
+        },
+        {
+          "dest": "PLACE LORRAINE",
+          "mnemoarret": "LE PRE",
+          "coordonnees": [
+            47.515167,
+            -0.58511072
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "AVRILLE SALETTE",
+      "stopsDest": [
+        {
+          "dest": "A AVRILLE ARDENNE",
+          "mnemoarret": "SALETT-E",
+          "coordonnees": [
+            47.512674,
+            -0.58687367
+          ]
+        },
+        {
+          "dest": "PLACE LORRAINE",
+          "mnemoarret": "SALET AR",
+          "coordonnees": [
+            47.512524,
+            -0.58711785
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "RIPOLLET",
+      "stopsDest": [
+        {
+          "dest": "A AVRILLE ARDENNE",
+          "mnemoarret": "RIPOLE-E",
+          "coordonnees": [
+            47.51115,
+            -0.58841073
+          ]
+        },
+        {
+          "dest": "PLACE LORRAINE",
+          "mnemoarret": "SALET AR",
+          "coordonnees": [
+            47.510852,
+            -0.58880619
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "BASCULE BUS",
+      "stopsDest": [
+        {
+          "dest": "A AVRILLE ARDENNE",
+          "mnemoarret": "WBAS-E",
+          "coordonnees": [
+            47.508857,
+            -0.59153939
+          ]
+        },
+        {
+          "dest": "PLACE LORRAINE",
+          "mnemoarret": "WBASC",
+          "coordonnees": [
+            47.508697,
+            -0.5917963
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "PETITE GARDE",
+      "stopsDest": [
+        {
+          "dest": "A AVRILLE ARDENNE",
+          "mnemoarret": "PEGARD-E",
+          "coordonnees": [
+            47.508435,
+            -0.58794266
+          ]
+        },
+        {
+          "dest": "PLACE LORRAINE",
+          "mnemoarret": "PEGARDE",
+          "coordonnees": [
+            47.508349,
+            -0.58811067
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "SAINT GILLES BUS",
+      "stopsDest": [
+        {
+          "dest": "A AVRILLE ARDENNE",
+          "mnemoarret": "WSTG-E",
+          "coordonnees": [
+            47.506431,
+            -0.58957276
+          ]
+        },
+        {
+          "dest": "PLACE LORRAINE",
+          "mnemoarret": "WSTGI",
+          "coordonnees": [
+            47.506423,
+            -0.58954574
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "CIMETIERE AVRILLE",
+      "stopsDest": [
+        {
+          "dest": "A AVRILLE ARDENNE",
+          "mnemoarret": "CIAVRI-E",
+          "coordonnees": [
+            47.50658,
+            -0.59045767
+          ]
+        },
+        {
+          "dest": "PLACE LORRAINE",
+          "mnemoarret": "CIAVRILL",
+          "coordonnees": [
+            47.506358,
+            -0.59105651
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "MAIRIE D'AVRILLE",
+      "stopsDest": [
+        {
+          "dest": "A AVRILLE ARDENNE",
+          "mnemoarret": "MAIRAV-E",
+          "coordonnees": [
+            47.504943,
+            -0.59076615
+          ]
+        },
+        {
+          "dest": "PLACE LORRAINE",
+          "mnemoarret": "MAIRAVR",
+          "coordonnees": [
+            47.504497,
+            -0.58990475
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "MAUFINEE",
+      "stopsDest": [
+        {
+          "dest": "A AVRILLE ARDENNE",
+          "mnemoarret": "MAUFIN-E",
+          "coordonnees": [
+            47.502615,
+            -0.58885819
+          ]
+        },
+        {
+          "dest": "PLACE LORRAINE",
+          "mnemoarret": "MAUFINE",
+          "coordonnees": [
+            47.502193,
+            -0.58916708
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "ACACIAS ABUS",
+      "stopsDest": [
+        {
+          "dest": "A AVRILLE ARDENNE",
+          "mnemoarret": "OISEAUX",
+          "coordonnees": [
+            47.501589,
+            -0.58740715
+          ]
+        },
+        {
+          "dest": "PLACE LORRAINE",
+          "mnemoarret": "OISEA-E",
+          "coordonnees": [
+            47.501014,
+            -0.58843816
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "ACACIAS",
+      "stopsDest": [
+        {
+          "dest": "A AVRILLE ARDENNE",
+          "mnemoarret": "ACAS-7E",
+          "coordonnees": [
+            47.503186,
+            -0.58582123
+          ]
+        },
+        {
+          "dest": "PLACE LORRAINE",
+          "mnemoarret": "ACAS-7C",
+          "coordonnees": [
+            47.502588,
+            -0.58564225
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "BOIS DU ROY BUS",
+      "stopsDest": [
+        {
+          "dest": "A AVRILLE ARDENNE",
+          "mnemoarret": "WBRO-E",
+          "coordonnees": [
+            47.499736,
+            -0.58306835
+          ]
+        },
+        {
+          "dest": "PLACE LORRAINE",
+          "mnemoarret": "WBROY",
+          "coordonnees": [
+            47.499621,
+            -0.58335423
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "PLATEAU MAYENNE BUS",
+      "stopsDest": [
+        {
+          "dest": "A AVRILLE ARDENNE",
+          "mnemoarret": "WPMA-E",
+          "coordonnees": [
+            47.496551,
+            -0.5794405
+          ]
+        },
+        {
+          "dest": "PLACE LORRAINE",
+          "mnemoarret": "WPMAY",
+          "coordonnees": [
+            47.495712,
+            -0.58023125
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "TERRA BOTANICA",
+      "stopsDest": [
+        {
+          "dest": "A AVRILLE ARDENNE",
+          "mnemoarret": "WTBO-E",
+          "coordonnees": [
+            47.494186,
+            -0.5750611
+          ]
+        },
+        {
+          "dest": "PLACE LORRAINE",
+          "mnemoarret": "WTBOT",
+          "coordonnees": [
+            47.494076,
+            -0.57480272
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "VERNEAU TRAM",
+      "stopsDest": [
+        {
+          "dest": "A AVRILLE ARDENNE",
+          "mnemoarret": "WVERN",
+          "coordonnees": [
+            47.492415,
+            -0.56743432
+          ]
+        },
+        {
+          "dest": "PLACE LORRAINE",
+          "mnemoarret": "WVERN",
+          "coordonnees": [
+            47.492415,
+            -0.56743432
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "AURIOL",
+      "stopsDest": [
+        {
+          "dest": "A AVRILLE ARDENNE",
+          "mnemoarret": "VERNEA-E",
+          "coordonnees": [
+            47.491271,
+            -0.56496823
+          ]
+        },
+        {
+          "dest": "PLACE LORRAINE",
+          "mnemoarret": "AURIOL",
+          "coordonnees": [
+            47.49074,
+            -0.56460729
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "FRATERNITE",
+      "stopsDest": [
+        {
+          "dest": "A AVRILLE ARDENNE",
+          "mnemoarret": "FRATER",
+          "coordonnees": [
+            47.490901,
+            -0.5603532
+          ]
+        },
+        {
+          "dest": "PLACE LORRAINE",
+          "mnemoarret": "FRATE-E",
+          "coordonnees": [
+            47.490856,
+            -0.56175846
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "CHARNASSERIE",
+      "stopsDest": [
+        {
+          "dest": "A AVRILLE ARDENNE",
+          "mnemoarret": "CHARNASS",
+          "coordonnees": [
+            47.491531,
+            -0.55779794
+          ]
+        },
+        {
+          "dest": "PLACE LORRAINE",
+          "mnemoarret": "CHARNA-E",
+          "coordonnees": [
+            47.491894,
+            -0.5566357
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "HTS DE ST AUBIN BUS",
+      "stopsDest": [
+        {
+          "dest": "A AVRILLE ARDENNE",
+          "mnemoarret": "WHSA-E",
+          "coordonnees": [
+            47.492222,
+            -0.56043837
+          ]
+        },
+        {
+          "dest": "PLACE LORRAINE",
+          "mnemoarret": "WHSAU",
+          "coordonnees": [
+            47.492132,
+            -0.56043348
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "LYCEE JEAN MOULIN",
+      "stopsDest": [
+        {
+          "dest": "A AVRILLE ARDENNE",
+          "mnemoarret": "LYCEEJMO",
+          "coordonnees": [
+            47.492354,
+            -0.55189314
+          ]
+        },
+        {
+          "dest": "PLACE LORRAINE",
+          "mnemoarret": "LYCJMO-E",
+          "coordonnees": [
+            47.492256,
+            -0.55183473
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "JEAN MOULIN BUS",
+      "stopsDest": [
+        {
+          "dest": "A AVRILLE ARDENNE",
+          "mnemoarret": "WJMO-E",
+          "coordonnees": [
+            47.490526,
+            -0.55191349
+          ]
+        },
+        {
+          "dest": "PLACE LORRAINE",
+          "mnemoarret": "WJMOU",
+          "coordonnees": [
+            47.49055,
+            -0.55203431
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "CAPUCINS",
+      "stopsDest": [
+        {
+          "dest": "A AVRILLE ARDENNE",
+          "mnemoarret": "CAPU8-E",
+          "coordonnees": [
+            47.487445,
+            -0.55454819
+          ]
+        },
+        {
+          "dest": "PLACE LORRAINE",
+          "mnemoarret": "CAPU8-C",
+          "coordonnees": [
+            47.487412,
+            -0.55479869
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "FACULTE DE MEDECINE",
+      "stopsDest": [
+        {
+          "dest": "A AVRILLE ARDENNE",
+          "mnemoarret": "FMEDECIN",
+          "coordonnees": [
+            47.487222,
+            -0.55230523
+          ]
+        },
+        {
+          "dest": "PLACE LORRAINE",
+          "mnemoarret": "FMEDEC-E",
+          "coordonnees": [
+            47.487396,
+            -0.55255368
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "HAUTE DE RECULEE",
+      "stopsDest": [
+        {
+          "dest": "A AVRILLE ARDENNE",
+          "mnemoarret": "HRECULEE",
+          "coordonnees": [
+            47.485008,
+            -0.55267637
+          ]
+        },
+        {
+          "dest": "PLACE LORRAINE",
+          "mnemoarret": "HRECUL-E",
+          "coordonnees": [
+            47.485008,
+            -0.55267637
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "CHU - MATERNITE",
+      "stopsDest": [
+        {
+          "dest": "PLACE LORRAINE",
+          "mnemoarret": "HOPA8-C",
+          "coordonnees": [
+            47.480552,
+            -0.55483779
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "MATERNITE",
+      "stopsDest": [
+        {
+          "dest": "A AVRILLE ARDENNE",
+          "mnemoarret": "MATERNIT",
+          "coordonnees": [
+            47.48136,
+            -0.55385928
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "ST SERGE UNIV BUS",
+      "stopsDest": [
+        {
+          "dest": "A AVRILLE ARDENNE",
+          "mnemoarret": "WSTSER",
+          "coordonnees": [
+            47.476703,
+            -0.55181424
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "A FR MITTERRAND",
+      "stopsDest": [
+        {
+          "dest": "PLACE LORRAINE",
+          "mnemoarret": "FMIT09-E",
+          "coordonnees": [
+            47.476424,
+            -0.55146718
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "MENDES FRANCE",
+      "stopsDest": [
+        {
+          "dest": "A AVRILLE ARDENNE",
+          "mnemoarret": "MENDES-E",
+          "coordonnees": [
+            47.472942,
+            -0.54563635
+          ]
+        },
+        {
+          "dest": "PLACE LORRAINE",
+          "mnemoarret": "MENDESFR",
+          "coordonnees": [
+            47.472549,
+            -0.54622575
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "PLACE LORRAINE",
+      "stopsDest": [
+        {
+          "dest": "A AVRILLE ARDENNE",
+          "mnemoarret": "LORRTERM",
+          "coordonnees": [
+            47.470195,
+            -0.54749218
+          ]
+        },
+        {
+          "dest": "PLACE LORRAINE",
+          "mnemoarret": "LOHUIT",
+          "coordonnees": [
+            47.470222,
+            -0.54716173
+          ]
+        }
+      ]
+    }
+  ]
+}

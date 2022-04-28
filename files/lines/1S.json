@@ -1,0 +1,1354 @@
+{
+  "version": "1",
+  "mnemoligne": "1S",
+  "nomligne": "SOIR LAC MAINE <> CITE CHABADA",
+  "color": "1FA22E",
+  "dests": [
+    {
+      "name": "LA CITE CHABADA PAR MONPL",
+      "color": "1FA22E"
+    },
+    {
+      "name": "CNFPT PAR BELLE-BEILLE",
+      "color": "2DE540"
+    },
+    {
+      "name": "LAC DE MAINE PAR BELLE BE",
+      "color": "2DE540"
+    }
+  ],
+  "stops": [
+    {
+      "nomarret": "MAIL",
+      "stopsDest": [
+        {
+          "dest": "LA CITE CHABADA PAR MONPL",
+          "mnemoarret": "MAIL-HDV",
+          "coordonnees": [
+            47.471108,
+            -0.54626721
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "SAINT EXUPERY",
+      "stopsDest": [
+        {
+          "dest": "LA CITE CHABADA PAR MONPL",
+          "mnemoarret": "STEXUP-E",
+          "coordonnees": [
+            47.468044,
+            -0.5373538
+          ]
+        },
+        {
+          "dest": "LAC DE MAINE PAR BELLE BE",
+          "mnemoarret": "STEXUPER",
+          "coordonnees": [
+            47.467838,
+            -0.53657281
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "DEUX CROIX",
+      "stopsDest": [
+        {
+          "dest": "LA CITE CHABADA PAR MONPL",
+          "mnemoarret": "DEUCRO-E",
+          "coordonnees": [
+            47.475094,
+            -0.52889265
+          ]
+        },
+        {
+          "dest": "LAC DE MAINE PAR BELLE BE",
+          "mnemoarret": "DEUCROIX",
+          "coordonnees": [
+            47.475046,
+            -0.52902281
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "PLACE DE L'EUROPE",
+      "stopsDest": [
+        {
+          "dest": "LA CITE CHABADA PAR MONPL",
+          "mnemoarret": "PLDEUR-E",
+          "coordonnees": [
+            47.487737,
+            -0.5271962
+          ]
+        },
+        {
+          "dest": "LAC DE MAINE PAR BELLE BE",
+          "mnemoarret": "EURPORCH",
+          "coordonnees": [
+            47.487506,
+            -0.52819293
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "DOYENNE",
+      "stopsDest": [
+        {
+          "dest": "LA CITE CHABADA PAR MONPL",
+          "mnemoarret": "DOYENNE",
+          "coordonnees": [
+            47.490566,
+            -0.53256721
+          ]
+        },
+        {
+          "dest": "LAC DE MAINE PAR BELLE BE",
+          "mnemoarret": "DOYENN-E",
+          "coordonnees": [
+            47.490646,
+            -0.53222628
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "ALIENOR D'AQUITAINE",
+      "stopsDest": [
+        {
+          "dest": "LA CITE CHABADA PAR MONPL",
+          "mnemoarret": "AQUIT11",
+          "coordonnees": [
+            47.462809,
+            -0.61487727
+          ]
+        },
+        {
+          "dest": "LAC DE MAINE PAR BELLE BE",
+          "mnemoarret": "AQUITA-E",
+          "coordonnees": [
+            47.463002,
+            -0.6151003
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "PROUDHON",
+      "stopsDest": [
+        {
+          "dest": "LA CITE CHABADA PAR MONPL",
+          "mnemoarret": "PROUDHON",
+          "coordonnees": [
+            47.461208,
+            -0.60385183
+          ]
+        },
+        {
+          "dest": "LAC DE MAINE PAR BELLE BE",
+          "mnemoarret": "PROUD-E",
+          "coordonnees": [
+            47.461654,
+            -0.60330571
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "ESSCA",
+      "stopsDest": [
+        {
+          "dest": "LA CITE CHABADA PAR MONPL",
+          "mnemoarret": "ESCALAV",
+          "coordonnees": [
+            47.477443,
+            -0.5986808
+          ]
+        },
+        {
+          "dest": "LAC DE MAINE PAR BELLE BE",
+          "mnemoarret": "ESSCA",
+          "coordonnees": [
+            47.476689,
+            -0.59930307
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "I S T I A",
+      "stopsDest": [
+        {
+          "dest": "LA CITE CHABADA PAR MONPL",
+          "mnemoarret": "MAETUDIA",
+          "coordonnees": [
+            47.48057,
+            -0.59459116
+          ]
+        },
+        {
+          "dest": "CNFPT PAR BELLE-BEILLE",
+          "mnemoarret": "MAETUD-E",
+          "coordonnees": [
+            47.480651,
+            -0.59459561
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "CHAPELLE BELLEBEILLE",
+      "stopsDest": [
+        {
+          "dest": "LA CITE CHABADA PAR MONPL",
+          "mnemoarret": "CHBBEILL",
+          "coordonnees": [
+            47.475788,
+            -0.58613649
+          ]
+        },
+        {
+          "dest": "LAC DE MAINE PAR BELLE BE",
+          "mnemoarret": "CHBBEI-E",
+          "coordonnees": [
+            47.475287,
+            -0.58602932
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "OFFICE DE TOURISME",
+      "stopsDest": [
+        {
+          "dest": "LA CITE CHABADA PAR MONPL",
+          "mnemoarret": "OFFTOU-E",
+          "coordonnees": [
+            47.46917,
+            -0.55757825
+          ]
+        },
+        {
+          "dest": "LAC DE MAINE PAR BELLE BE",
+          "mnemoarret": "OFFTOURI",
+          "coordonnees": [
+            47.468858,
+            -0.55815867
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "ACADEMIE",
+      "stopsDest": [
+        {
+          "dest": "LA CITE CHABADA PAR MONPL",
+          "mnemoarret": "ACADEMIE",
+          "coordonnees": [
+            47.467574,
+            -0.55911098
+          ]
+        },
+        {
+          "dest": "LAC DE MAINE PAR BELLE BE",
+          "mnemoarret": "ACAD-PLA",
+          "coordonnees": [
+            47.468357,
+            -0.55875533
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "FOCH ST AUBIN",
+      "stopsDest": [
+        {
+          "dest": "LA CITE CHABADA PAR MONPL",
+          "mnemoarret": "STAUBIN",
+          "coordonnees": [
+            47.468594,
+            -0.55000718
+          ]
+        },
+        {
+          "dest": "LAC DE MAINE PAR BELLE BE",
+          "mnemoarret": "STAUBI-E",
+          "coordonnees": [
+            47.468119,
+            -0.55099029
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "PLACE LORRAINE",
+      "stopsDest": [
+        {
+          "dest": "LA CITE CHABADA PAR MONPL",
+          "mnemoarret": "LORRTERM",
+          "coordonnees": [
+            47.470195,
+            -0.54749218
+          ]
+        },
+        {
+          "dest": "LA CITE CHABADA PAR MONPL",
+          "mnemoarret": "LORRAIN1",
+          "coordonnees": [
+            47.470268,
+            -0.54784123
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "THULEAU",
+      "stopsDest": [
+        {
+          "dest": "LA CITE CHABADA PAR MONPL",
+          "mnemoarret": "THULEA-E",
+          "coordonnees": [
+            47.477309,
+            -0.52814886
+          ]
+        },
+        {
+          "dest": "LAC DE MAINE PAR BELLE BE",
+          "mnemoarret": "THULEAU",
+          "coordonnees": [
+            47.477477,
+            -0.52825086
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "SCHWEI..",
+      "stopsDest": [
+        {
+          "dest": "LA CITE CHABADA PAR MONPL",
+          "mnemoarret": "SCHWEI..",
+          "coordonnees": [
+            47.482576,
+            -0.52225818
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "JERUSALEM",
+      "stopsDest": [
+        {
+          "dest": "LA CITE CHABADA PAR MONPL",
+          "mnemoarret": "JERUSA-E",
+          "coordonnees": [
+            47.473552,
+            -0.5297522
+          ]
+        },
+        {
+          "dest": "LAC DE MAINE PAR BELLE BE",
+          "mnemoarret": "JERUSALE",
+          "coordonnees": [
+            47.473055,
+            -0.53017683
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "C.C. MOLLIERE",
+      "stopsDest": [
+        {
+          "dest": "LA CITE CHABADA PAR MONPL",
+          "mnemoarret": "SEURAT",
+          "coordonnees": [
+            47.460887,
+            -0.61719965
+          ]
+        },
+        {
+          "dest": "LAC DE MAINE PAR BELLE BE",
+          "mnemoarret": "SEURAT-E",
+          "coordonnees": [
+            47.460735,
+            -0.61748326
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "GRESILLE",
+      "stopsDest": [
+        {
+          "dest": "LA CITE CHABADA PAR MONPL",
+          "mnemoarret": "GRESILLE",
+          "coordonnees": [
+            47.459644,
+            -0.60555723
+          ]
+        },
+        {
+          "dest": "LAC DE MAINE PAR BELLE BE",
+          "mnemoarret": "GRES11-E",
+          "coordonnees": [
+            47.460033,
+            -0.6051142
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "PERUSSAIE",
+      "stopsDest": [
+        {
+          "dest": "LA CITE CHABADA PAR MONPL",
+          "mnemoarret": "PERUSSAI",
+          "coordonnees": [
+            47.466024,
+            -0.59637904
+          ]
+        },
+        {
+          "dest": "LAC DE MAINE PAR BELLE BE",
+          "mnemoarret": "PERUSS-E",
+          "coordonnees": [
+            47.465499,
+            -0.59543423
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "LES DENIERS",
+      "stopsDest": [
+        {
+          "dest": "LA CITE CHABADA PAR MONPL",
+          "mnemoarret": "LEDENIER",
+          "coordonnees": [
+            47.465952,
+            -0.59887055
+          ]
+        },
+        {
+          "dest": "LAC DE MAINE PAR BELLE BE",
+          "mnemoarret": "LEDENI-E",
+          "coordonnees": [
+            47.466087,
+            -0.59780281
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "C N F P T",
+      "stopsDest": [
+        {
+          "dest": "LA CITE CHABADA PAR MONPL",
+          "mnemoarret": "CNFPT",
+          "coordonnees": [
+            47.472365,
+            -0.59976833
+          ]
+        },
+        {
+          "dest": "LAC DE MAINE PAR BELLE BE",
+          "mnemoarret": "CNFPT-E",
+          "coordonnees": [
+            47.47233,
+            -0.60011153
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "BOISRAME",
+      "stopsDest": [
+        {
+          "dest": "LA CITE CHABADA PAR MONPL",
+          "mnemoarret": "BOISRAME",
+          "coordonnees": [
+            47.478298,
+            -0.58478721
+          ]
+        },
+        {
+          "dest": "LAC DE MAINE PAR BELLE BE",
+          "mnemoarret": "BOISRA-E",
+          "coordonnees": [
+            47.478246,
+            -0.5847047
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "ELYSEE",
+      "stopsDest": [
+        {
+          "dest": "LA CITE CHABADA PAR MONPL",
+          "mnemoarret": "ELYSEE",
+          "coordonnees": [
+            47.473484,
+            -0.58472227
+          ]
+        },
+        {
+          "dest": "CNFPT PAR BELLE-BEILLE",
+          "mnemoarret": "ELYSEE-E",
+          "coordonnees": [
+            47.473705,
+            -0.58488043
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "MONPROFIT",
+      "stopsDest": [
+        {
+          "dest": "LA CITE CHABADA PAR MONPL",
+          "mnemoarret": "MONPROF.",
+          "coordonnees": [
+            47.474308,
+            -0.56660621
+          ]
+        },
+        {
+          "dest": "LAC DE MAINE PAR BELLE BE",
+          "mnemoarret": "MONPRO-E",
+          "coordonnees": [
+            47.474307,
+            -0.56665924
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "TRINITE",
+      "stopsDest": [
+        {
+          "dest": "LA CITE CHABADA PAR MONPL",
+          "mnemoarret": "TRINITE",
+          "coordonnees": [
+            47.475253,
+            -0.56266166
+          ]
+        },
+        {
+          "dest": "LAC DE MAINE PAR BELLE BE",
+          "mnemoarret": "TRINIT-E",
+          "coordonnees": [
+            47.475156,
+            -0.56185983
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "DUNANT",
+      "stopsDest": [
+        {
+          "dest": "LA CITE CHABADA PAR MONPL",
+          "mnemoarret": "DUNAN",
+          "coordonnees": [
+            47.483494,
+            -0.52554723
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "JEAN MONNET",
+      "stopsDest": [
+        {
+          "dest": "LA CITE CHABADA PAR MONPL",
+          "mnemoarret": "JEAN MON",
+          "coordonnees": [
+            47.46559,
+            -0.60146549
+          ]
+        },
+        {
+          "dest": "LAC DE MAINE PAR BELLE BE",
+          "mnemoarret": "JEAN M-E",
+          "coordonnees": [
+            47.465513,
+            -0.6012887
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "ARAGON",
+      "stopsDest": [
+        {
+          "dest": "LA CITE CHABADA PAR MONPL",
+          "mnemoarret": "ARAGON",
+          "coordonnees": [
+            47.471634,
+            -0.56701796
+          ]
+        },
+        {
+          "dest": "LAC DE MAINE PAR BELLE BE",
+          "mnemoarret": "ARAGO-E",
+          "coordonnees": [
+            47.47173,
+            -0.5675011
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "ISORET",
+      "stopsDest": [
+        {
+          "dest": "LA CITE CHABADA PAR MONPL",
+          "mnemoarret": "ISORET-E",
+          "coordonnees": [
+            47.474464,
+            -0.52015
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "VAUGAREAU",
+      "stopsDest": [
+        {
+          "dest": "LA CITE CHABADA PAR MONPL",
+          "mnemoarret": "VAUGAR-E",
+          "coordonnees": [
+            47.482348,
+            -0.52673375
+          ]
+        },
+        {
+          "dest": "LAC DE MAINE PAR BELLE BE",
+          "mnemoarret": "VAUGAREA",
+          "coordonnees": [
+            47.482726,
+            -0.52674079
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "CITE LA SOLIDARITE",
+      "stopsDest": [
+        {
+          "dest": "LA CITE CHABADA PAR MONPL",
+          "mnemoarret": "CITESOLI",
+          "coordonnees": [
+            47.488379,
+            -0.53616752
+          ]
+        },
+        {
+          "dest": "LAC DE MAINE PAR BELLE BE",
+          "mnemoarret": "CITESO-E",
+          "coordonnees": [
+            47.488414,
+            -0.53587722
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "L'HOIRIE",
+      "stopsDest": [
+        {
+          "dest": "LA CITE CHABADA PAR MONPL",
+          "mnemoarret": "LHOIRI11",
+          "coordonnees": [
+            47.467078,
+            -0.61832618
+          ]
+        },
+        {
+          "dest": "LA CITE CHABADA PAR MONPL",
+          "mnemoarret": "LHOI11-E",
+          "coordonnees": [
+            47.467128,
+            -0.61848824
+          ]
+        },
+        {
+          "dest": "LAC DE MAINE PAR BELLE BE",
+          "mnemoarret": "LHOIRI-E",
+          "coordonnees": [
+            47.467078,
+            -0.61832618
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "LAC DE MAINE NAUTIQ",
+      "stopsDest": [
+        {
+          "dest": "LA CITE CHABADA PAR MONPL",
+          "mnemoarret": "LACDMAIN",
+          "coordonnees": [
+            47.461206,
+            -0.59614026
+          ]
+        },
+        {
+          "dest": "LAC DE MAINE PAR BELLE BE",
+          "mnemoarret": "LACDMA-E",
+          "coordonnees": [
+            47.461074,
+            -0.59635865
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "FOCH HARAS",
+      "stopsDest": [
+        {
+          "dest": "LA CITE CHABADA PAR MONPL",
+          "mnemoarret": "HARAS",
+          "coordonnees": [
+            47.467059,
+            -0.55199472
+          ]
+        },
+        {
+          "dest": "LAC DE MAINE PAR BELLE BE",
+          "mnemoarret": "HARAS-E",
+          "coordonnees": [
+            47.467234,
+            -0.55220331
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "SHAKESPEARE",
+      "stopsDest": [
+        {
+          "dest": "LA CITE CHABADA PAR MONPL",
+          "mnemoarret": "SHEAKSPE",
+          "coordonnees": [
+            47.461844,
+            -0.612501
+          ]
+        },
+        {
+          "dest": "LAC DE MAINE PAR BELLE BE",
+          "mnemoarret": "SHEAKS-E",
+          "coordonnees": [
+            47.461921,
+            -0.61262477
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "LAC DE MAINE ACCUEIL",
+      "stopsDest": [
+        {
+          "dest": "LA CITE CHABADA PAR MONPL",
+          "mnemoarret": "LACACCUE",
+          "coordonnees": [
+            47.464266,
+            -0.59399921
+          ]
+        },
+        {
+          "dest": "LAC DE MAINE PAR BELLE BE",
+          "mnemoarret": "LACACC-E",
+          "coordonnees": [
+            47.464033,
+            -0.59433147
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "GAUBERT",
+      "stopsDest": [
+        {
+          "dest": "LA CITE CHABADA PAR MONPL",
+          "mnemoarret": "GAUBER-E",
+          "coordonnees": [
+            47.475353,
+            -0.5994286
+          ]
+        },
+        {
+          "dest": "CNFPT PAR BELLE-BEILLE",
+          "mnemoarret": "GAUBERT",
+          "coordonnees": [
+            47.474579,
+            -0.5997842
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "CITE UNIVERSITAIRE",
+      "stopsDest": [
+        {
+          "dest": "LA CITE CHABADA PAR MONPL",
+          "mnemoarret": "CITEUNIV",
+          "coordonnees": [
+            47.478911,
+            -0.59792528
+          ]
+        },
+        {
+          "dest": "CNFPT PAR BELLE-BEILLE",
+          "mnemoarret": "CITEUN-E",
+          "coordonnees": [
+            47.47867,
+            -0.59819083
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "BALZAC",
+      "stopsDest": [
+        {
+          "dest": "LA CITE CHABADA PAR MONPL",
+          "mnemoarret": "FARCY",
+          "coordonnees": [
+            47.47245,
+            -0.57607642
+          ]
+        },
+        {
+          "dest": "CNFPT PAR BELLE-BEILLE",
+          "mnemoarret": "FARCY-E",
+          "coordonnees": [
+            47.472618,
+            -0.57621834
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "GARES BREMONT",
+      "stopsDest": [
+        {
+          "dest": "CNFPT PAR BELLE-BEILLE",
+          "mnemoarret": "BREMON-E",
+          "coordonnees": [
+            47.465975,
+            -0.55935588
+          ]
+        },
+        {
+          "dest": "LA CITE CHABADA PAR MONPL",
+          "mnemoarret": "GBREM-E",
+          "coordonnees": [
+            47.465693,
+            -0.55947328
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "BEAUREPAIRE",
+      "stopsDest": [
+        {
+          "dest": "CNFPT PAR BELLE-BEILLE",
+          "mnemoarret": "BEAURE-E",
+          "coordonnees": [
+            47.473964,
+            -0.55952478
+          ]
+        },
+        {
+          "dest": "LA CITE CHABADA PAR MONPL",
+          "mnemoarret": "BEAUREPA",
+          "coordonnees": [
+            47.474032,
+            -0.55966127
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "BON PASTEUR",
+      "stopsDest": [
+        {
+          "dest": "CNFPT PAR BELLE-BEILLE",
+          "mnemoarret": "BPASTE-E",
+          "coordonnees": [
+            47.470466,
+            -0.56978185
+          ]
+        },
+        {
+          "dest": "LA CITE CHABADA PAR MONPL",
+          "mnemoarret": "BPASTEUR",
+          "coordonnees": [
+            47.470306,
+            -0.56970673
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "FRONT DE MAINE",
+      "stopsDest": [
+        {
+          "dest": "LAC DE MAINE PAR BELLE BE",
+          "mnemoarret": "FRONDEMA",
+          "coordonnees": [
+            47.472491,
+            -0.56657352
+          ]
+        },
+        {
+          "dest": "LA CITE CHABADA PAR MONPL",
+          "mnemoarret": "FRONDM-E",
+          "coordonnees": [
+            47.472286,
+            -0.56615079
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "MONTESQUIEU",
+      "stopsDest": [
+        {
+          "dest": "LAC DE MAINE PAR BELLE BE",
+          "mnemoarret": "MONTEQ-E",
+          "coordonnees": [
+            47.473867,
+            -0.57985785
+          ]
+        },
+        {
+          "dest": "LA CITE CHABADA PAR MONPL",
+          "mnemoarret": "MONTESQU",
+          "coordonnees": [
+            47.473594,
+            -0.58070579
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "NOTRE DAME DU LAC",
+      "stopsDest": [
+        {
+          "dest": "LAC DE MAINE PAR BELLE BE",
+          "mnemoarret": "NDAMLA-E",
+          "coordonnees": [
+            47.479652,
+            -0.58961475
+          ]
+        },
+        {
+          "dest": "LA CITE CHABADA PAR MONPL",
+          "mnemoarret": "NDAMELAC",
+          "coordonnees": [
+            47.479623,
+            -0.58970608
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "AUVERGNE",
+      "stopsDest": [
+        {
+          "dest": "LAC DE MAINE PAR BELLE BE",
+          "mnemoarret": "AUVERGNE",
+          "coordonnees": [
+            47.489521,
+            -0.53078459
+          ]
+        },
+        {
+          "dest": "LA CITE CHABADA PAR MONPL",
+          "mnemoarret": "AUVERG-E",
+          "coordonnees": [
+            47.490176,
+            -0.53012935
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "GARDOT",
+      "stopsDest": [
+        {
+          "dest": "LAC DE MAINE PAR BELLE BE",
+          "mnemoarret": "GARDOT",
+          "coordonnees": [
+            47.468295,
+            -0.53338515
+          ]
+        },
+        {
+          "dest": "LA CITE CHABADA PAR MONPL",
+          "mnemoarret": "GARDOT-E",
+          "coordonnees": [
+            47.468301,
+            -0.53315979
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "GARES PAPIN",
+      "stopsDest": [
+        {
+          "dest": "LAC DE MAINE PAR BELLE BE",
+          "mnemoarret": "GAREPA-E",
+          "coordonnees": [
+            47.465156,
+            -0.55753274
+          ]
+        },
+        {
+          "dest": "LA CITE CHABADA PAR MONPL",
+          "mnemoarret": "GAREPAPI",
+          "coordonnees": [
+            47.464954,
+            -0.55770757
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "BRISEPOTIERE",
+      "stopsDest": [
+        {
+          "dest": "LAC DE MAINE PAR BELLE BE",
+          "mnemoarret": "BRISEPOA",
+          "coordonnees": [
+            47.479488,
+            -0.52810678
+          ]
+        },
+        {
+          "dest": "LA CITE CHABADA PAR MONPL",
+          "mnemoarret": "BRISEA-E",
+          "coordonnees": [
+            47.479583,
+            -0.52791273
+          ]
+        },
+        {
+          "dest": "LA CITE CHABADA PAR MONPL",
+          "mnemoarret": "BRISEP-E",
+          "coordonnees": [
+            47.479392,
+            -0.52727843
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "COEUR DE MAINE",
+      "stopsDest": [
+        {
+          "dest": "LAC DE MAINE PAR BELLE BE",
+          "mnemoarret": "POISSO-E",
+          "coordonnees": [
+            47.472555,
+            -0.55680643
+          ]
+        },
+        {
+          "dest": "LA CITE CHABADA PAR MONPL",
+          "mnemoarret": "POISSONN",
+          "coordonnees": [
+            47.472349,
+            -0.55712711
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "FOCH MAISON BLEUE",
+      "stopsDest": [
+        {
+          "dest": "CNFPT PAR BELLE-BEILLE",
+          "mnemoarret": "FO-LOR-R",
+          "coordonnees": [
+            47.469665,
+            -0.54891037
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "LORRAINE MAISONBLEUE",
+      "stopsDest": [
+        {
+          "dest": "LA CITE CHABADA PAR MONPL",
+          "mnemoarret": "LOR-FO-A",
+          "coordonnees": [
+            47.469637,
+            -0.54859027
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "DEUX CROIX DAGUENET",
+      "stopsDest": [
+        {
+          "dest": "LA CITE CHABADA PAR MONPL",
+          "mnemoarret": "DEUXCR-E",
+          "coordonnees": [
+            47.474784,
+            -0.52798647
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "NOZAY",
+      "stopsDest": [
+        {
+          "dest": "LA CITE CHABADA PAR MONPL",
+          "mnemoarret": "NOZAY -E",
+          "coordonnees": [
+            47.487682,
+            -0.53197362
+          ]
+        },
+        {
+          "dest": "LAC DE MAINE PAR BELLE BE",
+          "mnemoarret": "NOZAY",
+          "coordonnees": [
+            47.487743,
+            -0.53204331
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "MONTAIGNE",
+      "stopsDest": [
+        {
+          "dest": "LA CITE CHABADA PAR MONPL",
+          "mnemoarret": "MONTAI-E",
+          "coordonnees": [
+            47.469509,
+            -0.53164522
+          ]
+        },
+        {
+          "dest": "LAC DE MAINE PAR BELLE BE",
+          "mnemoarret": "MONTAIG",
+          "coordonnees": [
+            47.470794,
+            -0.53136928
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "REPUBLIQUE",
+      "stopsDest": [
+        {
+          "dest": "LAC DE MAINE PAR BELLE BE",
+          "mnemoarret": "REPUBL-E",
+          "coordonnees": [
+            47.4717,
+            -0.55393238
+          ]
+        },
+        {
+          "dest": "LA CITE CHABADA PAR MONPL",
+          "mnemoarret": "REPUBLIQ",
+          "coordonnees": [
+            47.471068,
+            -0.55400428
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "WIGAN",
+      "stopsDest": [
+        {
+          "dest": "LAC DE MAINE PAR BELLE BE",
+          "mnemoarret": "WIGAN-E",
+          "coordonnees": [
+            47.459487,
+            -0.6081765
+          ]
+        },
+        {
+          "dest": "LA CITE CHABADA PAR MONPL",
+          "mnemoarret": "WIGAN",
+          "coordonnees": [
+            47.459416,
+            -0.60815927
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "JOFFRE",
+      "stopsDest": [
+        {
+          "dest": "LAC DE MAINE PAR BELLE BE",
+          "mnemoarret": "JOFFRE",
+          "coordonnees": [
+            47.471927,
+            -0.54516992
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "ALLONNEAU",
+      "stopsDest": [
+        {
+          "dest": "LA CITE CHABADA PAR MONPL",
+          "mnemoarret": "ALLONN-E",
+          "coordonnees": [
+            47.485198,
+            -0.52687373
+          ]
+        },
+        {
+          "dest": "LAC DE MAINE PAR BELLE BE",
+          "mnemoarret": "ALLONNEA",
+          "coordonnees": [
+            47.485115,
+            -0.52697546
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "FRATELLINI",
+      "stopsDest": [
+        {
+          "dest": "LA CITE CHABADA PAR MONPL",
+          "mnemoarret": "CIEST.-E",
+          "coordonnees": [
+            47.471534,
+            -0.53090472
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "SAINTE CROIX",
+      "stopsDest": [
+        {
+          "dest": "LA CITE CHABADA PAR MONPL",
+          "mnemoarret": "SAICRO-E",
+          "coordonnees": [
+            47.469875,
+            -0.55492185
+          ]
+        },
+        {
+          "dest": "CNFPT PAR BELLE-BEILLE",
+          "mnemoarret": "SAICROIX",
+          "coordonnees": [
+            47.469963,
+            -0.55428944
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "LES GARES",
+      "stopsDest": [
+        {
+          "dest": "LA CITE CHABADA PAR MONPL",
+          "mnemoarret": "LESGARES",
+          "coordonnees": [
+            47.465129,
+            -0.55573935
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "GILLIER",
+      "stopsDest": [
+        {
+          "dest": "LA CITE CHABADA PAR MONPL",
+          "mnemoarret": "GILLIE-E",
+          "coordonnees": [
+            47.474983,
+            -0.52539515
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "VANDELLANT",
+      "stopsDest": [
+        {
+          "dest": "LA CITE CHABADA PAR MONPL",
+          "mnemoarret": "VANDE-E",
+          "coordonnees": [
+            47.478288,
+            -0.52092605
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "SECURITE SOCIALE",
+      "stopsDest": [
+        {
+          "dest": "LA CITE CHABADA PAR MONPL",
+          "mnemoarret": "SECUSO-E",
+          "coordonnees": [
+            47.468958,
+            -0.54004471
+          ]
+        },
+        {
+          "dest": "LAC DE MAINE PAR BELLE BE",
+          "mnemoarret": "SECUSOCI",
+          "coordonnees": [
+            47.469108,
+            -0.54018552
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "BIRGE",
+      "stopsDest": [
+        {
+          "dest": "LA CITE CHABADA PAR MONPL",
+          "mnemoarret": "BIRGTE-E",
+          "coordonnees": [
+            47.475219,
+            -0.5198188
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "MIMOSAS",
+      "stopsDest": [
+        {
+          "dest": "LA CITE CHABADA PAR MONPL",
+          "mnemoarret": "SCHWTZ-E",
+          "coordonnees": [
+            47.481544,
+            -0.52321186
+          ]
+        }
+      ]
+    }
+  ]
+}

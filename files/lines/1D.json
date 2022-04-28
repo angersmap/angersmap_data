@@ -1,0 +1,2583 @@
+{
+  "version": "20211205173952",
+  "mnemoligne": "1D",
+  "nomligne": "DJF  BELLE BEILLE <> MONPLAISIR",
+  "color": "1FA22E",
+  "dests": [
+    {
+      "name": "BEAUCOUZE par BELLE BEILL",
+      "color": "1FA22E",
+      "codeparcours": "EVENTARD > BEAUCOUZE 7.1"
+    },
+    {
+      "name": "BEAUCOUZE par BELLE BEILL",
+      "color": "1FA22E",
+      "codeparcours": "ST AUBIN > BEAUCOUZE 9.1"
+    },
+    {
+      "name": "BEAUCOUZE par BELLE BEILL",
+      "color": "1FA22E",
+      "codeparcours": "MONPLAISIR > BEAUCOUZE 7.1"
+    },
+    {
+      "name": "LAC  MAINE NAUTIQUE",
+      "color": "1FA22E",
+      "codeparcours": "MONPLAISIR > LAC DE MAINE 7.1"
+    },
+    {
+      "name": "LAC  MAINE NAUTIQUE",
+      "color": "1FA22E",
+      "codeparcours": "EVENTARD > LAC DE MAINE 7.1"
+    },
+    {
+      "name": "MONPLAISIR",
+      "color": "2DE540",
+      "codeparcours": "VAL DE MAINE > MONPLAISIR 9.1"
+    },
+    {
+      "name": "MONPLAISIR",
+      "color": "2DE540",
+      "codeparcours": "LAC DE MAINE > MONPLAISIR 9."
+    },
+    {
+      "name": "MONPLAISIR",
+      "color": "2DE540",
+      "codeparcours": "BEAUCOUZE > MONPLAISIR 9.1"
+    },
+    {
+      "name": "VAL DE MAINE par B-BEILL",
+      "color": "1FA22E",
+      "codeparcours": "MONPLAISIR > VAL DE MAINE 9.1"
+    },
+    {
+      "name": "VAL DE MAINE par B-BEILL",
+      "color": "1FA22E",
+      "codeparcours": "ST AUBIN > VAL DE MAINE 7.1"
+    },
+    {
+      "name": "VAL DE MAINE par B-BEILL",
+      "color": "1FA22E",
+      "codeparcours": "EVENTARD > VAL DE MAINE 7.1"
+    },
+    {
+      "name": "EVENTARD par MONPLAISIR",
+      "color": "2DE540",
+      "codeparcours": "BEAUCOUZE > EVENTARD 9.1"
+    },
+    {
+      "name": "ST AUBIN par MONPLAISIR",
+      "color": "2DE540",
+      "codeparcours": "VAL DE MAINE > ST AUBIN 9.1"
+    }
+  ],
+  "stops": [
+    {
+      "nomarret": "EVENTARD",
+      "stopsDest": [
+        {
+          "dest": "BEAUCOUZE par BELLE BEILL",
+          "mnemoarret": "EVENTA T",
+          "coordonnees": [
+            47.496868,
+            -0.51500398
+          ]
+        },
+        {
+          "dest": "EVENTARD par MONPLAISIR",
+          "mnemoarret": "EVENT AR",
+          "coordonnees": [
+            47.496868,
+            -0.51500398
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "SAINT AUBIN LA SALLE",
+      "stopsDest": [
+        {
+          "dest": "BEAUCOUZE par BELLE BEILL",
+          "mnemoarret": "BARONNER",
+          "coordonnees": [
+            47.489314,
+            -0.50408234
+          ]
+        },
+        {
+          "dest": "ST AUBIN par MONPLAISIR",
+          "mnemoarret": "BARONN-E",
+          "coordonnees": [
+            47.489314,
+            -0.50408234
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "VAL DE MAINE",
+      "stopsDest": [
+        {
+          "dest": "MONPLAISIR",
+          "mnemoarret": "P-VDMA-E",
+          "coordonnees": [
+            47.443105,
+            -0.61313569
+          ]
+        },
+        {
+          "dest": "ST AUBIN par MONPLAISIR",
+          "mnemoarret": "P-VDMA-E",
+          "coordonnees": [
+            47.443105,
+            -0.61313569
+          ]
+        },
+        {
+          "dest": "MONPLAISIR",
+          "mnemoarret": "VALDE AR",
+          "coordonnees": [
+            47.443068,
+            -0.61244372
+          ]
+        },
+        {
+          "dest": "ST AUBIN par MONPLAISIR",
+          "mnemoarret": "VALDE AR",
+          "coordonnees": [
+            47.443068,
+            -0.61244372
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "BEAUCOUZE HAUTE ROCH",
+      "stopsDest": [
+        {
+          "dest": "EVENTARD par MONPLAISIR",
+          "mnemoarret": "BEAUCOUZ",
+          "coordonnees": [
+            47.470305,
+            -0.62518262
+          ]
+        },
+        {
+          "dest": "MONPLAISIR",
+          "mnemoarret": "BEAUCOUZ",
+          "coordonnees": [
+            47.470305,
+            -0.62518262
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "LAC MAINE NAUTIQUE",
+      "stopsDest": [
+        {
+          "dest": "MONPLAISIR",
+          "mnemoarret": "LACDMAIN",
+          "coordonnees": [
+            47.461182,
+            -0.59603274
+          ]
+        },
+        {
+          "dest": "ST AUBIN par MONPLAISIR",
+          "mnemoarret": "LACDMAIN",
+          "coordonnees": [
+            47.461182,
+            -0.59603274
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "COTTAGE",
+      "stopsDest": [
+        {
+          "dest": "BEAUCOUZE par BELLE BEILL",
+          "mnemoarret": "COTTAGE",
+          "coordonnees": [
+            47.494798,
+            -0.51534465
+          ]
+        },
+        {
+          "dest": "EVENTARD par MONPLAISIR",
+          "mnemoarret": "COTTAG-E",
+          "coordonnees": [
+            47.494587,
+            -0.51514741
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "CHANTERIE",
+      "stopsDest": [
+        {
+          "dest": "MONPLAISIR",
+          "mnemoarret": "CHANTERI",
+          "coordonnees": [
+            47.470944,
+            -0.62801921
+          ]
+        },
+        {
+          "dest": "EVENTARD par MONPLAISIR",
+          "mnemoarret": "CHANTERI",
+          "coordonnees": [
+            47.470944,
+            -0.62801921
+          ]
+        },
+        {
+          "dest": "BEAUCOUZE par BELLE BEILL",
+          "mnemoarret": "CHANTE-E",
+          "coordonnees": [
+            47.470888,
+            -0.62808249
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "PINSONS",
+      "stopsDest": [
+        {
+          "dest": "EVENTARD par MONPLAISIR",
+          "mnemoarret": "PINSONS",
+          "coordonnees": [
+            47.472492,
+            -0.63013657
+          ]
+        },
+        {
+          "dest": "MONPLAISIR",
+          "mnemoarret": "PINSONS",
+          "coordonnees": [
+            47.472492,
+            -0.63013657
+          ]
+        },
+        {
+          "dest": "BEAUCOUZE par BELLE BEILL",
+          "mnemoarret": "PINSON-E",
+          "coordonnees": [
+            47.472568,
+            -0.63031341
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "DU BELLAY",
+      "stopsDest": [
+        {
+          "dest": "BEAUCOUZE par BELLE BEILL",
+          "mnemoarret": "DUBELLAY",
+          "coordonnees": [
+            47.492461,
+            -0.51338682
+          ]
+        },
+        {
+          "dest": "EVENTARD par MONPLAISIR",
+          "mnemoarret": "DUBELL-E",
+          "coordonnees": [
+            47.492168,
+            -0.51323832
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "PIGNONIERE",
+      "stopsDest": [
+        {
+          "dest": "BEAUCOUZE par BELLE BEILL",
+          "mnemoarret": "PIGNONIE",
+          "coordonnees": [
+            47.487288,
+            -0.49826442
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "GROUPE COMMERCIAL",
+      "stopsDest": [
+        {
+          "dest": "MONPLAISIR",
+          "mnemoarret": "GRCPRUNI",
+          "coordonnees": [
+            47.445728,
+            -0.60590342
+          ]
+        },
+        {
+          "dest": "ST AUBIN par MONPLAISIR",
+          "mnemoarret": "GRCPRUNI",
+          "coordonnees": [
+            47.445728,
+            -0.60590342
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "GRAND PIN",
+      "stopsDest": [
+        {
+          "dest": "MONPLAISIR",
+          "mnemoarret": "GRANDPIN",
+          "coordonnees": [
+            47.473291,
+            -0.63196007
+          ]
+        },
+        {
+          "dest": "EVENTARD par MONPLAISIR",
+          "mnemoarret": "GRANDPIN",
+          "coordonnees": [
+            47.473291,
+            -0.63196007
+          ]
+        },
+        {
+          "dest": "BEAUCOUZE par BELLE BEILL",
+          "mnemoarret": "GRANPI-E",
+          "coordonnees": [
+            47.473299,
+            -0.63165516
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "LA CITE CHABADA",
+      "stopsDest": [
+        {
+          "dest": "BEAUCOUZE par BELLE BEILL",
+          "mnemoarret": "CITESOLI",
+          "coordonnees": [
+            47.488441,
+            -0.53623722
+          ]
+        },
+        {
+          "dest": "MONPLAISIR",
+          "mnemoarret": "CITESO-E",
+          "coordonnees": [
+            47.488509,
+            -0.53565663
+          ]
+        },
+        {
+          "dest": "ST AUBIN par MONPLAISIR",
+          "mnemoarret": "CITESO-E",
+          "coordonnees": [
+            47.488509,
+            -0.53565663
+          ]
+        },
+        {
+          "dest": "EVENTARD par MONPLAISIR",
+          "mnemoarret": "CITESO-E",
+          "coordonnees": [
+            47.488509,
+            -0.53565663
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "PERUSSAIE",
+      "stopsDest": [
+        {
+          "dest": "MONPLAISIR",
+          "mnemoarret": "PERUSSAI",
+          "coordonnees": [
+            47.466079,
+            -0.59636875
+          ]
+        },
+        {
+          "dest": "ST AUBIN par MONPLAISIR",
+          "mnemoarret": "PERUSSAI",
+          "coordonnees": [
+            47.466079,
+            -0.59636875
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "BOIS L'ABBE",
+      "stopsDest": [
+        {
+          "dest": "BEAUCOUZE par BELLE BEILL",
+          "mnemoarret": "BOISABBE",
+          "coordonnees": [
+            47.490307,
+            -0.51422764
+          ]
+        },
+        {
+          "dest": "EVENTARD par MONPLAISIR",
+          "mnemoarret": "BOISAB-E",
+          "coordonnees": [
+            47.490366,
+            -0.51401834
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "PRIEURE",
+      "stopsDest": [
+        {
+          "dest": "EVENTARD par MONPLAISIR",
+          "mnemoarret": "PRIEURE",
+          "coordonnees": [
+            47.471889,
+            -0.63364754
+          ]
+        },
+        {
+          "dest": "MONPLAISIR",
+          "mnemoarret": "PRIEURE",
+          "coordonnees": [
+            47.471889,
+            -0.63364754
+          ]
+        },
+        {
+          "dest": "BEAUCOUZE par BELLE BEILL",
+          "mnemoarret": "PRIEUR-E",
+          "coordonnees": [
+            47.471873,
+            -0.633567
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "MAISON DU LAC",
+      "stopsDest": [
+        {
+          "dest": "MONPLAISIR",
+          "mnemoarret": "LEDENIER",
+          "coordonnees": [
+            47.466005,
+            -0.59891329
+          ]
+        },
+        {
+          "dest": "ST AUBIN par MONPLAISIR",
+          "mnemoarret": "LEDENIER",
+          "coordonnees": [
+            47.466005,
+            -0.59891329
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "DEBUSSY",
+      "stopsDest": [
+        {
+          "dest": "BEAUCOUZE par BELLE BEILL",
+          "mnemoarret": "DEBUSSY",
+          "coordonnees": [
+            47.488308,
+            -0.51611241
+          ]
+        },
+        {
+          "dest": "BEAUCOUZE par BELLE BEILL",
+          "mnemoarret": "DEBUSS22",
+          "coordonnees": [
+            47.487631,
+            -0.51581058
+          ]
+        },
+        {
+          "dest": "ST AUBIN par MONPLAISIR",
+          "mnemoarret": "DEBU22-E",
+          "coordonnees": [
+            47.487182,
+            -0.51538818
+          ]
+        },
+        {
+          "dest": "EVENTARD par MONPLAISIR",
+          "mnemoarret": "DEBUSS-E",
+          "coordonnees": [
+            47.488423,
+            -0.51582643
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "CLAVERIE",
+      "stopsDest": [
+        {
+          "dest": "BEAUCOUZE par BELLE BEILL",
+          "mnemoarret": "CLAVERIE",
+          "coordonnees": [
+            47.486649,
+            -0.50449782
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "VAURAGERE",
+      "stopsDest": [
+        {
+          "dest": "EVENTARD par MONPLAISIR",
+          "mnemoarret": "VAURAGER",
+          "coordonnees": [
+            47.472843,
+            -0.63541332
+          ]
+        },
+        {
+          "dest": "MONPLAISIR",
+          "mnemoarret": "VAURAGER",
+          "coordonnees": [
+            47.472843,
+            -0.63541332
+          ]
+        },
+        {
+          "dest": "BEAUCOUZE par BELLE BEILL",
+          "mnemoarret": "VAURAG-E",
+          "coordonnees": [
+            47.472785,
+            -0.63554288
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "PRUNIERS",
+      "stopsDest": [
+        {
+          "dest": "MONPLAISIR",
+          "mnemoarret": "PRUNIERS",
+          "coordonnees": [
+            47.44905,
+            -0.60268985
+          ]
+        },
+        {
+          "dest": "ST AUBIN par MONPLAISIR",
+          "mnemoarret": "PRUNIERS",
+          "coordonnees": [
+            47.44905,
+            -0.60268985
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "JARDINS FAMILIAUX",
+      "stopsDest": [
+        {
+          "dest": "BEAUCOUZE par BELLE BEILL",
+          "mnemoarret": "JARDFA",
+          "coordonnees": [
+            47.485553,
+            -0.50844934
+          ]
+        },
+        {
+          "dest": "ST AUBIN par MONPLAISIR",
+          "mnemoarret": "JARDF-E",
+          "coordonnees": [
+            47.485579,
+            -0.50810552
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "ROUAIRIE",
+      "stopsDest": [
+        {
+          "dest": "EVENTARD par MONPLAISIR",
+          "mnemoarret": "ROUAIRIE",
+          "coordonnees": [
+            47.475687,
+            -0.63891776
+          ]
+        },
+        {
+          "dest": "MONPLAISIR",
+          "mnemoarret": "ROUAIRIE",
+          "coordonnees": [
+            47.475687,
+            -0.63891776
+          ]
+        },
+        {
+          "dest": "BEAUCOUZE par BELLE BEILL",
+          "mnemoarret": "ROUAIR-E",
+          "coordonnees": [
+            47.475666,
+            -0.63902281
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "CROISETTE",
+      "stopsDest": [
+        {
+          "dest": "ST AUBIN par MONPLAISIR",
+          "mnemoarret": "CROISETT",
+          "coordonnees": [
+            47.450934,
+            -0.60012645
+          ]
+        },
+        {
+          "dest": "MONPLAISIR",
+          "mnemoarret": "CROISETT",
+          "coordonnees": [
+            47.450934,
+            -0.60012645
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "INDUSTRIE",
+      "stopsDest": [
+        {
+          "dest": "BEAUCOUZE par BELLE BEILL",
+          "mnemoarret": "INDUSTRI",
+          "coordonnees": [
+            47.490272,
+            -0.52295035
+          ]
+        },
+        {
+          "dest": "ST AUBIN par MONPLAISIR",
+          "mnemoarret": "INDUST-E",
+          "coordonnees": [
+            47.490013,
+            -0.5228833
+          ]
+        },
+        {
+          "dest": "EVENTARD par MONPLAISIR",
+          "mnemoarret": "INDUST-E",
+          "coordonnees": [
+            47.490013,
+            -0.5228833
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "BANCHAIS",
+      "stopsDest": [
+        {
+          "dest": "BEAUCOUZE par BELLE BEILL",
+          "mnemoarret": "BANCSTMA",
+          "coordonnees": [
+            47.486005,
+            -0.51237735
+          ]
+        },
+        {
+          "dest": "ST AUBIN par MONPLAISIR",
+          "mnemoarret": "STMANS",
+          "coordonnees": [
+            47.485805,
+            -0.51247285
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "ROUTE DE MEIGNANNE",
+      "stopsDest": [
+        {
+          "dest": "MONPLAISIR",
+          "mnemoarret": "RTEMEIGN",
+          "coordonnees": [
+            47.477707,
+            -0.63948204
+          ]
+        },
+        {
+          "dest": "EVENTARD par MONPLAISIR",
+          "mnemoarret": "RTEMEIGN",
+          "coordonnees": [
+            47.477707,
+            -0.63948204
+          ]
+        },
+        {
+          "dest": "BEAUCOUZE par BELLE BEILL",
+          "mnemoarret": "RTEMEI-E",
+          "coordonnees": [
+            47.477787,
+            -0.63949982
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "CNFPT",
+      "stopsDest": [
+        {
+          "dest": "MONPLAISIR",
+          "mnemoarret": "CNFPT",
+          "coordonnees": [
+            47.472383,
+            -0.59978258
+          ]
+        },
+        {
+          "dest": "ST AUBIN par MONPLAISIR",
+          "mnemoarret": "CNFPT",
+          "coordonnees": [
+            47.472383,
+            -0.59978258
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "HERMITAGE",
+      "stopsDest": [
+        {
+          "dest": "EVENTARD par MONPLAISIR",
+          "mnemoarret": "HERMITAG",
+          "coordonnees": [
+            47.477762,
+            -0.63594014
+          ]
+        },
+        {
+          "dest": "MONPLAISIR",
+          "mnemoarret": "HERMITAG",
+          "coordonnees": [
+            47.477762,
+            -0.63594014
+          ]
+        },
+        {
+          "dest": "BEAUCOUZE par BELLE BEILL",
+          "mnemoarret": "HERMIT-E",
+          "coordonnees": [
+            47.47776,
+            -0.63530275
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "PROMENIERS",
+      "stopsDest": [
+        {
+          "dest": "EVENTARD par MONPLAISIR",
+          "mnemoarret": "PROMENIE",
+          "coordonnees": [
+            47.477302,
+            -0.63138707
+          ]
+        },
+        {
+          "dest": "MONPLAISIR",
+          "mnemoarret": "PROMENIE",
+          "coordonnees": [
+            47.477302,
+            -0.63138707
+          ]
+        },
+        {
+          "dest": "BEAUCOUZE par BELLE BEILL",
+          "mnemoarret": "PROME-E",
+          "coordonnees": [
+            47.477384,
+            -0.63135181
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "HOTELLERIE",
+      "stopsDest": [
+        {
+          "dest": "BEAUCOUZE par BELLE BEILL",
+          "mnemoarret": "HOTELLER",
+          "coordonnees": [
+            47.489374,
+            -0.51959557
+          ]
+        },
+        {
+          "dest": "ST AUBIN par MONPLAISIR",
+          "mnemoarret": "HOTELL-E",
+          "coordonnees": [
+            47.488841,
+            -0.51895613
+          ]
+        },
+        {
+          "dest": "EVENTARD par MONPLAISIR",
+          "mnemoarret": "HOTELL-E",
+          "coordonnees": [
+            47.488841,
+            -0.51895613
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "LAC DE MAINE CAMPING",
+      "stopsDest": [
+        {
+          "dest": "ST AUBIN par MONPLAISIR",
+          "mnemoarret": "CAMLACMA",
+          "coordonnees": [
+            47.458115,
+            -0.59700528
+          ]
+        },
+        {
+          "dest": "MONPLAISIR",
+          "mnemoarret": "CAMLACMA",
+          "coordonnees": [
+            47.458115,
+            -0.59700528
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "DOYENNE",
+      "stopsDest": [
+        {
+          "dest": "BEAUCOUZE par BELLE BEILL",
+          "mnemoarret": "DOYENNE",
+          "coordonnees": [
+            47.49061,
+            -0.53259616
+          ]
+        },
+        {
+          "dest": "MONPLAISIR",
+          "mnemoarret": "DOYENN-E",
+          "coordonnees": [
+            47.490584,
+            -0.53220963
+          ]
+        },
+        {
+          "dest": "ST AUBIN par MONPLAISIR",
+          "mnemoarret": "DOYENN-E",
+          "coordonnees": [
+            47.490584,
+            -0.53220963
+          ]
+        },
+        {
+          "dest": "EVENTARD par MONPLAISIR",
+          "mnemoarret": "DOYENN-E",
+          "coordonnees": [
+            47.490584,
+            -0.53220963
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "GRANGE AUX BELLES",
+      "stopsDest": [
+        {
+          "dest": "EVENTARD par MONPLAISIR",
+          "mnemoarret": "GRANBELL",
+          "coordonnees": [
+            47.476672,
+            -0.62859037
+          ]
+        },
+        {
+          "dest": "MONPLAISIR",
+          "mnemoarret": "GRANBELL",
+          "coordonnees": [
+            47.476672,
+            -0.62859037
+          ]
+        },
+        {
+          "dest": "BEAUCOUZE par BELLE BEILL",
+          "mnemoarret": "GRANBE-E",
+          "coordonnees": [
+            47.476706,
+            -0.62832672
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "RODIN",
+      "stopsDest": [
+        {
+          "dest": "EVENTARD par MONPLAISIR",
+          "mnemoarret": "RODIN",
+          "coordonnees": [
+            47.475963,
+            -0.62569644
+          ]
+        },
+        {
+          "dest": "MONPLAISIR",
+          "mnemoarret": "RODIN",
+          "coordonnees": [
+            47.475963,
+            -0.62569644
+          ]
+        },
+        {
+          "dest": "BEAUCOUZE par BELLE BEILL",
+          "mnemoarret": "RODIN -E",
+          "coordonnees": [
+            47.47607,
+            -0.62574221
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "BOURG DE PAILLE",
+      "stopsDest": [
+        {
+          "dest": "EVENTARD par MONPLAISIR",
+          "mnemoarret": "BRGPAILL",
+          "coordonnees": [
+            47.474353,
+            -0.62494307
+          ]
+        },
+        {
+          "dest": "MONPLAISIR",
+          "mnemoarret": "BRGPAILL",
+          "coordonnees": [
+            47.474353,
+            -0.62494307
+          ]
+        },
+        {
+          "dest": "BEAUCOUZE par BELLE BEILL",
+          "mnemoarret": "BRGPAI-E",
+          "coordonnees": [
+            47.474873,
+            -0.62466665
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "MONPLAISIR",
+      "stopsDest": [
+        {
+          "dest": "BEAUCOUZE par BELLE BEILL",
+          "mnemoarret": "MONPLAIS",
+          "coordonnees": [
+            47.491148,
+            -0.52830926
+          ]
+        },
+        {
+          "dest": "MONPLAISIR",
+          "mnemoarret": "MONPEV-E",
+          "coordonnees": [
+            47.490668,
+            -0.52734057
+          ]
+        },
+        {
+          "dest": "ST AUBIN par MONPLAISIR",
+          "mnemoarret": "MONPEV-E",
+          "coordonnees": [
+            47.490668,
+            -0.52734057
+          ]
+        },
+        {
+          "dest": "EVENTARD par MONPLAISIR",
+          "mnemoarret": "MONPEV-E",
+          "coordonnees": [
+            47.490668,
+            -0.52734057
+          ]
+        },
+        {
+          "dest": "MONPLAISIR",
+          "mnemoarret": "MONPL AR",
+          "coordonnees": [
+            47.491148,
+            -0.52830926
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "MAISON ENVIRONNEMENT",
+      "stopsDest": [
+        {
+          "dest": "MONPLAISIR",
+          "mnemoarret": "LACACCUE",
+          "coordonnees": [
+            47.464241,
+            -0.59393145
+          ]
+        },
+        {
+          "dest": "ST AUBIN par MONPLAISIR",
+          "mnemoarret": "LACACCUE",
+          "coordonnees": [
+            47.464241,
+            -0.59393145
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "MACE",
+      "stopsDest": [
+        {
+          "dest": "BEAUCOUZE par BELLE BEILL",
+          "mnemoarret": "MACE",
+          "coordonnees": [
+            47.476646,
+            -0.5327333
+          ]
+        },
+        {
+          "dest": "ST AUBIN par MONPLAISIR",
+          "mnemoarret": "MACE  -E",
+          "coordonnees": [
+            47.477004,
+            -0.53173032
+          ]
+        },
+        {
+          "dest": "MONPLAISIR",
+          "mnemoarret": "MACE  -E",
+          "coordonnees": [
+            47.477004,
+            -0.53173032
+          ]
+        },
+        {
+          "dest": "EVENTARD par MONPLAISIR",
+          "mnemoarret": "MACE  -E",
+          "coordonnees": [
+            47.477004,
+            -0.53173032
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "LUTIN",
+      "stopsDest": [
+        {
+          "dest": "BEAUCOUZE par BELLE BEILL",
+          "mnemoarret": "LUTIN",
+          "coordonnees": [
+            47.475749,
+            -0.53442411
+          ]
+        },
+        {
+          "dest": "MONPLAISIR",
+          "mnemoarret": "LUTIN -E",
+          "coordonnees": [
+            47.475729,
+            -0.53417075
+          ]
+        },
+        {
+          "dest": "ST AUBIN par MONPLAISIR",
+          "mnemoarret": "LUTIN -E",
+          "coordonnees": [
+            47.475729,
+            -0.53417075
+          ]
+        },
+        {
+          "dest": "EVENTARD par MONPLAISIR",
+          "mnemoarret": "LUTIN -E",
+          "coordonnees": [
+            47.475729,
+            -0.53417075
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "LE LANDREAU",
+      "stopsDest": [
+        {
+          "dest": "MONPLAISIR",
+          "mnemoarret": "LANDREAU",
+          "coordonnees": [
+            47.474021,
+            -0.61783525
+          ]
+        },
+        {
+          "dest": "EVENTARD par MONPLAISIR",
+          "mnemoarret": "LANDREAU",
+          "coordonnees": [
+            47.474021,
+            -0.61783525
+          ]
+        },
+        {
+          "dest": "BEAUCOUZE par BELLE BEILL",
+          "mnemoarret": "LANDRE-E",
+          "coordonnees": [
+            47.474165,
+            -0.61784322
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "MONNET",
+      "stopsDest": [
+        {
+          "dest": "MONPLAISIR",
+          "mnemoarret": "JEAN MON",
+          "coordonnees": [
+            47.465626,
+            -0.60145421
+          ]
+        },
+        {
+          "dest": "ST AUBIN par MONPLAISIR",
+          "mnemoarret": "JEAN MON",
+          "coordonnees": [
+            47.465626,
+            -0.60145421
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "GRAND PERIGNE",
+      "stopsDest": [
+        {
+          "dest": "EVENTARD par MONPLAISIR",
+          "mnemoarret": "GDPERIGN",
+          "coordonnees": [
+            47.473796,
+            -0.61466308
+          ]
+        },
+        {
+          "dest": "MONPLAISIR",
+          "mnemoarret": "GDPERIGN",
+          "coordonnees": [
+            47.473796,
+            -0.61466308
+          ]
+        },
+        {
+          "dest": "BEAUCOUZE par BELLE BEILL",
+          "mnemoarret": "GDPERI-E",
+          "coordonnees": [
+            47.473895,
+            -0.61465531
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "VAUGAREAU",
+      "stopsDest": [
+        {
+          "dest": "BEAUCOUZE par BELLE BEILL",
+          "mnemoarret": "VAUGA6-E",
+          "coordonnees": [
+            47.483379,
+            -0.52836923
+          ]
+        },
+        {
+          "dest": "ST AUBIN par MONPLAISIR",
+          "mnemoarret": "VAUGA6",
+          "coordonnees": [
+            47.483713,
+            -0.52869259
+          ]
+        },
+        {
+          "dest": "MONPLAISIR",
+          "mnemoarret": "VAUGA6",
+          "coordonnees": [
+            47.483713,
+            -0.52869259
+          ]
+        },
+        {
+          "dest": "EVENTARD par MONPLAISIR",
+          "mnemoarret": "VAUGA6",
+          "coordonnees": [
+            47.483713,
+            -0.52869259
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "MUSSET",
+      "stopsDest": [
+        {
+          "dest": "BEAUCOUZE par BELLE BEILL",
+          "mnemoarret": "MUSSET",
+          "coordonnees": [
+            47.473727,
+            -0.53974474
+          ]
+        },
+        {
+          "dest": "MONPLAISIR",
+          "mnemoarret": "MUSSET-E",
+          "coordonnees": [
+            47.473636,
+            -0.53871759
+          ]
+        },
+        {
+          "dest": "ST AUBIN par MONPLAISIR",
+          "mnemoarret": "MUSSET-E",
+          "coordonnees": [
+            47.473636,
+            -0.53871759
+          ]
+        },
+        {
+          "dest": "EVENTARD par MONPLAISIR",
+          "mnemoarret": "MUSSET-E",
+          "coordonnees": [
+            47.473636,
+            -0.53871759
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "RAMON",
+      "stopsDest": [
+        {
+          "dest": "BEAUCOUZE par BELLE BEILL",
+          "mnemoarret": "RAMON -E",
+          "coordonnees": [
+            47.486515,
+            -0.53804541
+          ]
+        },
+        {
+          "dest": "MONPLAISIR",
+          "mnemoarret": "RAMON",
+          "coordonnees": [
+            47.486672,
+            -0.53788127
+          ]
+        },
+        {
+          "dest": "ST AUBIN par MONPLAISIR",
+          "mnemoarret": "RAMON",
+          "coordonnees": [
+            47.486672,
+            -0.53788127
+          ]
+        },
+        {
+          "dest": "EVENTARD par MONPLAISIR",
+          "mnemoarret": "RAMON",
+          "coordonnees": [
+            47.486672,
+            -0.53788127
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "INRA",
+      "stopsDest": [
+        {
+          "dest": "EVENTARD par MONPLAISIR",
+          "mnemoarret": "INRA",
+          "coordonnees": [
+            47.474697,
+            -0.61111516
+          ]
+        },
+        {
+          "dest": "MONPLAISIR",
+          "mnemoarret": "INRA",
+          "coordonnees": [
+            47.474697,
+            -0.61111516
+          ]
+        },
+        {
+          "dest": "BEAUCOUZE par BELLE BEILL",
+          "mnemoarret": "INRA  -E",
+          "coordonnees": [
+            47.474737,
+            -0.61130325
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "MOREL",
+      "stopsDest": [
+        {
+          "dest": "EVENTARD par MONPLAISIR",
+          "mnemoarret": "MOREL",
+          "coordonnees": [
+            47.474898,
+            -0.60848438
+          ]
+        },
+        {
+          "dest": "MONPLAISIR",
+          "mnemoarret": "MOREL",
+          "coordonnees": [
+            47.474898,
+            -0.60848438
+          ]
+        },
+        {
+          "dest": "BEAUCOUZE par BELLE BEILL",
+          "mnemoarret": "MOREL-E",
+          "coordonnees": [
+            47.474978,
+            -0.60852863
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "MENDES FRANCE",
+      "stopsDest": [
+        {
+          "dest": "BEAUCOUZE par BELLE BEILL",
+          "mnemoarret": "MENDESFR",
+          "coordonnees": [
+            47.472549,
+            -0.54623901
+          ]
+        },
+        {
+          "dest": "MONPLAISIR",
+          "mnemoarret": "MENDES-E",
+          "coordonnees": [
+            47.472943,
+            -0.54559658
+          ]
+        },
+        {
+          "dest": "ST AUBIN par MONPLAISIR",
+          "mnemoarret": "MENDES-E",
+          "coordonnees": [
+            47.472943,
+            -0.54559658
+          ]
+        },
+        {
+          "dest": "EVENTARD par MONPLAISIR",
+          "mnemoarret": "MENDES-E",
+          "coordonnees": [
+            47.472943,
+            -0.54559658
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "VOLTAIRE",
+      "stopsDest": [
+        {
+          "dest": "BEAUCOUZE par BELLE BEILL",
+          "mnemoarret": "VOLTAI-E",
+          "coordonnees": [
+            47.484519,
+            -0.53104634
+          ]
+        },
+        {
+          "dest": "ST AUBIN par MONPLAISIR",
+          "mnemoarret": "VOLTAIR",
+          "coordonnees": [
+            47.484862,
+            -0.53135695
+          ]
+        },
+        {
+          "dest": "EVENTARD par MONPLAISIR",
+          "mnemoarret": "VOLTAIR",
+          "coordonnees": [
+            47.484862,
+            -0.53135695
+          ]
+        },
+        {
+          "dest": "MONPLAISIR",
+          "mnemoarret": "VOLTAIR",
+          "coordonnees": [
+            47.484862,
+            -0.53135695
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "DARWIN",
+      "stopsDest": [
+        {
+          "dest": "MONPLAISIR",
+          "mnemoarret": "DARWIN",
+          "coordonnees": [
+            47.473837,
+            -0.60421721
+          ]
+        },
+        {
+          "dest": "EVENTARD par MONPLAISIR",
+          "mnemoarret": "DARWIN",
+          "coordonnees": [
+            47.473837,
+            -0.60421721
+          ]
+        },
+        {
+          "dest": "BEAUCOUZE par BELLE BEILL",
+          "mnemoarret": "DARWIN-E",
+          "coordonnees": [
+            47.474252,
+            -0.60522258
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "GAUBERT supprimé",
+      "stopsDest": [
+        {
+          "dest": "MONPLAISIR",
+          "mnemoarret": "GAUBER-E",
+          "coordonnees": [
+            47.475353,
+            -0.5994286
+          ]
+        },
+        {
+          "dest": "ST AUBIN par MONPLAISIR",
+          "mnemoarret": "GAUBER-E",
+          "coordonnees": [
+            47.475353,
+            -0.5994286
+          ]
+        },
+        {
+          "dest": "EVENTARD par MONPLAISIR",
+          "mnemoarret": "GAUBER-E",
+          "coordonnees": [
+            47.475353,
+            -0.5994286
+          ]
+        },
+        {
+          "dest": "BEAUCOUZE par BELLE BEILL",
+          "mnemoarret": "GAUBERT",
+          "coordonnees": [
+            47.474589,
+            -0.59977144
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "DUNANT",
+      "stopsDest": [
+        {
+          "dest": "BEAUCOUZE par BELLE BEILL",
+          "mnemoarret": "DUNAN-E",
+          "coordonnees": [
+            47.483337,
+            -0.52568488
+          ]
+        },
+        {
+          "dest": "MONPLAISIR",
+          "mnemoarret": "DUNAN",
+          "coordonnees": [
+            47.48352,
+            -0.52556194
+          ]
+        },
+        {
+          "dest": "ST AUBIN par MONPLAISIR",
+          "mnemoarret": "DUNAN",
+          "coordonnees": [
+            47.48352,
+            -0.52556194
+          ]
+        },
+        {
+          "dest": "EVENTARD par MONPLAISIR",
+          "mnemoarret": "DUNAN",
+          "coordonnees": [
+            47.48352,
+            -0.52556194
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "ESSCA",
+      "stopsDest": [
+        {
+          "dest": "ST AUBIN par MONPLAISIR",
+          "mnemoarret": "ESCALAV",
+          "coordonnees": [
+            47.476453,
+            -0.59936974
+          ]
+        },
+        {
+          "dest": "MONPLAISIR",
+          "mnemoarret": "ESCALAV",
+          "coordonnees": [
+            47.476453,
+            -0.59936974
+          ]
+        },
+        {
+          "dest": "EVENTARD par MONPLAISIR",
+          "mnemoarret": "ESCALAV",
+          "coordonnees": [
+            47.476453,
+            -0.59936974
+          ]
+        },
+        {
+          "dest": "BEAUCOUZE par BELLE BEILL",
+          "mnemoarret": "ESSCA",
+          "coordonnees": [
+            47.476295,
+            -0.59921498
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "FOCH HARAS",
+      "stopsDest": [
+        {
+          "dest": "BEAUCOUZE par BELLE BEILL",
+          "mnemoarret": "HARAS-E",
+          "coordonnees": [
+            47.467251,
+            -0.5522308
+          ]
+        },
+        {
+          "dest": "MONPLAISIR",
+          "mnemoarret": "HARAS",
+          "coordonnees": [
+            47.467123,
+            -0.55193186
+          ]
+        },
+        {
+          "dest": "ST AUBIN par MONPLAISIR",
+          "mnemoarret": "HARAS",
+          "coordonnees": [
+            47.467123,
+            -0.55193186
+          ]
+        },
+        {
+          "dest": "EVENTARD par MONPLAISIR",
+          "mnemoarret": "HARAS",
+          "coordonnees": [
+            47.467123,
+            -0.55193186
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "CITE UNIVERSITAIRE",
+      "stopsDest": [
+        {
+          "dest": "ST AUBIN par MONPLAISIR",
+          "mnemoarret": "CITEUNIV",
+          "coordonnees": [
+            47.478876,
+            -0.59788353
+          ]
+        },
+        {
+          "dest": "MONPLAISIR",
+          "mnemoarret": "CITEUNIV",
+          "coordonnees": [
+            47.478876,
+            -0.59788353
+          ]
+        },
+        {
+          "dest": "EVENTARD par MONPLAISIR",
+          "mnemoarret": "CITEUNIV",
+          "coordonnees": [
+            47.478876,
+            -0.59788353
+          ]
+        },
+        {
+          "dest": "BEAUCOUZE par BELLE BEILL",
+          "mnemoarret": "CITEUN-E",
+          "coordonnees": [
+            47.478679,
+            -0.59819133
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "MIMOSAS",
+      "stopsDest": [
+        {
+          "dest": "BEAUCOUZE par BELLE BEILL",
+          "mnemoarret": "SCHWEITZ",
+          "coordonnees": [
+            47.481575,
+            -0.52343921
+          ]
+        },
+        {
+          "dest": "MONPLAISIR",
+          "mnemoarret": "SCHWTZ-E",
+          "coordonnees": [
+            47.481554,
+            -0.52318583
+          ]
+        },
+        {
+          "dest": "ST AUBIN par MONPLAISIR",
+          "mnemoarret": "SCHWTZ-E",
+          "coordonnees": [
+            47.481554,
+            -0.52318583
+          ]
+        },
+        {
+          "dest": "EVENTARD par MONPLAISIR",
+          "mnemoarret": "SCHWTZ-E",
+          "coordonnees": [
+            47.481554,
+            -0.52318583
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "SAINT JACQUES",
+      "stopsDest": [
+        {
+          "dest": "MONPLAISIR",
+          "mnemoarret": "SAJACQUE",
+          "coordonnees": [
+            47.473589,
+            -0.57122674
+          ]
+        },
+        {
+          "dest": "ST AUBIN par MONPLAISIR",
+          "mnemoarret": "SAJACQUE",
+          "coordonnees": [
+            47.473589,
+            -0.57122674
+          ]
+        },
+        {
+          "dest": "BEAUCOUZE par BELLE BEILL",
+          "mnemoarret": "SAJACQ-E",
+          "coordonnees": [
+            47.473717,
+            -0.57261435
+          ]
+        },
+        {
+          "dest": "EVENTARD par MONPLAISIR",
+          "mnemoarret": "SAJACQUE",
+          "coordonnees": [
+            47.473589,
+            -0.57122674
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "GARES PAPIN",
+      "stopsDest": [
+        {
+          "dest": "BEAUCOUZE par BELLE BEILL",
+          "mnemoarret": "GAREPA-E",
+          "coordonnees": [
+            47.465173,
+            -0.55757348
+          ]
+        },
+        {
+          "dest": "MONPLAISIR",
+          "mnemoarret": "GAREPAPI",
+          "coordonnees": [
+            47.464908,
+            -0.55775815
+          ]
+        },
+        {
+          "dest": "ST AUBIN par MONPLAISIR",
+          "mnemoarret": "GAREPAPI",
+          "coordonnees": [
+            47.464908,
+            -0.55775815
+          ]
+        },
+        {
+          "dest": "EVENTARD par MONPLAISIR",
+          "mnemoarret": "GAREPAPI",
+          "coordonnees": [
+            47.464908,
+            -0.55775815
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "POLYTECH ANGERS",
+      "stopsDest": [
+        {
+          "dest": "ST AUBIN par MONPLAISIR",
+          "mnemoarret": "MAETUDIA",
+          "coordonnees": [
+            47.48057,
+            -0.59459116
+          ]
+        },
+        {
+          "dest": "EVENTARD par MONPLAISIR",
+          "mnemoarret": "MAETUDIA",
+          "coordonnees": [
+            47.48057,
+            -0.59459116
+          ]
+        },
+        {
+          "dest": "MONPLAISIR",
+          "mnemoarret": "MAETUDIA",
+          "coordonnees": [
+            47.48057,
+            -0.59459116
+          ]
+        },
+        {
+          "dest": "BEAUCOUZE par BELLE BEILL",
+          "mnemoarret": "MAETUD-E",
+          "coordonnees": [
+            47.480625,
+            -0.59458087
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "BRISEPOTIERE",
+      "stopsDest": [
+        {
+          "dest": "BEAUCOUZE par BELLE BEILL",
+          "mnemoarret": "BRISEPOT",
+          "coordonnees": [
+            47.479526,
+            -0.52729894
+          ]
+        },
+        {
+          "dest": "ST AUBIN par MONPLAISIR",
+          "mnemoarret": "BRISEP-E",
+          "coordonnees": [
+            47.479347,
+            -0.52724949
+          ]
+        },
+        {
+          "dest": "MONPLAISIR",
+          "mnemoarret": "BRISEP-E",
+          "coordonnees": [
+            47.479347,
+            -0.52724949
+          ]
+        },
+        {
+          "dest": "EVENTARD par MONPLAISIR",
+          "mnemoarret": "BRISEP-E",
+          "coordonnees": [
+            47.479347,
+            -0.52724949
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "BREMONT CHATEAU",
+      "stopsDest": [
+        {
+          "dest": "BEAUCOUZE par BELLE BEILL",
+          "mnemoarret": "BREMON-E",
+          "coordonnees": [
+            47.465967,
+            -0.55930237
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "DESJARDINS",
+      "stopsDest": [
+        {
+          "dest": "BEAUCOUZE par BELLE BEILL",
+          "mnemoarret": "DESJARDI",
+          "coordonnees": [
+            47.477949,
+            -0.53029424
+          ]
+        },
+        {
+          "dest": "MONPLAISIR",
+          "mnemoarret": "DESJAR-E",
+          "coordonnees": [
+            47.477863,
+            -0.5301303
+          ]
+        },
+        {
+          "dest": "ST AUBIN par MONPLAISIR",
+          "mnemoarret": "DESJAR-E",
+          "coordonnees": [
+            47.477863,
+            -0.5301303
+          ]
+        },
+        {
+          "dest": "EVENTARD par MONPLAISIR",
+          "mnemoarret": "DESJAR-E",
+          "coordonnees": [
+            47.477863,
+            -0.5301303
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "NOTRE DAME DU LAC",
+      "stopsDest": [
+        {
+          "dest": "ST AUBIN par MONPLAISIR",
+          "mnemoarret": "NDAMELAC",
+          "coordonnees": [
+            47.479629,
+            -0.58982591
+          ]
+        },
+        {
+          "dest": "MONPLAISIR",
+          "mnemoarret": "NDAMELAC",
+          "coordonnees": [
+            47.479629,
+            -0.58982591
+          ]
+        },
+        {
+          "dest": "EVENTARD par MONPLAISIR",
+          "mnemoarret": "NDAMELAC",
+          "coordonnees": [
+            47.479629,
+            -0.58982591
+          ]
+        },
+        {
+          "dest": "BEAUCOUZE par BELLE BEILL",
+          "mnemoarret": "NDAMLA-E",
+          "coordonnees": [
+            47.479711,
+            -0.58976406
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "BOISRAME",
+      "stopsDest": [
+        {
+          "dest": "ST AUBIN par MONPLAISIR",
+          "mnemoarret": "BOISRAME",
+          "coordonnees": [
+            47.478297,
+            -0.58480047
+          ]
+        },
+        {
+          "dest": "MONPLAISIR",
+          "mnemoarret": "BOISRAME",
+          "coordonnees": [
+            47.478297,
+            -0.58480047
+          ]
+        },
+        {
+          "dest": "EVENTARD par MONPLAISIR",
+          "mnemoarret": "BOISRAME",
+          "coordonnees": [
+            47.478297,
+            -0.58480047
+          ]
+        },
+        {
+          "dest": "BEAUCOUZE par BELLE BEILL",
+          "mnemoarret": "BOISRA-E",
+          "coordonnees": [
+            47.478255,
+            -0.5847052
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "SAINTE CROIX",
+      "stopsDest": [
+        {
+          "dest": "BEAUCOUZE par BELLE BEILL",
+          "mnemoarret": "SAICROIX",
+          "coordonnees": [
+            47.469953,
+            -0.55431546
+          ]
+        },
+        {
+          "dest": "ST AUBIN par MONPLAISIR",
+          "mnemoarret": "SAICRO-E",
+          "coordonnees": [
+            47.469856,
+            -0.5549739
+          ]
+        },
+        {
+          "dest": "EVENTARD par MONPLAISIR",
+          "mnemoarret": "SAICRO-E",
+          "coordonnees": [
+            47.469856,
+            -0.5549739
+          ]
+        },
+        {
+          "dest": "MONPLAISIR",
+          "mnemoarret": "SAICRO-E",
+          "coordonnees": [
+            47.469856,
+            -0.5549739
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "CHAPELLE BELLEBEILLE",
+      "stopsDest": [
+        {
+          "dest": "ST AUBIN par MONPLAISIR",
+          "mnemoarret": "CHBBEILL",
+          "coordonnees": [
+            47.475807,
+            -0.58612422
+          ]
+        },
+        {
+          "dest": "MONPLAISIR",
+          "mnemoarret": "CHBBEILL",
+          "coordonnees": [
+            47.475807,
+            -0.58612422
+          ]
+        },
+        {
+          "dest": "EVENTARD par MONPLAISIR",
+          "mnemoarret": "CHBBEILL",
+          "coordonnees": [
+            47.475807,
+            -0.58612422
+          ]
+        },
+        {
+          "dest": "BEAUCOUZE par BELLE BEILL",
+          "mnemoarret": "CHBBEI-E",
+          "coordonnees": [
+            47.475459,
+            -0.58598566
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "REPUBLIQUE",
+      "stopsDest": [
+        {
+          "dest": "BEAUCOUZE par BELLE BEILL",
+          "mnemoarret": "REPUBL-E",
+          "coordonnees": [
+            47.471693,
+            -0.55385235
+          ]
+        },
+        {
+          "dest": "MONPLAISIR",
+          "mnemoarret": "REPUBLIQ",
+          "coordonnees": [
+            47.470997,
+            -0.55398712
+          ]
+        },
+        {
+          "dest": "ST AUBIN par MONPLAISIR",
+          "mnemoarret": "REPUBLIQ",
+          "coordonnees": [
+            47.470997,
+            -0.55398712
+          ]
+        },
+        {
+          "dest": "EVENTARD par MONPLAISIR",
+          "mnemoarret": "REPUBLIQ",
+          "coordonnees": [
+            47.470997,
+            -0.55398712
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "FOCH SAINT AUBIN",
+      "stopsDest": [
+        {
+          "dest": "BEAUCOUZE par BELLE BEILL",
+          "mnemoarret": "STAUBI-E",
+          "coordonnees": [
+            47.468136,
+            -0.55104429
+          ]
+        },
+        {
+          "dest": "MONPLAISIR",
+          "mnemoarret": "STAUBIN",
+          "coordonnees": [
+            47.468557,
+            -0.55003174
+          ]
+        },
+        {
+          "dest": "ST AUBIN par MONPLAISIR",
+          "mnemoarret": "STAUBIN",
+          "coordonnees": [
+            47.468557,
+            -0.55003174
+          ]
+        },
+        {
+          "dest": "EVENTARD par MONPLAISIR",
+          "mnemoarret": "STAUBIN",
+          "coordonnees": [
+            47.468557,
+            -0.55003174
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "SAVARY",
+      "stopsDest": [
+        {
+          "dest": "BEAUCOUZE par BELLE BEILL",
+          "mnemoarret": "SAVARY",
+          "coordonnees": [
+            47.473536,
+            -0.54273464
+          ]
+        },
+        {
+          "dest": "ST AUBIN par MONPLAISIR",
+          "mnemoarret": "SAVARY-E",
+          "coordonnees": [
+            47.473454,
+            -0.54133628
+          ]
+        },
+        {
+          "dest": "MONPLAISIR",
+          "mnemoarret": "SAVARY-E",
+          "coordonnees": [
+            47.473454,
+            -0.54133628
+          ]
+        },
+        {
+          "dest": "EVENTARD par MONPLAISIR",
+          "mnemoarret": "SAVARY-E",
+          "coordonnees": [
+            47.473454,
+            -0.54133628
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "ELYSEE",
+      "stopsDest": [
+        {
+          "dest": "ST AUBIN par MONPLAISIR",
+          "mnemoarret": "ELYSEE",
+          "coordonnees": [
+            47.473567,
+            -0.58463391
+          ]
+        },
+        {
+          "dest": "MONPLAISIR",
+          "mnemoarret": "ELYSEE",
+          "coordonnees": [
+            47.473567,
+            -0.58463391
+          ]
+        },
+        {
+          "dest": "EVENTARD par MONPLAISIR",
+          "mnemoarret": "ELYSEE",
+          "coordonnees": [
+            47.473567,
+            -0.58463391
+          ]
+        },
+        {
+          "dest": "BEAUCOUZE par BELLE BEILL",
+          "mnemoarret": "ELYSEE-E",
+          "coordonnees": [
+            47.473667,
+            -0.58494474
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "BEAUREPAIRE",
+      "stopsDest": [
+        {
+          "dest": "BEAUCOUZE par BELLE BEILL",
+          "mnemoarret": "BEAURE-E",
+          "coordonnees": [
+            47.474,
+            -0.55950022
+          ]
+        },
+        {
+          "dest": "ST AUBIN par MONPLAISIR",
+          "mnemoarret": "BEAUREPA",
+          "coordonnees": [
+            47.473987,
+            -0.55965883
+          ]
+        },
+        {
+          "dest": "EVENTARD par MONPLAISIR",
+          "mnemoarret": "BEAUREPA",
+          "coordonnees": [
+            47.473987,
+            -0.55965883
+          ]
+        },
+        {
+          "dest": "MONPLAISIR",
+          "mnemoarret": "BEAUREPA",
+          "coordonnees": [
+            47.473987,
+            -0.55965883
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "MONTESQUIEU",
+      "stopsDest": [
+        {
+          "dest": "ST AUBIN par MONPLAISIR",
+          "mnemoarret": "MONTESQU",
+          "coordonnees": [
+            47.473692,
+            -0.58037928
+          ]
+        },
+        {
+          "dest": "MONPLAISIR",
+          "mnemoarret": "MONTESQU",
+          "coordonnees": [
+            47.473692,
+            -0.58037928
+          ]
+        },
+        {
+          "dest": "EVENTARD par MONPLAISIR",
+          "mnemoarret": "MONTESQU",
+          "coordonnees": [
+            47.473692,
+            -0.58037928
+          ]
+        },
+        {
+          "dest": "BEAUCOUZE par BELLE BEILL",
+          "mnemoarret": "MONTES-E",
+          "coordonnees": [
+            47.473785,
+            -0.57920282
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "OFFICE DE TOURISME",
+      "stopsDest": [
+        {
+          "dest": "MONPLAISIR",
+          "mnemoarret": "OFFTOU-E",
+          "coordonnees": [
+            47.469179,
+            -0.55757874
+          ]
+        },
+        {
+          "dest": "BEAUCOUZE par BELLE BEILL",
+          "mnemoarret": "OFFTOURI",
+          "coordonnees": [
+            47.468868,
+            -0.55811939
+          ]
+        },
+        {
+          "dest": "ST AUBIN par MONPLAISIR",
+          "mnemoarret": "OFFTOU-E",
+          "coordonnees": [
+            47.469179,
+            -0.55757874
+          ]
+        },
+        {
+          "dest": "EVENTARD par MONPLAISIR",
+          "mnemoarret": "OFFTOU-E",
+          "coordonnees": [
+            47.469179,
+            -0.55757874
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "ACADEMIE",
+      "stopsDest": [
+        {
+          "dest": "MONPLAISIR",
+          "mnemoarret": "ACADEMIE",
+          "coordonnees": [
+            47.467429,
+            -0.55915619
+          ]
+        },
+        {
+          "dest": "BEAUCOUZE par BELLE BEILL",
+          "mnemoarret": "ACAD-PLA",
+          "coordonnees": [
+            47.468431,
+            -0.5586797
+          ]
+        },
+        {
+          "dest": "ST AUBIN par MONPLAISIR",
+          "mnemoarret": "ACADEMIE",
+          "coordonnees": [
+            47.467429,
+            -0.55915619
+          ]
+        },
+        {
+          "dest": "EVENTARD par MONPLAISIR",
+          "mnemoarret": "ACADEMIE",
+          "coordonnees": [
+            47.467429,
+            -0.55915619
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "FOCH MAISON BLEUE",
+      "stopsDest": [
+        {
+          "dest": "BEAUCOUZE par BELLE BEILL",
+          "mnemoarret": "FO-LOR-R",
+          "coordonnees": [
+            47.469672,
+            -0.5489904
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "MONPROFIT",
+      "stopsDest": [
+        {
+          "dest": "MONPLAISIR",
+          "mnemoarret": "MONPROF.",
+          "coordonnees": [
+            47.474254,
+            -0.56660327
+          ]
+        },
+        {
+          "dest": "ST AUBIN par MONPLAISIR",
+          "mnemoarret": "MONPROF.",
+          "coordonnees": [
+            47.474254,
+            -0.56660327
+          ]
+        },
+        {
+          "dest": "EVENTARD par MONPLAISIR",
+          "mnemoarret": "MONPROF.",
+          "coordonnees": [
+            47.474254,
+            -0.56660327
+          ]
+        },
+        {
+          "dest": "BEAUCOUZE par BELLE BEILL",
+          "mnemoarret": "MONPRO-E",
+          "coordonnees": [
+            47.474342,
+            -0.56671423
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "TRINITE",
+      "stopsDest": [
+        {
+          "dest": "ST AUBIN par MONPLAISIR",
+          "mnemoarret": "TRINITE",
+          "coordonnees": [
+            47.475219,
+            -0.56259342
+          ]
+        },
+        {
+          "dest": "EVENTARD par MONPLAISIR",
+          "mnemoarret": "TRINITE",
+          "coordonnees": [
+            47.475219,
+            -0.56259342
+          ]
+        },
+        {
+          "dest": "MONPLAISIR",
+          "mnemoarret": "TRINITE",
+          "coordonnees": [
+            47.475219,
+            -0.56259342
+          ]
+        },
+        {
+          "dest": "BEAUCOUZE par BELLE BEILL",
+          "mnemoarret": "TRINIT-E",
+          "coordonnees": [
+            47.475158,
+            -0.56178028
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "LORRAINE",
+      "stopsDest": [
+        {
+          "dest": "MONPLAISIR",
+          "mnemoarret": "LOR-FO-A",
+          "coordonnees": [
+            47.469619,
+            -0.54857604
+          ]
+        },
+        {
+          "dest": "ST AUBIN par MONPLAISIR",
+          "mnemoarret": "LOR-FO-A",
+          "coordonnees": [
+            47.469619,
+            -0.54857604
+          ]
+        },
+        {
+          "dest": "EVENTARD par MONPLAISIR",
+          "mnemoarret": "LOR-FO-A",
+          "coordonnees": [
+            47.469619,
+            -0.54857604
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "COEUR DE MAINE",
+      "stopsDest": [
+        {
+          "dest": "ST AUBIN par MONPLAISIR",
+          "mnemoarret": "POISSONN",
+          "coordonnees": [
+            47.472312,
+            -0.55717819
+          ]
+        },
+        {
+          "dest": "MONPLAISIR",
+          "mnemoarret": "POISSONN",
+          "coordonnees": [
+            47.472312,
+            -0.55717819
+          ]
+        },
+        {
+          "dest": "EVENTARD par MONPLAISIR",
+          "mnemoarret": "POISSONN",
+          "coordonnees": [
+            47.472312,
+            -0.55717819
+          ]
+        },
+        {
+          "dest": "BEAUCOUZE par BELLE BEILL",
+          "mnemoarret": "POISSO-E",
+          "coordonnees": [
+            47.472572,
+            -0.55684718
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "GARES BREMONT",
+      "stopsDest": [
+        {
+          "dest": "MONPLAISIR",
+          "mnemoarret": "GBREM-E",
+          "coordonnees": [
+            47.465702,
+            -0.55948703
+          ]
+        },
+        {
+          "dest": "ST AUBIN par MONPLAISIR",
+          "mnemoarret": "GBREM-E",
+          "coordonnees": [
+            47.465702,
+            -0.55948703
+          ]
+        },
+        {
+          "dest": "EVENTARD par MONPLAISIR",
+          "mnemoarret": "GBREM-E",
+          "coordonnees": [
+            47.465702,
+            -0.55948703
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "LES GARES",
+      "stopsDest": [
+        {
+          "dest": "MONPLAISIR",
+          "mnemoarret": "LESGARES",
+          "coordonnees": [
+            47.465164,
+            -0.55579433
+          ]
+        },
+        {
+          "dest": "ST AUBIN par MONPLAISIR",
+          "mnemoarret": "LESGARES",
+          "coordonnees": [
+            47.465164,
+            -0.55579433
+          ]
+        },
+        {
+          "dest": "EVENTARD par MONPLAISIR",
+          "mnemoarret": "LESGARES",
+          "coordonnees": [
+            47.465164,
+            -0.55579433
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "SAILLERIE",
+      "stopsDest": [
+        {
+          "dest": "ST AUBIN par MONPLAISIR",
+          "mnemoarret": "SAILLE-E",
+          "coordonnees": [
+            47.48653,
+            -0.50678863
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "BEAUCOUZE",
+      "stopsDest": [
+        {
+          "dest": "BEAUCOUZE par BELLE BEILL",
+          "mnemoarret": "BEAUC AR",
+          "coordonnees": [
+            47.470305,
+            -0.62518262
+          ]
+        }
+      ]
+    }
+  ]
+}

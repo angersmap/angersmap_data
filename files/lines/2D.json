@@ -1,0 +1,1114 @@
+{
+  "version": "20211207083647",
+  "mnemoligne": "2D",
+  "nomligne": "DJF  TRELAZE <>  ST SYLVAIN",
+  "color": "006AB2",
+  "dests": [
+    {
+      "name": "LORRAINE",
+      "color": "0099FF",
+      "codeparcours": [
+        "TRELAZE > LORRAINE 9.0"
+      ]
+    },
+    {
+      "name": "ST SYLVAIN",
+      "color": "0099FF",
+      "codeparcours": [
+        "TRELAZE > ST SYLVAIN 9.0"
+      ]
+    },
+    {
+      "name": "TRELAZE QUANTINIERE",
+      "color": "006AB2",
+      "codeparcours": [
+        "ST SYLVAIN > TRELAZE 9.0"
+      ]
+    }
+  ],
+  "stops": [
+    {
+      "nomarret": "TRELAZE",
+      "stopsDest": [
+        {
+          "dest": "LORRAINE",
+          "mnemoarret": "TRELAZE",
+          "coordonnees": [
+            47.458751,
+            -0.47444991
+          ]
+        },
+        {
+          "dest": "TRELAZE QUANTINIERE",
+          "mnemoarret": "TRELA AR",
+          "coordonnees": [
+            47.459849,
+            -0.47555631
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "SAINT SYLVAIN",
+      "stopsDest": [
+        {
+          "dest": "TRELAZE QUANTINIERE",
+          "mnemoarret": "STSYCHVE",
+          "coordonnees": [
+            47.525153,
+            -0.4608303
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "MALRAUX",
+      "stopsDest": [
+        {
+          "dest": "LORRAINE",
+          "mnemoarret": "MAURIAC",
+          "coordonnees": [
+            47.457459,
+            -0.47354565
+          ]
+        },
+        {
+          "dest": "TRELAZE QUANTINIERE",
+          "mnemoarret": "MAURIA-E",
+          "coordonnees": [
+            47.457625,
+            -0.47335538
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "PAUL GAUGUIN",
+      "stopsDest": [
+        {
+          "dest": "TRELAZE QUANTINIERE",
+          "mnemoarret": "GAUGUIN",
+          "coordonnees": [
+            47.526763,
+            -0.46462234
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "QUANTINIERE",
+      "stopsDest": [
+        {
+          "dest": "LORRAINE",
+          "mnemoarret": "QUANTIN",
+          "coordonnees": [
+            47.45511,
+            -0.47168333
+          ]
+        },
+        {
+          "dest": "TRELAZE QUANTINIERE",
+          "mnemoarret": "QUANTI-E",
+          "coordonnees": [
+            47.45531,
+            -0.47157447
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "ANDRE BRUEL",
+      "stopsDest": [
+        {
+          "dest": "TRELAZE QUANTINIERE",
+          "mnemoarret": "ANBRUEL",
+          "coordonnees": [
+            47.526588,
+            -0.46812122
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "HALTE FERROVIAIRE",
+      "stopsDest": [
+        {
+          "dest": "LORRAINE",
+          "mnemoarret": "PEPINIER",
+          "coordonnees": [
+            47.45245,
+            -0.47003036
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "VICTOR HUGO",
+      "stopsDest": [
+        {
+          "dest": "TRELAZE QUANTINIERE",
+          "mnemoarret": "VICT-D",
+          "coordonnees": [
+            47.52349,
+            -0.46746626
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "8 MAI TRELAZE",
+      "stopsDest": [
+        {
+          "dest": "LORRAINE",
+          "mnemoarret": "HMTREL",
+          "coordonnees": [
+            47.449778,
+            -0.4655241
+          ]
+        },
+        {
+          "dest": "TRELAZE QUANTINIERE",
+          "mnemoarret": "HMTRE-E",
+          "coordonnees": [
+            47.449394,
+            -0.46501297
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "FRANCAISERIE",
+      "stopsDest": [
+        {
+          "dest": "TRELAZE QUANTINIERE",
+          "mnemoarret": "FRANCA-E",
+          "coordonnees": [
+            47.521477,
+            -0.46623077
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "MARECHAL LECLERC",
+      "stopsDest": [
+        {
+          "dest": "TRELAZE QUANTINIERE",
+          "mnemoarret": "LECLSY-E",
+          "coordonnees": [
+            47.518414,
+            -0.46672045
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "CIMETIERE DE TRELAZE",
+      "stopsDest": [
+        {
+          "dest": "LORRAINE",
+          "mnemoarret": "CIMTRELA",
+          "coordonnees": [
+            47.446392,
+            -0.4626128
+          ]
+        },
+        {
+          "dest": "TRELAZE QUANTINIERE",
+          "mnemoarret": "CIMETR-E",
+          "coordonnees": [
+            47.446273,
+            -0.46230141
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "MAIRIE SAINT SYLVAIN",
+      "stopsDest": [
+        {
+          "dest": "TRELAZE QUANTINIERE",
+          "mnemoarret": "MASTSY",
+          "coordonnees": [
+            47.519874,
+            -0.4711022
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "EGLISE DE TRELAZE",
+      "stopsDest": [
+        {
+          "dest": "LORRAINE",
+          "mnemoarret": "EGLTRELA",
+          "coordonnees": [
+            47.44557,
+            -0.46494461
+          ]
+        },
+        {
+          "dest": "TRELAZE QUANTINIERE",
+          "mnemoarret": "EGLTRE-E",
+          "coordonnees": [
+            47.445434,
+            -0.46461903
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "MAIRIE DE TRELAZE",
+      "stopsDest": [
+        {
+          "dest": "LORRAINE",
+          "mnemoarret": "MAIRTREL",
+          "coordonnees": [
+            47.445666,
+            -0.46916887
+          ]
+        },
+        {
+          "dest": "TRELAZE QUANTINIERE",
+          "mnemoarret": "MAIRTR-E",
+          "coordonnees": [
+            47.44549,
+            -0.46827063
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "UNION",
+      "stopsDest": [
+        {
+          "dest": "TRELAZE QUANTINIERE",
+          "mnemoarret": "UNION",
+          "coordonnees": [
+            47.519619,
+            -0.47531384
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "CHAMPS BLANCS",
+      "stopsDest": [
+        {
+          "dest": "TRELAZE QUANTINIERE",
+          "mnemoarret": "CHABLANC",
+          "coordonnees": [
+            47.517225,
+            -0.47528036
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "MONTHIBERT",
+      "stopsDest": [
+        {
+          "dest": "LORRAINE",
+          "mnemoarret": "MONTHIBE",
+          "coordonnees": [
+            47.444733,
+            -0.47388286
+          ]
+        },
+        {
+          "dest": "TRELAZE QUANTINIERE",
+          "mnemoarret": "MONTHI-E",
+          "coordonnees": [
+            47.444621,
+            -0.47330643
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "BAS MORTIER",
+      "stopsDest": [
+        {
+          "dest": "TRELAZE QUANTINIERE",
+          "mnemoarret": "BASMORTI",
+          "coordonnees": [
+            47.515369,
+            -0.47462429
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "ARENA LOIRE",
+      "stopsDest": [
+        {
+          "dest": "LORRAINE",
+          "mnemoarret": "GRCARREA",
+          "coordonnees": [
+            47.443464,
+            -0.47868511
+          ]
+        },
+        {
+          "dest": "TRELAZE QUANTINIERE",
+          "mnemoarret": "GRCARR-E",
+          "coordonnees": [
+            47.443447,
+            -0.47828617
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "MILLARDIERE",
+      "stopsDest": [
+        {
+          "dest": "TRELAZE QUANTINIERE",
+          "mnemoarret": "MILLARDI",
+          "coordonnees": [
+            47.513763,
+            -0.47367592
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "CARREAUX",
+      "stopsDest": [
+        {
+          "dest": "TRELAZE QUANTINIERE",
+          "mnemoarret": "CARREAUX",
+          "coordonnees": [
+            47.512563,
+            -0.47193868
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "BUISSON",
+      "stopsDest": [
+        {
+          "dest": "LORRAINE",
+          "mnemoarret": "BUISSON",
+          "coordonnees": [
+            47.442041,
+            -0.48463324
+          ]
+        },
+        {
+          "dest": "TRELAZE QUANTINIERE",
+          "mnemoarret": "BUISSO-E",
+          "coordonnees": [
+            47.441904,
+            -0.48396264
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "PYRAMIDE",
+      "stopsDest": [
+        {
+          "dest": "LORRAINE",
+          "mnemoarret": "PYRAM02",
+          "coordonnees": [
+            47.440872,
+            -0.4886443
+          ]
+        },
+        {
+          "dest": "LORRAINE",
+          "mnemoarret": "PYRAM10",
+          "coordonnees": [
+            47.440978,
+            -0.4901889
+          ]
+        },
+        {
+          "dest": "TRELAZE QUANTINIERE",
+          "mnemoarret": "PYRAM2-E",
+          "coordonnees": [
+            47.440803,
+            -0.48852123
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "ROUTE N 4",
+      "stopsDest": [
+        {
+          "dest": "LORRAINE",
+          "mnemoarret": "ROUTEN 4",
+          "coordonnees": [
+            47.441809,
+            -0.49266086
+          ]
+        },
+        {
+          "dest": "TRELAZE QUANTINIERE",
+          "mnemoarret": "ROUTE4-E",
+          "coordonnees": [
+            47.441573,
+            -0.49239622
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "BOURSE",
+      "stopsDest": [
+        {
+          "dest": "LORRAINE",
+          "mnemoarret": "BOURSE",
+          "coordonnees": [
+            47.442821,
+            -0.49543443
+          ]
+        },
+        {
+          "dest": "TRELAZE QUANTINIERE",
+          "mnemoarret": "BOURSE-E",
+          "coordonnees": [
+            47.442524,
+            -0.49508694
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "MENARD",
+      "stopsDest": [
+        {
+          "dest": "LORRAINE",
+          "mnemoarret": "MENARD",
+          "coordonnees": [
+            47.445839,
+            -0.49386995
+          ]
+        },
+        {
+          "dest": "TRELAZE QUANTINIERE",
+          "mnemoarret": "MENA-E",
+          "coordonnees": [
+            47.445717,
+            -0.49370425
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "CHOUTEAU",
+      "stopsDest": [
+        {
+          "dest": "LORRAINE",
+          "mnemoarret": "CHOUTEAU",
+          "coordonnees": [
+            47.446243,
+            -0.49685025
+          ]
+        },
+        {
+          "dest": "TRELAZE QUANTINIERE",
+          "mnemoarret": "CHOUTE-E",
+          "coordonnees": [
+            47.446121,
+            -0.4966978
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "FRESNAIES",
+      "stopsDest": [
+        {
+          "dest": "LORRAINE",
+          "mnemoarret": "FRESNAIE",
+          "coordonnees": [
+            47.448053,
+            -0.50048927
+          ]
+        },
+        {
+          "dest": "TRELAZE QUANTINIERE",
+          "mnemoarret": "FRESNA-E",
+          "coordonnees": [
+            47.448223,
+            -0.50089639
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "PARC EXPO - C.O.C.",
+      "stopsDest": [
+        {
+          "dest": "TRELAZE QUANTINIERE",
+          "mnemoarret": "PARCEXPO",
+          "coordonnees": [
+            47.496893,
+            -0.49415418
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "REPUBLIQUE TRELAZE",
+      "stopsDest": [
+        {
+          "dest": "LORRAINE",
+          "mnemoarret": "REPTRELA",
+          "coordonnees": [
+            47.450145,
+            -0.50435591
+          ]
+        },
+        {
+          "dest": "TRELAZE QUANTINIERE",
+          "mnemoarret": "REPTRE-E",
+          "coordonnees": [
+            47.450161,
+            -0.50409135
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "BELLEVUE",
+      "stopsDest": [
+        {
+          "dest": "LORRAINE",
+          "mnemoarret": "BELLVUTR",
+          "coordonnees": [
+            47.448184,
+            -0.50689183
+          ]
+        },
+        {
+          "dest": "TRELAZE QUANTINIERE",
+          "mnemoarret": "BELVTR-E",
+          "coordonnees": [
+            47.447852,
+            -0.50796213
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "LEO LAGRANGE",
+      "stopsDest": [
+        {
+          "dest": "LORRAINE",
+          "mnemoarret": "LEOLAGRA",
+          "coordonnees": [
+            47.44783,
+            -0.50993803
+          ]
+        },
+        {
+          "dest": "TRELAZE QUANTINIERE",
+          "mnemoarret": "LEOLA2-E",
+          "coordonnees": [
+            47.447811,
+            -0.51034834
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "PROVINS",
+      "stopsDest": [
+        {
+          "dest": "TRELAZE QUANTINIERE",
+          "mnemoarret": "PROVINS",
+          "coordonnees": [
+            47.492523,
+            -0.50243421
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "VAL DE LOIRE",
+      "stopsDest": [
+        {
+          "dest": "LORRAINE",
+          "mnemoarret": "VDLOIRE",
+          "coordonnees": [
+            47.449073,
+            -0.51357381
+          ]
+        },
+        {
+          "dest": "TRELAZE QUANTINIERE",
+          "mnemoarret": "VDLOIR-E",
+          "coordonnees": [
+            47.448825,
+            -0.51340133
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "ROUTE DE PARIS",
+      "stopsDest": [
+        {
+          "dest": "TRELAZE QUANTINIERE",
+          "mnemoarret": "RTEPARIS",
+          "coordonnees": [
+            47.489594,
+            -0.50810755
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "ECLATERIES",
+      "stopsDest": [
+        {
+          "dest": "LORRAINE",
+          "mnemoarret": "ECLATERI",
+          "coordonnees": [
+            47.451198,
+            -0.51973848
+          ]
+        },
+        {
+          "dest": "TRELAZE QUANTINIERE",
+          "mnemoarret": "ECLATE-E",
+          "coordonnees": [
+            47.451075,
+            -0.51999726
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "MIRBEAU",
+      "stopsDest": [
+        {
+          "dest": "TRELAZE QUANTINIERE",
+          "mnemoarret": "MIRBEAU",
+          "coordonnees": [
+            47.488222,
+            -0.51079629
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "7 SONNETTES",
+      "stopsDest": [
+        {
+          "dest": "TRELAZE QUANTINIERE",
+          "mnemoarret": "SEPSONET",
+          "coordonnees": [
+            47.486072,
+            -0.5147843
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "JUSTICES",
+      "stopsDest": [
+        {
+          "dest": "LORRAINE",
+          "mnemoarret": "JUSTICES",
+          "coordonnees": [
+            47.453631,
+            -0.52655715
+          ]
+        },
+        {
+          "dest": "TRELAZE QUANTINIERE",
+          "mnemoarret": "JUSTIC-E",
+          "coordonnees": [
+            47.453323,
+            -0.52627519
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "SOLEIL LEVANT",
+      "stopsDest": [
+        {
+          "dest": "TRELAZE QUANTINIERE",
+          "mnemoarret": "SOLELEVA",
+          "coordonnees": [
+            47.484626,
+            -0.51758818
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "DELACROIX",
+      "stopsDest": [
+        {
+          "dest": "LORRAINE",
+          "mnemoarret": "DELACROI",
+          "coordonnees": [
+            47.454903,
+            -0.52862938
+          ]
+        },
+        {
+          "dest": "TRELAZE QUANTINIERE",
+          "mnemoarret": "DELACR-E",
+          "coordonnees": [
+            47.454898,
+            -0.52882817
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "CHATENAY",
+      "stopsDest": [
+        {
+          "dest": "TRELAZE QUANTINIERE",
+          "mnemoarret": "CHATENAY",
+          "coordonnees": [
+            47.482728,
+            -0.52117762
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "SAUMUROISE",
+      "stopsDest": [
+        {
+          "dest": "LORRAINE",
+          "mnemoarret": "MILLOT.",
+          "coordonnees": [
+            47.457309,
+            -0.53250131
+          ]
+        },
+        {
+          "dest": "TRELAZE QUANTINIERE",
+          "mnemoarret": "MILLOT-E",
+          "coordonnees": [
+            47.456802,
+            -0.53190333
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "MIMOSAS",
+      "stopsDest": [
+        {
+          "dest": "TRELAZE QUANTINIERE",
+          "mnemoarret": "SCHWEITZ",
+          "coordonnees": [
+            47.481575,
+            -0.52343921
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "MADELEINE",
+      "stopsDest": [
+        {
+          "dest": "LORRAINE",
+          "mnemoarret": "MADELEIN",
+          "coordonnees": [
+            47.459274,
+            -0.5356729
+          ]
+        },
+        {
+          "dest": "TRELAZE QUANTINIERE",
+          "mnemoarret": "MADELE-E",
+          "coordonnees": [
+            47.459041,
+            -0.53560728
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "BRISEPOTIERE",
+      "stopsDest": [
+        {
+          "dest": "TRELAZE QUANTINIERE",
+          "mnemoarret": "BRISEPOT",
+          "coordonnees": [
+            47.479526,
+            -0.52729894
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "VOLNEY",
+      "stopsDest": [
+        {
+          "dest": "LORRAINE",
+          "mnemoarret": "VOLNEY",
+          "coordonnees": [
+            47.46044,
+            -0.53801857
+          ]
+        },
+        {
+          "dest": "TRELAZE QUANTINIERE",
+          "mnemoarret": "VOLNEY-E",
+          "coordonnees": [
+            47.460559,
+            -0.5386488
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "DESJARDINS",
+      "stopsDest": [
+        {
+          "dest": "TRELAZE QUANTINIERE",
+          "mnemoarret": "DESJARDI",
+          "coordonnees": [
+            47.477949,
+            -0.53029424
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "BOURGONNIER",
+      "stopsDest": [
+        {
+          "dest": "LORRAINE",
+          "mnemoarret": "BOUGONNI",
+          "coordonnees": [
+            47.462171,
+            -0.54222651
+          ]
+        },
+        {
+          "dest": "TRELAZE QUANTINIERE",
+          "mnemoarret": "BOUGO.-E",
+          "coordonnees": [
+            47.461603,
+            -0.54120035
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "MACE",
+      "stopsDest": [
+        {
+          "dest": "TRELAZE QUANTINIERE",
+          "mnemoarret": "MACE",
+          "coordonnees": [
+            47.476646,
+            -0.5327333
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "LUTIN",
+      "stopsDest": [
+        {
+          "dest": "TRELAZE QUANTINIERE",
+          "mnemoarret": "LUTIN",
+          "coordonnees": [
+            47.475749,
+            -0.53442411
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "MICHELET",
+      "stopsDest": [
+        {
+          "dest": "LORRAINE",
+          "mnemoarret": "MICHELET",
+          "coordonnees": [
+            47.46353,
+            -0.54552523
+          ]
+        },
+        {
+          "dest": "TRELAZE QUANTINIERE",
+          "mnemoarret": "MICHEL-E",
+          "coordonnees": [
+            47.462859,
+            -0.54424133
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "ANDRE LEROY",
+      "stopsDest": [
+        {
+          "dest": "LORRAINE",
+          "mnemoarret": "ANLEROY",
+          "coordonnees": [
+            47.464659,
+            -0.54825425
+          ]
+        },
+        {
+          "dest": "TRELAZE QUANTINIERE",
+          "mnemoarret": "ANLERO-E",
+          "coordonnees": [
+            47.464622,
+            -0.54902208
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "MUSSET",
+      "stopsDest": [
+        {
+          "dest": "TRELAZE QUANTINIERE",
+          "mnemoarret": "MUSSET",
+          "coordonnees": [
+            47.473727,
+            -0.53974474
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "PAUL BERT",
+      "stopsDest": [
+        {
+          "dest": "LORRAINE",
+          "mnemoarret": "PATNOIRE",
+          "coordonnees": [
+            47.466318,
+            -0.55247221
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "SAVARY",
+      "stopsDest": [
+        {
+          "dest": "TRELAZE QUANTINIERE",
+          "mnemoarret": "SAVARY",
+          "coordonnees": [
+            47.473536,
+            -0.54273464
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "FOCH HARAS",
+      "stopsDest": [
+        {
+          "dest": "LORRAINE",
+          "mnemoarret": "HARAS",
+          "coordonnees": [
+            47.467123,
+            -0.55193186
+          ]
+        },
+        {
+          "dest": "TRELAZE QUANTINIERE",
+          "mnemoarret": "HARAS-E",
+          "coordonnees": [
+            47.467251,
+            -0.5522308
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "FOCH SAINT AUBIN",
+      "stopsDest": [
+        {
+          "dest": "LORRAINE",
+          "mnemoarret": "STAUBIN",
+          "coordonnees": [
+            47.468557,
+            -0.55003174
+          ]
+        },
+        {
+          "dest": "TRELAZE QUANTINIERE",
+          "mnemoarret": "STAUBI-E",
+          "coordonnees": [
+            47.468136,
+            -0.55104429
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "MENDES FRANCE",
+      "stopsDest": [
+        {
+          "dest": "TRELAZE QUANTINIERE",
+          "mnemoarret": "MENDESFR",
+          "coordonnees": [
+            47.472549,
+            -0.54623901
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "LORRAINE",
+      "stopsDest": [
+        {
+          "dest": "LORRAINE",
+          "mnemoarret": "LOR-FO-A",
+          "coordonnees": [
+            47.469619,
+            -0.54857604
+          ]
+        },
+        {
+          "dest": "LORRAINE",
+          "mnemoarret": "LORRTERM",
+          "coordonnees": [
+            47.470184,
+            -0.54759774
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "FOCH MAISON BLEUE",
+      "stopsDest": [
+        {
+          "dest": "TRELAZE QUANTINIERE",
+          "mnemoarret": "FO-LOR-R",
+          "coordonnees": [
+            47.469672,
+            -0.5489904
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "GARE DE TRELAZE",
+      "stopsDest": [
+        {
+          "dest": "TRELAZE QUANTINIERE",
+          "mnemoarret": "PEPINI-E",
+          "coordonnees": [
+            47.452154,
+            -0.46960343
+          ]
+        }
+      ]
+    }
+  ]
+}

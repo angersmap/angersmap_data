@@ -1,0 +1,402 @@
+{
+  "version": "1",
+  "parkings": [
+    {
+      "gpl": "OUI",
+      "nom": "Parking Berges de Maine",
+      "hauteur_max": "1M90",
+      "adr_num": "26",
+      "nb_places": 305,
+	  "nb_places_velo": 0,
+	  "nb_places_pmr": 7,
+	  "nb_places_elec": 0,
+      "adr_libvoi": "Allée François Mitterand",
+      "geo_point_2d": {
+        "lat": 47.47910552658146,
+        "lon": -0.549642004596277
+      },
+      "horaires": "07:00 - 00:00 / 24/24",
+      "accessibilite": "24/24",
+      "moyens_acces": "Avenue des droits de l'Homme",
+      "horaires_fermeture": "00:00",
+      "id_parking": "Berges De Maine",
+      "horaires_ouverture": "07:00",
+	  "url": "http://parking-angers.fr/parking-des-berges-du-maine/"
+    },
+    {
+      "gpl": "OUI",
+      "nom": "Parking Larrey",
+      "hauteur_max": "1M90",
+      "adr_num": "26",
+      "nb_places": 28,
+	  "nb_places_velo": 0,
+	  "nb_places_pmr": 2,
+	  "nb_places_elec": 0,
+      "adr_libvoi": "Allée François Mitterand",
+      "geo_point_2d": {
+        "lat": 47.480637051067134,
+        "lon": -0.554951239998175
+      },
+      "horaires": "24/24",
+      "accessibilite": "24/24",
+      "moyens_acces": "Rue Larrey",
+      "horaires_fermeture": null,
+      "id_parking": "Larrey",
+      "horaires_ouverture": null,
+	  "url": "http://parking-angers.fr/parking-chu-en-enclos/"
+    },
+    {
+      "gpl": "OUI",
+      "nom": "Parking Molière",
+      "hauteur_max": "1M90",
+      "adr_num": "37",
+      "nb_places": 416,
+	  "nb_places_velo": 38,
+	  "nb_places_pmr": 9,
+	  "nb_places_elec": 0,
+      "adr_libvoi": "Rue Thiers",
+      "geo_point_2d": {
+        "lat": 47.47466321564762,
+        "lon": -0.554276891797808
+      },
+      "horaires": "07:00 - 20:00 / 24/24",
+      "accessibilite": "24/24",
+      "moyens_acces": "Rue Thiers",
+      "horaires_fermeture": "20:00",
+      "id_parking": "Moliere",
+      "horaires_ouverture": "07:00",
+	  "url": "http://parking-angers.fr/parking-moliere-2/"
+    },
+    {
+      "gpl": "OUI",
+      "nom": "Parking Leclerc",
+      "hauteur_max": "1M90",
+      "adr_num": "14",
+      "nb_places": 235,
+	  "nb_places_velo": 0,
+	  "nb_places_pmr": 4,
+	  "nb_places_elec": 0,
+      "adr_libvoi": "Boulevard Bessonneau",
+      "geo_point_2d": {
+        "lat": 47.471441920006974,
+        "lon": -0.546056082569711
+      },
+      "horaires": "24/24",
+      "accessibilite": "24/24",
+      "moyens_acces": "Place Leclerc / Palais de Justice",
+      "horaires_fermeture": null,
+      "id_parking": "Leclerc",
+      "horaires_ouverture": null,
+	  "url": "http://parking-angers.fr/parking-leclerc-en-enclos/"
+    },
+    {
+      "gpl": "OUI",
+      "nom": "Parking Mitterrand",
+      "hauteur_max": "1M90",
+      "adr_num": "1",
+      "nb_places": 133,
+	  "nb_places_velo": 0,
+	  "nb_places_prm": 0,
+      "adr_libvoi": "Place François Mitterand",
+      "geo_point_2d": {
+        "lat": 47.47660839204187,
+        "lon": -0.550574131243347
+      },
+      "horaires": "24/24",
+      "accessibilite": "24/24",
+      "moyens_acces": "Rue de Rennes",
+      "horaires_fermeture": null,
+      "id_parking": "Mitterrand Rennes",
+      "horaires_ouverture": null,
+	  "url": "http://parking-angers.fr/parking-francois-mitterrand-en-enclos/"
+    },
+    {
+      "gpl": "OUI",
+      "nom": "Parking Mitterrand Maine",
+      "hauteur_max": "1M90",
+      "adr_num": "1",
+      "nb_places": 151,
+	  "nb_places_velo": 0,
+	  "nb_places_pmr": 0,
+	  "nb_places_elec": 0,
+      "adr_libvoi": "Place François Mitterand",
+      "geo_point_2d": {
+        "lat": 47.477242023410454,
+        "lon": -0.552025911935098
+      },
+      "horaires": "24/24",
+      "accessibilite": "24/24",
+      "moyens_acces": "Boulevard Robert",
+      "horaires_fermeture": null,
+      "id_parking": "Mitterrand Maine",
+      "horaires_ouverture": null,
+	  "url": "http://parking-angers.fr/parking-francois-mitterrand-en-enclos/"
+    },
+    {
+      "gpl": "OUI",
+      "nom": "Parking St Laud",
+      "hauteur_max": "1M90",
+      "adr_num": "7",
+      "nb_places": 450,
+	  "nb_places_velo": 0,
+	  "nb_places_pmr": 10,
+	  "nb_places_elec": 2,
+      "adr_libvoi": "Esplanade de la gare",
+      "geo_point_2d": {
+        "lat": 47.46448891971163,
+        "lon": -0.558943020691773
+      },
+      "horaires": "05:30 - 00:00 / 24/24",
+      "accessibilite": "24/24",
+      "moyens_acces": "Rue Denis Papin",
+      "horaires_fermeture": "00:00",
+      "id_parking": "Saint Laud",
+      "horaires_ouverture": "05:30",
+	  "url": "http://parking-angers.fr/parking-gare-saint-laud-1/"
+    },
+    {
+      "gpl": "OUI",
+      "nom": "Parking Marengo",
+      "hauteur_max": "1M90",
+      "adr_num": "11",
+      "nb_places": 305,
+	  "nb_places_velo": 0,
+	  "nb_places_pmr": 7,
+	  "nb_places_elec": 0,
+      "adr_libvoi": "Avenue Turpin de Crissé",
+      "geo_point_2d": {
+        "lat": 47.46488426817195,
+        "lon": -0.554823179983747
+      },
+      "horaires": "24/24",
+      "accessibilite": "24/24",
+      "moyens_acces": "Avenue Turpin de Crissé / Rue Letanduere",
+      "horaires_fermeture": null,
+      "id_parking": "Marengo",
+      "horaires_ouverture": null,
+	  "url": "http://parking-angers.fr/parking-marengo-2/"
+    },
+    {
+      "gpl": "OUI",
+      "nom": "Parking Haras",
+      "hauteur_max": "1M90",
+      "adr_num": "14",
+      "nb_places": 112,
+	  "nb_places_velo": 70,
+	  "nb_places_pmr": 2,
+	  "nb_places_elec": 0,
+      "adr_libvoi": "Allée du Haras",
+      "geo_point_2d": {
+        "lat": 47.464899636371676,
+        "lon": -0.553765416643931
+      },
+      "horaires": "24/24",
+      "accessibilite": "24/24",
+      "moyens_acces": "Avenue Turpin de Crissé",
+      "horaires_fermeture": null,
+      "id_parking": "Haras Public",
+      "horaires_ouverture": null,
+	  "url": "http://parking-angers.fr/parking-du-haras-public/"
+    },
+    {
+      "gpl": "NON",
+      "nom": "Parking St Laud II",
+      "hauteur_max": "2M00",
+      "adr_num": "7",
+      "nb_places": 576,
+	  "nb_places_velo": 0,
+	  "nb_places_pmr": 12,
+	  "nb_places_elec": 2,
+      "adr_libvoi": "Esplanade de la gare",
+      "geo_point_2d": {
+        "lat": 47.464043860624045,
+        "lon": -0.560504672316375
+      },
+      "horaires": "05:30 - 00:00 / 24/24",
+      "accessibilite": "24/24",
+      "moyens_acces": "Rue Auguste Gautier",
+      "horaires_fermeture": "00:00",
+      "id_parking": "Saint Laud 2",
+      "horaires_ouverture": "05:30",
+	  "url": "http://parking-angers.fr/parking-gare-saint-laud-2/"
+    },
+    {
+      "gpl": "OUI",
+      "nom": "Parking Maternité",
+      "hauteur_max": "1M90",
+      "adr_num": "26",
+      "nb_places": 56,
+	  "nb_places_velo": 0,
+	  "nb_places_pmr": 3,
+	  "nb_places_elec": 0,
+      "adr_libvoi": "Allée François Mitterand",
+      "geo_point_2d": {
+        "lat": 47.48145469693686,
+        "lon": -0.554413623853033
+      },
+      "horaires": "24/24",
+      "accessibilite": "24/24",
+      "moyens_acces": "Rue Larrey",
+      "horaires_fermeture": null,
+      "id_parking": "Maternite",
+      "horaires_ouverture": null,
+	  "url": "http://parking-angers.fr/parking-chu-en-enclos/"
+    },
+    {
+      "gpl": "OUI",
+      "nom": "Parking Confluences",
+      "hauteur_max": "1M90",
+      "adr_num": "26",
+      "nb_places": 30,
+	  "nb_places_velo": 0,
+	  "nb_places_pmr": 1,
+	  "nb_places_elec": 0,
+      "adr_libvoi": "Allée François Mitterand",
+      "geo_point_2d": {
+        "lat": 47.48067537791602,
+        "lon": -0.554545651221503
+      },
+      "horaires": "24/24",
+      "accessibilite": "24/24",
+      "moyens_acces": "Rue Larrey",
+      "horaires_fermeture": null,
+      "id_parking": "Confluences",
+      "horaires_ouverture": null,
+	  "url": "http://parking-angers.fr/parking-chu-en-enclos/"
+    },
+    {
+      "gpl": "OUI",
+      "nom": "Parking Bressigny",
+      "hauteur_max": "1M90",
+      "adr_num": "43",
+      "nb_places": 172,
+	  "nb_places_velo": 28,
+	  "nb_places_pmr": 7,
+	  "nb_places_elec": 0,
+      "adr_libvoi": "Rue Bressigny",
+      "geo_point_2d": {
+        "lat": 47.46734248182215,
+        "lon": -0.549342240869709
+      },
+      "horaires": "06:00 - 00:30 / 24/24",
+      "accessibilite": "24/24",
+      "moyens_acces": "Rue Bressigny",
+      "horaires_fermeture": "00:30",
+      "id_parking": "Bressigny",
+      "horaires_ouverture": "06:00",
+	  "url": "http://parking-angers.fr/parking-bressigny-en-enclos/"
+    },
+    {
+      "gpl": "OUI",
+      "nom": "Parking du Mail",
+      "hauteur_max": "1M90",
+      "adr_num": "2",
+      "nb_places": 960,
+	  "nb_places_velo": 0,
+	  "nb_places_pmr": 20,
+	  "nb_places_elec": 0,
+      "adr_libvoi": "Avenue du 11 novembre",
+      "geo_point_2d": {
+        "lat": 47.47125470455146,
+        "lon": -0.544924904001022
+      },
+      "horaires": "24/24",
+      "accessibilite": "24/24",
+      "moyens_acces": "Avenue du 11 novembre / Boulevard du Marechal Joffre",
+      "horaires_fermeture": null,
+      "id_parking": "Mail",
+      "horaires_ouverture": null,
+	  "url": "http://parking-angers.fr/parking-du-mail-2/"
+    },
+    {
+      "gpl": "OUI",
+      "nom": "Parking du Ralliement",
+      "hauteur_max": "1M90",
+      "adr_num": "5",
+      "nb_places": 432,
+	  "nb_places_velo": 0,
+	  "nb_places_pmr": 9,
+	  "nb_places_elec": 0,
+      "adr_libvoi": "Place du Ralliement",
+      "geo_point_2d": {
+        "lat": 47.471224288602876,
+        "lon": -0.551806483236706
+      },
+      "horaires": "07:00 - 07:30 / 24/24",
+      "accessibilite": "24/24",
+      "moyens_acces": "Rue chaussée Saint-Pierre",
+      "horaires_fermeture": "00:30",
+      "id_parking": "Ralliement",
+      "horaires_ouverture": "07:00",
+	  "url": "http://parking-angers.fr/parking-du-ralliement-2/"
+    },
+    {
+      "gpl": "OUI",
+      "nom": "Parking Le Quai",
+      "hauteur_max": "1M90",
+      "adr_num": "28",
+      "nb_places": 180,
+	  "nb_places_velo": 0,
+	  "nb_places_pmr": 4,
+	  "nb_places_elec": 0,
+      "adr_libvoi": "Rue de la Tannerie",
+      "geo_point_2d": {
+        "lat": 47.47263306201524,
+        "lon": -0.565068160203855
+      },
+      "horaires": "07:00 - 02:00 / 24/24",
+      "accessibilite": "24/24",
+      "moyens_acces": "Rue Justiciere",
+      "horaires_fermeture": "02:00",
+      "id_parking": "Quai",
+      "horaires_ouverture": "07:00",
+	  "url": "http://parking-angers.fr/parking-le-quai-2/"
+    },
+    {
+      "gpl": "OUI",
+      "nom": "Parking République",
+      "hauteur_max": "1M90",
+      "adr_num": "18",
+      "nb_places": 383,
+	  "nb_places_velo": 26,
+	  "nb_places_pmr": 11,
+	  "nb_places_elec": 2,
+      "adr_libvoi": "Place de la République",
+      "geo_point_2d": {
+        "lat": 47.47256236755738,
+        "lon": -0.554958380400542
+      },
+      "horaires": "06:00 - 00:30 / 24/24",
+      "accessibilite": "24/24",
+      "moyens_acces": "Rue Plantagenêt",
+      "horaires_fermeture": "00:30",
+      "id_parking": "Republique",
+      "horaires_ouverture": "06:00",
+	  "url": "http://parking-angers.fr/republique/"
+    },
+    {
+      "gpl": "OUI",
+      "nom": "Parking Saint-Serge Patinoire",
+      "hauteur_max": "1M90",
+      "adr_num": "",
+      "nb_places": 234,
+      "nb_places_velo": 0,
+	  "nb_places_pmr": 5,
+	  "nb_places_elec": 4,
+      "adr_libvoi": "",
+      "geo_point_2d": {
+        "lat": 47.479609228,
+        "lon": -0.5463170241
+      },
+      "horaires": "06:00 - 00:00 / 24/24",
+      "accessibilite": "24/24",
+      "moyens_acces": "Rue du doctor Bonhomme",
+      "horaires_fermeture": "00:00",
+      "id_parking": "Saint Serge Patinoire",
+      "horaires_ouverture": "06:00",
+	  "url": "https://parking-angers.fr/parking-saint-serge-patinoire/"
+    }
+	
+  ]
+}
+

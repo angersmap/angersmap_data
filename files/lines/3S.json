@@ -1,0 +1,655 @@
+{
+  "version": "1",
+  "mnemoligne": "3S",
+  "nomligne": "SOIR MAIRIE PONTS CE <> AVRILLE",
+  "color": "EE7F00",
+  "dests": [
+    {
+      "name": "AVRILLE VAL D'OR",
+      "color": "EE7F00"
+    },
+    {
+      "name": "MAIRIE des PONTS de CE",
+      "color": "AD5C00"
+    }
+  ],
+  "stops": [
+    {
+      "nomarret": "ESA",
+      "stopsDest": [
+        {
+          "dest": "AVRILLE VAL D'OR",
+          "mnemoarret": "ESA",
+          "coordonnees": [
+            47.458681,
+            -0.54505055
+          ]
+        },
+        {
+          "dest": "MAIRIE des PONTS de CE",
+          "mnemoarret": "ESA-E",
+          "coordonnees": [
+            47.458954,
+            -0.54530419
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "ANDRE LEROY",
+      "stopsDest": [
+        {
+          "dest": "AVRILLE VAL D'OR",
+          "mnemoarret": "ALEROY",
+          "coordonnees": [
+            47.464498,
+            -0.54855084
+          ]
+        },
+        {
+          "dest": "MAIRIE des PONTS de CE",
+          "mnemoarret": "ANLERO-E",
+          "coordonnees": [
+            47.464722,
+            -0.54898767
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "CARNOT Supprimé",
+      "stopsDest": [
+        {
+          "dest": "AVRILLE VAL D'OR",
+          "mnemoarret": "CARNOT-E",
+          "coordonnees": [
+            47.474841,
+            -0.54742518
+          ]
+        },
+        {
+          "dest": "MAIRIE des PONTS de CE",
+          "mnemoarret": "CARNOT",
+          "coordonnees": [
+            47.474875,
+            -0.54787838
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "HOTEL DIEU",
+      "stopsDest": [
+        {
+          "dest": "AVRILLE VAL D'OR",
+          "mnemoarret": "HOTDIE-E",
+          "coordonnees": [
+            47.479366,
+            -0.56088078
+          ]
+        },
+        {
+          "dest": "MAIRIE des PONTS de CE",
+          "mnemoarret": "HOTDIEU",
+          "coordonnees": [
+            47.479206,
+            -0.55935851
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "DESCAZEAUX",
+      "stopsDest": [
+        {
+          "dest": "AVRILLE VAL D'OR",
+          "mnemoarret": "DESCAZEA",
+          "coordonnees": [
+            47.477386,
+            -0.5659243
+          ]
+        },
+        {
+          "dest": "MAIRIE des PONTS de CE",
+          "mnemoarret": "DESCAZ-E",
+          "coordonnees": [
+            47.476789,
+            -0.5660378
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "CIMETIERE DE L'OUEST",
+      "stopsDest": [
+        {
+          "dest": "AVRILLE VAL D'OR",
+          "mnemoarret": "CIOUES-E",
+          "coordonnees": [
+            47.479343,
+            -0.57078416
+          ]
+        },
+        {
+          "dest": "MAIRIE des PONTS de CE",
+          "mnemoarret": "CIOUEST",
+          "coordonnees": [
+            47.478498,
+            -0.56964934
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "AUTHION",
+      "stopsDest": [
+        {
+          "dest": "AVRILLE VAL D'OR",
+          "mnemoarret": "AUTHION",
+          "coordonnees": [
+            47.431494,
+            -0.52853824
+          ]
+        },
+        {
+          "dest": "MAIRIE des PONTS de CE",
+          "mnemoarret": "AUTHIO-E",
+          "coordonnees": [
+            47.43151,
+            -0.52859219
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "LORRAINE MAISONBLEUE",
+      "stopsDest": [
+        {
+          "dest": "AVRILLE VAL D'OR",
+          "mnemoarret": "LOR-FO-A",
+          "coordonnees": [
+            47.469637,
+            -0.54859027
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "PLACE LORRAINE",
+      "stopsDest": [
+        {
+          "dest": "AVRILLE VAL D'OR",
+          "mnemoarret": "LORRAIN1",
+          "coordonnees": [
+            47.470268,
+            -0.54784123
+          ]
+        },
+        {
+          "dest": "AVRILLE VAL D'OR",
+          "mnemoarret": "LORRTERM",
+          "coordonnees": [
+            47.470195,
+            -0.54749218
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "GRANDMONT",
+      "stopsDest": [
+        {
+          "dest": "AVRILLE VAL D'OR",
+          "mnemoarret": "GRANDMON",
+          "coordonnees": [
+            47.487525,
+            -0.58759083
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "VAL D'OR",
+      "stopsDest": [
+        {
+          "dest": "AVRILLE VAL D'OR",
+          "mnemoarret": "VALOR",
+          "coordonnees": [
+            47.484706,
+            -0.58407657
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "MEIGNANNE",
+      "stopsDest": [
+        {
+          "dest": "AVRILLE VAL D'OR",
+          "mnemoarret": "MEIGNA-E",
+          "coordonnees": [
+            47.484434,
+            -0.5827338
+          ]
+        },
+        {
+          "dest": "MAIRIE des PONTS de CE",
+          "mnemoarret": "MEIGNANN",
+          "coordonnees": [
+            47.484017,
+            -0.58215323
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "MAIRIE PONTS DE CE",
+      "stopsDest": [
+        {
+          "dest": "AVRILLE VAL D'OR",
+          "mnemoarret": "PONTSCEM",
+          "coordonnees": [
+            47.425289,
+            -0.5253929
+          ]
+        },
+        {
+          "dest": "MAIRIE des PONTS de CE",
+          "mnemoarret": "PONTSC-E",
+          "coordonnees": [
+            47.425533,
+            -0.52569783
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "RUELLES",
+      "stopsDest": [
+        {
+          "dest": "AVRILLE VAL D'OR",
+          "mnemoarret": "RUELLES",
+          "coordonnees": [
+            47.437649,
+            -0.53152241
+          ]
+        },
+        {
+          "dest": "MAIRIE des PONTS de CE",
+          "mnemoarret": "RUELLE-E",
+          "coordonnees": [
+            47.437318,
+            -0.53142502
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "TROIS PAROISSES",
+      "stopsDest": [
+        {
+          "dest": "AVRILLE VAL D'OR",
+          "mnemoarret": "TROPAROI",
+          "coordonnees": [
+            47.441928,
+            -0.53463178
+          ]
+        },
+        {
+          "dest": "MAIRIE des PONTS de CE",
+          "mnemoarret": "TROIPA-E",
+          "coordonnees": [
+            47.444186,
+            -0.53576184
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "FOCH HARAS",
+      "stopsDest": [
+        {
+          "dest": "AVRILLE VAL D'OR",
+          "mnemoarret": "HARAS",
+          "coordonnees": [
+            47.467059,
+            -0.55199472
+          ]
+        },
+        {
+          "dest": "MAIRIE des PONTS de CE",
+          "mnemoarret": "HARAS-E",
+          "coordonnees": [
+            47.467234,
+            -0.55220331
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "CIMETIERE PONTS CE",
+      "stopsDest": [
+        {
+          "dest": "AVRILLE VAL D'OR",
+          "mnemoarret": "CIMEPONT",
+          "coordonnees": [
+            47.434315,
+            -0.52984399
+          ]
+        },
+        {
+          "dest": "MAIRIE des PONTS de CE",
+          "mnemoarret": "CIMEPO-E",
+          "coordonnees": [
+            47.434362,
+            -0.53009861
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "ALLARD",
+      "stopsDest": [
+        {
+          "dest": "AVRILLE VAL D'OR",
+          "mnemoarret": "ALLARD",
+          "coordonnees": [
+            47.449591,
+            -0.53883981
+          ]
+        },
+        {
+          "dest": "MAIRIE des PONTS de CE",
+          "mnemoarret": "ALLARD-E",
+          "coordonnees": [
+            47.448912,
+            -0.53865718
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "DE LATTRE",
+      "stopsDest": [
+        {
+          "dest": "AVRILLE VAL D'OR",
+          "mnemoarret": "DELATTAS",
+          "coordonnees": [
+            47.453368,
+            -0.54118015
+          ]
+        },
+        {
+          "dest": "MAIRIE des PONTS de CE",
+          "mnemoarret": "DELATA-E",
+          "coordonnees": [
+            47.453201,
+            -0.5413437
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "LA ROCHEFOUCAULD",
+      "stopsDest": [
+        {
+          "dest": "AVRILLE VAL D'OR",
+          "mnemoarret": "ROCHEF-E",
+          "coordonnees": [
+            47.479389,
+            -0.55672634
+          ]
+        },
+        {
+          "dest": "MAIRIE des PONTS de CE",
+          "mnemoarret": "ROCHEFOU",
+          "coordonnees": [
+            47.478896,
+            -0.55701818
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "CLINIQUE ST DIDIER",
+      "stopsDest": [
+        {
+          "dest": "AVRILLE VAL D'OR",
+          "mnemoarret": "CLINIQUE",
+          "coordonnees": [
+            47.48519,
+            -0.58703765
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "REVERIES",
+      "stopsDest": [
+        {
+          "dest": "MAIRIE des PONTS de CE",
+          "mnemoarret": "REVERIES",
+          "coordonnees": [
+            47.482043,
+            -0.57832726
+          ]
+        },
+        {
+          "dest": "AVRILLE VAL D'OR",
+          "mnemoarret": "REVERI-E",
+          "coordonnees": [
+            47.482063,
+            -0.57789019
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "BICHON",
+      "stopsDest": [
+        {
+          "dest": "MAIRIE des PONTS de CE",
+          "mnemoarret": "BICHON",
+          "coordonnees": [
+            47.478759,
+            -0.56429969
+          ]
+        },
+        {
+          "dest": "AVRILLE VAL D'OR",
+          "mnemoarret": "BICHON-E",
+          "coordonnees": [
+            47.479236,
+            -0.56356891
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "FOCH MAISON BLEUE",
+      "stopsDest": [
+        {
+          "dest": "MAIRIE des PONTS de CE",
+          "mnemoarret": "FO-LOR-R",
+          "coordonnees": [
+            47.469665,
+            -0.54891037
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "BELLE POULE",
+      "stopsDest": [
+        {
+          "dest": "MAIRIE des PONTS de CE",
+          "mnemoarret": "BELPOU-E",
+          "coordonnees": [
+            47.428447,
+            -0.52761842
+          ]
+        },
+        {
+          "dest": "AVRILLE VAL D'OR",
+          "mnemoarret": "BELPOULE",
+          "coordonnees": [
+            47.427791,
+            -0.52721178
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "MENDES FRANCE",
+      "stopsDest": [
+        {
+          "dest": "MAIRIE des PONTS de CE",
+          "mnemoarret": "MENDESFR",
+          "coordonnees": [
+            47.472549,
+            -0.54622575
+          ]
+        },
+        {
+          "dest": "AVRILLE VAL D'OR",
+          "mnemoarret": "MENDES-E",
+          "coordonnees": [
+            47.472942,
+            -0.54563635
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "POLE TASSIGNY",
+      "stopsDest": [
+        {
+          "dest": "MAIRIE des PONTS de CE",
+          "mnemoarret": "PTASSI-E",
+          "coordonnees": [
+            47.446481,
+            -0.53722568
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "PATINOIRE",
+      "stopsDest": [
+        {
+          "dest": "AVRILLE VAL D'OR",
+          "mnemoarret": "PATNOIRE",
+          "coordonnees": [
+            47.466263,
+            -0.5524958
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "FRANCOIS MITTERRAND",
+      "stopsDest": [
+        {
+          "dest": "AVRILLE VAL D'OR",
+          "mnemoarret": "FMITTE-E",
+          "coordonnees": [
+            47.476553,
+            -0.55132816
+          ]
+        },
+        {
+          "dest": "MAIRIE des PONTS de CE",
+          "mnemoarret": "FMITTERA",
+          "coordonnees": [
+            47.476582,
+            -0.55199352
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "POMONE",
+      "stopsDest": [
+        {
+          "dest": "MAIRIE des PONTS de CE",
+          "mnemoarret": "POMONE",
+          "coordonnees": [
+            47.48141,
+            -0.57452175
+          ]
+        },
+        {
+          "dest": "AVRILLE VAL D'OR",
+          "mnemoarret": "POMONE-E",
+          "coordonnees": [
+            47.481467,
+            -0.57436559
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "SABLONS",
+      "stopsDest": [
+        {
+          "dest": "MAIRIE des PONTS de CE",
+          "mnemoarret": "SABLON-E",
+          "coordonnees": [
+            47.439831,
+            -0.53316558
+          ]
+        },
+        {
+          "dest": "AVRILLE VAL D'OR",
+          "mnemoarret": "SABLONS",
+          "coordonnees": [
+            47.439975,
+            -0.53318657
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "RABELAIS",
+      "stopsDest": [
+        {
+          "dest": "MAIRIE des PONTS de CE",
+          "mnemoarret": "RABELA-E",
+          "coordonnees": [
+            47.461605,
+            -0.54690761
+          ]
+        },
+        {
+          "dest": "AVRILLE VAL D'OR",
+          "mnemoarret": "RABELAI",
+          "coordonnees": [
+            47.461731,
+            -0.54691442
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "FOCH ST AUBIN",
+      "stopsDest": [
+        {
+          "dest": "MAIRIE des PONTS de CE",
+          "mnemoarret": "STAUBI-E",
+          "coordonnees": [
+            47.468119,
+            -0.55099029
+          ]
+        },
+        {
+          "dest": "AVRILLE VAL D'OR",
+          "mnemoarret": "STAUBIN",
+          "coordonnees": [
+            47.468594,
+            -0.55000718
+          ]
+        }
+      ]
+    }
+  ]
+}

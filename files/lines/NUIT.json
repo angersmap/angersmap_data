@@ -1,0 +1,712 @@
+{
+  "version": "20211205175410",
+  "mnemoligne": "NUIT",
+  "nomligne": "SERVICE NUIT",
+  "color": "24346C",
+  "dests": [
+    {
+      "name": "IRIGO NUIT",
+      "color": "24346C",
+      "codeparcours": "MAIL > JOFFRE Nuit 9.1"
+    }
+  ],
+  "stops": [
+    {
+      "nomarret": "MAIL",
+      "stopsDest": [
+        {
+          "dest": "IRIGO NUIT",
+          "mnemoarret": "MAIL-NAE",
+          "coordonnees": [
+            47.471271,
+            -0.54658137
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "FOCH MAISON BLEUE",
+      "stopsDest": [
+        {
+          "dest": "IRIGO NUIT",
+          "mnemoarret": "FO-LOR-R",
+          "coordonnees": [
+            47.469672,
+            -0.5489904
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "FOCH SAINT AUBIN",
+      "stopsDest": [
+        {
+          "dest": "IRIGO NUIT",
+          "mnemoarret": "STAUBI-E",
+          "coordonnees": [
+            47.468136,
+            -0.55104429
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "FOCH HARAS",
+      "stopsDest": [
+        {
+          "dest": "IRIGO NUIT",
+          "mnemoarret": "HARAS-E",
+          "coordonnees": [
+            47.467251,
+            -0.5522308
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "LICES CHATEAU",
+      "stopsDest": [
+        {
+          "dest": "IRIGO NUIT",
+          "mnemoarret": "LICES",
+          "coordonnees": [
+            47.467113,
+            -0.55449317
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "CCI",
+      "stopsDest": [
+        {
+          "dest": "IRIGO NUIT",
+          "mnemoarret": "CCICHA-E",
+          "coordonnees": [
+            47.468367,
+            -0.55762757
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "OFFICE DE TOURISME",
+      "stopsDest": [
+        {
+          "dest": "IRIGO NUIT",
+          "mnemoarret": "OFFTOURI",
+          "coordonnees": [
+            47.468868,
+            -0.55811939
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "SAINTE CROIX",
+      "stopsDest": [
+        {
+          "dest": "IRIGO NUIT",
+          "mnemoarret": "SAICROIX",
+          "coordonnees": [
+            47.469953,
+            -0.55431546
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "REPUBLIQUE",
+      "stopsDest": [
+        {
+          "dest": "IRIGO NUIT",
+          "mnemoarret": "REPUBL-E",
+          "coordonnees": [
+            47.471693,
+            -0.55385235
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "COEUR DE MAINE",
+      "stopsDest": [
+        {
+          "dest": "IRIGO NUIT",
+          "mnemoarret": "POISSO-E",
+          "coordonnees": [
+            47.472572,
+            -0.55684718
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "BEAUREPAIRE",
+      "stopsDest": [
+        {
+          "dest": "IRIGO NUIT",
+          "mnemoarret": "BEAURE-E",
+          "coordonnees": [
+            47.474,
+            -0.55950022
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "TRINITE",
+      "stopsDest": [
+        {
+          "dest": "IRIGO NUIT",
+          "mnemoarret": "TRINIT-E",
+          "coordonnees": [
+            47.475158,
+            -0.56178028
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "MONPROFIT",
+      "stopsDest": [
+        {
+          "dest": "IRIGO NUIT",
+          "mnemoarret": "MONPRO-E",
+          "coordonnees": [
+            47.474342,
+            -0.56671423
+          ]
+        },
+        {
+          "dest": "IRIGO NUIT",
+          "mnemoarret": "MONPR -E",
+          "coordonnees": [
+            47.474539,
+            -0.56708346
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "DUMESNIL",
+      "stopsDest": [
+        {
+          "dest": "IRIGO NUIT",
+          "mnemoarret": "DUMESNIL",
+          "coordonnees": [
+            47.473698,
+            -0.56726326
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "FRONT DE MAINE",
+      "stopsDest": [
+        {
+          "dest": "IRIGO NUIT",
+          "mnemoarret": "FRONDEMA",
+          "coordonnees": [
+            47.472518,
+            -0.56658824
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "ARAGON",
+      "stopsDest": [
+        {
+          "dest": "IRIGO NUIT",
+          "mnemoarret": "ARAGO-E",
+          "coordonnees": [
+            47.471728,
+            -0.56756738
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "BON PASTEUR",
+      "stopsDest": [
+        {
+          "dest": "IRIGO NUIT",
+          "mnemoarret": "BPASTE-E",
+          "coordonnees": [
+            47.470486,
+            -0.5697298
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "BALZAC",
+      "stopsDest": [
+        {
+          "dest": "IRIGO NUIT",
+          "mnemoarret": "FARCY-E",
+          "coordonnees": [
+            47.472679,
+            -0.57630132
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "MONTESQUIEU",
+      "stopsDest": [
+        {
+          "dest": "IRIGO NUIT",
+          "mnemoarret": "P-MTSQ-E",
+          "coordonnees": [
+            47.473457,
+            -0.57971589
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "ELYSEE",
+      "stopsDest": [
+        {
+          "dest": "IRIGO NUIT",
+          "mnemoarret": "P-ELYS-E",
+          "coordonnees": [
+            47.472259,
+            -0.5851197
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "BARBREAU",
+      "stopsDest": [
+        {
+          "dest": "IRIGO NUIT",
+          "mnemoarret": "P_BARD-E",
+          "coordonnees": [
+            47.472098,
+            -0.59111135
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "PATTON",
+      "stopsDest": [
+        {
+          "dest": "IRIGO NUIT",
+          "mnemoarret": "P-PATT-E",
+          "coordonnees": [
+            47.472192,
+            -0.59346623
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "LA BARRE",
+      "stopsDest": [
+        {
+          "dest": "IRIGO NUIT",
+          "mnemoarret": "P-LBAR-E",
+          "coordonnees": [
+            47.472475,
+            -0.59755739
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "CNFPT",
+      "stopsDest": [
+        {
+          "dest": "IRIGO NUIT",
+          "mnemoarret": "CNFPT",
+          "coordonnees": [
+            47.472383,
+            -0.59978258
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "ESSCA",
+      "stopsDest": [
+        {
+          "dest": "IRIGO NUIT",
+          "mnemoarret": "ESCALAV",
+          "coordonnees": [
+            47.476453,
+            -0.59936974
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "CITE UNIVERSITAIRE",
+      "stopsDest": [
+        {
+          "dest": "IRIGO NUIT",
+          "mnemoarret": "CITEUNIV",
+          "coordonnees": [
+            47.478876,
+            -0.59788353
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "POLYTECH ANGERS",
+      "stopsDest": [
+        {
+          "dest": "IRIGO NUIT",
+          "mnemoarret": "MAETUDIA",
+          "coordonnees": [
+            47.48057,
+            -0.59459116
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "NOTRE DAME DU LAC",
+      "stopsDest": [
+        {
+          "dest": "IRIGO NUIT",
+          "mnemoarret": "NDAMELAC",
+          "coordonnees": [
+            47.479629,
+            -0.58982591
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "BOISRAME",
+      "stopsDest": [
+        {
+          "dest": "IRIGO NUIT",
+          "mnemoarret": "BOISRAME",
+          "coordonnees": [
+            47.478297,
+            -0.58480047
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "CHAPELLE BELLEBEILLE",
+      "stopsDest": [
+        {
+          "dest": "IRIGO NUIT",
+          "mnemoarret": "CHBBEILL",
+          "coordonnees": [
+            47.475807,
+            -0.58612422
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "MARCEL VIGNE",
+      "stopsDest": [
+        {
+          "dest": "IRIGO NUIT",
+          "mnemoarret": "MVIGNE",
+          "coordonnees": [
+            47.475006,
+            -0.58220364
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "MARIUS BRIANT",
+      "stopsDest": [
+        {
+          "dest": "IRIGO NUIT",
+          "mnemoarret": "MBRIANT",
+          "coordonnees": [
+            47.47396,
+            -0.57759279
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "SAINT JACQUES",
+      "stopsDest": [
+        {
+          "dest": "IRIGO NUIT",
+          "mnemoarret": "SAJACQUE",
+          "coordonnees": [
+            47.473589,
+            -0.57122674
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "DESCAZEAUX",
+      "stopsDest": [
+        {
+          "dest": "IRIGO NUIT",
+          "mnemoarret": "DESCAZ-E",
+          "coordonnees": [
+            47.476787,
+            -0.56611735
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "CLOUET",
+      "stopsDest": [
+        {
+          "dest": "IRIGO NUIT",
+          "mnemoarret": "CLOUET-E",
+          "coordonnees": [
+            47.480642,
+            -0.56636734
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "GOURONNIERES",
+      "stopsDest": [
+        {
+          "dest": "IRIGO NUIT",
+          "mnemoarret": "GOURON-E",
+          "coordonnees": [
+            47.483123,
+            -0.56937064
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "GASNIER",
+      "stopsDest": [
+        {
+          "dest": "IRIGO NUIT",
+          "mnemoarret": "GASNIE-E",
+          "coordonnees": [
+            47.485225,
+            -0.57167634
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "LIZE",
+      "stopsDest": [
+        {
+          "dest": "IRIGO NUIT",
+          "mnemoarret": "LIZE -E",
+          "coordonnees": [
+            47.486876,
+            -0.57298814
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "ECHMAN",
+      "stopsDest": [
+        {
+          "dest": "IRIGO NUIT",
+          "mnemoarret": "ECHMA-E",
+          "coordonnees": [
+            47.490229,
+            -0.57564146
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "KENNEDY",
+      "stopsDest": [
+        {
+          "dest": "IRIGO NUIT",
+          "mnemoarret": "KENNED-E",
+          "coordonnees": [
+            47.492162,
+            -0.57716819
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "TERRA BOTANICA",
+      "stopsDest": [
+        {
+          "dest": "IRIGO NUIT",
+          "mnemoarret": "WTBOT",
+          "coordonnees": [
+            47.494076,
+            -0.57480272
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "VERNEAU",
+      "stopsDest": [
+        {
+          "dest": "IRIGO NUIT",
+          "mnemoarret": "WVERN",
+          "coordonnees": [
+            47.492386,
+            -0.56752569
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "AURIOL",
+      "stopsDest": [
+        {
+          "dest": "IRIGO NUIT",
+          "mnemoarret": "VERN-ARA",
+          "coordonnees": [
+            47.491115,
+            -0.56507926
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "FRATERNITE",
+      "stopsDest": [
+        {
+          "dest": "IRIGO NUIT",
+          "mnemoarret": "FRATE-E",
+          "coordonnees": [
+            47.49084,
+            -0.56169118
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "CHARNASSERIE",
+      "stopsDest": [
+        {
+          "dest": "IRIGO NUIT",
+          "mnemoarret": "CHARNA-E",
+          "coordonnees": [
+            47.491859,
+            -0.55659396
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "JEAN MOULIN",
+      "stopsDest": [
+        {
+          "dest": "IRIGO NUIT",
+          "mnemoarret": "LYCJMO-E",
+          "coordonnees": [
+            47.49222,
+            -0.55183278
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "CARREFOUR ST SERGE",
+      "stopsDest": [
+        {
+          "dest": "IRIGO NUIT",
+          "mnemoarret": "CARRSS-E",
+          "coordonnees": [
+            47.488125,
+            -0.54351037
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "FELIX FAURE",
+      "stopsDest": [
+        {
+          "dest": "IRIGO NUIT",
+          "mnemoarret": "FFAURE",
+          "coordonnees": [
+            47.485663,
+            -0.54730762
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "PISANI",
+      "stopsDest": [
+        {
+          "dest": "IRIGO NUIT",
+          "mnemoarret": "PISANI",
+          "coordonnees": [
+            47.482993,
+            -0.54899533
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "BESNARDIERE",
+      "stopsDest": [
+        {
+          "dest": "IRIGO NUIT",
+          "mnemoarret": "BESNARDI",
+          "coordonnees": [
+            47.479724,
+            -0.54435713
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "TALET",
+      "stopsDest": [
+        {
+          "dest": "IRIGO NUIT",
+          "mnemoarret": "TALET",
+          "coordonnees": [
+            47.476401,
+            -0.54768225
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "MENDES FRANCE",
+      "stopsDest": [
+        {
+          "dest": "IRIGO NUIT",
+          "mnemoarret": "MENDESFR",
+          "coordonnees": [
+            47.472549,
+            -0.54623901
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "JOFFRE Attente Sub",
+      "stopsDest": [
+        {
+          "dest": "IRIGO NUIT",
+          "mnemoarret": "JOFFRE-A",
+          "coordonnees": [
+            47.471638,
+            -0.54449053
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,666 @@
+{
+  "version": "20211203",
+  "mnemoligne": "15",
+  "nomligne": "EXPRESS CHANTOURTEAU <> GARES",
+  "color": "FF40B2",
+  "dests": [
+    {
+      "name": "LES GARES",
+      "color": "FF40B2"
+    },
+    {
+      "name": "CHANTOURTEAU",
+      "color": "FF93EB"
+    }
+  ],
+  "stops": [
+    {
+      "nomarret": "CHANTOURTEAU",
+      "stopsDest": [
+        {
+          "dest": "LES GARES",
+          "mnemoarret": "CHANTOUR",
+          "coordonnees": [
+            47.406115,
+            -0.62312871
+          ]
+        },
+        {
+          "dest": "CHANTOURTEAU",
+          "mnemoarret": "CHANT AR",
+          "coordonnees": [
+            47.406142,
+            -0.62313021
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "GARES PAPIN",
+      "stopsDest": [
+        {
+          "dest": "CHANTOURTEAU",
+          "mnemoarret": "GAREPA-E",
+          "coordonnees": [
+            47.465173,
+            -0.55757348
+          ]
+        },
+        {
+          "dest": "LES GARES",
+          "mnemoarret": "GAREPAPI",
+          "coordonnees": [
+            47.464908,
+            -0.55775815
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "BREMONT CHATEAU",
+      "stopsDest": [
+        {
+          "dest": "CHANTOURTEAU",
+          "mnemoarret": "BREMON-E",
+          "coordonnees": [
+            47.465967,
+            -0.55930237
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "LES VIGNES",
+      "stopsDest": [
+        {
+          "dest": "LES GARES",
+          "mnemoarret": "VIGNES",
+          "coordonnees": [
+            47.408904,
+            -0.62635979
+          ]
+        },
+        {
+          "dest": "CHANTOURTEAU",
+          "mnemoarret": "VIGNES-E",
+          "coordonnees": [
+            47.408526,
+            -0.62633882
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "ACADEMIE",
+      "stopsDest": [
+        {
+          "dest": "CHANTOURTEAU",
+          "mnemoarret": "ACAD-PLA",
+          "coordonnees": [
+            47.468431,
+            -0.5586797
+          ]
+        },
+        {
+          "dest": "LES GARES",
+          "mnemoarret": "ACADEMIE",
+          "coordonnees": [
+            47.467429,
+            -0.55915619
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "OFFICE DE TOURISME",
+      "stopsDest": [
+        {
+          "dest": "CHANTOURTEAU",
+          "mnemoarret": "OFFTOURI",
+          "coordonnees": [
+            47.468868,
+            -0.55811939
+          ]
+        },
+        {
+          "dest": "LES GARES",
+          "mnemoarret": "OFFTOU-E",
+          "coordonnees": [
+            47.469179,
+            -0.55757874
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "RANGEARDIERE",
+      "stopsDest": [
+        {
+          "dest": "LES GARES",
+          "mnemoarret": "RANGEARD",
+          "coordonnees": [
+            47.410109,
+            -0.62289955
+          ]
+        },
+        {
+          "dest": "CHANTOURTEAU",
+          "mnemoarret": "RANGEA-E",
+          "coordonnees": [
+            47.410147,
+            -0.62279561
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "SAINTE CROIX",
+      "stopsDest": [
+        {
+          "dest": "CHANTOURTEAU",
+          "mnemoarret": "SAICROIX",
+          "coordonnees": [
+            47.469953,
+            -0.55431546
+          ]
+        },
+        {
+          "dest": "LES GARES",
+          "mnemoarret": "SAICRO-E",
+          "coordonnees": [
+            47.469856,
+            -0.5549739
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "LA POINTE",
+      "stopsDest": [
+        {
+          "dest": "LES GARES",
+          "mnemoarret": "LAPOINTE",
+          "coordonnees": [
+            47.410286,
+            -0.61984628
+          ]
+        },
+        {
+          "dest": "CHANTOURTEAU",
+          "mnemoarret": "LAPOIN-E",
+          "coordonnees": [
+            47.409869,
+            -0.62031378
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "REPUBLIQUE",
+      "stopsDest": [
+        {
+          "dest": "CHANTOURTEAU",
+          "mnemoarret": "REPUBL-E",
+          "coordonnees": [
+            47.471693,
+            -0.55385235
+          ]
+        },
+        {
+          "dest": "LES GARES",
+          "mnemoarret": "REPUBLIQ",
+          "coordonnees": [
+            47.470997,
+            -0.55398712
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "PONT LAITIER",
+      "stopsDest": [
+        {
+          "dest": "LES GARES",
+          "mnemoarret": "PONTLAIT",
+          "coordonnees": [
+            47.413146,
+            -0.61710078
+          ]
+        },
+        {
+          "dest": "CHANTOURTEAU",
+          "mnemoarret": "PONTLA-E",
+          "coordonnees": [
+            47.413189,
+            -0.61719597
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "COEUR DE MAINE",
+      "stopsDest": [
+        {
+          "dest": "CHANTOURTEAU",
+          "mnemoarret": "POISSO-E",
+          "coordonnees": [
+            47.472572,
+            -0.55684718
+          ]
+        },
+        {
+          "dest": "LES GARES",
+          "mnemoarret": "POISSONN",
+          "coordonnees": [
+            47.472312,
+            -0.55717819
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "GARE DE BOUCHEMAINE",
+      "stopsDest": [
+        {
+          "dest": "LES GARES",
+          "mnemoarret": "GAREBOUC",
+          "coordonnees": [
+            47.416636,
+            -0.61476112
+          ]
+        },
+        {
+          "dest": "CHANTOURTEAU",
+          "mnemoarret": "GAREBO-E",
+          "coordonnees": [
+            47.416678,
+            -0.6148563
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "CAMPING BOUCHEMAINE",
+      "stopsDest": [
+        {
+          "dest": "LES GARES",
+          "mnemoarret": "CAMPBOUC",
+          "coordonnees": [
+            47.419395,
+            -0.61137285
+          ]
+        },
+        {
+          "dest": "CHANTOURTEAU",
+          "mnemoarret": "CAMPBO-E",
+          "coordonnees": [
+            47.419281,
+            -0.61163176
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "BOUCHEMAINE",
+      "stopsDest": [
+        {
+          "dest": "LES GARES",
+          "mnemoarret": "BOUCHEM",
+          "coordonnees": [
+            47.42176,
+            -0.61042931
+          ]
+        },
+        {
+          "dest": "CHANTOURTEAU",
+          "mnemoarret": "BOUCHE-E",
+          "coordonnees": [
+            47.42164,
+            -0.6105288
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "CHEVRIERE",
+      "stopsDest": [
+        {
+          "dest": "LES GARES",
+          "mnemoarret": "CHEVRIER",
+          "coordonnees": [
+            47.4239,
+            -0.60910191
+          ]
+        },
+        {
+          "dest": "CHANTOURTEAU",
+          "mnemoarret": "CHEVRI-E",
+          "coordonnees": [
+            47.423896,
+            -0.6092476
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "PETIT PORT",
+      "stopsDest": [
+        {
+          "dest": "LES GARES",
+          "mnemoarret": "PETPORT",
+          "coordonnees": [
+            47.425861,
+            -0.60951534
+          ]
+        },
+        {
+          "dest": "CHANTOURTEAU",
+          "mnemoarret": "PETPOR-E",
+          "coordonnees": [
+            47.42573,
+            -0.60970707
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "HAUTS DE BOUCHEMAINE",
+      "stopsDest": [
+        {
+          "dest": "LES GARES",
+          "mnemoarret": "HAUBOUCH",
+          "coordonnees": [
+            47.430487,
+            -0.60951904
+          ]
+        },
+        {
+          "dest": "CHANTOURTEAU",
+          "mnemoarret": "HAUBOU-E",
+          "coordonnees": [
+            47.430067,
+            -0.60938972
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "ARTAUD",
+      "stopsDest": [
+        {
+          "dest": "LES GARES",
+          "mnemoarret": "ARTAUD",
+          "coordonnees": [
+            47.434042,
+            -0.61094931
+          ]
+        },
+        {
+          "dest": "CHANTOURTEAU",
+          "mnemoarret": "ARTAUD-E",
+          "coordonnees": [
+            47.433341,
+            -0.61089728
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "PIVERDIERE",
+      "stopsDest": [
+        {
+          "dest": "LES GARES",
+          "mnemoarret": "PIVERDIE",
+          "coordonnees": [
+            47.437659,
+            -0.60961039
+          ]
+        },
+        {
+          "dest": "CHANTOURTEAU",
+          "mnemoarret": "PIVERD-E",
+          "coordonnees": [
+            47.437392,
+            -0.60983444
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "GRAND MAINE",
+      "stopsDest": [
+        {
+          "dest": "CHANTOURTEAU",
+          "mnemoarret": "GDMAIN-E",
+          "coordonnees": [
+            47.467392,
+            -0.59357382
+          ]
+        },
+        {
+          "dest": "LES GARES",
+          "mnemoarret": "GDMAINE",
+          "coordonnees": [
+            47.467603,
+            -0.59304122
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "CHATAIGNERAIE",
+      "stopsDest": [
+        {
+          "dest": "LES GARES",
+          "mnemoarret": "LCHATAIG",
+          "coordonnees": [
+            47.441341,
+            -0.60779729
+          ]
+        },
+        {
+          "dest": "CHANTOURTEAU",
+          "mnemoarret": "LCHATA-E",
+          "coordonnees": [
+            47.441225,
+            -0.60776434
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "CLOS VIGNE",
+      "stopsDest": [
+        {
+          "dest": "LES GARES",
+          "mnemoarret": "CLOSVI-E",
+          "coordonnees": [
+            47.441631,
+            -0.61126295
+          ]
+        },
+        {
+          "dest": "CHANTOURTEAU",
+          "mnemoarret": "CLOSVIGN",
+          "coordonnees": [
+            47.441595,
+            -0.61128746
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "MAISON ENVIRONNEMENT",
+      "stopsDest": [
+        {
+          "dest": "CHANTOURTEAU",
+          "mnemoarret": "LACACC-E",
+          "coordonnees": [
+            47.464042,
+            -0.59433196
+          ]
+        },
+        {
+          "dest": "LES GARES",
+          "mnemoarret": "LACACCUE",
+          "coordonnees": [
+            47.464241,
+            -0.59393145
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "VAL DE MAINE",
+      "stopsDest": [
+        {
+          "dest": "LES GARES",
+          "mnemoarret": "VALDE AR",
+          "coordonnees": [
+            47.443068,
+            -0.61244372
+          ]
+        },
+        {
+          "dest": "CHANTOURTEAU",
+          "mnemoarret": "VALDEMAI",
+          "coordonnees": [
+            47.443058,
+            -0.61284121
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "LAC MAINE NAUTIQUE",
+      "stopsDest": [
+        {
+          "dest": "CHANTOURTEAU",
+          "mnemoarret": "LACDMA-E",
+          "coordonnees": [
+            47.461101,
+            -0.59638665
+          ]
+        },
+        {
+          "dest": "LES GARES",
+          "mnemoarret": "LACDMAIN",
+          "coordonnees": [
+            47.461182,
+            -0.59603274
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "GROUPE COMMERCIAL",
+      "stopsDest": [
+        {
+          "dest": "LES GARES",
+          "mnemoarret": "GRCPRUNI",
+          "coordonnees": [
+            47.445728,
+            -0.60590342
+          ]
+        },
+        {
+          "dest": "CHANTOURTEAU",
+          "mnemoarret": "GRCPRU-E",
+          "coordonnees": [
+            47.445584,
+            -0.60662523
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "LAC DE MAINE CAMPING",
+      "stopsDest": [
+        {
+          "dest": "CHANTOURTEAU",
+          "mnemoarret": "CAMLAC-E",
+          "coordonnees": [
+            47.457704,
+            -0.59722156
+          ]
+        },
+        {
+          "dest": "LES GARES",
+          "mnemoarret": "CAMLACMA",
+          "coordonnees": [
+            47.458115,
+            -0.59700528
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "PRUNIERS",
+      "stopsDest": [
+        {
+          "dest": "LES GARES",
+          "mnemoarret": "PRUNIERS",
+          "coordonnees": [
+            47.44905,
+            -0.60268985
+          ]
+        },
+        {
+          "dest": "CHANTOURTEAU",
+          "mnemoarret": "PRUNIE-E",
+          "coordonnees": [
+            47.449306,
+            -0.60254472
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "CROISETTE",
+      "stopsDest": [
+        {
+          "dest": "CHANTOURTEAU",
+          "mnemoarret": "CROISE-E",
+          "coordonnees": [
+            47.450962,
+            -0.60043322
+          ]
+        },
+        {
+          "dest": "LES GARES",
+          "mnemoarret": "CROISETT",
+          "coordonnees": [
+            47.450934,
+            -0.60012645
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "GARES BREMONT",
+      "stopsDest": [
+        {
+          "dest": "LES GARES",
+          "mnemoarret": "GBREM-E",
+          "coordonnees": [
+            47.465702,
+            -0.55948703
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "LES GARES",
+      "stopsDest": [
+        {
+          "dest": "LES GARES",
+          "mnemoarret": "LESGARES",
+          "coordonnees": [
+            47.465164,
+            -0.55579433
+          ]
+        }
+      ]
+    }
+  ]
+}

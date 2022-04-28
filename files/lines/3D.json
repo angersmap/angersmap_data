@@ -1,0 +1,1353 @@
+{
+  "version": "20211205174538",
+  "mnemoligne": "3D",
+  "nomligne": "DJF MURS ERIGNE <> MONPLAISIR",
+  "color": "EE7F00",
+  "dests": [
+    {
+      "name": "MONPLAISIR par AQUAVITA",
+      "color": "EE7F00",
+      "codeparcours": "MURS > MONPLAISIR 9.0"
+    },
+    {
+      "name": "MURS ERIGNE",
+      "color": "AD5C00",
+      "codeparcours": "MONPLAISIR > MURS 7.1"
+    }
+  ],
+  "stops": [
+    {
+      "nomarret": "MONPLAISIR",
+      "stopsDest": [
+        {
+          "dest": "MURS ERIGNE",
+          "mnemoarret": "MONPLAIS",
+          "coordonnees": [
+            47.491148,
+            -0.52830926
+          ]
+        },
+        {
+          "dest": "MONPLAISIR par AQUAVITA",
+          "mnemoarret": "MONPEV-E",
+          "coordonnees": [
+            47.490668,
+            -0.52734057
+          ]
+        },
+        {
+          "dest": "MONPLAISIR par AQUAVITA",
+          "mnemoarret": "MONPL AR",
+          "coordonnees": [
+            47.491148,
+            -0.52830926
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "MURS ERIGNE",
+      "stopsDest": [
+        {
+          "dest": "MONPLAISIR par AQUAVITA",
+          "mnemoarret": "MURSERIG",
+          "coordonnees": [
+            47.395499,
+            -0.55566167
+          ]
+        },
+        {
+          "dest": "MURS ERIGNE",
+          "mnemoarret": "MURS  AR",
+          "coordonnees": [
+            47.395471,
+            -0.55568668
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "LA BUISSAIE",
+      "stopsDest": [
+        {
+          "dest": "MONPLAISIR par AQUAVITA",
+          "mnemoarret": "LABUISSA",
+          "coordonnees": [
+            47.396094,
+            -0.55200873
+          ]
+        },
+        {
+          "dest": "MURS ERIGNE",
+          "mnemoarret": "LABUIS-E",
+          "coordonnees": [
+            47.396148,
+            -0.55238281
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "DOYENNE",
+      "stopsDest": [
+        {
+          "dest": "MURS ERIGNE",
+          "mnemoarret": "DOYENNE",
+          "coordonnees": [
+            47.49061,
+            -0.53259616
+          ]
+        },
+        {
+          "dest": "MONPLAISIR par AQUAVITA",
+          "mnemoarret": "DOYENN-E",
+          "coordonnees": [
+            47.490584,
+            -0.53220963
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "LE COTTEAU",
+      "stopsDest": [
+        {
+          "dest": "MONPLAISIR par AQUAVITA",
+          "mnemoarret": "LECOTEAU",
+          "coordonnees": [
+            47.398239,
+            -0.54867813
+          ]
+        },
+        {
+          "dest": "MURS ERIGNE",
+          "mnemoarret": "LECOTE-E",
+          "coordonnees": [
+            47.39804,
+            -0.54905184
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "LA CITE CHABADA",
+      "stopsDest": [
+        {
+          "dest": "MURS ERIGNE",
+          "mnemoarret": "CITESOLI",
+          "coordonnees": [
+            47.488441,
+            -0.53623722
+          ]
+        },
+        {
+          "dest": "MONPLAISIR par AQUAVITA",
+          "mnemoarret": "CITESO-E",
+          "coordonnees": [
+            47.488509,
+            -0.53565663
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "JEAN CARMET",
+      "stopsDest": [
+        {
+          "dest": "MONPLAISIR par AQUAVITA",
+          "mnemoarret": "CARMET",
+          "coordonnees": [
+            47.400264,
+            -0.54363065
+          ]
+        },
+        {
+          "dest": "MURS ERIGNE",
+          "mnemoarret": "CARMET-E",
+          "coordonnees": [
+            47.400573,
+            -0.54314357
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "CARREFOUR ST SERGE",
+      "stopsDest": [
+        {
+          "dest": "MURS ERIGNE",
+          "mnemoarret": "CARRF5B",
+          "coordonnees": [
+            47.488087,
+            -0.54251238
+          ]
+        },
+        {
+          "dest": "MONPLAISIR par AQUAVITA",
+          "mnemoarret": "CARRSS-E",
+          "coordonnees": [
+            47.488125,
+            -0.54351037
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "HOTEL DE VILLE",
+      "stopsDest": [
+        {
+          "dest": "MONPLAISIR par AQUAVITA",
+          "mnemoarret": "MURSHDV",
+          "coordonnees": [
+            47.401764,
+            -0.53651283
+          ]
+        },
+        {
+          "dest": "MURS ERIGNE",
+          "mnemoarret": "MURSHV-E",
+          "coordonnees": [
+            47.401882,
+            -0.53719533
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "LEVESQUE",
+      "stopsDest": [
+        {
+          "dest": "MONPLAISIR par AQUAVITA",
+          "mnemoarret": "LEVESQUE",
+          "coordonnees": [
+            47.402191,
+            -0.53344683
+          ]
+        },
+        {
+          "dest": "MURS ERIGNE",
+          "mnemoarret": "LEVESQ-E",
+          "coordonnees": [
+            47.402255,
+            -0.53447114
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "JEAN MOULIN",
+      "stopsDest": [
+        {
+          "dest": "MURS ERIGNE",
+          "mnemoarret": "LYCEEJMO",
+          "coordonnees": [
+            47.492399,
+            -0.55189558
+          ]
+        },
+        {
+          "dest": "MONPLAISIR par AQUAVITA",
+          "mnemoarret": "LYCJMO-E",
+          "coordonnees": [
+            47.49222,
+            -0.55183278
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "ERIGNE",
+      "stopsDest": [
+        {
+          "dest": "MONPLAISIR par AQUAVITA",
+          "mnemoarret": "ERIGNE",
+          "coordonnees": [
+            47.400792,
+            -0.53070682
+          ]
+        },
+        {
+          "dest": "MURS ERIGNE",
+          "mnemoarret": "ERIGNE-E",
+          "coordonnees": [
+            47.400598,
+            -0.53051083
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "SOLAND",
+      "stopsDest": [
+        {
+          "dest": "MONPLAISIR par AQUAVITA",
+          "mnemoarret": "SOLAND",
+          "coordonnees": [
+            47.399481,
+            -0.53127271
+          ]
+        },
+        {
+          "dest": "MURS ERIGNE",
+          "mnemoarret": "SOLAND-E",
+          "coordonnees": [
+            47.399582,
+            -0.53046946
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "CHARNASSERIE",
+      "stopsDest": [
+        {
+          "dest": "MURS ERIGNE",
+          "mnemoarret": "CHARNASS",
+          "coordonnees": [
+            47.491576,
+            -0.55780038
+          ]
+        },
+        {
+          "dest": "MONPLAISIR par AQUAVITA",
+          "mnemoarret": "CHARNA-E",
+          "coordonnees": [
+            47.491859,
+            -0.55659396
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "GRAND PRESSOIR",
+      "stopsDest": [
+        {
+          "dest": "MONPLAISIR par AQUAVITA",
+          "mnemoarret": "GDPRESSO",
+          "coordonnees": [
+            47.399426,
+            -0.52771686
+          ]
+        },
+        {
+          "dest": "MURS ERIGNE",
+          "mnemoarret": "GDPRES-E",
+          "coordonnees": [
+            47.399486,
+            -0.52817086
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "FRATERNITE",
+      "stopsDest": [
+        {
+          "dest": "MURS ERIGNE",
+          "mnemoarret": "FRATER",
+          "coordonnees": [
+            47.490966,
+            -0.56241514
+          ]
+        },
+        {
+          "dest": "MONPLAISIR par AQUAVITA",
+          "mnemoarret": "FRATE-E",
+          "coordonnees": [
+            47.49084,
+            -0.56169118
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "BARBOTTERIE",
+      "stopsDest": [
+        {
+          "dest": "MONPLAISIR par AQUAVITA",
+          "mnemoarret": "BARBOTER",
+          "coordonnees": [
+            47.400471,
+            -0.52476363
+          ]
+        },
+        {
+          "dest": "MURS ERIGNE",
+          "mnemoarret": "BARBOT-E",
+          "coordonnees": [
+            47.400875,
+            -0.52516977
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "AURIOL",
+      "stopsDest": [
+        {
+          "dest": "MURS ERIGNE",
+          "mnemoarret": "VERNEA-E",
+          "coordonnees": [
+            47.49129,
+            -0.56492942
+          ]
+        },
+        {
+          "dest": "MONPLAISIR par AQUAVITA",
+          "mnemoarret": "VERN-ARA",
+          "coordonnees": [
+            47.491115,
+            -0.56507926
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "MONNIER",
+      "stopsDest": [
+        {
+          "dest": "MONPLAISIR par AQUAVITA",
+          "mnemoarret": "MONNIER",
+          "coordonnees": [
+            47.403183,
+            -0.52501522
+          ]
+        },
+        {
+          "dest": "MURS ERIGNE",
+          "mnemoarret": "MONNIE-E",
+          "coordonnees": [
+            47.402591,
+            -0.52530162
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "VERNEAU",
+      "stopsDest": [
+        {
+          "dest": "MURS ERIGNE",
+          "mnemoarret": "VERTRA-E",
+          "coordonnees": [
+            47.492593,
+            -0.56716514
+          ]
+        },
+        {
+          "dest": "MONPLAISIR par AQUAVITA",
+          "mnemoarret": "WVERN",
+          "coordonnees": [
+            47.492386,
+            -0.56752569
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "CHATEAU ERIGNE",
+      "stopsDest": [
+        {
+          "dest": "MONPLAISIR par AQUAVITA",
+          "mnemoarret": "CHAERIGN",
+          "coordonnees": [
+            47.406477,
+            -0.52574886
+          ]
+        },
+        {
+          "dest": "MURS ERIGNE",
+          "mnemoarret": "CHAERI-E",
+          "coordonnees": [
+            47.40639,
+            -0.52600934
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "BOSQUET",
+      "stopsDest": [
+        {
+          "dest": "MONPLAISIR par AQUAVITA",
+          "mnemoarret": "BOSQUET",
+          "coordonnees": [
+            47.410022,
+            -0.52436127
+          ]
+        },
+        {
+          "dest": "MURS ERIGNE",
+          "mnemoarret": "BOSQUE-E",
+          "coordonnees": [
+            47.409776,
+            -0.52482544
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "TERRA BOTANICA",
+      "stopsDest": [
+        {
+          "dest": "MURS ERIGNE",
+          "mnemoarret": "WTBO-E",
+          "coordonnees": [
+            47.494186,
+            -0.5750611
+          ]
+        },
+        {
+          "dest": "MONPLAISIR par AQUAVITA",
+          "mnemoarret": "WTBOT",
+          "coordonnees": [
+            47.494076,
+            -0.57480272
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "LOUET",
+      "stopsDest": [
+        {
+          "dest": "MONPLAISIR par AQUAVITA",
+          "mnemoarret": "LOUET",
+          "coordonnees": [
+            47.412218,
+            -0.52361724
+          ]
+        },
+        {
+          "dest": "MURS ERIGNE",
+          "mnemoarret": "LOUET -E",
+          "coordonnees": [
+            47.412445,
+            -0.52393436
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "DUBE",
+      "stopsDest": [
+        {
+          "dest": "MONPLAISIR par AQUAVITA",
+          "mnemoarret": "DUBE",
+          "coordonnees": [
+            47.415851,
+            -0.52304299
+          ]
+        },
+        {
+          "dest": "MURS ERIGNE",
+          "mnemoarret": "DUBE  -E",
+          "coordonnees": [
+            47.415412,
+            -0.5233112
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "GIRARD",
+      "stopsDest": [
+        {
+          "dest": "MURS ERIGNE",
+          "mnemoarret": "GIRARD-E",
+          "coordonnees": [
+            47.49063,
+            -0.58187839
+          ]
+        },
+        {
+          "dest": "MONPLAISIR par AQUAVITA",
+          "mnemoarret": "GIRARD",
+          "coordonnees": [
+            47.490581,
+            -0.58168977
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "CHAMP DES MARTYRS",
+      "stopsDest": [
+        {
+          "dest": "MURS ERIGNE",
+          "mnemoarret": "CHMARTYR",
+          "coordonnees": [
+            47.489853,
+            -0.58309733
+          ]
+        },
+        {
+          "dest": "MONPLAISIR par AQUAVITA",
+          "mnemoarret": "CHMART-E",
+          "coordonnees": [
+            47.490062,
+            -0.58263076
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "LOIRE",
+      "stopsDest": [
+        {
+          "dest": "MONPLAISIR par AQUAVITA",
+          "mnemoarret": "LOIRE",
+          "coordonnees": [
+            47.41875,
+            -0.52337091
+          ]
+        },
+        {
+          "dest": "MURS ERIGNE",
+          "mnemoarret": "LOIRE -E",
+          "coordonnees": [
+            47.417781,
+            -0.52359743
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "MAISON DE LA DANSE",
+      "stopsDest": [
+        {
+          "dest": "MURS ERIGNE",
+          "mnemoarret": "ESPAJEUN",
+          "coordonnees": [
+            47.488872,
+            -0.5848761
+          ]
+        },
+        {
+          "dest": "MONPLAISIR par AQUAVITA",
+          "mnemoarret": "ESPJEU-E",
+          "coordonnees": [
+            47.488519,
+            -0.58530823
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "GRANDMONT",
+      "stopsDest": [
+        {
+          "dest": "MURS ERIGNE",
+          "mnemoarret": "GRANDMON",
+          "coordonnees": [
+            47.487552,
+            -0.58759231
+          ]
+        },
+        {
+          "dest": "MONPLAISIR par AQUAVITA",
+          "mnemoarret": "GRANDM-E",
+          "coordonnees": [
+            47.486948,
+            -0.58799732
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "CLINIQUE ST DIDIER",
+      "stopsDest": [
+        {
+          "dest": "MURS ERIGNE",
+          "mnemoarret": "CLINIQUE",
+          "coordonnees": [
+            47.485153,
+            -0.58707546
+          ]
+        },
+        {
+          "dest": "MONPLAISIR par AQUAVITA",
+          "mnemoarret": "CLINIQ-E",
+          "coordonnees": [
+            47.485333,
+            -0.58743059
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "MAIRIE PONTS DE CE",
+      "stopsDest": [
+        {
+          "dest": "MONPLAISIR par AQUAVITA",
+          "mnemoarret": "PONTSCEM",
+          "coordonnees": [
+            47.425239,
+            -0.52523106
+          ]
+        },
+        {
+          "dest": "MURS ERIGNE",
+          "mnemoarret": "PONTSC-E",
+          "coordonnees": [
+            47.425494,
+            -0.52582835
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "VAL D'OR",
+      "stopsDest": [
+        {
+          "dest": "MURS ERIGNE",
+          "mnemoarret": "VALOR",
+          "coordonnees": [
+            47.48467,
+            -0.58408786
+          ]
+        },
+        {
+          "dest": "MONPLAISIR par AQUAVITA",
+          "mnemoarret": "VALOR-E",
+          "coordonnees": [
+            47.484835,
+            -0.5853982
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "BELLE POULE",
+      "stopsDest": [
+        {
+          "dest": "MONPLAISIR par AQUAVITA",
+          "mnemoarret": "BELPOULE",
+          "coordonnees": [
+            47.427883,
+            -0.52715038
+          ]
+        },
+        {
+          "dest": "MURS ERIGNE",
+          "mnemoarret": "BELPOU-E",
+          "coordonnees": [
+            47.428417,
+            -0.52774943
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "LA MEIGNANNE",
+      "stopsDest": [
+        {
+          "dest": "MURS ERIGNE",
+          "mnemoarret": "MEIGNANN",
+          "coordonnees": [
+            47.483989,
+            -0.58220479
+          ]
+        },
+        {
+          "dest": "MONPLAISIR par AQUAVITA",
+          "mnemoarret": "MEIGNA-E",
+          "coordonnees": [
+            47.484401,
+            -0.58262575
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "REVERIES",
+      "stopsDest": [
+        {
+          "dest": "MURS ERIGNE",
+          "mnemoarret": "REVERIES",
+          "coordonnees": [
+            47.482004,
+            -0.57844463
+          ]
+        },
+        {
+          "dest": "MONPLAISIR par AQUAVITA",
+          "mnemoarret": "REVERI-E",
+          "coordonnees": [
+            47.482109,
+            -0.57785287
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "AUTHION",
+      "stopsDest": [
+        {
+          "dest": "MONPLAISIR par AQUAVITA",
+          "mnemoarret": "AUTHION",
+          "coordonnees": [
+            47.431506,
+            -0.528393
+          ]
+        },
+        {
+          "dest": "MURS ERIGNE",
+          "mnemoarret": "AUTHIO-E",
+          "coordonnees": [
+            47.431567,
+            -0.52884727
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "POMONE",
+      "stopsDest": [
+        {
+          "dest": "MURS ERIGNE",
+          "mnemoarret": "POMONE",
+          "coordonnees": [
+            47.481354,
+            -0.57459836
+          ]
+        },
+        {
+          "dest": "MONPLAISIR par AQUAVITA",
+          "mnemoarret": "POMONE-E",
+          "coordonnees": [
+            47.481512,
+            -0.57438131
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "PATUREAUX",
+      "stopsDest": [
+        {
+          "dest": "MONPLAISIR par AQUAVITA",
+          "mnemoarret": "PATUREAU",
+          "coordonnees": [
+            47.43381,
+            -0.5280393
+          ]
+        },
+        {
+          "dest": "MURS ERIGNE",
+          "mnemoarret": "PATUR-E",
+          "coordonnees": [
+            47.434012,
+            -0.5279042
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "GALLIENI",
+      "stopsDest": [
+        {
+          "dest": "MONPLAISIR par AQUAVITA",
+          "mnemoarret": "GALLIE",
+          "coordonnees": [
+            47.434616,
+            -0.52456724
+          ]
+        },
+        {
+          "dest": "MURS ERIGNE",
+          "mnemoarret": "GALLI-E",
+          "coordonnees": [
+            47.434824,
+            -0.52452534
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "CIMETIERE DE L'OUEST",
+      "stopsDest": [
+        {
+          "dest": "MURS ERIGNE",
+          "mnemoarret": "CIOUEST",
+          "coordonnees": [
+            47.47848,
+            -0.56968814
+          ]
+        },
+        {
+          "dest": "MONPLAISIR par AQUAVITA",
+          "mnemoarret": "CIOUES-E",
+          "coordonnees": [
+            47.479335,
+            -0.57074389
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "GIRARDEAU",
+      "stopsDest": [
+        {
+          "dest": "MONPLAISIR par AQUAVITA",
+          "mnemoarret": "GIRARDE",
+          "coordonnees": [
+            47.436632,
+            -0.52093443
+          ]
+        },
+        {
+          "dest": "MURS ERIGNE",
+          "mnemoarret": "GIRAD-E",
+          "coordonnees": [
+            47.436438,
+            -0.52040665
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "DESCAZEAUX",
+      "stopsDest": [
+        {
+          "dest": "MURS ERIGNE",
+          "mnemoarret": "DESCAZ-E",
+          "coordonnees": [
+            47.476787,
+            -0.56611735
+          ]
+        },
+        {
+          "dest": "MONPLAISIR par AQUAVITA",
+          "mnemoarret": "DESCAZEA",
+          "coordonnees": [
+            47.47743,
+            -0.56595326
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "LA CHESNAIE",
+      "stopsDest": [
+        {
+          "dest": "MONPLAISIR par AQUAVITA",
+          "mnemoarret": "CHESNAIE",
+          "coordonnees": [
+            47.437233,
+            -0.52430973
+          ]
+        },
+        {
+          "dest": "MURS ERIGNE",
+          "mnemoarret": "CHESNA-E",
+          "coordonnees": [
+            47.437015,
+            -0.5240062
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "BICHON",
+      "stopsDest": [
+        {
+          "dest": "MURS ERIGNE",
+          "mnemoarret": "BICHON",
+          "coordonnees": [
+            47.478725,
+            -0.56419166
+          ]
+        },
+        {
+          "dest": "MONPLAISIR par AQUAVITA",
+          "mnemoarret": "BICHON-E",
+          "coordonnees": [
+            47.479234,
+            -0.56363521
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "CENTRE COMMERCIAL",
+      "stopsDest": [
+        {
+          "dest": "MONPLAISIR par AQUAVITA",
+          "mnemoarret": "CCOMMERC",
+          "coordonnees": [
+            47.437843,
+            -0.52694269
+          ]
+        },
+        {
+          "dest": "MURS ERIGNE",
+          "mnemoarret": "CCOMME-E",
+          "coordonnees": [
+            47.437748,
+            -0.52677839
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "HOTEL DIEU",
+      "stopsDest": [
+        {
+          "dest": "MURS ERIGNE",
+          "mnemoarret": "HOTDIEU",
+          "coordonnees": [
+            47.479198,
+            -0.5593315
+          ]
+        },
+        {
+          "dest": "MONPLAISIR par AQUAVITA",
+          "mnemoarret": "HOTDIE-E",
+          "coordonnees": [
+            47.47937,
+            -0.56108015
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "LA ROCHEFOUCAULD",
+      "stopsDest": [
+        {
+          "dest": "MURS ERIGNE",
+          "mnemoarret": "ROCHEFOU",
+          "coordonnees": [
+            47.478851,
+            -0.55698922
+          ]
+        },
+        {
+          "dest": "MONPLAISIR par AQUAVITA",
+          "mnemoarret": "ROCHEF-E",
+          "coordonnees": [
+            47.479425,
+            -0.55672829
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "RUELLES",
+      "stopsDest": [
+        {
+          "dest": "MONPLAISIR par AQUAVITA",
+          "mnemoarret": "RUELLES",
+          "coordonnees": [
+            47.437659,
+            -0.5314434
+          ]
+        },
+        {
+          "dest": "MURS ERIGNE",
+          "mnemoarret": "RUELLE-E",
+          "coordonnees": [
+            47.437296,
+            -0.53159629
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "SABLONS",
+      "stopsDest": [
+        {
+          "dest": "MONPLAISIR par AQUAVITA",
+          "mnemoarret": "SABLONS",
+          "coordonnees": [
+            47.440038,
+            -0.53315021
+          ]
+        },
+        {
+          "dest": "MURS ERIGNE",
+          "mnemoarret": "SABLON-E",
+          "coordonnees": [
+            47.439791,
+            -0.53333588
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "ST SERGE UNIVERSITE",
+      "stopsDest": [
+        {
+          "dest": "MURS ERIGNE",
+          "mnemoarret": "FMITTERA",
+          "coordonnees": [
+            47.476645,
+            -0.55197041
+          ]
+        },
+        {
+          "dest": "MONPLAISIR par AQUAVITA",
+          "mnemoarret": "FMITTE-E",
+          "coordonnees": [
+            47.476584,
+            -0.55117053
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "TROIS PAROISSES",
+      "stopsDest": [
+        {
+          "dest": "MONPLAISIR par AQUAVITA",
+          "mnemoarret": "TROPAROI",
+          "coordonnees": [
+            47.44194,
+            -0.53452627
+          ]
+        },
+        {
+          "dest": "MURS ERIGNE",
+          "mnemoarret": "TROIPA-E",
+          "coordonnees": [
+            47.441774,
+            -0.5346633
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "MENDES FRANCE",
+      "stopsDest": [
+        {
+          "dest": "MURS ERIGNE",
+          "mnemoarret": "MENDESFR",
+          "coordonnees": [
+            47.472549,
+            -0.54623901
+          ]
+        },
+        {
+          "dest": "MONPLAISIR par AQUAVITA",
+          "mnemoarret": "MENDES-E",
+          "coordonnees": [
+            47.472943,
+            -0.54559658
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "FOCH MAISON BLEUE",
+      "stopsDest": [
+        {
+          "dest": "MURS ERIGNE",
+          "mnemoarret": "FO-LOR-R",
+          "coordonnees": [
+            47.469672,
+            -0.5489904
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "ALLARD",
+      "stopsDest": [
+        {
+          "dest": "MONPLAISIR par AQUAVITA",
+          "mnemoarret": "ALLARD",
+          "coordonnees": [
+            47.449531,
+            -0.53874365
+          ]
+        },
+        {
+          "dest": "MURS ERIGNE",
+          "mnemoarret": "ALLARD-E",
+          "coordonnees": [
+            47.448892,
+            -0.53870921
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "FOCH SAINT AUBIN",
+      "stopsDest": [
+        {
+          "dest": "MURS ERIGNE",
+          "mnemoarret": "STAUBI-E",
+          "coordonnees": [
+            47.468136,
+            -0.55104429
+          ]
+        },
+        {
+          "dest": "MONPLAISIR par AQUAVITA",
+          "mnemoarret": "STAUBIN",
+          "coordonnees": [
+            47.468557,
+            -0.55003174
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "FOCH HARAS",
+      "stopsDest": [
+        {
+          "dest": "MURS ERIGNE",
+          "mnemoarret": "HARAS-E",
+          "coordonnees": [
+            47.467251,
+            -0.5522308
+          ]
+        },
+        {
+          "dest": "MONPLAISIR par AQUAVITA",
+          "mnemoarret": "HARAS",
+          "coordonnees": [
+            47.467123,
+            -0.55193186
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "DE LATTRE",
+      "stopsDest": [
+        {
+          "dest": "MONPLAISIR par AQUAVITA",
+          "mnemoarret": "DELATTAS",
+          "coordonnees": [
+            47.453367,
+            -0.54119341
+          ]
+        },
+        {
+          "dest": "MURS ERIGNE",
+          "mnemoarret": "DELATA-E",
+          "coordonnees": [
+            47.453183,
+            -0.54138248
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "ANDRE LEROY",
+      "stopsDest": [
+        {
+          "dest": "MURS ERIGNE",
+          "mnemoarret": "ANLERO-E",
+          "coordonnees": [
+            47.464622,
+            -0.54902208
+          ]
+        },
+        {
+          "dest": "MONPLAISIR par AQUAVITA",
+          "mnemoarret": "ALEROY",
+          "coordonnees": [
+            47.4645,
+            -0.54849782
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "ESA",
+      "stopsDest": [
+        {
+          "dest": "MONPLAISIR par AQUAVITA",
+          "mnemoarret": "ESA",
+          "coordonnees": [
+            47.458522,
+            -0.54490926
+          ]
+        },
+        {
+          "dest": "MURS ERIGNE",
+          "mnemoarret": "ESA-E",
+          "coordonnees": [
+            47.458952,
+            -0.54535721
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "RABELAIS",
+      "stopsDest": [
+        {
+          "dest": "MURS ERIGNE",
+          "mnemoarret": "RABELA-E",
+          "coordonnees": [
+            47.461585,
+            -0.54697291
+          ]
+        },
+        {
+          "dest": "MONPLAISIR par AQUAVITA",
+          "mnemoarret": "RABELAI",
+          "coordonnees": [
+            47.461749,
+            -0.54688889
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "PAUL BERT",
+      "stopsDest": [
+        {
+          "dest": "MONPLAISIR par AQUAVITA",
+          "mnemoarret": "PATNOIRE",
+          "coordonnees": [
+            47.466318,
+            -0.55247221
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "LORRAINE",
+      "stopsDest": [
+        {
+          "dest": "MONPLAISIR par AQUAVITA",
+          "mnemoarret": "LORRAIN1",
+          "coordonnees": [
+            47.470207,
+            -0.54775829
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "POLE TASSIGNY",
+      "stopsDest": [
+        {
+          "dest": "MURS ERIGNE",
+          "mnemoarret": "TASSIG-E",
+          "coordonnees": [
+            47.446517,
+            -0.53721437
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "ARRET RELEVE BUS CTT",
+      "stopsDest": [
+        {
+          "dest": "MONPLAISIR par AQUAVITA",
+          "mnemoarret": "CTExt",
+          "coordonnees": [
+            47.494525,
+            -0.57198517
+          ]
+        }
+      ]
+    }
+  ]
+}

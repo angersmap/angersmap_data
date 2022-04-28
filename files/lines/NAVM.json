@@ -1,0 +1,101 @@
+{
+  "version": "20211205175724",
+  "mnemoligne": "NAVM",
+  "nomligne": "D NAVETTE MARCHE MONPLAISIR",
+  "color": "24346C",
+  "dests": [
+    {
+      "name": "MARCHE MONPLAISIR",
+      "color": "FF598F",
+      "codeparcours": "NAVETTE MARCHE MONPLAISIR 7.1"
+    }
+  ],
+  "stops": [
+    {
+      "nomarret": "LA CITE CHABADA",
+      "stopsDest": [
+        {
+          "dest": "MARCHE MONPLAISIR",
+          "mnemoarret": "CITESO-E",
+          "coordonnees": [
+            47.488509,
+            -0.53565663
+          ]
+        },
+        {
+          "dest": "MARCHE MONPLAISIR",
+          "mnemoarret": "CITESO-A",
+          "coordonnees": [
+            47.488414,
+            -0.53587722
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "DOYENNE",
+      "stopsDest": [
+        {
+          "dest": "MARCHE MONPLAISIR",
+          "mnemoarret": "DOYENN-E",
+          "coordonnees": [
+            47.490584,
+            -0.53220963
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "MONPLAISIR",
+      "stopsDest": [
+        {
+          "dest": "MARCHE MONPLAISIR",
+          "mnemoarret": "MONPEV-E",
+          "coordonnees": [
+            47.490668,
+            -0.52734057
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "PLACE DE L'EUROPE",
+      "stopsDest": [
+        {
+          "dest": "MARCHE MONPLAISIR",
+          "mnemoarret": "PLDEUR-E",
+          "coordonnees": [
+            47.487737,
+            -0.5271962
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "ROUTE DE BRIOLLAY",
+      "stopsDest": [
+        {
+          "dest": "MARCHE MONPLAISIR",
+          "mnemoarret": "RBRIOLLA",
+          "coordonnees": [
+            47.486363,
+            -0.5329117
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "RAMON",
+      "stopsDest": [
+        {
+          "dest": "MARCHE MONPLAISIR",
+          "mnemoarret": "RAMON",
+          "coordonnees": [
+            47.486672,
+            -0.53788127
+          ]
+        }
+      ]
+    }
+  ]
+}

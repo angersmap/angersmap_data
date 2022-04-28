@@ -1,0 +1,102 @@
+{
+  "version": "2",
+  "pavd": [],
+  "decheteries": [
+    {
+      "ville": "Montreuil-Juigné",
+      "codepost": 49460,
+      "coordonnes_geo": {
+        "lat": 47.533558,
+        "lon": -0.626056
+      },
+      "horaires_ete": "<strong>Horaires d'été (01/04 au 31/10)</strong> :<br>Lundi - vendredi : 8h30-12h / 13h30-17h30<br>Samedi : 8h30-18h<br>Dimanche : 8h30-12h",
+      "horaires_hiver": "<strong>Horaires d'hiver (02/11 au 31/03)</strong> :<br>Lundi - vendredi : 9h-12h / 14h-17h<br>Samedi : 9h-17h<br>Dimanche : 9h-12h",
+      "obs": "Déchèterie du Haut Coudray",
+      "nomvoie": "Rue Paul Heroult - Z.I. du Haut Coudray"
+    },
+    {
+      "ville": "Avrillé",
+      "codepost": 49240,
+      "coordonnes_geo": {
+        "lat": 47.501574,
+        "lon": -0.597444
+      },
+      "horaires_ete": "<strong>Horaires d'été (01/04 au 31/10)</strong> :<br>Lundi - vendredi : 8h30-12h / 13h30-17h30<br>Samedi : 8h30-18h<br>Dimanche : 8h30-12h",
+      "horaires_hiver": "<strong>Horaires d'hiver (02/11 au 31/03)</strong> :<br>Lundi - vendredi : 9h-12h / 14h-17h<br>Samedi : 9h-17h<br>Dimanche : 9h-12h",
+      "obs": "Déchèterie du Lac Bleu",
+      "nomvoie": "Rue de la Ternière"
+    },
+    {
+      "ville": "Juigné-sur-Loire",
+      "codepost": 49610,
+      "coordonnes_geo": {
+        "lat": 47.403524,
+        "lon": -0.509974
+      },
+      "horaires_ete": "<strong>Horaires d'été (01/04 au 31/10)</strong> :<br>Lundi - vendredi : 8h30-12h / 13h30-17h30<br>Samedi : 8h30-18h<br>Dimanche : 8h30-12h",
+      "horaires_hiver": "<strong>Horaires d'hiver (02/11 au 31/03)</strong> :<br>Lundi - vendredi : 9h-12h / 14h-17h<br>Samedi : 9h-17h<br>Dimanche : 9h-12h",
+      "obs": "Déchèterie de la Claie Brunette",
+      "nomvoie": "Route des Coteaux"
+    },
+    {
+      "ville": "Bouchemaine",
+      "codepost": 49080,
+      "coordonnes_geo": {
+        "lat": 47.437577,
+        "lon": -0.61541
+      },
+      "horaires_ete": "<strong>Horaires d'été (01/04 au 31/10)</strong> :<br>Lundi - vendredi : 8h30-12h / 13h30-17h30<br>Samedi : 8h30-18h<br>Dimanche : 8h30-12h",
+      "horaires_hiver": "<strong>Horaires d'hiver (02/11 au 31/03)</strong> :<br>Lundi - vendredi : 9h-12h / 14h-17h<br>Samedi : 9h-17h<br>Dimanche : 9h-12h",
+      "obs": "Déchèterie des Brunelleries",
+      "nomvoie": "Ecopole Anjou-Loire"
+    },
+    {
+      "ville": "Angers",
+      "codepost": 49000,
+      "coordonnes_geo": {
+        "lat": 47.458953,
+        "lon": -0.574368
+      },
+      "horaires_ete": "<strong>Horaires d'été (01/04 au 31/10)</strong> :<br>Lundi - vendredi : 8h30-12h / 13h30-17h30<br>Samedi : 8h30-18h<br>Dimanche : 8h30-12h",
+      "horaires_hiver": "<strong>Horaires d'hiver (02/11 au 31/03)</strong> :<br>Lundi - vendredi : 9h-12h / 14h-17h<br>Samedi : 9h-17h<br>Dimanche : 9h-12h",
+      "obs": "Déchèterie de la Baumette",
+      "nomvoie": "Allée Seuil en Maine - La Baumette"
+    },
+    {
+      "ville": "Saint-Barthélemy-d'Anjou",
+      "codepost": 49124,
+      "coordonnes_geo": {
+        "lat": 47.463796,
+        "lon": -0.512659
+      },
+      "horaires_ete": "<strong>Horaires d'été (01/04 au 31/10)</strong> :<br>Lundi - vendredi : 8h30-12h / 13h30-17h30<br>Samedi : 8h30-18h<br>Dimanche : 8h30-12h",
+      "horaires_hiver": "<strong>Horaires d'hiver (02/11 au 31/03)</strong> :<br>Lundi - vendredi : 9h-12h / 14h-17h<br>Samedi : 9h-17h<br>Dimanche : 9h-12h",
+      "obs": "Déchèterie de Villechien (Saint-Barthélemy-d'Anjou)",
+      "nomvoie": "Rue de la Paperie"
+    },
+    {
+      "ville": "Verrières-en-Anjou",
+      "codepost": 49480,
+      "coordonnes_geo": {
+        "lat": 47.524353,
+        "lon": -0.479849
+      },
+      "horaires_ete": "<strong>Horaires d'été (01/04 au 31/10)</strong> :<br>Lundi - vendredi : 8h30-12h / 13h30-17h30<br>Samedi : 8h30-18h<br>Dimanche : 8h30-12h",
+      "horaires_hiver": "<strong>Horaires d'hiver (02/11 au 31/03)</strong> :<br>Lundi - vendredi : 9h-12h / 14h-17h<br>Samedi : 9h-17h<br>Dimanche : 9h-12h",
+      "obs": "Déchèterie du Petit Guichard",
+      "nomvoie": "Le Petit Guichard"
+    },
+    {
+      "ville": "Saint-Jean-de-Linières",
+      "codepost": 49070,
+      "coordonnes_geo": {
+        "lat": 47.465036,
+        "lon": -0.683897
+      },
+      "horaires_ete": "<strong>Horaires d'été (01/04 au 31/10)</strong> :<br>Lundi - vendredi : 8h30-12h / 13h30-17h30<br>Samedi : 8h30-18h<br>Dimanche : fermée",
+      "horaires_hiver": "<strong>Horaires d'hiver (02/11 au 31/03)</strong> :<br>Lundi - vendredi : 9h-12h / 14h-17h<br>Samedi : 9h-17h<br>Dimanche : fermée",
+      "obs": "Recyclerie - Déchèterie Emmaüs",
+      "nomvoie": "Le Sauloup - Route de Saint-Léger"
+    }
+  ]
+}
