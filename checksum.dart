@@ -7,7 +7,6 @@ void main() {
 
 
   final Map<String, dynamic> files = browseDirectory('${Directory.current.path}/files');
-  print(jsonEncode(files));
   print(files);
   final File file = File('${Directory.current.path}/files/versions.json');
   file.writeAsStringSync(jsonEncode(files));
