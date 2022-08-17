@@ -38,27 +38,6 @@
       ]
     },
     {
-      "nomarret": "ANGERS - ROSERAIE",
-      "stopsDest": [
-        {
-          "dest": "AVRILLE ARDENNE",
-          "mnemoarret": "2ANRO",
-          "coordonnees": [
-            47.443904,
-            -0.55396364
-          ]
-        },
-        {
-          "dest": "ANGERS ROSERAIE",
-          "mnemoarret": "2ANRO",
-          "coordonnees": [
-            47.443904,
-            -0.55396364
-          ]
-        }
-      ]
-    },
-    {
       "nomarret": "BASCULE",
       "stopsDest": [
         {
@@ -101,27 +80,6 @@
       ]
     },
     {
-      "nomarret": "JEAN VILAR",
-      "stopsDest": [
-        {
-          "dest": "AVRILLE ARDENNE",
-          "mnemoarret": "2JVIL",
-          "coordonnees": [
-            47.444921,
-            -0.5622452
-          ]
-        },
-        {
-          "dest": "ANGERS ROSERAIE",
-          "mnemoarret": "1JVIL",
-          "coordonnees": [
-            47.444919,
-            -0.56233796
-          ]
-        }
-      ]
-    },
-    {
       "nomarret": "ACACIAS",
       "stopsDest": [
         {
@@ -138,27 +96,6 @@
           "coordonnees": [
             47.503742,
             -0.58626353
-          ]
-        }
-      ]
-    },
-    {
-      "nomarret": "JEAN XXIII",
-      "stopsDest": [
-        {
-          "dest": "AVRILLE ARDENNE",
-          "mnemoarret": "2JE23",
-          "coordonnees": [
-            47.448525,
-            -0.56283934
-          ]
-        },
-        {
-          "dest": "ANGERS ROSERAIE",
-          "mnemoarret": "1JE23",
-          "coordonnees": [
-            47.44855,
-            -0.56289382
           ]
         }
       ]
@@ -185,27 +122,6 @@
       ]
     },
     {
-      "nomarret": "BAMAKO",
-      "stopsDest": [
-        {
-          "dest": "AVRILLE ARDENNE",
-          "mnemoarret": "2BAMA",
-          "coordonnees": [
-            47.452182,
-            -0.5562573
-          ]
-        },
-        {
-          "dest": "ANGERS ROSERAIE",
-          "mnemoarret": "1BAMA",
-          "coordonnees": [
-            47.452234,
-            -0.55632649
-          ]
-        }
-      ]
-    },
-    {
       "nomarret": "PLATEAU DE MAYENNE",
       "stopsDest": [
         {
@@ -222,27 +138,6 @@
           "coordonnees": [
             47.495799,
             -0.57999695
-          ]
-        }
-      ]
-    },
-    {
-      "nomarret": "STRASBOURG",
-      "stopsDest": [
-        {
-          "dest": "AVRILLE ARDENNE",
-          "mnemoarret": "2STRA",
-          "coordonnees": [
-            47.457475,
-            -0.55407624
-          ]
-        },
-        {
-          "dest": "ANGERS ROSERAIE",
-          "mnemoarret": "1STRA",
-          "coordonnees": [
-            47.45665,
-            -0.55395185
           ]
         }
       ]
@@ -269,48 +164,6 @@
       ]
     },
     {
-      "nomarret": "PLACE LA FAYETTE",
-      "stopsDest": [
-        {
-          "dest": "AVRILLE ARDENNE",
-          "mnemoarret": "2LAFA",
-          "coordonnees": [
-            47.46087,
-            -0.55472502
-          ]
-        },
-        {
-          "dest": "ANGERS ROSERAIE",
-          "mnemoarret": "1LAFA",
-          "coordonnees": [
-            47.46087,
-            -0.55472502
-          ]
-        }
-      ]
-    },
-    {
-      "nomarret": "LES GARES",
-      "stopsDest": [
-        {
-          "dest": "AVRILLE ARDENNE",
-          "mnemoarret": "2LGAR",
-          "coordonnees": [
-            47.464481,
-            -0.55537234
-          ]
-        },
-        {
-          "dest": "ANGERS ROSERAIE",
-          "mnemoarret": "1LGAR",
-          "coordonnees": [
-            47.464479,
-            -0.55546512
-          ]
-        }
-      ]
-    },
-    {
       "nomarret": "VERNEAU",
       "stopsDest": [
         {
@@ -332,27 +185,6 @@
       ]
     },
     {
-      "nomarret": "FOCH HARAS",
-      "stopsDest": [
-        {
-          "dest": "AVRILLE ARDENNE",
-          "mnemoarret": "2HARA",
-          "coordonnees": [
-            47.466758,
-            -0.5524961
-          ]
-        },
-        {
-          "dest": "ANGERS ROSERAIE",
-          "mnemoarret": "1HARA",
-          "coordonnees": [
-            47.46682,
-            -0.55255254
-          ]
-        }
-      ]
-    },
-    {
       "nomarret": "HAUTS DE SAINT AUBIN",
       "stopsDest": [
         {
@@ -362,39 +194,13 @@
             47.49214,
             -0.56044723
           ]
-        }
-      ]
-    },
-    {
-      "nomarret": "FOCH MAISON BLEUE",
-      "stopsDest": [
-        {
-          "dest": "AVRILLE ARDENNE",
-          "mnemoarret": "2FMBL",
-          "coordonnees": [
-            47.469081,
-            -0.54958228
-          ]
-        }
-      ]
-    },
-    {
-      "nomarret": "HOTEL DE VILLE",
-      "stopsDest": [
-        {
-          "dest": "AVRILLE ARDENNE",
-          "mnemoarret": "2HDVA",
-          "coordonnees": [
-            47.471605,
-            -0.54689152
-          ]
         },
         {
-          "dest": "ANGERS ROSERAIE",
-          "mnemoarret": "1HDVA",
+          "dest": "AVRILLE ARDENNE",
+          "mnemoarret": "2HSAU",
           "coordonnees": [
-            47.471605,
-            -0.54689152
+            47.492212,
+            -0.56045114
           ]
         }
       ]
@@ -421,27 +227,6 @@
       ]
     },
     {
-      "nomarret": "CENTRE DE CONGRES",
-      "stopsDest": [
-        {
-          "dest": "AVRILLE ARDENNE",
-          "mnemoarret": "2CECO",
-          "coordonnees": [
-            47.474142,
-            -0.54586063
-          ]
-        },
-        {
-          "dest": "ANGERS ROSERAIE",
-          "mnemoarret": "1CECO",
-          "coordonnees": [
-            47.47406,
-            -0.54592254
-          ]
-        }
-      ]
-    },
-    {
       "nomarret": "CAPUCINS",
       "stopsDest": [
         {
@@ -458,48 +243,6 @@
           "coordonnees": [
             47.486941,
             -0.55491917
-          ]
-        }
-      ]
-    },
-    {
-      "nomarret": "ST SERGE UNIVERSITE",
-      "stopsDest": [
-        {
-          "dest": "AVRILLE ARDENNE",
-          "mnemoarret": "2STSE",
-          "coordonnees": [
-            47.476078,
-            -0.5505589
-          ]
-        },
-        {
-          "dest": "ANGERS ROSERAIE",
-          "mnemoarret": "1STSE",
-          "coordonnees": [
-            47.476078,
-            -0.5505589
-          ]
-        }
-      ]
-    },
-    {
-      "nomarret": "BERGES DE MAINE",
-      "stopsDest": [
-        {
-          "dest": "AVRILLE ARDENNE",
-          "mnemoarret": "2BMAI",
-          "coordonnees": [
-            47.479329,
-            -0.54940748
-          ]
-        },
-        {
-          "dest": "ANGERS ROSERAIE",
-          "mnemoarret": "1BMAI",
-          "coordonnees": [
-            47.479255,
-            -0.54948313
           ]
         }
       ]
@@ -526,7 +269,91 @@
       ]
     },
     {
-      "nomarret": "FOCH MAISONBLEUE",
+      "nomarret": "BERGES DE MAINE",
+      "stopsDest": [
+        {
+          "dest": "AVRILLE ARDENNE",
+          "mnemoarret": "2BMAI",
+          "coordonnees": [
+            47.479329,
+            -0.54940748
+          ]
+        },
+        {
+          "dest": "ANGERS ROSERAIE",
+          "mnemoarret": "1BMAI",
+          "coordonnees": [
+            47.479255,
+            -0.54948313
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "ST SERGE UNIVERSITE",
+      "stopsDest": [
+        {
+          "dest": "AVRILLE ARDENNE",
+          "mnemoarret": "2STSE",
+          "coordonnees": [
+            47.476078,
+            -0.5505589
+          ]
+        },
+        {
+          "dest": "ANGERS ROSERAIE",
+          "mnemoarret": "1STSE",
+          "coordonnees": [
+            47.476078,
+            -0.5505589
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "CENTRE DE CONGRES",
+      "stopsDest": [
+        {
+          "dest": "AVRILLE ARDENNE",
+          "mnemoarret": "2CECO",
+          "coordonnees": [
+            47.474142,
+            -0.54586063
+          ]
+        },
+        {
+          "dest": "ANGERS ROSERAIE",
+          "mnemoarret": "1CECO",
+          "coordonnees": [
+            47.47406,
+            -0.54592254
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "HOTEL DE VILLE",
+      "stopsDest": [
+        {
+          "dest": "AVRILLE ARDENNE",
+          "mnemoarret": "2HDVA",
+          "coordonnees": [
+            47.471656,
+            -0.54666858
+          ]
+        },
+        {
+          "dest": "ANGERS ROSERAIE",
+          "mnemoarret": "1HDVA",
+          "coordonnees": [
+            47.471698,
+            -0.54679033
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "FOCH MAISON BLEUE",
       "stopsDest": [
         {
           "dest": "ANGERS ROSERAIE",
@@ -535,18 +362,181 @@
             47.46902,
             -0.54949933
           ]
+        },
+        {
+          "dest": "AVRILLE ARDENNE",
+          "mnemoarret": "2FMBL",
+          "coordonnees": [
+            47.469081,
+            -0.54958228
+          ]
         }
       ]
     },
     {
-      "nomarret": "HAUTS DE SAINT AUBIN",
+      "nomarret": "FOCH HARAS",
       "stopsDest": [
         {
           "dest": "AVRILLE ARDENNE",
-          "mnemoarret": "2HSAU",
+          "mnemoarret": "2HARA",
           "coordonnees": [
-            47.492212,
-            -0.56045114
+            47.466758,
+            -0.5524961
+          ]
+        },
+        {
+          "dest": "ANGERS ROSERAIE",
+          "mnemoarret": "1HARA",
+          "coordonnees": [
+            47.46682,
+            -0.55255254
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "LES GARES",
+      "stopsDest": [
+        {
+          "dest": "AVRILLE ARDENNE",
+          "mnemoarret": "2LGAR",
+          "coordonnees": [
+            47.464481,
+            -0.55537234
+          ]
+        },
+        {
+          "dest": "ANGERS ROSERAIE",
+          "mnemoarret": "1LGAR",
+          "coordonnees": [
+            47.464479,
+            -0.55546512
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "PLACE LA FAYETTE",
+      "stopsDest": [
+        {
+          "dest": "AVRILLE ARDENNE",
+          "mnemoarret": "2LAFA",
+          "coordonnees": [
+            47.46087,
+            -0.55472502
+          ]
+        },
+        {
+          "dest": "ANGERS ROSERAIE",
+          "mnemoarret": "1LAFA",
+          "coordonnees": [
+            47.46087,
+            -0.55472502
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "STRASBOURG",
+      "stopsDest": [
+        {
+          "dest": "AVRILLE ARDENNE",
+          "mnemoarret": "2STRA",
+          "coordonnees": [
+            47.457475,
+            -0.55407624
+          ]
+        },
+        {
+          "dest": "ANGERS ROSERAIE",
+          "mnemoarret": "1STRA",
+          "coordonnees": [
+            47.45665,
+            -0.55395185
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "BAMAKO",
+      "stopsDest": [
+        {
+          "dest": "AVRILLE ARDENNE",
+          "mnemoarret": "2BAMA",
+          "coordonnees": [
+            47.452182,
+            -0.5562573
+          ]
+        },
+        {
+          "dest": "ANGERS ROSERAIE",
+          "mnemoarret": "1BAMA",
+          "coordonnees": [
+            47.452234,
+            -0.55632649
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "JEAN XXIII",
+      "stopsDest": [
+        {
+          "dest": "AVRILLE ARDENNE",
+          "mnemoarret": "2JE23",
+          "coordonnees": [
+            47.448525,
+            -0.56283934
+          ]
+        },
+        {
+          "dest": "ANGERS ROSERAIE",
+          "mnemoarret": "1JE23",
+          "coordonnees": [
+            47.44855,
+            -0.56289382
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "JEAN VILAR",
+      "stopsDest": [
+        {
+          "dest": "AVRILLE ARDENNE",
+          "mnemoarret": "2JVIL",
+          "coordonnees": [
+            47.444921,
+            -0.5622452
+          ]
+        },
+        {
+          "dest": "ANGERS ROSERAIE",
+          "mnemoarret": "1JVIL",
+          "coordonnees": [
+            47.444919,
+            -0.56233796
+          ]
+        }
+      ]
+    },
+    {
+      "nomarret": "ANGERS - ROSERAIE",
+      "stopsDest": [
+        {
+          "dest": "AVRILLE ARDENNE",
+          "mnemoarret": "2ANRO",
+          "coordonnees": [
+            47.443904,
+            -0.55396364
+          ]
+        },
+        {
+          "dest": "ANGERS ROSERAIE",
+          "mnemoarret": "2ANRO",
+          "coordonnees": [
+            47.443904,
+            -0.55396364
           ]
         }
       ]
