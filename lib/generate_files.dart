@@ -169,7 +169,7 @@ Future<void> main() async {
       schema['routes'][routeId] = route.toJson();
     });
 
-    final jsonFile = File('files/schema.json');
+    final jsonFile = File('files/transports.json');
     jsonFile.writeAsStringSync(jsonEncode(schema));
 
     Map<String, List<dynamic>> files = {};
