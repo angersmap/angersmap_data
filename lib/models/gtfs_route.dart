@@ -5,7 +5,7 @@ part 'gtfs_route.g.dart';
 
 @JsonSerializable()
 class GtfsRoute {
-  @JsonKey(name: 'route_id')
+  @JsonKey(name: 'route_id', fromJson: ConvertUtils.fromJsonStringUppercase)
   String routeId;
   @JsonKey(name: 'route_short_name')
   String routeShortName;
