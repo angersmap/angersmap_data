@@ -163,7 +163,7 @@ Future<void> main() async {
 
     final schema = <String, dynamic>{};
 
-    schema['routes'] = {};
+    schema['routes'] = [];
 
 
     final Map<String, List<GtfsStop>> stopsHierar = {};
@@ -196,7 +196,7 @@ Future<void> main() async {
       print('$routeId - ${stopsRoute.length}');
       route.stops = stopsRoute.toList()..sort();
 
-      schema['routes'][routeId] = route.toJson();
+      schema['routes'].add(route.toJson());
     });
 
     // Transformation liste stops en liste hierarchique
