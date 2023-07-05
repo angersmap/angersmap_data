@@ -7,12 +7,11 @@ import 'package:checksum/models/gtfs_route.dart';
 import 'package:checksum/models/gtfs_stop.dart';
 import 'package:checksum/models/gtfs_stop_time.dart';
 import 'package:checksum/models/gtfs_trip.dart';
+import 'package:checksum/models/type_line.dart';
 import 'package:http/http.dart';
 
 Future<void> extractGtfs(String url, String pathDir) async {
   try {
-    Map<String, List<dynamic>> files = {};
-
     // Téléchargement du fichier zip GTFS
     final response = await get(Uri.parse(url));
     if (response.statusCode == 200) {
@@ -56,9 +55,9 @@ Future<void> extractGtfs(String url, String pathDir) async {
       print('Erreur lors du téléchargement du fichier GTFS');
     }
 
-    log('ok');
+    print('ok');
   } catch (e) {
-    log(e.toString());
+    print(e.toString());
   }
 }
 
@@ -108,6 +107,26 @@ Future<void> main() async {
     await extractGtfs(
         'https://chouette.enroute.mobi/api/v1/datas/Irigo/gtfs.zip', pathDir);
 
+    // TYPE LINES
+    final Map<String, TypeLine> typeLines = {};
+    final file = File('assets/type_lines.json');
+    final jsonTypeLines = jsonDecode(file.readAsStringSync());
+    for (String line in jsonTypeLines['tram']) {
+      typeLines[line] = TypeLine.tram;
+    }
+    for (String line in jsonTypeLines['week']) {
+      typeLines[line] = TypeLine.week;
+    }
+    for (String line in jsonTypeLines['night']) {
+      typeLines[line] = TypeLine.night;
+    }
+    for (String line in jsonTypeLines['sunday']) {
+      typeLines[line] = TypeLine.sunday;
+    }
+    for (String line in jsonTypeLines['special']) {
+      typeLines[line] = TypeLine.special;
+    }
+
     // STOPS
     final stopsList = readFile('$pathDir/stops.csv');
     final stops = <String, GtfsStop>{};
@@ -116,12 +135,15 @@ Future<void> main() async {
       stops[stop.stopId] = stop;
     }
 
+
     // ROUTES
     final routesList = readFile('$pathDir/routes.csv');
     final routes = <String, GtfsRoute>{};
     for (Map<String, dynamic> element in routesList) {
       final route = GtfsRoute.fromJson(element);
-      routes[route.routeId] = route;
+      if (typeLines.containsKey(route.routeId)) {
+        routes[route.routeId] = route;
+      }
     }
 
     // STOP_TIMES
@@ -141,38 +163,51 @@ Future<void> main() async {
     }
 
     final schema = <String, dynamic>{};
-    schema['stops'] = stops;
+
     schema['routes'] = {};
+
+
+    final Map<String, List<GtfsStop>> stopsHierar = {};
 
     // Itération sur les routes
     routes.forEach((routeId, route) {
-
       Set<String> stopsRoute = {};
 
       // Récupération trips correspondant à la route
       final List<GtfsTrip> gt =
           trips.where((trip) => trip.routeId == routeId).toList();
-      print('$routeId - ${gt.length}');
 
       // Itération sur les trips
-      for(GtfsTrip t in gt) {
-
+      for (GtfsTrip t in gt) {
         // Récupération stoptimes correspondant au trip
-        final List<GtfsStopTime> gstList = stopTimes.where((st) => st.tripId == t.tripId).toList();
-        for(GtfsStopTime st in gstList) {
+        final List<GtfsStopTime> gstList =
+            stopTimes.where((st) => st.tripId == t.tripId).toList();
+        for (GtfsStopTime st in gstList) {
           final GtfsStop stop = stops[st.stopId]!;
           stopsRoute.add(stop.stopName);
+
+          if(!stopsHierar.containsKey(stop.stopName)) {
+            stopsHierar[stop.stopName] = [];
+          }
+          if(!stopsHierar[stop.stopName]!.any((element) => element.stopId == stop.stopId)) {
+            stopsHierar[stop.stopName]!.add(stop);
+          }
         }
       }
-
+      print('$routeId - ${stopsRoute.length}');
       route.stops = stopsRoute.toList()..sort();
+
       schema['routes'][routeId] = route.toJson();
     });
 
+    // Transformation liste stops en liste hierarchique
+
+    schema['stops'] = stopsHierar;
+
+
+    // Ecriture du fichier final
     final jsonFile = File('files/transports.json');
     jsonFile.writeAsStringSync(jsonEncode(schema));
-
-    Map<String, List<dynamic>> files = {};
 
     // final conn = await MySQLConnection.createConnection(
     //   host: 'rapa3054.odns.fr',
@@ -193,8 +228,8 @@ Future<void> main() async {
     //   final GtfsStop stop = GtfsStop.fromJson(row.assoc());
     //   stops[stop.stopId] = stop;
     // }
-    log('ok');
+    print('ok');
   } catch (e) {
-    log(e.toString());
+    print(e.toString());
   }
 }

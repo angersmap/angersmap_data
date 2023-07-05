@@ -8,7 +8,7 @@ part of 'gtfs_trip.dart';
 
 GtfsTrip _$GtfsTripFromJson(Map<String, dynamic> json) => GtfsTrip(
       tripId: json['trip_id'] as String,
-      routeId: json['route_id'] as String,
+      routeId: ConvertUtils.fromJsonStringUppercase(json['route_id'] as String),
       serviceId: json['service_id'] as String,
     );
 

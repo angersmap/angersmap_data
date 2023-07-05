@@ -7,7 +7,7 @@ part 'gtfs_trip.g.dart';
 class GtfsTrip {
   @JsonKey(name: 'trip_id')
   String tripId;
-  @JsonKey(name: 'route_id')
+  @JsonKey(name: 'route_id', fromJson: ConvertUtils.fromJsonStringUppercase)
   String routeId;
   @JsonKey(name: 'service_id')
   String serviceId;
