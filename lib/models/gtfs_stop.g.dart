@@ -22,7 +22,6 @@ GtfsStop _$GtfsStopFromJson(Map<String, dynamic> json) => GtfsStop(
 Map<String, dynamic> _$GtfsStopToJson(GtfsStop instance) => <String, dynamic>{
       'stop_id': instance.stopId,
       'stop_code': instance.stopCode,
-      'stop_name': instance.stopName,
       'stop_lat': instance.stopLat,
       'stop_lon': instance.stopLon,
       'location_type': instance.locationType,

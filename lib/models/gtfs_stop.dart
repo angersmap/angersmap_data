@@ -10,7 +10,7 @@ class GtfsStop {
   String stopId;
   @JsonKey(name: 'stop_code', fromJson: ConvertUtils.fromJsonStringToInt)
   int stopCode;
-  @JsonKey(name: 'stop_name', fromJson: ConvertUtils.fromJsonStringUppercase)
+  @JsonKey(name: 'stop_name', fromJson: ConvertUtils.fromJsonStringUppercase, includeToJson: false)
   String stopName;
   @JsonKey(name: 'stop_lat', fromJson: ConvertUtils.fromJsonStringToDouble)
   double stopLat;
