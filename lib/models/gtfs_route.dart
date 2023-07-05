@@ -1,4 +1,5 @@
 import 'package:checksum/models/convert_utils.dart';
+import 'package:checksum/models/type_route.dart';
 import 'package:json_annotation/json_annotation.dart';
 
 part 'gtfs_route.g.dart';
@@ -11,8 +12,8 @@ class GtfsRoute {
   String routeShortName;
   @JsonKey(name: 'route_long_name')
   String routeLongName;
-  @JsonKey(name: 'route_type', fromJson: ConvertUtils.fromJsonStringToInt)
-  int routeType;
+  @JsonKey(name: 'route_type', includeFromJson: false, includeToJson: true, toJson: ConvertUtils.toJsonTypeRoute)
+  TypeRoute? routeType;
 
   @JsonKey(name: 'route_color')
   String routeColor;
@@ -28,9 +29,9 @@ class GtfsRoute {
       {required this.routeId,
         required this.routeShortName,
         required this.routeLongName,
-        required this.routeType,
+        this.routeType,
         required this.routeColor,
-      required this.routeTextColor});
+      required this.routeTextColor, });
 
   factory GtfsRoute.fromJson(Map<String, dynamic> json) =>
       _$GtfsRouteFromJson(json);

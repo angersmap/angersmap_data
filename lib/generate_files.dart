@@ -6,7 +6,7 @@ import 'package:checksum/models/gtfs_route.dart';
 import 'package:checksum/models/gtfs_stop.dart';
 import 'package:checksum/models/gtfs_stop_time.dart';
 import 'package:checksum/models/gtfs_trip.dart';
-import 'package:checksum/models/type_line.dart';
+import 'package:checksum/models/type_route.dart';
 import 'package:http/http.dart';
 
 Future<void> extractGtfs(String url, String pathDir) async {
@@ -107,23 +107,23 @@ Future<void> main() async {
         'https://chouette.enroute.mobi/api/v1/datas/Irigo/gtfs.zip', pathDir);
 
     // TYPE LINES
-    final Map<String, TypeLine> typeLines = {};
+    final Map<String, TypeRoute> typeLines = {};
     final file = File('assets/type_lines.json');
     final jsonTypeLines = jsonDecode(file.readAsStringSync());
     for (String line in jsonTypeLines['tram']) {
-      typeLines[line] = TypeLine.tram;
+      typeLines[line] = TypeRoute.tram;
     }
     for (String line in jsonTypeLines['week']) {
-      typeLines[line] = TypeLine.week;
+      typeLines[line] = TypeRoute.week;
     }
     for (String line in jsonTypeLines['night']) {
-      typeLines[line] = TypeLine.night;
+      typeLines[line] = TypeRoute.night;
     }
     for (String line in jsonTypeLines['sunday']) {
-      typeLines[line] = TypeLine.sunday;
+      typeLines[line] = TypeRoute.sunday;
     }
     for (String line in jsonTypeLines['special']) {
-      typeLines[line] = TypeLine.special;
+      typeLines[line] = TypeRoute.special;
     }
 
     // STOPS
@@ -140,6 +140,7 @@ Future<void> main() async {
     final routes = <String, GtfsRoute>{};
     for (Map<String, dynamic> element in routesList) {
       final route = GtfsRoute.fromJson(element);
+      route.routeType = typeLines[route.routeId];
       if (typeLines.containsKey(route.routeId)) {
         routes[route.routeId] = route;
       }
