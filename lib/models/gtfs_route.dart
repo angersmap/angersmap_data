@@ -1,5 +1,5 @@
 import 'package:checksum/models/convert_utils.dart';
-import 'package:checksum/models/type_route.dart';
+import 'package:checksum/models/route_type.dart';
 import 'package:json_annotation/json_annotation.dart';
 
 part 'gtfs_route.g.dart';
@@ -13,7 +13,7 @@ class GtfsRoute {
   @JsonKey(name: 'route_long_name')
   String routeLongName;
   @JsonKey(name: 'route_type', includeFromJson: false, includeToJson: true, toJson: ConvertUtils.toJsonTypeRoute)
-  TypeRoute? routeType;
+  RouteType? routeType;
 
   @JsonKey(name: 'route_color')
   String routeColor;
