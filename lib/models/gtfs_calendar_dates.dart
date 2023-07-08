@@ -1,10 +1,9 @@
 import 'package:angersmap_data/models/convert_utils.dart';
-import 'package:angersmap_data/models/route_type.dart';
 import 'package:json_annotation/json_annotation.dart';
 
 part 'gtfs_calendar_dates.g.dart';
 
-@JsonSerializable()
+@JsonSerializable(createToJson: false)
 class GtfsCalendarDates {
   @JsonKey(name: 'service_id')
   String serviceId;

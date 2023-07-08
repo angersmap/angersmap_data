@@ -13,10 +13,3 @@ GtfsCalendarDates _$GtfsCalendarDatesFromJson(Map<String, dynamic> json) =>
       exceptionType:
           ConvertUtils.fromJsonStringToInt(json['exception_type'] as String),
     );
-
-Map<String, dynamic> _$GtfsCalendarDatesToJson(GtfsCalendarDates instance) =>
-    <String, dynamic>{
-      'service_id': instance.serviceId,
-      'date': instance.date,
-      'exception_type': instance.exceptionType,
-    };
