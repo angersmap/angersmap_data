@@ -1,5 +1,5 @@
-import 'package:checksum/models/convert_utils.dart';
-import 'package:checksum/models/route_type.dart';
+import 'package:angersmap_data/models/convert_utils.dart';
+import 'package:angersmap_data/models/route_type.dart';
 import 'package:json_annotation/json_annotation.dart';
 
 part 'gtfs_route.g.dart';

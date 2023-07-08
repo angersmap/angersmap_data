@@ -10,7 +10,10 @@ class GtfsStop {
   String stopId;
   @JsonKey(name: 'stop_code', fromJson: ConvertUtils.fromJsonStringToInt)
   int stopCode;
-  @JsonKey(name: 'stop_name', fromJson: ConvertUtils.fromJsonStringUppercase, includeToJson: false)
+  @JsonKey(
+      name: 'stop_name',
+      fromJson: ConvertUtils.fromJsonStringUppercase,
+      includeToJson: false)
   String stopName;
   @JsonKey(name: 'stop_lat', fromJson: ConvertUtils.fromJsonStringToDouble)
   double stopLat;
@@ -18,7 +21,8 @@ class GtfsStop {
   double stopLon;
   @JsonKey(name: 'location_type', fromJson: ConvertUtils.fromJsonStringToInt)
   int locationType;
-  @JsonKey(name: 'wheelchair_boarding', fromJson: ConvertUtils.fromJsonStringToInt)
+  @JsonKey(
+      name: 'wheelchair_boarding', fromJson: ConvertUtils.fromJsonStringToInt)
   int wheelchairBoarding;
 
   GtfsStop(
@@ -35,5 +39,4 @@ class GtfsStop {
 
   /// Connect the generated [_$PersonToJson] function to the `toJson` method.
   Map<String, dynamic> toJson() => _$GtfsStopToJson(this);
-
 }

@@ -1,14 +1,11 @@
 import 'dart:convert';
 import 'dart:io';
 
-import 'package:checksum/models/gtfs_route.dart';
-import 'package:checksum/models/gtfs_stop.dart';
-import 'package:checksum/models/gtfs_stop_time.dart';
-import 'package:checksum/models/gtfs_trip.dart';
-import 'package:checksum/models/route_type.dart';
-
-
-
+import 'package:angersmap_data/models/gtfs_route.dart';
+import 'package:angersmap_data/models/gtfs_stop.dart';
+import 'package:angersmap_data/models/gtfs_stop_time.dart';
+import 'package:angersmap_data/models/gtfs_trip.dart';
+import 'package:angersmap_data/models/route_type.dart';
 
 List<Map<String, dynamic>> readFile(String filename) {
   final file = File(filename);
@@ -40,9 +37,9 @@ List<Map<String, dynamic>> processData(String csvData) {
   return jsonData;
 }
 
-Future<void> generateFiles(String pathDir) async {
+Future<void> generateFiles() async {
   try {
-
+    final String pathDir = 'gtfs';
     // TYPE LINES
     final Map<String, RouteType> typeLines = {};
     final file = File('assets/type_lines.json');
@@ -67,7 +64,6 @@ Future<void> generateFiles(String pathDir) async {
       final stop = GtfsStop.fromJson(stopElement);
       stops[stop.stopId] = stop;
     }
-
 
     // ROUTES
     final routesList = readFile('$pathDir/routes.csv');
@@ -100,7 +96,6 @@ Future<void> generateFiles(String pathDir) async {
 
     schema['routes'] = [];
 
-
     final Map<String, List<GtfsStop>> stopsHierar = {};
 
     // Itération sur les routes
@@ -120,10 +115,11 @@ Future<void> generateFiles(String pathDir) async {
           final GtfsStop stop = stops[st.stopId]!;
           stopsRoute.add(stop.stopName);
 
-          if(!stopsHierar.containsKey(stop.stopName)) {
+          if (!stopsHierar.containsKey(stop.stopName)) {
             stopsHierar[stop.stopName] = [];
           }
-          if(!stopsHierar[stop.stopName]!.any((element) => element.stopId == stop.stopId)) {
+          if (!stopsHierar[stop.stopName]!
+              .any((element) => element.stopId == stop.stopId)) {
             stopsHierar[stop.stopName]!.add(stop);
           }
         }
@@ -137,7 +133,6 @@ Future<void> generateFiles(String pathDir) async {
     // Transformation liste stops en liste hierarchique
 
     schema['stops'] = stopsHierar;
-
 
     // Ecriture du fichier final
     final jsonFile = File('files/schema_transports.json');

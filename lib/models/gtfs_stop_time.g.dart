@@ -11,7 +11,10 @@ GtfsStopTime _$GtfsStopTimeFromJson(Map<String, dynamic> json) => GtfsStopTime(
       arrivalTime: json['arrival_time'] as String,
       departureTime: json['departure_time'] as String,
       stopId: json['stop_id'] as String,
-      stopSequence: json['stop_sequence'] as String,
+      stopSequence:
+          ConvertUtils.fromJsonStringToInt(json['stop_sequence'] as String),
+      pickupType:
+          ConvertUtils.fromJsonStringToInt(json['pickup_type'] as String),
     );
 
 Map<String, dynamic> _$GtfsStopTimeToJson(GtfsStopTime instance) =>
@@ -21,4 +24,5 @@ Map<String, dynamic> _$GtfsStopTimeToJson(GtfsStopTime instance) =>
       'departure_time': instance.departureTime,
       'stop_id': instance.stopId,
       'stop_sequence': instance.stopSequence,
+      'pickup_type': instance.pickupType,
     };

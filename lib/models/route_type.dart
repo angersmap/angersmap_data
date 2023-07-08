@@ -1,4 +1,3 @@
-
 enum RouteType { tram, day, night, special }
 
 extension TypeLineExtension on RouteType {

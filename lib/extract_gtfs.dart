@@ -4,26 +4,26 @@ import 'dart:io';
 import 'package:archive/archive.dart';
 import 'package:http/http.dart';
 
-void cleanDir(String pathDir) {
-  final dir = Directory(pathDir);
+void cleanDir() {
+  final dir = Directory('gtfs');
   final files = dir.listSync();
   for (FileSystemEntity file in files) {
     file.deleteSync();
   }
 }
 
-
-Future<void> _extractGtfs(String url, String pathDir) async {
+Future<void> _extractGtfs() async {
   try {
     // Téléchargement du fichier zip GTFS
-    final response = await get(Uri.parse(url));
+    final response = await get(
+        Uri.parse('https://chouette.enroute.mobi/api/v1/datas/Irigo/gtfs.zip'));
     if (response.statusCode == 200) {
       // Sauvegarde du fichier zip localement
       final bytes = response.bodyBytes;
       final file = File('gtfs/fichier_gtfs.zip');
       file.writeAsBytesSync(bytes);
 
-      final dir = Directory(pathDir);
+      final dir = Directory('gtfs');
       if (!dir.existsSync()) {
         dir.create();
       }
@@ -49,7 +49,7 @@ Future<void> _extractGtfs(String url, String pathDir) async {
 
         // files[fileName] = jsonDecode(jsonData);
         // Création du fichier JSON correspondant à chaque ligne de transport
-        final jsonFile = File('$pathDir/$fileName.csv');
+        final jsonFile = File('gtfs/$fileName.csv');
         jsonFile.writeAsStringSync(csvData);
       }
 
@@ -64,8 +64,7 @@ Future<void> _extractGtfs(String url, String pathDir) async {
   }
 }
 
-Future<void> extractGtfs(String pathDir) async {
-  cleanDir(pathDir);
-  await _extractGtfs(
-  'https://chouette.enroute.mobi/api/v1/datas/Irigo/gtfs.zip', pathDir);
+Future<void> extractGtfs() async {
+  cleanDir();
+  await _extractGtfs();
 }

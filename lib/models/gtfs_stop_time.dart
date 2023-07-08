@@ -6,7 +6,6 @@ part 'gtfs_stop_time.g.dart';
 
 @JsonSerializable()
 class GtfsStopTime {
-
   @JsonKey(name: 'trip_id')
   String tripId;
 
@@ -19,16 +18,22 @@ class GtfsStopTime {
   @JsonKey(name: 'stop_id')
   String stopId;
 
-  @JsonKey(name: 'stop_sequence')
-  String stopSequence;
+  @JsonKey(name: 'stop_sequence', fromJson: ConvertUtils.fromJsonStringToInt)
+  int stopSequence;
 
+  @JsonKey(name: 'pickup_type', fromJson: ConvertUtils.fromJsonStringToInt)
+  int pickupType;
 
-  GtfsStopTime({required this.tripId, required this.arrivalTime, required this.departureTime,
-      required this.stopId, required this.stopSequence});
+  GtfsStopTime(
+      {required this.tripId,
+      required this.arrivalTime,
+      required this.departureTime,
+      required this.stopId,
+      required this.stopSequence,
+      required this.pickupType});
 
   factory GtfsStopTime.fromJson(Map<String, dynamic> json) =>
       _$GtfsStopTimeFromJson(json);
 
   Map<String, dynamic> toJson() => _$GtfsStopTimeToJson(this);
-
 }

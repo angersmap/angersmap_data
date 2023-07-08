@@ -1,4 +1,4 @@
-import 'package:checksum/models/route_type.dart';
+import 'package:angersmap_data/models/route_type.dart';
 
 class ConvertUtils {
   static int fromJsonStringToInt(String value) => int.tryParse(value) ?? 0;
