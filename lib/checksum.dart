@@ -3,7 +3,7 @@ import 'package:path/path.dart';
 import 'package:crypto/crypto.dart';
 import 'dart:convert'; // for the utf8.encode method
 
-void main() {
+void checksum() {
 
 
   final Map<String, dynamic> files = browseDirectory('${Directory.current.path}/files');

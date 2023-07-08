@@ -8,6 +8,7 @@ part of 'gtfs_route.dart';
 
 GtfsRoute _$GtfsRouteFromJson(Map<String, dynamic> json) => GtfsRoute(
       routeId: ConvertUtils.fromJsonStringUppercase(json['route_id'] as String),
+      agencyId: json['agency_id'] as String,
       routeShortName: json['route_short_name'] as String,
       routeLongName: json['route_long_name'] as String,
       routeColor: json['route_color'] as String,

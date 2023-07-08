@@ -1,72 +1,14 @@
 import 'dart:convert';
 import 'dart:io';
 
-import 'package:archive/archive.dart';
 import 'package:checksum/models/gtfs_route.dart';
 import 'package:checksum/models/gtfs_stop.dart';
 import 'package:checksum/models/gtfs_stop_time.dart';
 import 'package:checksum/models/gtfs_trip.dart';
 import 'package:checksum/models/route_type.dart';
-import 'package:http/http.dart';
 
-Future<void> extractGtfs(String url, String pathDir) async {
-  try {
-    // Téléchargement du fichier zip GTFS
-    final response = await get(Uri.parse(url));
-    if (response.statusCode == 200) {
-      // Sauvegarde du fichier zip localement
-      final bytes = response.bodyBytes;
-      final file = File('gtfs/fichier_gtfs.zip');
-      file.writeAsBytesSync(bytes);
 
-      final dir = Directory(pathDir);
-      if (!dir.existsSync()) {
-        dir.create();
-      }
 
-      // Décompression du fichier zip
-      final archive = ZipDecoder().decodeBytes(bytes);
-
-      // Extraction des fichiers CSV
-      final csvFiles = archive
-          .where((file) => file.isFile && file.name.endsWith('.txt'))
-          .toList();
-
-      // Parcours des fichiers CSV
-      for (final csvFile in csvFiles) {
-        // Nom du fichier CSV
-        final fileName = csvFile.name.split('.').first;
-
-        // Extraction des données du fichier CSV
-        final csvData = utf8.decode(csvFile.content);
-
-        // Traitement des données du fichier CSV
-        // final jsonData = processData(csvData);
-
-        // files[fileName] = jsonDecode(jsonData);
-        // Création du fichier JSON correspondant à chaque ligne de transport
-        final jsonFile = File('$pathDir/$fileName.csv');
-        jsonFile.writeAsStringSync(csvData);
-      }
-
-      print('Terminé');
-    } else {
-      print('Erreur lors du téléchargement du fichier GTFS');
-    }
-
-    print('ok');
-  } catch (e) {
-    print(e.toString());
-  }
-}
-
-void cleanDir(String pathDir) {
-  final dir = Directory(pathDir);
-  final files = dir.listSync();
-  for (FileSystemEntity file in files) {
-    file.deleteSync();
-  }
-}
 
 List<Map<String, dynamic>> readFile(String filename) {
   final file = File(filename);
@@ -98,13 +40,8 @@ List<Map<String, dynamic>> processData(String csvData) {
   return jsonData;
 }
 
-Future<void> main() async {
+Future<void> generateFiles(String pathDir) async {
   try {
-    final String pathDir = 'gtfs';
-
-    cleanDir(pathDir);
-    await extractGtfs(
-        'https://chouette.enroute.mobi/api/v1/datas/Irigo/gtfs.zip', pathDir);
 
     // TYPE LINES
     final Map<String, RouteType> typeLines = {};
@@ -206,25 +143,6 @@ Future<void> main() async {
     final jsonFile = File('files/schema_transports.json');
     jsonFile.writeAsStringSync(jsonEncode(schema));
 
-    // final conn = await MySQLConnection.createConnection(
-    //   host: 'rapa3054.odns.fr',
-    //   port: 3306,
-    //   collation: 'utf8mb3_general_ci',
-    //   userName: 'rapa3054_angersmap',
-    //   password: 'syLi=gGT)@o@',
-    //   secure: false,
-    //   databaseName: 'rapa3054_angersmap', // optional,
-    // );
-    //
-    // // actually connect to database
-    // await conn.connect();
-    // final result = await conn.execute("SELECT * FROM gtfs_stops");
-    // final Map<String, GtfsStop> stops = {};
-    // for (final row in result.rows) {
-    //   print(row.assoc());
-    //   final GtfsStop stop = GtfsStop.fromJson(row.assoc());
-    //   stops[stop.stopId] = stop;
-    // }
     print('ok');
   } catch (e) {
     print(e.toString());
