@@ -113,7 +113,7 @@ Future<void> generateFiles() async {
             stopTimes.where((st) => st.tripId == t.tripId).toList();
         for (GtfsStopTime st in gstList) {
           final GtfsStop stop = stops[st.stopId]!;
-          stopsRoute.add(stop.stopName);
+          stopsRoute.add(st.stopId);
 
           if (!stopsHierar.containsKey(stop.stopName)) {
             stopsHierar[stop.stopName] = [];
