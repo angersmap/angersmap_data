@@ -6,6 +6,9 @@ import 'package:http/http.dart';
 
 void cleanDir() {
   final dir = Directory('gtfs');
+  if(!dir.existsSync()) {
+    dir.createSync();
+  }
   final files = dir.listSync();
   for (FileSystemEntity file in files) {
     file.deleteSync();
@@ -53,7 +56,6 @@ Future<void> _extractGtfs() async {
         jsonFile.writeAsStringSync(csvData);
       }
 
-      print('Terminé');
     } else {
       print('Erreur lors du téléchargement du fichier GTFS');
     }
