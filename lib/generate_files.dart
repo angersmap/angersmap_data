@@ -104,6 +104,7 @@ Future<void> generateFiles() async {
     final schema = <String, dynamic>{};
 
     schema['routes'] = [];
+    final schemaRoutes = <GtfsRoute>[];
 
     final Map<String, List<GtfsStop>> stopsHierar = {};
 
@@ -136,12 +137,19 @@ Future<void> generateFiles() async {
       print('$routeId - ${stopsRoute.length}');
       route.stops = stopsRoute.toList()..sort();
 
-      schema['routes'].add(route.toJson());
+      schemaRoutes.add(route);
     });
-
+    schemaRoutes.sort((a, b) {
+      if(a.routeType?.name == b.routeType?.name) {
+        return a.routeId.compareTo(b.routeId);
+      } else {
+        return a.routeType!.name.compareTo(b.routeType!.name);
+      }
+    });
     // Transformation liste stops en liste hierarchique
 
     schema['stops'] = stopsHierar;
+    schema['routes'] = schemaRoutes.map((e) => e.toJson()).toList();
 
     // Ecriture du fichier final
     final jsonFile = File('files/schema_transports.json');
