@@ -2,6 +2,7 @@ import 'dart:convert';
 import 'dart:io';
 
 import 'package:angersmap_data/models/gtfs_route.dart';
+import 'package:angersmap_data/models/gtfs_shape.dart';
 import 'package:angersmap_data/models/gtfs_stop.dart';
 import 'package:angersmap_data/models/gtfs_stop_time.dart';
 import 'package:angersmap_data/models/gtfs_trip.dart';
@@ -90,6 +91,14 @@ Future<void> generateFiles() async {
     for (Map<String, dynamic> element in tripsList) {
       final trip = GtfsTrip.fromJson(element);
       trips.add(trip);
+    }
+
+    // SHAPES
+    final shapesList = readFile('$pathDir/shapes.csv');
+    final shapes = <GtfsShape>[];
+    for (Map<String, dynamic> element in shapesList) {
+      final shape = GtfsShape.fromJson(element);
+      shapes.add(shape);
     }
 
     final schema = <String, dynamic>{};

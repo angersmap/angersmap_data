@@ -30,6 +30,9 @@ Future<void> generateDb() async {
   await conn.execute('TRUNCATE gtfs_calendar_dates');
 
 
+  int i = 0;
+  DateTime dt = DateTime.now();
+
   // CALENDAR_DATES
   print('Insert CALENDAR_DATES');
   List<Map<String, dynamic>> jsonFile = readFile('gtfs/calendar_dates.csv');
@@ -39,9 +42,13 @@ Future<void> generateDb() async {
   for (Map<String, dynamic> json in jsonFile) {
     final value = GtfsCalendarDates.fromJson(json);
     await stmt.execute([value.serviceId, value.date, value.exceptionType]);
+    i++;
   }
+  print('CALENDAR_DATES inserted: $i - ${DateTime.now().difference(dt)}');
 
   // ROUTES
+  dt = DateTime.now();
+  i = 0;
   print('Insert ROUTES');
   jsonFile = readFile('gtfs/routes.csv');
   stmt = await conn.prepare(
@@ -57,9 +64,13 @@ Future<void> generateDb() async {
       value.routeColor,
       value.routeTextColor
     ]);
+    i++;
   }
+  print('ROUTES inserted: $i - ${DateTime.now().difference(dt)}');
 
   // STOPS
+  dt = DateTime.now();
+  i = 0;
   print('Insert STOPS');
   jsonFile = readFile('gtfs/stops.csv');
   stmt = await conn.prepare(
@@ -77,9 +88,13 @@ Future<void> generateDb() async {
       '',
       value.wheelchairBoarding
     ]);
+    i++;
   }
+  print('STOPS inserted: $i - ${DateTime.now().difference(dt)}');
 
   // TRIPS
+  dt = DateTime.now();
+  i = 0;
   print('Insert TRIPS');
   jsonFile = readFile('gtfs/trips.csv');
   stmt = await conn.prepare(
@@ -96,9 +111,13 @@ Future<void> generateDb() async {
       value.directionId,
       value.shapeId
     ]);
+    i++;
   }
+  print('TRIPS inserted: $i - ${DateTime.now().difference(dt)}');
 
   // STOP_TIMES
+  dt = DateTime.now();
+  i = 0;
   print('Insert STOP_TIMES');
   jsonFile = readFile('gtfs/stop_times.csv');
   stmt = await conn.prepare(
@@ -114,7 +133,9 @@ Future<void> generateDb() async {
       value.stopSequence,
       value.pickupType,
     ]);
+    i++;
   }
+  print('STOP_TIMES inserted: $i - ${DateTime.now().difference(dt)}');
 
   await conn.execute('SET FOREIGN_KEY_CHECKS = 1');
   print('Terminé');
