@@ -28,7 +28,7 @@ Future<void> generateDb() async {
   await conn.execute('TRUNCATE gtfs_stops');
   await conn.execute('TRUNCATE gtfs_routes');
   await conn.execute('TRUNCATE gtfs_calendar_dates');
-  await conn.execute('SET FOREIGN_KEY_CHECKS = 1');
+
 
   // CALENDAR_DATES
   print('Insert CALENDAR_DATES');
@@ -116,5 +116,6 @@ Future<void> generateDb() async {
     ]);
   }
 
+  await conn.execute('SET FOREIGN_KEY_CHECKS = 1');
   print('Terminé');
 }
