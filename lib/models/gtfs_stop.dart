@@ -19,13 +19,20 @@ class GtfsStop {
   double stopLat;
   @JsonKey(name: 'stop_lon', fromJson: ConvertUtils.fromJsonStringToDouble)
   double stopLon;
+  @JsonKey(name: 'location_type', fromJson: ConvertUtils.fromJsonStringToInt)
+  int locationType;
+  @JsonKey(
+      name: 'wheelchair_boarding', fromJson: ConvertUtils.fromJsonStringToInt)
+  int wheelchairBoarding;
 
   GtfsStop(
       {required this.stopId,
       required this.stopCode,
       required this.stopName,
       required this.stopLat,
-      required this.stopLon,});
+      required this.stopLon,
+      required this.locationType,
+      required this.wheelchairBoarding});
 
   factory GtfsStop.fromJson(Map<String, dynamic> json) =>
       _$GtfsStopFromJson(json);
