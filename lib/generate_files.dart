@@ -101,16 +101,16 @@ Future<void> generateFiles() async {
       shapes.add(shape);
     }
 
-    final schema = <String, dynamic>{};
 
-    schema['routes'] = [];
     final schemaRoutes = <GtfsRoute>[];
 
     final Map<String, List<GtfsStop>> stopsHierar = {};
 
+
     // Itération sur les routes
     routes.forEach((routeId, route) {
-      Set<String> stopsRoute = {};
+      final Set<String> stopsRoute = {};
+      final List<GtfsShape> routeShapes = [];
 
       // Récupération trips correspondant à la route
       final List<GtfsTrip> gt =
@@ -121,6 +121,7 @@ Future<void> generateFiles() async {
         // Récupération stoptimes correspondant au trip
         final List<GtfsStopTime> gstList =
             stopTimes.where((st) => st.tripId == t.tripId).toList();
+
         for (GtfsStopTime st in gstList) {
           final GtfsStop stop = stops[st.stopId]!;
           stopsRoute.add(st.stopId);
@@ -133,21 +134,38 @@ Future<void> generateFiles() async {
             stopsHierar[stop.stopName]!.add(stop);
           }
         }
+
+        final tripShapes = shapes.where((shape) => shape.shapeId == t.shapeId).toList();
+        if(tripShapes.length > routeShapes.length) {
+          routeShapes.clear();
+          routeShapes.addAll(tripShapes);
+        }
+        // for(GtfsShape shape in tripShapes) {
+        //   if(!routeShapes.any((element) => element.shapePtLat == shape.shapePtLat && element.shapePtLon == shape.shapePtLon)) {
+        //     routeShapes.add(shape);
+        //   }
+        // }
+        // print('routeId: $routeId - tripShapes: ${tripShapes.length} - routeShapes: ${routeShapes.length}');
       }
-      print('$routeId - ${stopsRoute.length}');
+
+      print('$routeId - ${stopsRoute.length} - ${routeShapes.length}');
       route.stops = stopsRoute.toList()..sort();
+      route.shapes = routeShapes;
 
       schemaRoutes.add(route);
     });
+
     schemaRoutes.sort((a, b) {
       if(a.routeType?.name == b.routeType?.name) {
         return a.routeId.compareTo(b.routeId);
       } else {
         return a.routeType!.name.compareTo(b.routeType!.name);
       }
+
     });
     // Transformation liste stops en liste hierarchique
 
+    final schema = <String, dynamic>{};
     schema['stops'] = stopsHierar;
     schema['routes'] = schemaRoutes.map((e) => e.toJson()).toList();
 

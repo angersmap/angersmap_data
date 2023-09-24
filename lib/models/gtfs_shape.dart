@@ -11,18 +11,12 @@ class GtfsShape {
   String shapePtLat;
   @JsonKey(name: 'shape_pt_lon')
   String shapePtLon;
-  @JsonKey(name: 'shape_pt_sequence')
-  String shapePtSequence;
-  @JsonKey(name: 'shape_dist_traveled')
-  String shapeDistTraveled;
 
 
   GtfsShape(
       {required this.shapeId,
       required this.shapePtLat,
-      required this.shapePtLon,
-      required this.shapePtSequence,
-      required this.shapeDistTraveled});
+      required this.shapePtLon});
 
 
   factory GtfsShape.fromJson(Map<String, dynamic> json) =>

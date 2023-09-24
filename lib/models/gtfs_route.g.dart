@@ -23,4 +23,5 @@ Map<String, dynamic> _$GtfsRouteToJson(GtfsRoute instance) => <String, dynamic>{
       'route_color': instance.routeColor,
       'route_text_color': instance.routeTextColor,
       'stops': instance.stops,
+      'shapes': instance.shapes,
     };

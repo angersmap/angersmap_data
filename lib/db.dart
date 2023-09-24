@@ -84,9 +84,9 @@ Future<void> generateDb() async {
       value.stopName,
       value.stopLat,
       value.stopLon,
-      value.locationType,
+      0,
       '',
-      value.wheelchairBoarding
+      0
     ]);
     i++;
   }

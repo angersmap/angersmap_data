@@ -13,10 +13,6 @@ GtfsStop _$GtfsStopFromJson(Map<String, dynamic> json) => GtfsStop(
           ConvertUtils.fromJsonStringUppercase(json['stop_name'] as String),
       stopLat: ConvertUtils.fromJsonStringToDouble(json['stop_lat'] as String),
       stopLon: ConvertUtils.fromJsonStringToDouble(json['stop_lon'] as String),
-      locationType:
-          ConvertUtils.fromJsonStringToInt(json['location_type'] as String),
-      wheelchairBoarding: ConvertUtils.fromJsonStringToInt(
-          json['wheelchair_boarding'] as String),
     );
 
 Map<String, dynamic> _$GtfsStopToJson(GtfsStop instance) => <String, dynamic>{
@@ -24,6 +20,4 @@ Map<String, dynamic> _$GtfsStopToJson(GtfsStop instance) => <String, dynamic>{
       'stop_code': instance.stopCode,
       'stop_lat': instance.stopLat,
       'stop_lon': instance.stopLon,
-      'location_type': instance.locationType,
-      'wheelchair_boarding': instance.wheelchairBoarding,
     };

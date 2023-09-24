@@ -1,4 +1,5 @@
 import 'package:angersmap_data/models/convert_utils.dart';
+import 'package:angersmap_data/models/gtfs_shape.dart';
 import 'package:angersmap_data/models/route_type.dart';
 import 'package:json_annotation/json_annotation.dart';
 
@@ -31,6 +32,9 @@ class GtfsRoute {
 
   @JsonKey(includeFromJson: false, includeToJson: true)
   List<String> stops = [];
+
+  @JsonKey(includeFromJson: false, includeToJson: true)
+  List<GtfsShape> shapes = [];
 
   GtfsRoute({
     required this.routeId,
