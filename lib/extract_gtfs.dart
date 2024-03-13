@@ -47,10 +47,6 @@ Future<void> _extractGtfs() async {
         // Extraction des données du fichier CSV
         final csvData = utf8.decode(csvFile.content);
 
-        // Traitement des données du fichier CSV
-        // final jsonData = processData(csvData);
-
-        // files[fileName] = jsonDecode(jsonData);
         // Création du fichier JSON correspondant à chaque ligne de transport
         final jsonFile = File('gtfs/$fileName.csv');
         jsonFile.writeAsStringSync(csvData);
