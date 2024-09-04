@@ -22,6 +22,8 @@ Future<void> generateDb() async {
   // actually connect to database
   await conn.connect();
 
+  await conn.execute('START TRANSACTION;');
+
   await conn.execute('SET FOREIGN_KEY_CHECKS = 0');
   await conn.execute('TRUNCATE gtfs_stop_times');
   await conn.execute('TRUNCATE gtfs_trips');
@@ -138,5 +140,7 @@ Future<void> generateDb() async {
   print('STOP_TIMES inserted: $i - ${DateTime.now().difference(dt)}');
 
   await conn.execute('SET FOREIGN_KEY_CHECKS = 1');
+
+  await conn.execute('COMMIT;');
   print('Terminé');
 }
