@@ -1,146 +1,165 @@
+import 'dart:convert';
+import 'dart:io';
+
 import 'package:angersmap_data/config.dart';
+import 'package:angersmap_data/generate_files.dart';
 import 'package:angersmap_data/models/gtfs_calendar_dates.dart';
 import 'package:angersmap_data/models/gtfs_route.dart';
-import 'package:angersmap_data/models/gtfs_stop_time.dart';
-import 'package:mysql_client/mysql_client.dart';
-
-import 'package:angersmap_data/generate_files.dart';
 import 'package:angersmap_data/models/gtfs_stop.dart';
+import 'package:angersmap_data/models/gtfs_stop_time.dart';
 import 'package:angersmap_data/models/gtfs_trip.dart';
+import 'package:mysql_utils/mysql_utils.dart';
 
 Future<void> generateDb() async {
-  final conn = await MySQLConnection.createConnection(
-    host: config.dbHost,
-    port: 3306,
-    collation: 'utf8mb3_general_ci',
-    userName: config.dbUsername,
-    password: config.dbPassword,
-    secure: false,
-    databaseName: config.dbName, // optional,
-  );
+  var conn = MysqlUtils(
+      settings: {
+        'host': config.dbHost,
+        'port': 3306,
+        'user': config.dbUsername,
+        'password': config.dbPassword,
+        'db': config.dbName,
+        'maxConnections': 10,
+        'prefix': '',
+        'secure': false,
+        'pool': true,
+        'collation': 'utf8mb3_general_ci',
+        'sqlEscape': true,
+      },
+      errorLog: (error) {
+        print(error);
+      },
+      sqlLog: (sql) {
+        print(sql);
+      },
+      connectInit: (db1) async {
+        print('whenComplete');
+      });
 
   // actually connect to database
-  await conn.connect();
+  await conn.startTrans();
 
-  await conn.execute('START TRANSACTION;');
+  await conn.query('SET FOREIGN_KEY_CHECKS = 0');
+  await conn.query('TRUNCATE gtfs_stop_times');
+  await conn.query('TRUNCATE gtfs_trips');
+  await conn.query('TRUNCATE gtfs_stops');
+  await conn.query('TRUNCATE gtfs_routes');
+  await conn.query('TRUNCATE gtfs_calendar_dates');
 
-  await conn.execute('SET FOREIGN_KEY_CHECKS = 0');
-  await conn.execute('TRUNCATE gtfs_stop_times');
-  await conn.execute('TRUNCATE gtfs_trips');
-  await conn.execute('TRUNCATE gtfs_stops');
-  await conn.execute('TRUNCATE gtfs_routes');
-  await conn.execute('TRUNCATE gtfs_calendar_dates');
-
-
-  int i = 0;
   DateTime dt = DateTime.now();
 
   // CALENDAR_DATES
   print('Insert CALENDAR_DATES');
-  List<Map<String, dynamic>> jsonFile = readFile('gtfs/calendar_dates.csv');
-  PreparedStmt stmt = await conn.prepare(
-    'INSERT INTO gtfs_calendar_dates (service_id, date, exception_type) VALUES (?, ?, ?)',
-  );
-  for (Map<String, dynamic> json in jsonFile) {
-    final value = GtfsCalendarDates.fromJson(json);
-    await stmt.execute([value.serviceId, value.date, value.exceptionType]);
-    i++;
-  }
-  print('CALENDAR_DATES inserted: $i - ${DateTime.now().difference(dt)}');
+
+  final file = File('gtfs/calendar_dates_merge.json');
+  final stringFiles = file.readAsStringSync();
+  List<dynamic> jsonFile = jsonDecode(stringFiles);
+
+  await conn.insertAll(
+      table: 'gtfs_calendar_dates',
+      insertData: jsonFile
+          .map((e) => GtfsCalendarDates.fromJson(e as Map<String, dynamic>))
+          .map((e) => {
+                'service_id': e.serviceId,
+                'date': e.date,
+                'exception_type': e.exceptionType
+              })
+          .toList());
+
+  print(
+      'CALENDAR_DATES inserted: ${jsonFile.length} - ${DateTime.now().difference(dt)}');
 
   // ROUTES
   dt = DateTime.now();
-  i = 0;
   print('Insert ROUTES');
   jsonFile = readFile('gtfs/routes.csv');
-  stmt = await conn.prepare(
-    'INSERT INTO gtfs_routes (route_id, agency_id, route_short_name, route_long_name, route_color, route_text_color) VALUES (?, ?, ?, ?, ?, ?)',
-  );
-  for (Map<String, dynamic> json in jsonFile) {
-    final value = GtfsRoute.fromJson(json);
-    await stmt.execute([
-      value.routeId,
-      value.agencyId,
-      value.routeShortName,
-      value.routeLongName,
-      value.routeColor,
-      value.routeTextColor
-    ]);
-    i++;
-  }
-  print('ROUTES inserted: $i - ${DateTime.now().difference(dt)}');
+
+  await conn.insertAll(
+      table: 'gtfs_routes',
+      insertData: jsonFile
+          .map((e) => GtfsRoute.fromJson(e))
+          .map((e) => {
+                'route_id': e.routeId,
+                'agency_id': e.agencyId,
+                'route_short_name': e.routeShortName,
+                'route_long_name': e.routeLongName,
+                'route_color': e.routeColor,
+                'route_text_color': e.routeTextColor
+              })
+          .toList());
+
+  print(
+      'ROUTES inserted: ${jsonFile.length} - ${DateTime.now().difference(dt)}');
 
   // STOPS
   dt = DateTime.now();
-  i = 0;
   print('Insert STOPS');
   jsonFile = readFile('gtfs/stops.csv');
-  stmt = await conn.prepare(
-    'INSERT INTO gtfs_stops (stop_id,stop_code,stop_name,stop_lat,stop_lon,location_type,stop_timezone,wheelchair_boarding) VALUES (?, ?, ?, ?, ?, ?, ?, ?)',
-  );
-  for (Map<String, dynamic> json in jsonFile) {
-    final value = GtfsStop.fromJson(json);
-    await stmt.execute([
-      value.stopId,
-      value.stopCode,
-      value.stopName,
-      value.stopLat,
-      value.stopLon,
-      0,
-      '',
-      0
-    ]);
-    i++;
-  }
-  print('STOPS inserted: $i - ${DateTime.now().difference(dt)}');
+  await conn.insertAll(
+      table: 'gtfs_stops',
+      insertData: jsonFile
+          .map((e) => GtfsStop.fromJson(e))
+          .map((e) => {
+                'stop_id': e.stopId,
+                'stop_code': e.stopCode,
+                'stop_name': e.stopName,
+                'stop_lat': e.stopLat,
+                'stop_lon': e.stopLon,
+                'location_type': 0,
+                'stop_timezone': '',
+                'wheelchair_boarding': 0
+              })
+          .toList());
+
+  print(
+      'STOPS inserted: ${jsonFile.length} - ${DateTime.now().difference(dt)}');
 
   // TRIPS
   dt = DateTime.now();
-  i = 0;
   print('Insert TRIPS');
   jsonFile = readFile('gtfs/trips.csv');
-  stmt = await conn.prepare(
-    'INSERT INTO gtfs_trips (route_id,service_id,trip_id,trip_headsign,trip_short_name,direction_id,shape_id) VALUES (?, ?, ?, ?, ?, ?, ?)',
-  );
-  for (Map<String, dynamic> json in jsonFile) {
-    final value = GtfsTrip.fromJson(json);
-    await stmt.execute([
-      value.routeId,
-      value.serviceId,
-      value.tripId,
-      value.tripHeadsign,
-      value.tripShortName,
-      value.directionId,
-      value.shapeId
-    ]);
-    i++;
-  }
-  print('TRIPS inserted: $i - ${DateTime.now().difference(dt)}');
+
+  await conn.insertAll(
+      table: 'gtfs_trips',
+      insertData: jsonFile
+          .map((e) => GtfsTrip.fromJson(e))
+          .map((e) => {
+                'route_id': e.routeId,
+                'service_id': e.serviceId,
+                'trip_id': e.tripId,
+                'trip_headsign': e.tripHeadsign,
+                'trip_short_name': e.tripShortName,
+                'direction_id': e.directionId,
+                'shape_id': e.shapeId
+              })
+          .toList());
+
+  print(
+      'TRIPS inserted: ${jsonFile.length} - ${DateTime.now().difference(dt)}');
 
   // STOP_TIMES
   dt = DateTime.now();
-  i = 0;
   print('Insert STOP_TIMES');
   jsonFile = readFile('gtfs/stop_times.csv');
-  stmt = await conn.prepare(
-    'INSERT INTO gtfs_stop_times (trip_id,arrival_time,departure_time,stop_id,stop_sequence,pickup_type) VALUES (?, ?, ?, ?, ?, ?)',
-  );
-  for (Map<String, dynamic> json in jsonFile) {
-    final value = GtfsStopTime.fromJson(json);
-    await stmt.execute([
-      value.tripId,
-      value.arrivalTime,
-      value.departureTime,
-      value.stopId,
-      value.stopSequence,
-      value.pickupType,
-    ]);
-    i++;
-  }
-  print('STOP_TIMES inserted: $i - ${DateTime.now().difference(dt)}');
+  await conn.insertAll(
+      table: 'gtfs_stop_times',
+      insertData: jsonFile
+          .map((e) => GtfsStopTime.fromJson(e))
+          .map((e) => {
+                'trip_id': e.tripId,
+                'arrival_time': e.arrivalTime,
+                'departure_time': e.departureTime,
+                'stop_id': e.stopId,
+                'stop_sequence': e.stopSequence,
+                'pickup_type': e.pickupType
+              })
+          .toList());
 
-  await conn.execute('SET FOREIGN_KEY_CHECKS = 1');
+  print(
+      'STOP_TIMES inserted: ${jsonFile.length} - ${DateTime.now().difference(dt)}');
 
-  await conn.execute('COMMIT;');
+  await conn.query('SET FOREIGN_KEY_CHECKS = 1');
+
+  await conn.commit();
+  await conn.close();
   print('Terminé');
 }

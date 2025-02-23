@@ -6,7 +6,7 @@ import 'dart:convert'; // for the utf8.encode method
 void checksum() {
   final Map<String, dynamic> files =
       browseDirectory('${Directory.current.path}/files');
-  print(files);
+
   final File file = File('${Directory.current.path}/files/versions.json');
   file.writeAsStringSync(jsonEncode(files));
 }

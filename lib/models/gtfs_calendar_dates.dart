@@ -3,12 +3,15 @@ import 'package:json_annotation/json_annotation.dart';
 
 part 'gtfs_calendar_dates.g.dart';
 
-@JsonSerializable(createToJson: false)
+@JsonSerializable()
 class GtfsCalendarDates {
   @JsonKey(name: 'service_id')
   String serviceId;
   String date;
-  @JsonKey(name: 'exception_type', fromJson: ConvertUtils.fromJsonStringToInt)
+  @JsonKey(
+      name: 'exception_type',
+      fromJson: ConvertUtils.fromJsonStringToInt,
+      toJson: ConvertUtils.toJsonString)
   int exceptionType;
 
   GtfsCalendarDates(
@@ -18,4 +21,6 @@ class GtfsCalendarDates {
 
   factory GtfsCalendarDates.fromJson(Map<String, dynamic> json) =>
       _$GtfsCalendarDatesFromJson(json);
+
+  Map<String, dynamic> toJson() => _$GtfsCalendarDatesToJson(this);
 }
