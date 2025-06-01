@@ -120,6 +120,7 @@ Future<void> generateDb() async {
 
   await conn.insertAll(
       table: 'gtfs_trips',
+      debug: true,
       insertData: jsonFile
           .map((e) => GtfsTrip.fromJson(e))
           .map((e) => {
@@ -140,19 +141,35 @@ Future<void> generateDb() async {
   dt = DateTime.now();
   print('Insert STOP_TIMES');
   jsonFile = readFile('gtfs/stop_times.csv');
-  await conn.insertAll(
+  const chunkSize = 100000;
+
+  final allRows = jsonFile
+      .map((e) => GtfsStopTime.fromJson(e))
+      .map((e) => {
+    'trip_id': e.tripId,
+    'arrival_time': e.arrivalTime,
+    'departure_time': e.departureTime,
+    'stop_id': e.stopId,
+    'stop_sequence': e.stopSequence,
+    'pickup_type': e.pickupType,
+  })
+      .toList();
+
+// Insertion par morceaux
+  for (var i = 0; i < allRows.length; i += chunkSize) {
+    final chunk = allRows.sublist(
+      i,
+      i + chunkSize > allRows.length ? allRows.length : i + chunkSize,
+    );
+
+    await conn.insertAll(
       table: 'gtfs_stop_times',
-      insertData: jsonFile
-          .map((e) => GtfsStopTime.fromJson(e))
-          .map((e) => {
-                'trip_id': e.tripId,
-                'arrival_time': e.arrivalTime,
-                'departure_time': e.departureTime,
-                'stop_id': e.stopId,
-                'stop_sequence': e.stopSequence,
-                'pickup_type': e.pickupType
-              })
-          .toList());
+      insertData: chunk,
+    );
+
+    print('Chunk inséré : ${i ~/ chunkSize + 1}');
+  }
+
 
   print(
       'STOP_TIMES inserted: ${jsonFile.length} - ${DateTime.now().difference(dt)}');
