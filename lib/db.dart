@@ -146,13 +146,13 @@ Future<void> generateDb() async {
   final allRows = jsonFile
       .map((e) => GtfsStopTime.fromJson(e))
       .map((e) => {
-    'trip_id': e.tripId,
-    'arrival_time': e.arrivalTime,
-    'departure_time': e.departureTime,
-    'stop_id': e.stopId,
-    'stop_sequence': e.stopSequence,
-    'pickup_type': e.pickupType,
-  })
+            'trip_id': e.tripId,
+            'arrival_time': e.arrivalTime,
+            'departure_time': e.departureTime,
+            'stop_id': e.stopId,
+            'stop_sequence': e.stopSequence,
+            'pickup_type': e.pickupType,
+          })
       .toList();
 
 // Insertion par morceaux
@@ -169,7 +169,6 @@ Future<void> generateDb() async {
 
     print('Chunk inséré : ${i ~/ chunkSize + 1}');
   }
-
 
   print(
       'STOP_TIMES inserted: ${jsonFile.length} - ${DateTime.now().difference(dt)}');
