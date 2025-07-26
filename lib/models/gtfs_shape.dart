@@ -1,4 +1,3 @@
-import 'package:angersmap_data/models/convert_utils.dart';
 import 'package:json_annotation/json_annotation.dart';
 
 part 'gtfs_shape.g.dart';

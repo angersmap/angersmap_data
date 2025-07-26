@@ -11,8 +11,6 @@ extension TypeLineExtension on RouteType {
         return 'night';
       case RouteType.special:
         return 'special';
-      default:
-        return '';
     }
   }
 }
