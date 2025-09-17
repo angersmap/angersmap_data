@@ -28,9 +28,9 @@ Future<void> generateDb() async {
       errorLog: (error) {
         print(error);
       },
-      sqlLog: (sql) {
-        print(sql);
-      },
+      // sqlLog: (sql) {
+      //   print(sql);
+      // },
       connectInit: (db1) async {
         print('whenComplete');
       });

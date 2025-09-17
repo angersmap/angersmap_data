@@ -4,9 +4,7 @@ import 'dart:io';
 import 'package:angersmap_data/generate_files.dart';
 import 'package:angersmap_data/models/gtfs_calendar.dart';
 import 'package:intl/intl.dart';
-import 'package:mysql_utils/mysql_utils.dart';
 
-import 'config.dart';
 import 'models/gtfs_calendar_dates.dart';
 
 Future<void> generateCalendar() async {
@@ -15,7 +13,7 @@ Future<void> generateCalendar() async {
   final calendarDatesMerge = <GtfsCalendarDates>[];
 
   // ETAPE 1 : Création de la liste des dates pour chaque service à partir des dates de début et de fin
-  final Map<String, List<DateTime>> calendarDates = {};
+  final Map<String, Set<DateTime>> calendarDates = {};
   for (Map<String, dynamic> json in jsonCalendarFile) {
     final value = GtfsCalendar.fromJson(json);
 
@@ -33,7 +31,7 @@ Future<void> generateCalendar() async {
     final value = GtfsCalendarDates.fromJson(json);
     final date = DateTime.parse(value.date);
     if (!calendarDates.containsKey(value.serviceId)) {
-      calendarDates[value.serviceId] = [];
+      calendarDates[value.serviceId] = <DateTime>{};
     }
 
     if (value.exceptionType == 1) {
@@ -57,52 +55,11 @@ Future<void> generateCalendar() async {
   dbStopTimesFile.writeAsStringSync(
       jsonEncode(calendarDatesMerge.map((e) => e.toJson()).toList()));
 
-  var db = MysqlUtils(
-      settings: {
-        'host': config.dbHost,
-        'port': 3306,
-        'user': config.dbUsername,
-        'password': config.dbPassword,
-        'db': config.dbName,
-        'maxConnections': 10,
-        'prefix': '',
-        'secure': false,
-        'pool': true,
-        'collation': 'utf8mb3_general_ci',
-        'sqlEscape': true,
-      },
-      errorLog: (error) {
-        print(error);
-      },
-      sqlLog: (sql) {
-        print(sql);
-      },
-      connectInit: (db1) async {
-        print('whenComplete');
-      });
-
-  final d1 = DateTime.now();
-
-  await db.insertAll(
-    table: 'gtfs_calendar_dates',
-    insertData: calendarDatesMerge
-        .map((e) => {
-              'service_id': e.serviceId,
-              'date': e.date,
-              'exception_type': e.exceptionType,
-            })
-        .toList(),
-  );
-
-  print(
-      'CALENDAR_DATES inserted: ${calendarDatesMerge.length} - ${DateTime.now().difference(d1)}');
-
-  await db.close();
 }
 
-List<DateTime> _generateDatesList(
+Set<DateTime> _generateDatesList(
     DateTime startDate, DateTime endDate, GtfsCalendar value) {
-  final List<DateTime> dates = [];
+  final Set<DateTime> dates = {};
 
   DateTime date = startDate;
 
@@ -129,6 +86,9 @@ List<DateTime> _generateDatesList(
       dates.add(date);
     }
     date = date.add(Duration(days: 1));
+    if(date.hour == 23) {
+      date = date.add(Duration(hours: 1));
+    }
   }
 
   return dates;
