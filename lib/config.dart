@@ -1,20 +1,18 @@
 class Config {
-  final String dbHost;
-  final String dbUsername;
-  final String dbName;
-  final String dbPassword;
+  final String supabaseUrl;
+  final String supabaseKey;
+  final String supabaseAnonKey;
 
   Config(
-      {required this.dbHost,
-      required this.dbUsername,
-      required this.dbName,
-      required this.dbPassword});
+      {required this.supabaseUrl,
+      required this.supabaseKey,
+      required this.supabaseAnonKey});
 
   factory Config.fromJson(Map<String, dynamic> json) => Config(
-      dbHost: json['DB_HOST'],
-      dbUsername: json['DB_USERNAME'],
-      dbName: json['DB_DBNAME'],
-      dbPassword: json['DB_PASSWORD']);
+        supabaseUrl: json['SUPABASE_URL'],
+        supabaseKey: json['SUPABASE_KEY'],
+        supabaseAnonKey: json['SUPABASE_ANON_KEY'],
+      );
 }
 
 late Config config;

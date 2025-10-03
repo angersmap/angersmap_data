@@ -17,12 +17,17 @@ class GtfsRoute {
   String routeShortName;
   @JsonKey(name: 'route_long_name')
   String routeLongName;
+
   @JsonKey(
-      name: 'route_type',
-      includeFromJson: false,
-      includeToJson: true,
-      toJson: ConvertUtils.toJsonTypeRoute)
+    name: 'route_type',
+    includeFromJson: false,
+    includeToJson: true,
+    toJson: ConvertUtils.toJsonTypeRoute,
+  )
   RouteType? routeType;
+
+  // @JsonKey(name: 'route_type')
+  // String routeType;
 
   @JsonKey(name: 'route_color')
   String routeColor;

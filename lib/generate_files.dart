@@ -77,24 +77,22 @@ Future<void> generateFiles() async {
       }
     }
 
-
     // TRIPS
     final tripsList = readFile('$pathDir/trips.csv');
     final trips = <GtfsTrip>[];
     for (Map<String, dynamic> element in tripsList) {
       final trip = GtfsTrip.fromJson(element);
-      if(routes.containsKey(trip.routeId)) {
+      if (routes.containsKey(trip.routeId)) {
         trips.add(trip);
       }
     }
-
 
     // STOP_TIMES
     final stopTimesList = readFile('$pathDir/stop_times.csv');
     final stopTimes = <GtfsStopTime>[];
     for (Map<String, dynamic> element in stopTimesList) {
       final stopTime = GtfsStopTime.fromJson(element);
-      if(trips.any((trip) => trip.tripId == stopTime.tripId)) {
+      if (trips.any((trip) => trip.tripId == stopTime.tripId)) {
         stopTimes.add(stopTime);
       }
     }
@@ -104,30 +102,29 @@ Future<void> generateFiles() async {
     final shapes = <GtfsShape>[];
     for (Map<String, dynamic> element in shapesList) {
       final shape = GtfsShape.fromJson(element);
-      if(trips.any((trip) => trip.shapeId == shape.shapeId)) {
+      if (trips.any((trip) => trip.shapeId == shape.shapeId)) {
         shapes.add(shape);
       }
     }
 
-
     final schemaRoutes = <GtfsRoute>[];
     final Map<String, List<GtfsStop>> stopsHierar = {};
 
-    final dbRoutesFile = File('db/routes.json');
-    dbRoutesFile.writeAsStringSync(jsonEncode(routes.values.toList()));
-    print('routes: ${routes.values.length}');
-
-    final dbTripsFile = File('db/trips.json');
-    dbTripsFile.writeAsStringSync(jsonEncode(trips));
-    print('trips: ${trips.length}');
-
-    final dbStopTimesFile = File('db/stop_times.json');
-    dbStopTimesFile.writeAsStringSync(jsonEncode(stopTimes));
-    print('stop_times: ${stopTimes.length}');
-
-    final dbStopsFile = File('db/stops.json');
-    dbStopsFile.writeAsStringSync(jsonEncode(stops.values.toList()));
-    print('stops: ${stops.values.length}');
+    // final dbRoutesFile = File('db/routes.json');
+    // dbRoutesFile.writeAsStringSync(jsonEncode(routes.values.toList()));
+    // print('routes: ${routes.values.length}');
+    //
+    // final dbTripsFile = File('db/trips.json');
+    // dbTripsFile.writeAsStringSync(jsonEncode(trips));
+    // print('trips: ${trips.length}');
+    //
+    // final dbStopTimesFile = File('db/stop_times.json');
+    // dbStopTimesFile.writeAsStringSync(jsonEncode(stopTimes));
+    // print('stop_times: ${stopTimes.length}');
+    //
+    // final dbStopsFile = File('db/stops.json');
+    // dbStopsFile.writeAsStringSync(jsonEncode(stops.values.toList()));
+    // print('stops: ${stops.values.length}');
 
     // Itération sur les routes
     routes.forEach((routeId, route) {
@@ -135,14 +132,16 @@ Future<void> generateFiles() async {
       final List<GtfsShape> routeShapes = [];
 
       // Récupération trips correspondant à la route
-      final List<GtfsTrip> gt =
-          trips.where((trip) => trip.routeId == routeId).toList();
+      final List<GtfsTrip> gt = trips
+          .where((trip) => trip.routeId == routeId)
+          .toList();
 
       // Itération sur les trips
       for (GtfsTrip t in gt) {
         // Récupération stoptimes correspondant au trip
-        final List<GtfsStopTime> gstList =
-            stopTimes.where((st) => st.tripId == t.tripId).toList();
+        final List<GtfsStopTime> gstList = stopTimes
+            .where((st) => st.tripId == t.tripId)
+            .toList();
 
         for (GtfsStopTime st in gstList) {
           final GtfsStop stop = stops[st.stopId]!;
@@ -151,14 +150,17 @@ Future<void> generateFiles() async {
           if (!stopsHierar.containsKey(stop.stopName)) {
             stopsHierar[stop.stopName] = [];
           }
-          if (!stopsHierar[stop.stopName]!
-              .any((element) => element.stopId == stop.stopId)) {
+          if (!stopsHierar[stop.stopName]!.any(
+            (element) => element.stopId == stop.stopId,
+          )) {
             stopsHierar[stop.stopName]!.add(stop);
           }
         }
 
-        final tripShapes = shapes.where((shape) => shape.shapeId == t.shapeId).toList();
-        if(tripShapes.length > routeShapes.length) {
+        final tripShapes = shapes
+            .where((shape) => shape.shapeId == t.shapeId)
+            .toList();
+        if (tripShapes.length > routeShapes.length) {
           routeShapes.clear();
           routeShapes.addAll(tripShapes);
         }
@@ -172,12 +174,11 @@ Future<void> generateFiles() async {
     });
 
     schemaRoutes.sort((a, b) {
-      if(a.routeType?.name == b.routeType?.name) {
+      if (a.routeType?.name == b.routeType?.name) {
         return a.routeId.compareTo(b.routeId);
       } else {
         return a.routeType!.name.compareTo(b.routeType!.name);
       }
-
     });
     // Transformation liste stops en liste hierarchique
 

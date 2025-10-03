@@ -1,4 +1,4 @@
 /.dart_tool/
 /.idea/
 *.env
-config.json
+config.*.json
