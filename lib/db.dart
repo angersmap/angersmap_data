@@ -134,8 +134,7 @@ Future<void> generateDb() async {
                 'shape_id': e.shapeId,
               },
             )
-            .toList()
-            .first,
+            .toList(),
       );
 
   print(
@@ -146,7 +145,7 @@ Future<void> generateDb() async {
   dt = DateTime.now();
   print('Insert STOP_TIMES');
   jsonFile = readFile('gtfs/stop_times.csv');
-  const chunkSize = 100000;
+  const chunkSize = 10000;
 
   final allRows = jsonFile.map((e) => GtfsStopTime.fromJson(e)).map((e) {
     final arrivalArray = e.arrivalTime.split(':');
